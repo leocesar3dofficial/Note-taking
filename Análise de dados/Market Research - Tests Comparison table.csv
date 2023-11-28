@@ -1,0 +1,12 @@
+What do we compare,Paired vs. independent,Assumptions,Parametric,Non-parametric,One or two-sided test
+One group against a fixed value,none,Shapiro-Wilk test = normal,One-sample t-test,none,One or two-sided
+One group against a fixed value,none,Shapiro-Wilk test ≠ normal,none,Wilcoxon signed-rank test,One or two-sided
+Outcome variable across two groups,Paired samples,Shapiro-Wilk test = normal or Levene’s test,Paired samples t-test,none,One or two-sided
+Outcome variable across two groups,Paired samples,Shapiro-Wilk test ≠ normal & Levene’s test,none,Wilcoxon matched-pairs signed-rank test,One or two-sided
+Outcome variable across two groups,Independent samples,Levene’s test,Independent samples t-test,none,One or two-sided
+Outcome variable across two groups,Independent samples,Shapiro-Wilk test = normal & Levene’s test,Independent samples t-test with Welch's correction,none,One or two-sided
+Outcome variable across two groups,Independent samples,Shapiro-Wilk test ≠ normal & Levene’s test,none,MannWhitney U test,One or two-sided
+Outcome variable across three or more groups,"One factor variable, independent samples",Shapiro-Wilk test = normal & Levene’s test,One-way ANOVA: F-test,none,Two-sided*
+Outcome variable across three or more groups,"One factor variable, independent samples",Shapiro-Wilk test ≠ normal & Levene’s test,One-way ANOVA: F-test,none,Two-sided*
+Outcome variable across three or more groups,"One factor variable, independent samples",Shapiro-Wilk test = normal & Levene’s test,One-way ANOVA: F-test with Welch’s correction,none,Two-sided*
+Outcome variable across three or more groups,"One factor variable, independent samples",Shapiro-Wilk test ≠ normal & Levene’s test,none,Kruskal-Wallis rank test,Two-sided*

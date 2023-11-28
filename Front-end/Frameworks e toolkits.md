@@ -1,0 +1,163 @@
+# Frameworks e Toolkits
+
+## Front-end
+
+- Angular (Javascript)
+- React (Javascript)
+- Vue (Javascript)
+- jQuery (Javascript)
+- Laravel (PHP)
+
+## Back-end
+
+- Spring (ecossistema Java)
+
+  - Spring Boot (bootstrap ou inicialização de aplicativos)
+    ### Conceito
+    - Fornece um conjunto de ferramentas e convenções para criar aplicativos autônomos e prontos para produção.
+    - Construído sobre o framework Spring (Java).
+    - Torna o desenvolvimento mais rápido e simplificado.
+    ### Recursos
+    - **Configuração Conveniente**
+      - Oferece configuração automática com base nas dependências adicionadas ao projeto.
+      - Reduz a necessidade de configuração manual.
+    - **Embedded Web Servers**
+      - Inclui servidores web incorporados (como o Tomcat, Jetty ou Undertow).
+      - Executa aplicativos sem a necessidade de configurações externas.
+    - **Gerenciamento de Dependências**
+      - Gerencia automaticamente as versões das dependências.
+      - Facilita a resolução de conflitos e a manutenção de bibliotecas.
+    - **Monitoramento e Métricas**
+      - Oferece suporte a monitoramento e métricas integrados.
+      - Torna mais fácil a implantação e o gerenciamento de aplicativos em produção.
+    ### Casos de Uso
+    - Desenvolvimento rápido de aplicativos, microsserviços, APIs RESTful e aplicativos da web.
+    - Simplifica a configuração, aumentando a produtividade dos desenvolvedores.
+  - Spring MVC (Model-View-Controller)
+    #### Recursos
+    - **DispatcherServlet**
+      - Componente central do Spring MVC que recebe todas as solicitações HTTP.
+      - Encaminha para os Controladores apropriados com base em mapeamentos definidos.
+    - **Anotações**
+      - Utiliza anotações Java, como @Controller, @RequestMapping, @ModelAttribute e @ResponseBody.
+      - Define Controladores, mapeamentos de URL e outras configurações.
+    - **Resolutores de Visualização**
+      - Oferece resolutores de visualização para escolher a View apropriada.
+    - **Validação de Dados**
+      - Validação de dados usando anotações como @Valid e @ModelAttribute.
+      - Garante que os dados de entrada do usuário sejam válidos.
+    - **Integração com Spring**
+      - Pode ser integrado com outros módulos do Spring (como Spring Security e Spring Boot).
+  - Spring Cloud (ferramentas para sistemas distribuídos)
+
+    ### Conceito
+
+    - Conjunto de ferramentas e bibliotecas no ecossistema Spring.
+    - Facilita a construção de sistemas distribuídos e aplicativos em nuvem.
+    - Fornece abstrações e soluções para problemas comuns de desenvolvimento de microsserviços.
+
+    ### Recursos
+
+    - **Descoberta de Serviços**
+      - Inclui componentes como Eureka e Consul para descobrir e registrar serviços em ambientes distribuídos.
+    - **Balanceamento de Carga**
+      - Oferece soluções para balanceamento de carga, como Ribbon.
+      - Distribui o tráfego eficientemente entre instâncias de serviços.
+    - **Configuração Centralizada**
+      - O Config permite a gestão centralizada de configurações em ambientes distribuídos.
+    - **Resiliência**
+      - Bibliotecas como Hystrix para lidar com resiliência em sistemas distribuídos (circuit breakers e fallbacks).
+    - **Gateway API**
+      - Fornece um gateway API para encaminhar solicitações para os serviços apropriados.
+
+    ### Casos de Uso
+
+    - Desenvolvimento de sistemas baseados em microsserviços.
+
+  - JBoss Seam (Java, servidor de aplicações)
+  - Quarkus (Java)
+  - Django (Python)
+  - Flask (Python microframework)
+  - JPA (Java, interface comum para frameworks ORM)
+  - Hibernate (Java, Mapeamento Objeto-Relacional ou Object-Relational Mapping (ORM))
+
+    - Hibernate 6.2 usa a estratégia otimista de bloqueio por padrão
+      - Assume que várias transações podem ser concluídas sem afetar outras.
+      - Mais eficiente, mas propenso a falhas.
+    - Pode usar a estratégia pessimista de bloqueio
+      - Garante que as linhas de dados não sejam alteradas por outras transações.
+    - Hibernate Envers
+      - Módulo do Hibernate ORM para auditoria e versionamento para entidades JPA.
+      - Permite manter um histórico de alterações em entidades.
+      - Funciona com o Hibernate e JPA, podendo ser usado onde o Hibernate é usado.
+      - **Como usar**
+        1. Adicionar a dependência do hibernate-envers ao seu projeto.
+        2. Anotar suas entidades com @Audited.
+        3. O Envers criará automaticamente tabelas de auditoria e manterá um registro de alterações.
+      - Fornece uma API poderosa para recuperar informações de auditoria de suas entidades.
+      - Casos de uso incluem rastreamento de alterações em entidades de usuário, configuração e histórico de pedidos.
+
+  - JUnit (Java, teste unitário)
+  - .NET Core
+  - NodeJS (Javascript)
+  - gRPC
+    ### Conceito
+    - Framework de código aberto desenvolvido pelo Google.
+    - Facilita a comunicação entre sistemas distribuídos.
+    - Usado em cenários de microsserviços.
+    - Baseado no protocolo HTTP/2.
+    - Utiliza o protocolo de serialização de dados protobuf (Protocol Buffers).
+      - Define interfaces de serviço e mensagens.
+    ### Características
+    - **RPC (Remote Procedure Call)**
+      - Permite que os aplicativos chamem funções em servidores remotos de maneira semelhante a uma chamada local.
+    - **Suporte a várias linguagens de programação**
+      - Facilita a comunicação entre componentes escritos em linguagens diferentes.
+    - **Streaming bidirecional**
+      - Permite a criação de fluxos de dados bidirecionais entre clientes e servidores.
+      - Adequado para cenários como chat em tempo real e transmissão de eventos.
+    - **Segurança integrada**
+      - Possui suporte para autenticação e criptografia.
+
+## Desenvolvimento Móvel (Mobile)
+
+- Android (Kotlin)
+
+  ### Características
+
+  - Linguagem preferencial para o desenvolvimento de aplicativos Android.
+  - **Interface de Usuário Rica**
+    - Oferece uma variedade de componentes de interface de usuário.
+  - **Acesso a Recursos do Dispositivo**
+    - Câmera, GPS, sensores e armazenamento.
+  - **Integração com Serviços do Google**
+    - Google Maps, autenticação e notificações na plataforma Android.
+  - **Ferramentas de Desenvolvimento**
+    - Android Studio é a principal IDE.
+      - Oferece recursos de depuração, emuladores e uma variedade de ferramentas para simplificar o desenvolvimento.
+
+- iOS (Swift)
+
+  ### Características
+
+  - Linguagem oficial da Apple para o desenvolvimento de aplicativos iOS.
+  - **Ecossistema Fechado**
+    - Proporciona maior controle de hardware e segurança.
+  - **Interface de Usuário Polida**
+    - Desenvolvedores podem criar aplicativos que se integram perfeitamente à estética.
+  - **Desenvolvimento Nativo**
+    - Usa ferramentas e APIs nativas da Apple, resultando em aplicativos de alto desempenho.
+  - **Ferramentas de Desenvolvimento**
+    - Xcode é a IDE padrão para desenvolvimento iOS.
+      - Oferece um ambiente de desenvolvimento completo com emuladores, depuração e uma interface de construção de interfaces gráficas.
+
+- Ionic
+  ### Características
+  - Framework de código aberto.
+  - Permite o desenvolvimento de aplicativos móveis multiplataforma usando tecnologias web, como HTML, CSS e JavaScript.
+  - **Desenvolvimento Multiplataforma**
+    - Baseado em Angular.
+  - **Interface de Usuário Personalizável**
+    - Flexibilidade para personalizar a aparência e o comportamento por meio de CSS e componentes reutilizáveis.
+  - **Ferramentas de Desenvolvimento**
+    - Ionic CLI e bibliotecas como Capacitor ou Cordova para acessar recursos nativos do dispositivo.
