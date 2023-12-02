@@ -107,10 +107,17 @@ sudo apt install ./google-chrome-stable_current_amd64.deb
 ### WebCam
 
 ```bash
-sudo rmmod -f uvcvideo # to kill laptop camera
-sudo modprobe -r uvcvideo # to restart the video module
-sudo modprobe uvcvideo # to restart the laptop camera
-sudo modprobe -a uvcvideo # can be used while skipping steps 2&3 to restart the camera directly
+# to kill laptop camera
+sudo rmmod -f uvcvideo
+
+ # to restart the video module
+sudo modprobe -r uvcvideo
+
+# to restart the laptop camera
+sudo modprobe uvcvideo
+
+# can be used while skipping steps 2&3 to restart the camera directly
+sudo modprobe -a uvcvideo
 ```
 
 ### Disable Bluetooth
@@ -146,6 +153,67 @@ sudo systemctl mask bluetooth.service
 
 ## Troubleshooting
 
-- **On Boot, the OS GUI Does Not Load, and You Have Access to the CLI:**
-  1. Restart the GUI: `sudo startx`
-  2. Reinstall the GUI (GNOME Desktop Environment): `sudo apt-get install --reinstall ubuntu-desktop`
+### On Boot, the OS GUI Does not load, and you have access to the CLI
+
+#### Solutions:
+
+1. Restart the GUI:
+
+   ```bash
+   `sudo startx`
+   ```
+
+2. Reinstall the GUI (GNOME Desktop Environment)
+
+   ```bash
+   `sudo apt-get install --reinstall ubuntu-desktop`
+   ```
+
+### Error while trying to install: /var/lib/dpkg/lock or lock-frontend
+
+```bash
+Could not get lock /var/lib/dpkg/lock – open (11: Resource temporarily unavailable)
+E: Unable to lock the administration directory (/var/lib/dpkg/),
+is another process using it?
+```
+
+#### Solutions:
+
+1. Try one at a time
+
+   ```bash
+   # Remove APT lock
+   sudo rm -rf /var/lib/apt/lists/lock
+
+   # Remove dpkg lock
+   sudo rm /var/lib/dpkg/lock
+
+   # Remove apt archives lock
+   sudo rm /var/cache/apt/archives/lock
+   ```
+
+2. If the problem persists
+
+   ```bash
+   # Update APT package lists
+   sudo apt-get update
+
+   # Configure dpkg
+   sudo dpkg --configure -a
+
+   # Fix broken dependencies
+   sudo apt-get -f install
+   ```
+
+3. For the frontend error variant
+
+   ```bash
+   # Remove dpkg frontend lock
+   sudo rm /var/lib/dpkg/lock-frontend
+
+   # Configure dpkg
+   sudo dpkg --configure -a
+
+   # Update APT package lists
+   sudo apt update
+   ```

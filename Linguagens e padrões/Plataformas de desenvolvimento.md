@@ -151,6 +151,12 @@ Garante que ele seja executado consistentemente em diferentes ambientes - Fornec
 - Modelo de fornecimento de serviços de computação
 - Oferece recursos compartilhados e escaláveis
 - Podem ser acessados de qualquer lugar e a qualquer momento
+- Componentes:
+
+  - Front-end (cliente ou dispositivo usado para acessar a nuvem)
+  - Back-end (servidores e armazenamento)
+  - Modelo de fornecimento com base em nuvem
+  - Rede disponível
 
 ### Escalabilidade
 
