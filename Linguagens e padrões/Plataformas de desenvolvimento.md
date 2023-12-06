@@ -151,12 +151,22 @@ Garante que ele seja executado consistentemente em diferentes ambientes - Fornec
 - Modelo de fornecimento de serviços de computação
 - Oferece recursos compartilhados e escaláveis
 - Podem ser acessados de qualquer lugar e a qualquer momento
-- Componentes:
-
+- Componentes
   - Front-end (cliente ou dispositivo usado para acessar a nuvem)
   - Back-end (servidores e armazenamento)
   - Modelo de fornecimento com base em nuvem
   - Rede disponível
+
+### Serviços
+
+- Azure
+  - **Data Explorer:** análise quase em tempo real para fluxo rápido, dados de streaming de alto volume de dispositivos e sensores de IoT (Internet das Coisas)
+  - TODO: DESCREVER OS SERVIÇOS
+- AWS (Amazon Web Service)
+  - TODO: DESCREVER OS SERVIÇOS
+- Google Cloud
+  - **Apigee:** plataforma de gerenciamento de API (Interface de Programação de Aplicações), e, geralmente, é considerado como uma solução PaaS (Plataforma como Serviço).
+  - TODO: DESCREVER OS SERVIÇOS
 
 ### Escalabilidade
 

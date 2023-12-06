@@ -85,6 +85,11 @@
 
 ### Project Management Body of Knowledge
 
+#### Domínios de desempenho
+
+- **São 8 domínios:** Stakeholders, Equipe, Desenvolvimento e Ciclo de Vida, Planejamento, Trabalho do projeto, Entrega, Avaliação, Incerteza
+- são executados simultaneamente ao longo do projeto
+
 #### Métodos
 
 - Abordagem Sistêmica
@@ -111,6 +116,7 @@
   - Necessidades, expectativas e impactos
 - Gerenciamento de Valor
   - Considera todos os aspectos para entrega de valor
+  - **Percepção de valor:** foco das entregas para os resultados pretendidos.
 - Design Thinking
   - Inovação e resolução de problemas
   - Estimula a criatividade e o pensamento colaborativo
@@ -119,13 +125,13 @@
 
 - Matriz de Rastreabilidade
   - Documentar as relações entre os requisitos e entregas
-- Kanban (anotação própria)
+- [Kanban](/Gestão%20e%20legislação/Metodologias/Agile%20Frameworks/Kanban.md)
 - Simulações específicas
 
-### Processos Ágeis (em anotações próprias)
+### Processos Ágeis
 
-- Metodologia Scrum
-- Sistema de gestão Kanban
+- Metodologia [Scrum](/Gestão%20e%20legislação/Metodologias/Agile%20Frameworks/Scrum.md)
+- Sistema de gestão [Kanban](/Gestão%20e%20legislação/Metodologias/Agile%20Frameworks/Kanban.md)
 
 ## Escritório de projetos (PMO: Project Management Office)
 
@@ -169,6 +175,17 @@
 ## Gestão de riscos
 
 ### Conceitos
+
+#### Análise de riscos
+
+- Consideração das causas e fontes de risco
+- Probabilidade de ocorrer um evento específico
+- Probabilidade de que este evento provoque consequências
+- Gravidade dessas eventuais consequências
+
+#### Nível de risco
+
+- Combinação da probabilidade e sua consequência
 
 #### MVP (Minimum Viable Product) ou Produto Mínimo Viável
 

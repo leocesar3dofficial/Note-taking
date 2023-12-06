@@ -415,9 +415,11 @@ AND funcionarios.depto = 2
   - Compartilhamento da capacidade de processamento e armazenamento
   - Vantagens
     - Redução de custos com equipe de manutenção
-    - Barateamento da infraestrutura de
-
-rede local - Alta disponibilidade dos servidores - Maior segurança, uma vez que os dados ficam replicados em servidores espalhados em locais diferentes - Flexibilidade de manutenção devido às ferramentas automatizadas - Licenciamento SaaS (Software as a Service)
+    - Barateamento da infraestrutura de rede local
+    - Alta disponibilidade dos servidores
+    - Maior segurança, uma vez que os dados ficam replicados em servidores espalhados em locais diferentes
+    - Flexibilidade de manutenção devido às ferramentas automatizadas
+    - Licenciamento SaaS (Software as a Service)
 
 ## 2. Requisitos de hardware
 
