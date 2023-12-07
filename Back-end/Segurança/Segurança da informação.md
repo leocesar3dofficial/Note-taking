@@ -532,6 +532,7 @@
   - Protocolo de comunicação para acessar e manter informações em diretórios de informações.
   - Usado em redes de empresas para centralização da autenticação e autorização de usuários.
   - Gerencia informações de diretório, como usuários e grupos em sistemas de autenticação centralizada, como serviços de diretório ativos.
+  - É um protocolo aberto, livre de fornecedores e independente de plataforma
 
 - **SMTP (Simple Mail Transfer Protocol)**
   - Protocolo de texto simples para enviar e receber e-mails pela Internet.
@@ -568,7 +569,7 @@ LS).
 
 ## Assinatura Digital
 
-- Garantia da integridade, confidencialidade e não repúdio
+- Garantia da autenticidade, integridade, confiabilidade e o não repúdio
 - Permite que uma pessoa ou entidade assine um documento eletronicamente
 - Utiliza um par de chaves criptográficas, uma pública e outra privada
 - Mecanismo que fornece confiança na identidade das partes envolvidas
@@ -880,4 +881,18 @@ LS).
   - Inclui a prevenção e a mitigação de interrupções causadas por falhas técnicas, desastres naturais, ataques cibernéticos e outros eventos imprevistos
   - São usados mecanismos como redundância, backup e planos de recuperação para manter a disponibilidade
 
+### DECRETO Nº 10.222, DE 5 DE FEVEREIRO DE 2020 (Estratégia Nacional de Segurança Cibernética)
+
+- TODO: RESUMIR LEI
+
+### DECRETO Nº 10.748, DE 16 DE JULHO DE 2021 (Rede Federal de Gestão de Incidentes Cibernéticos)
+
+- TODO: RESUMIR LEI
+
+### DECRETO Nº 11.200, DE 15 DE SETEMBRO DE 2022 (Plano Nacional de Segurança de Infraestruturas Críticas)
+
+- TODO: RESUMIR LEI
+
 ### Resolução CNJ nº 396/2021 (Estratégia Nacional de Segurança Cibernética do Poder Judiciário - ENSEC-PJ)
+
+- TODO: RESUMIR LEI

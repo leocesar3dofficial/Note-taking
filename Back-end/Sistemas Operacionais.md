@@ -1,15 +1,21 @@
 # Sistemas Operacionais
 
 ## Conceito
+
 ### Antigo
+
 - Software que controla o hardware
+
 ### Atual
+
 - Realizar a separação entre as aplicações (software e hardware)
 - Estabelecer controle de acesso
 - Conjunto de serviços e permitir a comunicação entre eles
 
 ## História
+
 ### Primeira fase (1945 a 1955)
+
 - Válvulas
 - Chaves mecânicas com comandos bit-a-bit e convertidos em linguagem de máquina
 - Cartões perfurados com uma sequência de comandos
@@ -19,10 +25,12 @@
 - Processamento em lote ou batch
 
 ### Segunda fase
+
 - Transistor e memória magnética
 - Fita magnética, 1957
 
 ### Terceira fase (1965 a 1980)
+
 - Série 360 de computadores da IBM, tanto para uso científico quanto comercial
 - Adoção dos Circuitos Integrados (CI) ou Small Scale Integration (SSI)
 - Sistema Operacional OS/360
@@ -39,6 +47,7 @@
 - Primeiro microprocessador para computadores pessoais: Intel 8080
 
 ### Quarta fase (1981 em diante)
+
 - Microchips de silício
 - Popularização dos microcomputadores pessoais
 - Interface humana: Graphical User Interface (GUI), Xerox, Mouse
@@ -64,18 +73,26 @@
     - Linux Mint, openSUSE, Ubuntu, Red Hat Enterprise, etc
 
 ## Categorias
+
 ### Sistemas embarcados
+
 - Computadores dedicados ou embutidos
 - Pervasivos ou ubíquos
 - Presentes nos eletroeletrônicos, hardwares de rede,
   equipamentos hospitalares, automóveis, etc
+
 ### Sistemas de tempo real
+
 - Lavadoras de roupa, DVD players, Smart TVs,
   Sistemas militares de defesa, controle de tráfego aéreo,
   respiração artificial de pacientes em UTIs, consoles de games
+
 ### Sistemas críticos em negócios
+
 - Servidores web, servidores de bancos de dados
+
 ### Camada de virtualização
+
 - A virtualização é uma tecnologia que permite a criação de ambientes virtuais que simulam o comportamento de um sistema operacional real
 - Máquinas Virtuais
   - VM opera de maneira independente e isolada
@@ -103,7 +120,9 @@
       - Implementação: HotSpot da Oracle
 
 ## Componentes
+
 ### Centrais
+
 - Núcleo (kernel)
 - Escalonador de processos
 - Memória
@@ -139,6 +158,7 @@
   - Tipos de arquivo: executável, dados, multimídia
 
 ## Objetivos
+
 - Eficiência
 - Robustez
 - Escalabilidade
@@ -149,6 +169,7 @@
 - Usabilidade
 
 ## Arquitetura
+
 - Monolítica
 - Em camadas
 - Micronúcleo (MicroKernel): alto grau de modularidade
@@ -158,7 +179,9 @@
   - Computadores ligados a uma rede e independentes entre si
 
 ## Interação hardware e software
+
 ### Nome dos arquivos
+
 - Limite de caracteres
 - O uso de caracteres especiais
 - A distinção de caracteres em letra maiúscula
@@ -170,6 +193,7 @@
     - Não vincula o conteúdo do arquivo à extensão
 
 ### Alocação de dados
+
 - Setor 0 do disco rígido ou Master Boot Record (MBR) para o boot da máquina
   - Armazena a tabela de partição
 - Tipos
@@ -179,6 +203,7 @@
   - I-nodes (UNIX)
 
 ### Sistemas de arquivos
+
 - FAT, 1977, Microsoft
 - EXT (extended file system), 1992, Linux
 - NTFS, 1993, Microsoft
@@ -186,6 +211,7 @@
 - FAT32, 1996, Microsoft
 
 ### Interpretadores e compiladores
+
 - Linguagens de montagem (assemblers)
 - FORTRAN, 1950
 - Common Business Oriented Language (COBOL), 1959
@@ -195,11 +221,13 @@
 - C#, 2000
 
 ### Firmware e middleware
+
 - Instruções executáveis armazenadas em memória não volátil
 - Middleware
   - Permite que uma aplicação seja executada em um computador e se comunique com outra em outro computador
 
 ### Processadores
+
 - Modos de execução: usuário, núcleo (supervisor)
 - Tipos
   - Complex Instruction Set Computing (CISC), 1960
@@ -216,6 +244,7 @@
 - Multiprocessadores: acoplamento forte (Pentium da Intel) ou fraco (escalabilidade, mas lento)
 
 ### Memória
+
 - Princípio da localidade: localidade, temporal, espacial, sequencial
 - Hierarquia: Registradores > Caches > Memória principal > Disco magnético > Fita magnética
 - Armazenamento primário
@@ -224,13 +253,19 @@
   - ROM (Read Only Memory) onde reside o bootstrap loader
 - Armazenamento secundário
   - Sólido, Disco e fita
-- Tipos: real (física) e virtual (paginação e segmentação)
+- Tipos
+  - Real (física)
+  - Virtual
+    - Paginação ou swapping
+      - possibilita a uma aplicação utilizar mais memória do que a fisicamente existente
+    - Segmentação
 - Estratégias de Gerenciamento
   - Busca: determina o que vai ser transferido para a memória principal
   - Posicionamento: first fit (FF), best fit (BF), worst fit (WF)
   - Substituição: quais dados deverão ser removidos da memória principal
 
 ### Barramentos
+
 - Dados, endereços
 - Portas
   - USB
@@ -239,6 +274,7 @@
 - Canais E/S
 
 ### Processos
+
 - Espaço de endereçamento: texto, dados, pilha
 - Estados: execução, pronto, bloqueado
 - Transições de estado: acordado ou adormecido
@@ -258,9 +294,21 @@
 - Threads: processos concorrentes
   - Estados: nascido, pronto, em execução, em espera, adormecido, morto, bloqueado/Deadlock
   - Tipos: de usuário, de núcleo, híbrido
+  - Algoritmos de escalonamento
+    - Preemptivos
+      - Por prioridades
+        - um valor inteiro representa a prioridade de execução
+        - pode ser definido pelo SO ou pelo usuário
+      - Round Robin
+        - circular
+        - **fatia de tempo:** tempo-limite para o uso contínuo do processador
+        - o valor dessa fatia depende da arquitetura de cada SO
+    - TODO: ENUMERAR OS ALGORITMOS RESTANTES
 
 ## Segurança
+
 ### Criptografia
+
 - Conceito
   - Codificação e decodificação de dados, interpretados apenas pelos receptores
   - Cifra: sistema criptográfico, um algoritmo para a criptografia das mensagens.
@@ -279,6 +327,7 @@
   - Secure Hash Algorithm – SHA-1), gera um hash de 20 bytes
 
 ### Autenticação
+
 - Meios
   - Senha, Biometria, smart cards (armazena chaves privadas, certificados digitais, etc.)
 - Ataques
@@ -302,12 +351,14 @@
   - Sistema de detecção de intrusos
 
 ### Controle de acesso
+
 - Princípio do mínimo privilégio
 - Matriz ou listas de controle de acesso
 - Requisitos: Privacidade, Integridade, Autenticação, Autorização, Não rejeição
 
 ### Protocolos
+
 - Secure Sockets Layer – SSL
-- Transport Layer Security – TLS
+- [Transport Layer Security – TLS](Segurança/Segurança%20da%20informação.md#ssl-secure-sockets-layer--tls-transport-layer-security-sucessor-do-ssl)
 - Internet Protocol Security – IPSec
 - Wi-Fi Protected Access – WPA
