@@ -6,7 +6,6 @@
 - **DevSecOps**
   - Segurança é uma parte integral
   - Integrar testes de segurança em todas as etapas
-  - Automatizar algumas barreiras de segurança para evitar que o fluxo de trabalho do DevOps fique lento
 - **Objetivo**
   - Minimizar os riscos do projeto
 
