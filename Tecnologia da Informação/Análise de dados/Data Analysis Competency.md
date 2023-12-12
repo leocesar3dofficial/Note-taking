@@ -5,15 +5,19 @@
 ### Process
 
 1. **Extract**
+
    - Retrieves raw data from an unstructured data pool and migrates it into a temporary, staging data repository
 
 2. **Clean**
+
    - Cleans data extracted from an unstructured data pool, ensuring the quality of the data prior to transformation
 
 3. **Transform**
+
    - Structures and converts the data to match the correct target source
 
 4. **Load**
+
    - Loads the structured data into a data warehouse so it can be properly analyzed and used
 
 5. **Analyze**
@@ -174,7 +178,7 @@
 
 ### Libraries
 
-- [NumPy](/Análise%20de%20dados/Numpy.md): Deal with a large amount of numbers' data
+- [NumPy](</Tecnologia da Informação/Análise de dados/Numpy.md>): Deal with a large amount of numbers' data
 - Pandas: Panel Data
 - Matplotlib: Basic Graph Library
 - Seaborn: Prettier Graph Library

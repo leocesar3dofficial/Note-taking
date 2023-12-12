@@ -93,10 +93,10 @@
       - Concluído
   - Gerenciamento de backlog
   - Quadros de tarefas
-    - [Kanban](/Gestão%20e%20legislação/Metodologias/Agile%20Frameworks/Kanban.md)
+    - [Kanban](</Tecnologia da Informação/Gestão e legislação/Metodologias/Agile Frameworks/Kanban.md>)
       - Visões de cartões
       - Mover as tarefas entre as colunas para indicar o progresso
-    - [Scrum](/Gestão%20e%20legislação/Metodologias/Agile%20Frameworks/Scrum.md)
+    - [Scrum](</Tecnologia da Informação/Gestão e legislação/Metodologias/Agile Frameworks/Scrum.md>)
       - Planejar sprints, definir histórias e controlar o progresso do sprint
   - Atribuição de recursos
     - Atribuir membros da equipe a tarefas específicas

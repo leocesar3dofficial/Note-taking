@@ -52,3 +52,10 @@
 - **Delete line:** `Ctrl + x`
 - **Move line(s) up or down:** `Alt + up/down arrows`
 - **Generate HTML boilerplate:** `!`
+
+## General settings
+
+- Open settings: `Ctrl + ,`
+- Markdown editing
+  - Automatic link updates on file move or rename (always)
+    `markdown.updateLinksOnFileMove.enabled`

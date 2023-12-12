@@ -1,6 +1,6 @@
 # Governança e gestão de TI
 
-## [Framework COBIT 2019 (Control Objectives for Information and Related Technologies)](/Gestão%20e%20legislação/Metodologias/Framework%20COBIT%202019.md)
+## [Framework COBIT 2019 (Control Objectives for Information and Related Technologies)](</Tecnologia da Informação/Gestão e legislação/Metodologias/Framework COBIT 2019.md>)
 
 ## Metodologias de indicadores
 
@@ -125,13 +125,13 @@
 
 - Matriz de Rastreabilidade
   - Documentar as relações entre os requisitos e entregas
-- [Kanban](/Gestão%20e%20legislação/Metodologias/Agile%20Frameworks/Kanban.md)
+- [Kanban](</Tecnologia da Informação/Gestão e legislação/Metodologias/Agile Frameworks/Kanban.md>)
 - Simulações específicas
 
 ### Processos Ágeis
 
-- Metodologia [Scrum](/Gestão%20e%20legislação/Metodologias/Agile%20Frameworks/Scrum.md)
-- Sistema de gestão [Kanban](/Gestão%20e%20legislação/Metodologias/Agile%20Frameworks/Kanban.md)
+- Metodologia [Scrum](</Tecnologia da Informação/Gestão e legislação/Metodologias/Agile Frameworks/Scrum.md>)
+- Sistema de gestão [Kanban](</Tecnologia da Informação/Gestão e legislação/Metodologias/Agile Frameworks/Kanban.md>)
 
 ## Escritório de projetos (PMO: Project Management Office)
 

@@ -119,7 +119,14 @@ git push --force-with-lease  # same as above, but generates an error message if 
 ### Revert Changes (Non-Destructive)
 
 ```bash
+# Undoes the changes to the specified commit
+git revert 'commit message'
+
+
+# Reverte the changes to the latest commit
 git revert HEAD
+
+# Updates the remote repository with the local changes
 git push origin main
 ```
 
@@ -206,8 +213,4 @@ ls ~/.ssh/id_ed25519.pub
 
 ```bash
 cat ~/.ssh/id_ed25519.pub
-```
-
-```
-
 ```

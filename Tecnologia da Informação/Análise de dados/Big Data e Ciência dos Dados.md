@@ -211,6 +211,6 @@
 
 ### Modelos
 
-- [**SaaS (Software como Serviço)**](../Linguagens%20e%20padrões/Plataformas%20de%20desenvolvimento.md#saas-software-como-serviço)
-- [**PaaS (Plataforma como Serviço)**](../Linguagens%20e%20padrões/Plataformas%20de%20desenvolvimento.md#paas-plataforma-como-serviço)
-- [**IaaS (Infraestrutura como Serviço)**](../Linguagens%20e%20padrões/Plataformas%20de%20desenvolvimento.md#iaas-infraestrutura-como-serviço)
+- [**SaaS (Software como Serviço)**](../../Linguagens%20e%20padr%C3%B5es/Plataformas%20de%20desenvolvimento.md#saas-software-como-serviço)
+- [**PaaS (Plataforma como Serviço)**](../../Linguagens%20e%20padr%C3%B5es/Plataformas%20de%20desenvolvimento.md#paas-plataforma-como-serviço)
+- [**IaaS (Infraestrutura como Serviço)**](../../Linguagens%20e%20padr%C3%B5es/Plataformas%20de%20desenvolvimento.md#iaas-infraestrutura-como-serviço)

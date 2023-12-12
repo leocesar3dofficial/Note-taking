@@ -172,7 +172,7 @@
 
 - Java Business Process Management
 - Ambiente de desenvolvimento e execução para modelagem, automação e monitoramento de processos de negócios
-- Utiliza notação [BPMN (Business Process Model and Notation)](/Linguagens%20e%20padrões/BPMN.md) para representação gráfica dos processos
+- Utiliza notação [BPMN (Business Process Model and Notation)](</Tecnologia da Informação/Linguagens e padrões/BPMN.md>) para representação gráfica dos processos
 
 ##### Recursos e Funcionalidades
 
