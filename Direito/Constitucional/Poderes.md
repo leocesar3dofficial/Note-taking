@@ -776,7 +776,7 @@
 ## Estatuto da Magistratura
 
 - **Cargo inicial:** juiz substituto
-- > 3 anos de atividade jurídica
+- Acima de 3 anos de atividade jurídica
 - **Promoção por merecimento**
   - Entrância para entrância
   - Antigüidade e merecimento (alterna)

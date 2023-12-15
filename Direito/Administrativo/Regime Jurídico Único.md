@@ -88,7 +88,7 @@
 
 ### Estabilidade
 
-- 2 anos de efetivo exercício
+- 3 anos de efetivo exercício (EC 19)
 - Perda do cargo
   - Sentença judicial transitada em julgado
   - Processo Administrativo Disciplinar (PAD)
