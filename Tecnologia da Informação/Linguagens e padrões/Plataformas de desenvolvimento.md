@@ -93,6 +93,7 @@
         - Garante que as mensagens sejam entregues uma única vez e na ordem correta
       - **Recursos Avançados**
         - Clustering para alta disponibilidade
+          - Alternativa paralela à estrutura funcional de redes de dados, elétrica e computacional
         - Criptografia de mensagens, suporte a transações distribuídas
         - Integração com outros produtos da IBM, como o WebSphere Application Server
       - **Licenciamento**
@@ -352,8 +353,8 @@ Garante que ele seja executado consistentemente em diferentes ambientes - Fornec
       - Migração ao vivo (vMotion)
       - Balanceamento de carga
       - Recuperação de desastres
-  - O ESXi
-    - É um hypervisor de tipo 1 (bare-metal)
+  - ESXi
+    - É um [hypervisor](../Back-end/Sistemas%20Operacionais.md#camada-de-virtualização) de tipo 1 (bare-metal)
     - Executa diretamente no hardware do servidor
     - Fornece um ambiente de virtualização de alto desempenho e segurança
 

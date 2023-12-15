@@ -225,6 +225,8 @@
 
 ## Modelagem de Dados Lógica (desenho dos campos das tabelas e seus relacionamentos)
 
+- Independe de qual Sistema de Banco de Dados será utilizado
+
 ### Tipos de relacionamentos entre tabelas
 
 - 1:1 (um para um)

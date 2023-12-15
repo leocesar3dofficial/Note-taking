@@ -27,25 +27,27 @@
 
 - Refere-se à interação entre objetos.
 - Permitem que os objetos cooperem e troquem informações para realizar tarefas complexas.
-- Tipos
-  - **Associação**
-    - Um objeto está relacionado ao outro de alguma forma.
-    - Essa relação pode ser de qualquer tipo e pode ser unidirecional ou bidirecional.
-    - Os objetos associados podem existir independentemente um do outro.
-    - Não implica em uma dependência forte entre eles.
-    - Exemplo: uma classe de "Professor" pode estar associada a uma classe de "Aluno".
-  - **Agregação**
-    - Descreve uma relação de "tem um" entre dois objetos.
-    - Um objeto é o dono e o outro é uma parte ou componente desse objeto.
-    - A parte ou componente pode existir independentemente do objeto proprietário.
-    - Exemplo: uma classe de "Casa" pode ter uma agregação com uma classe de "Cômodo" (a casa possui cômodos, mas os cômodos podem existir separadamente).
-  - **Composição**
-    - Os objetos estão intimamente ligados.
-    - Têm uma relação de "todo-parte".
-    - O objeto parte só pode existir como parte do objeto todo e não pode existir independentemente dele.
-    - Quando o objeto todo é destruído, as partes também são destruídas.
-    - Exemplo: uma classe de "Carro" pode ter uma composição com uma classe de "Motor" (o motor só pode existir dentro do contexto do carro).
-  - **Herança**
+
+#### Tipos
+
+- **Associação**
+  - Um objeto está relacionado ao outro de alguma forma.
+  - Essa relação pode ser de qualquer tipo e pode ser unidirecional ou bidirecional.
+  - Os objetos associados podem existir independentemente um do outro.
+  - Não implica em uma dependência forte entre eles.
+  - Exemplo: uma classe de "Professor" pode estar associada a uma classe de "Aluno".
+- **Agregação**
+  - Descreve uma relação de "tem um" entre dois objetos.
+  - Um objeto é o dono e o outro é uma parte ou componente desse objeto.
+  - A parte ou componente pode existir independentemente do objeto proprietário.
+  - Exemplo: uma classe de "Casa" pode ter uma agregação com uma classe de "Cômodo" (a casa possui cômodos, mas os cômodos podem existir separadamente).
+- **Composição**
+  - Os objetos estão intimamente ligados.
+  - Têm uma relação de "todo-parte".
+  - O objeto parte só pode existir como parte do objeto todo e não pode existir independentemente dele.
+  - Quando o objeto todo é destruído, as partes também são destruídas.
+  - Exemplo: uma classe de "Carro" pode ter uma composição com uma classe de "Motor" (o motor só pode existir dentro do contexto do carro).
+- **Herança**
 
 ### Herança
 

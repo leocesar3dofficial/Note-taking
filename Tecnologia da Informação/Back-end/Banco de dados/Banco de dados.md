@@ -8,6 +8,8 @@
 
 ##### Modelagem
 
+Utiliza do DER (Diagrama de Entidade e Relacionamento)
+
 ###### Conceitual
 
 O modelo de dados é criado a partir da visão geral do negócio. Define os objetos de dados e suas relações.
@@ -32,19 +34,13 @@ O modelo de dados é criado a partir da visão geral do negócio. Define os obje
 
 ###### Lógica
 
-Descreve a estrutura lógica dos dados.
+- Tipos de dados, restrições e índices.
 
-- Tipos de dados, restrições e í
-
-ndices.
-
-- Não considera os detalhes de implementação.
+- Não considera os detalhes de implementação nos Sistemas de Bancos de Dados.
 
 ###### Física
 
-Descreve a estrutura física dos dados.
-
-- Qual gerenciador de Banco de Dados.
+- Qual gerenciador de Banco de Dados será utilizado.
 - Parâmetros de configuração.
 - Layout de armazenamento e o algoritmo de indexação.
 - Leva em consideração os detalhes de implementação, como desempenho e integridade dos dados.
@@ -64,6 +60,8 @@ Notação gráfica amplamente utilizada para modelagem de sistemas de software.
   - Diagramas de classes, sequência, atividades, entre outros.
 - Flexível e extensível.
   - Permite que os desenvolvedores criem diagramas específicos para diferentes domínios e necessidades.
+- Propriedades
+  - Dependência: mudanças na definição de um elemento (o fornecedor) podem causar mudanças ao outro (o cliente).
 
 ###### IDEF (Integrated Definition Language)
 

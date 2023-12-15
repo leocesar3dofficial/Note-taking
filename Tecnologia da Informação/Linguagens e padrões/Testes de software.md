@@ -11,6 +11,9 @@
 
 #### Unitários
 
+- Verifica se as partes do software funcionam de maneira isolada das demais partes do sistema
+- Teste realizado pelo próprio desenvolvedor
+
 ##### SUT (System Under Test)
 
 - Parte do sistema que queremos testar
@@ -103,7 +106,7 @@
 ### Testes de Integração
 
 - Verificar se os diferentes componentes de um sistema funcionam bem juntos quando são integrados
-- Objetivo: Identificar problemas que possam surgir quando os componentes individuais do software são combinados e interagem entre si
+- **Objetivo**: Identificar problemas que possam surgir quando os componentes individuais do software são combinados e interagem entre si
 - Incluem testes de regressão para garantir que as alterações nos componentes integrados não tenham introduzido defeitos ou problemas inesperados
 
 #### Integração Contínua
@@ -130,7 +133,7 @@
 - Bottom-Up Integration
   - Os módulos mais detalhados são integrados primeiro, e os módulos principais são adicionados posteriormente
 
-### Teste de Regressão
+### Testes de Regressão
 
 - Garantir que as alterações recentes no software não tenham introduzido novos defeitos ou afetado negativamente as funcionalidades existentes
 - É útil em cenários de desenvolvimento ágil, onde as alterações frequentes são feitas
@@ -142,7 +145,7 @@
 
 - Desenvolvimento Orientado a Testes
 - É uma prática de desenvolvimento de software
-- Enfatiza a criação de testes automatizados antes de escrever o código de produção
+- Enfatiza a criação de testes automatizados antes de escrever o código de produção para cada funcionalidade
 
 #### Etapas
 

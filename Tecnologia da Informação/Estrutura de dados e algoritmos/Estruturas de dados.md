@@ -104,13 +104,15 @@ Estruturas de dados referem-se à forma de processar, armazenar, recuperar e org
 - Linked List
   - **Características**
     - Elementos guardados de forma não contígua na memória
-    - Os elementos são unidos (link/ligados) por ponteiros (pointers)
+    - Os elementos são unidos (link/ligados/encadeados) por ponteiros (pointers)
     - Usa memória extra para guardar os links
     - Não é necessário saber o tamanho da lista na inicialização
     - Usado para implementar outras estruturas de dados (Stacks, Queues, Graphs, etc.)
     - O primeiro nó (node) é chamado de cabeça (Head)
     - O ponteiro do último nó será sempre igual a NULL
+    - Uma lista encadeada está vazia se o elemento inicial aponta para nulo ou NULL
     - Pode crescer ou diminuir
+    - Um elemento pode ser excluído quando está no meio da lista
   - **Operações**
     - As mesmas de uma lista, mas em vez de usar um índice usa-se os ponteiros
   - **Tipos**

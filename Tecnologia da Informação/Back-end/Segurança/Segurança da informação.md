@@ -87,6 +87,9 @@
   - Usado para ocultar o endereço IP do dispositivo.
   - Filtra conteúdo da web e melhora a segurança.
   - Protege a rede interna contra ameaças externas.
+  - proxy reverso
+    - Um proxy regular com uma camada adicional
+    - É um servidor que é colocado por cima do ""servidor web interno" para que possa ser o primeiro ponto de contato com clientes do lado da web
 
 - **Identity Access Management (IAM)**
 
@@ -169,7 +172,7 @@
 3. **Recuperação de Serviços**
 
    - Desenvolver planos de recuperação específicos para cada serviço essencial.
-     - Inclui tempos de recuperação aceitáveis e procedimentos de failover.
+     - Inclui tempos de recuperação aceitáveis e procedimentos de [failover](../Rede%20de%20Computadores.md#qualidade-de-serviço-qos).
 
 4. **Testes e Treinamento**
 

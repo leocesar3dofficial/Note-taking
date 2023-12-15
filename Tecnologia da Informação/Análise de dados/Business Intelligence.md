@@ -1,14 +1,17 @@
 # Business Intelligence
 
 ## Conceitos
+
 - **Dado:** Registro não processado
 - **Informação:** Dados processados e analisados
 - **Conhecimento:** Informação + experiência
 
 ## Definição
+
 Processo onde dados são captados e convertidos em informações úteis ao negócio. Metodologia de coleta, organização, avaliação, compartilhamento e controle de informações. Resultado: insights para o processo decisório.
 
 ### KPIs (Key Performance Indicators)
+
 - **Eficiência:** Resultado obtido x recursos empregados
 - **Eficácia:** Resultado obtido x resultado pretendido
 - **Capacidade:** Quantidade produzida x tempo de produção
@@ -22,6 +25,7 @@ Processo onde dados são captados e convertidos em informações úteis ao negó
 Saída: relatórios ou dashboards em tempo real. Nível de precisão dos dados coletados: entre 50% e 90%.
 
 ## Benefícios
+
 - Auxilia na integração dos canais de comunicação
 - Gera inteligência e vantagem competitiva
   - Se preparar para as mudanças de mercado
@@ -34,6 +38,7 @@ Saída: relatórios ou dashboards em tempo real. Nível de precisão dos dados c
   - Identificar novos mercados
 
 ## Princípios
+
 1. Organizar os processos internos de forma estratégica
 2. Automatizar serviços para integrar e ampliar a eficiência dos setores (arquitetura de dados)
 3. Agrupar dados e transformá-los em informação confiável, exata e de qualidade
@@ -44,6 +49,7 @@ Saída: relatórios ou dashboards em tempo real. Nível de precisão dos dados c
 8. Aprimorar seu desempenho no mercado
 
 ## Gerenciamento
+
 - **ETL (Extract, Transform, Load):**
   1. Identificar fontes de dados
   2. Traduzi-los em um formato padrão
@@ -64,7 +70,9 @@ Saída: relatórios ou dashboards em tempo real. Nível de precisão dos dados c
   6. Análise de dados
 
 ## Modelagem de dados
+
 ### Etapas
+
 1. Definir fatos ou métricas
 2. Determinar as dimensões
    - Dimensional (tabela única ou dataframe)
@@ -76,6 +84,7 @@ Saída: relatórios ou dashboards em tempo real. Nível de precisão dos dados c
    - Geografia: armazém, cidade, estado, região
 
 ## Segurança
+
 - Acesso e alçada
 - Fontes de dados alternativas
 - Arquivamento e descarte
@@ -91,7 +100,9 @@ Saída: relatórios ou dashboards em tempo real. Nível de precisão dos dados c
     - Time Machine no MacOS: em dispositivos externos
 
 ## Infraestrutura
+
 ### Armazenamento
+
 - Banco de dados
 - Data Warehouse (DW)
   - Sistema que centraliza os dados coletados de diversas fontes
@@ -135,11 +146,13 @@ Saída: relatórios ou dashboards em tempo real. Nível de precisão dos dados c
       - Virtual
       - Central
       - Distribuído (serviço na nuvem - Cloud Computing)
-  
+
 ### Data Lake
+
 - Armazenamento de dados não estruturados
 
 ### Sistemas de Informação
+
 1. **BPM (Business Process Management):**
    - Auxilia na interpretação e otimização de processos
 2. **ERP (Enterprise Resource Planning):**
@@ -150,7 +163,9 @@ Saída: relatórios ou dashboards em tempo real. Nível de precisão dos dados c
    - Gerenciar os relacionamentos e interações com clientes
 
 ### Planilhas eletrônicas
+
 ### Descoberta de Conhecimento em Banco de Dados (DCBD)
+
 - Knowledge Discovery in Databases
 - Identificação de padrões em um conjunto de dados
 - Características dos dados explorados
@@ -168,9 +183,11 @@ Saída: relatórios ou dashboards em tempo real. Nível de precisão dos dados c
   7. Geração de relatórios e comunicação dos resultados
 
 ### Data cleansing (limpeza de dados)
+
 - Detecção, reparo ou a exclusão de dados
 
 ### Dashboard
+
 - Painel de monitoramento das atividades do negócio
 - Para clientes internos e externos
 - Normalmente são atualizados em tempo real

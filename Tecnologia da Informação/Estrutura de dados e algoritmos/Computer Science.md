@@ -39,19 +39,34 @@
 
 ## Programming Language
 
-- Building blocks
-  - Functions
+### Building blocks
+
+#### Functions
+
     - Arguments or parameters, return values
     - Process: arguments -> functions -> side effects (return values)
-  - Conditionals
-  - Boolean expressions
-  - Loops
-  - Variables
+
+#### Conditionals
+
+#### Boolean expressions
+
+#### Loops
+
+- For
+  - Só pode ser usado quando se sabe a quantidade de vezes que o loop vai acontecer
+- TODO: OUTROS LOOPS
+
+#### Variables
+
     - Constant: a variable that cannot change
     - Magic number: a value that comes from somewhere unknown
-  - Operators (+, -, \*, /, %)
+
+#### Operators (+, -, \*, /, %)
+
     - Syntactic sugar (+=, -=, ++, --)
-  - Library or Header file (C/C++)
+
+#### Library or Header file (C/C++)
+
     - Reusable common set of code
 
 ## Character Encoding Standards
