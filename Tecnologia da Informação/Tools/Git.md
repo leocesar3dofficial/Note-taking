@@ -96,8 +96,14 @@ git commit -m "[descriptive message]"
 ### Logging
 
 ```bash
-git log  # full log entry for each commit
-git log --oneline  # list of commit IDs and their associated commit messages
+# full log entry for each commit
+git log
+
+# list of commit IDs and their associated commit messages
+git log --oneline
+
+# Exibe o histórico de commits de forma concisa e gráfica, incluindo todas as ramificações e tags
+git log --oneline --graph --decorate --all
 ```
 
 ### Open Repository in VSCode

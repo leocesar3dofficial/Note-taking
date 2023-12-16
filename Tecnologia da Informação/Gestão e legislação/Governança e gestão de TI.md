@@ -422,6 +422,7 @@
 - Práticas (gerenciamento)
   - Gerais
     - Gerenciamento da estratégia
+      - Conjunto de serviços que ajuda o negócio a alcançar seus objetivos
     - Gerenciamento da segurança da informação
     - Gerenciamento de fornecedor
     - Gerenciamento de mudança organizacional

@@ -97,6 +97,7 @@ Estruturas de dados referem-se à forma de processar, armazenar, recuperar e org
   - **Operações**
     - Push: adicionar um elemento no topo da pilha
     - Pop: remover o elemento no topo da pilha
+    - Shift (Javascript): remove o primeiro elemento e o retorna como resultado
     - Peek: acessar o elemento no topo da pilha
     - IsEmpty: checar se a pilha está vazia
     - Size: tamanho da pilha
@@ -145,7 +146,9 @@ Estruturas de dados referem-se à forma de processar, armazenar, recuperar e org
   - Relação de parentesco: parent/child
   - É uma estrutura de dados recursiva
 - **Tipos**
+
   - Binary Tree
+
     - Heaps
       - Usadas para implementar filas de prioridade
       - São uma árvore binária especial
@@ -153,9 +156,12 @@ Estruturas de dados referem-se à forma de processar, armazenar, recuperar e org
       - Garante que o nó raiz contenha o menor valor na árvore
       - Usados para realizar operações de inserção e remoção do elemento de maior ou menor prioridade
       - Possui tempo logarítmico
+    - Estratégias de ordenação: Pré-ordem; Intra-ordem; Pós-ordem
+
   - Binary Search Tree
   - AVL Tree
   - B-Tree, etc.
+
 - **Aplicações**
   - Priority queues
   - Indexação de banco de dados com B-Tree and B+

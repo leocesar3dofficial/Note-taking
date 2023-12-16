@@ -100,12 +100,16 @@
         - É uma solução comercial e requer licenciamento
 
 - **Gerenciamento de Contêineres**
+
   - Docker
     - Plataforma de código aberto para empacotar, distribuir e executar aplicativos em contêineres
     - Contêineres são ambientes isolados que contêm todas as dependências e bibliotecas necessárias para executar um aplicativo
-    -
-
-Garante que ele seja executado consistentemente em diferentes ambientes - Fornece uma maneira fácil e eficiente de criar, implantar e gerenciar contêineres - Permitindo a escalabilidade e a portabilidade de aplicativos - Facilita a implantação de aplicativos e a construção de ambientes de desenvolvimento consistentes
+      - Segregação de processos no mesmo kernel
+      - O processo é isolado o máximo possível de todo o resto do ambiente
+    - Garante que ele seja executado consistentemente em diferentes ambientes
+    - Fornece uma maneira fácil e eficiente de criar, implantar e gerenciar contêineres
+    - Permite a escalabilidade e a portabilidade de aplicativos
+    - Facilita a implantação de aplicativos e a construção de ambientes de desenvolvimento consistentes
 
 - Kubernetes
   - Plataforma de orquestração de contêineres de código aberto
@@ -243,6 +247,7 @@ Garante que ele seja executado consistentemente em diferentes ambientes - Fornec
   - Colaboração
   - Gerenciamento de projetos
   - Recursos Humanos
+  - Exemplos: Google Docs
 
 ##### PaaS (Plataforma como Serviço)
 

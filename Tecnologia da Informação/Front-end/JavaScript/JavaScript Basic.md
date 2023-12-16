@@ -1,6 +1,7 @@
 # Basic JavaScript
 
 ## Comments
+
 - **In-line**
   ```javascript
   // This is an in-line comment.
@@ -12,6 +13,7 @@
   ```
 
 ## Variables
+
 - **Declaration**
   ```javascript
   var myVar;
@@ -34,11 +36,12 @@
   ```
 - **String**
   ```javascript
-  var myString = "A string";
+  var myString = 'A string';
   ```
 - **Naming**: camelCase
 
 ## Keywords
+
 - **var**
   - Can be redeclared without throwing an error
 - **let**
@@ -49,6 +52,7 @@
   - Naming: uppercase
 
 ## Scope
+
 - **Global**
   - Defined outside of a function block
   - Declared with the `var` keyword
@@ -57,6 +61,7 @@
   - Local variable takes precedence over the global variable
 
 ## Mathematical Operations
+
 - **Addition**: `5 + 10;`
   - Augmented: `myVar += 5;`
 - **Subtraction**: `10 - 5;`
@@ -76,7 +81,9 @@
 - **Decimal or floating point**: `1.5;`
 
 ## Data Types
+
 - **String**
+
   - String values are immutable but can be reassigned
   - **Escaping**
     - Literal quotes: `\"`
@@ -88,9 +95,10 @@
     - Form feed: `\f`
   - **Concatenation**
     ```javascript
-    const ourStr = "I come first. " + "I come second.";
-    ourStr += "I come second.";
-    const ourStr = "Hello, our name is " + someStringVariable + ", how are you?";
+    const ourStr = 'I come first. ' + 'I come second.';
+    ourStr += 'I come second.';
+    const ourStr =
+      'Hello, our name is ' + someStringVariable + ', how are you?';
     ourStr += anAdjective;
     ```
   - **Basic String Manipulation**
@@ -103,6 +111,7 @@
       ```
 
 - **Array**
+
   - **Simple**: `const sandwich = ["peanut butter", "jelly", "bread"];`
   - **Nested**: `const teams = [["Bulls", 23], ["White Sox", 45]];`
   - **Indexes**
@@ -125,17 +134,19 @@
   - May only be one of two values: `true` or `false`
 
 ## Functions
+
 - **Functional Programming**: All about creating and using non-mutating functions
 - **Basics**
   ```javascript
   function functionName(arg1, arg2, ...args) {
-    return "Hello World" + arg1;
+    return 'Hello World' + arg1;
   }
   ```
 - No specified return value: The function processes the inner code, but the returned value is `undefined`
 - **Assignment with a Returned Value**: `ourSum = sum(5, 12);`
 
 ## Data Structure
+
 - **Queue**
   ```javascript
   function nextInLine(arr, item) {
@@ -146,45 +157,47 @@
   ```
 
 ## Statements
+
 - **Conditionals**
+
   - **Basics**
     ```javascript
     function test(myCondition) {
       if (myCondition) {
-        return "It was true";
+        return 'It was true';
       }
-      return "It was false";
+      return 'It was false';
     }
     ```
   - **Else Statement**
     ```javascript
     if (num > 10) {
-      return "Bigger than 10";
+      return 'Bigger than 10';
     } else {
-      return "10 or Less";
+      return '10 or Less';
     }
     ```
   - **Else If Statements**
     ```javascript
     if (num > 15) {
-      return "Bigger than 15";
+      return 'Bigger than 15';
     } else if (num < 5) {
-      return "Smaller than 5";
+      return 'Smaller than 5';
     } else {
-      return "Between 5 and 15";
+      return 'Between 5 and 15';
     }
     ```
   - **Chaining If Else Statements**
     ```javascript
     if (condition1) {
-      statement1
+      statement1;
     } else if (condition2) {
-      statement2
+      statement2;
     } else if (condition3) {
-      statement3
+      statement3;
       // ...
     } else {
-      statementN
+      statementN;
     }
     ```
   - **Switch**
@@ -192,11 +205,11 @@
     - **Basics**
       ```javascript
       switch (lowercaseLetter) {
-        case "a":
-          console.log("A");
+        case 'a':
+          console.log('A');
           break;
-        case "b":
-          console.log("B");
+        case 'b':
+          console.log('B');
           break;
         default:
           defaultStatement;
@@ -209,29 +222,32 @@
         case 1:
         case 2:
         case 3:
-          result = "1, 2, or 3";
+          result = '1, 2, or 3';
           break;
         case 4:
-          result = "4 alone";
+          result = '4 alone';
       }
       ```
   - **Ternary Operator**
     - **Basic**
       ```javascript
       function findGreater(a, b) {
-        return a > b ? "a is greater" : "b is greater or equal";
+        return a > b ? 'a is greater' : 'b is greater or equal';
       }
       ```
     - **Multiple**
       ```javascript
       function findGreaterOrEqual(a, b) {
-        return (a === b) ? "a and b are equal" 
-          : (a > b) ? "a is greater" 
-          : "b is greater";
+        return a === b
+          ? 'a and b are equal'
+          : a > b
+          ? 'a is greater'
+          : 'b is greater';
       }
       ```
 
 - **Comparison Operators**
+
   - **Equality**
     - Normal: `==` (compares values)
     - Strict: `===` (compares values and types)
@@ -246,6 +262,7 @@
   - **Or**: `||` (true if either of the operands is true)
 
 ## Loops
+
 - **While**
   ```javascript
   while (i < 5) {
@@ -290,7 +307,9 @@
   ```
 
 ## Algorithms
+
 - **Recursion**
+
   - **Basic**
     ```javascript
     function multiply(arr, n) {
@@ -327,11 +346,13 @@
     ```
 
 - **Random Numbers**
+
   - Decimal number between 0 (inclusive) and 1 (exclusive): `Math.random()`
   - Whole Numbers: `Math.floor(Math.random() * 20);` (whole number between 0 and 19)
   - Whole Numbers within a Range: `Math.floor(Math.random() * (max - min + 1)) + min`
 
 - **Parsing**
+
   - String to Integer: `parseInt("007");`
   - String to Float: `parseFloat()`
     - **Radix**
@@ -340,18 +361,21 @@
       - `parseInt("11", 2);` (base 2 or binary system)
 
 - **Functional Programming**
+
   - **Currying a Function**
+
     - It restructures a function so it takes one argument, then returns another function that takes the next argument, and so on.
     - **Example 1**
+
       ```javascript
       function curried(x) {
-        return function(y) {
+        return function (y) {
           return x + y;
         };
       }
 
       // or use arrow function
-      const curried = x => y => x + y;
+      const curried = (x) => (y) => x + y;
 
       // use
       curried(1)(2); // returns 3
@@ -360,26 +384,32 @@
       const funcForY = curried(1);
       console.log(funcForY(2)); // 3
       ```
+
     - **Example 2**
+
       ```javascript
       function add(x) {
-        return function(y) {
-          return function(z) {
+        return function (y) {
+          return function (z) {
             return x + y + z;
           };
         };
       }
 
       // or use arrow function
-      function add(x) { return y => z => x + y + z; }
+      function add(x) {
+        return (y) => (z) => x + y + z;
+      }
 
       // use
       add(10)(20)(30); // 60
       ```
 
   - **Partial Application**
+
     - Apply a few arguments to a function and return another function that is applied to more arguments.
     - **Example**
+
       ```javascript
       function impartial(x, y, z) {
         return x + y + z;

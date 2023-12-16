@@ -48,6 +48,7 @@
 
 - Envolve projetar sistemas de modo que eles estejam sempre disponíveis e operacionais.
 - Minimiza interrupções não planejadas.
+- 99,99% de disponibilidade ou 52'30'' de indisponibilidade ao ano.
 
 ## Clusterização
 

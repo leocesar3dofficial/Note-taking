@@ -26,6 +26,21 @@
   - Meios: assinatura digital, carimbo (time stamp), auditoria.
 
 - **Privacidade**
+  Pode ser alcançada com o uso de uma VPN (Rede Privada Virtual)
+
+  Conexão segura e criptografada entre dois pontos em uma rede
+
+  1. **Criptografia:** As VPNs utilizam protocolos de criptografia para proteger a integridade e confidencialidade dos dados transmitidos.
+
+  2. **Autenticação:** Garante a identidade dos usuários e dispositivos, evitando acessos não autorizados.
+
+  3. **Túneis Seguros:** A comunicação entre os pontos é encapsulada em túneis seguros, protegendo-a contra ameaças externas.
+
+  4. **Privacidade:** Ao ocultar o endereço IP do usuário, as VPNs ajudam a preservar a privacidade online.
+
+  5. **Acesso Remoto Seguro:** Permite que usuários se conectem a redes corporativas de forma segura a partir de locais remotos, como em home office.
+
+  6. **Prevenção contra Interceptação:** Dificulta a interceptação e monitoramento não autorizado da comunicação.
 
 - **Controle de Acesso**
   - Segurança física e lógica.

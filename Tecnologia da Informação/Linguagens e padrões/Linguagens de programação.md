@@ -73,6 +73,11 @@
 - Requer uma quantidade significativa de código para realizar tarefas simples (boilerplate)
 - Pode ser mais verbosa em comparação com outras linguagens
 
+#### Conversão de valores (Casting)
+
+- Para String:
+  `String y = String.valueOf(x)`
+
 ### PHP
 
 #### Características
@@ -113,6 +118,12 @@
 
 - Pode ter desempenho relativamente mais lento em comparação com linguagens compiladas
 - Escalabilidade limitada para projetos muito grandes
+
+#### Funções comuns:
+
+Listas
+
+- range(start, stop, step)
 
 ### C#
 

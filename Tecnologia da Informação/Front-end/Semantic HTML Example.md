@@ -62,11 +62,21 @@
 # Other Semantic Elements
 
 ```html
+<!-- conteúdo que é periférico, e pode ser considerado separado do conteúdo principal -->
 <aside></aside>
-<blockquote></blockquote>
-<cite></cite>
+
+<!-- Representa uma seção de texto que foi citada de outra fonte. -->
+<blockquote>
+  <p>This is a quoted text from another source.</p>
+</blockquote>
+
+<!-- Citar o título de uma obra, como um livro, filme, música, etc. -->
+<cite>Author Name, Book Title</cite>
+
+<!-- Indica que o texto dentro dele é um trecho de código. -->
 <code></code>
-<!-- for code blocks formatting -->
+
+<!-- for code block formatting -->
 <data></data>
 <del></del>
 <figure></figure>

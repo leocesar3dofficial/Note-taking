@@ -79,6 +79,47 @@
 - Projetadas para atender às necessidades de largura de banda em constante mudança e crescimento
 - Oferece uma ampla gama de opções de serviços de comunicação, incluindo voz, dados e vídeo
 
+## Topologia de rede
+
+1. **Topologia de Estrela:**
+
+   - Todos os dispositivos estão conectados a um ponto central, que geralmente é um hub ou switch.
+   - A falha de um dispositivo não afeta diretamente os outros, mas se o ponto central falhar, toda a rede pode ser impactada.
+
+2. **Topologia de Barramento:**
+
+   - Todos os dispositivos compartilham um único meio de comunicação, que é geralmente um cabo coaxial ou uma linha de fibra ótica.
+   - A comunicação ocorre ao longo desse canal compartilhado.
+
+3. **Topologia de Anel:**
+
+   - Os dispositivos são conectados formando um anel fechado.
+   - Os dados fluem em uma direção ao longo do anel.
+
+4. **Topologia de Malha:**
+
+   - Cada dispositivo está conectado a todos os outros dispositivos na rede.
+   - Oferece redundância e desempenho robusto, mas pode ser dispendiosa de implantar.
+
+5. **Topologia de Árvore (ou Hierárquica):**
+
+   - Assemelha-se a uma estrutura de árvore com uma raiz central e ramos conectados a ela.
+   - Permite expansão fácil, mas pode ser complexa de gerenciar.
+
+6. **Topologia Híbrida:**
+
+   - Combina dois ou mais tipos de topologias.
+   - Por exemplo, uma combinação de topologia de estrela e topologia de anel.
+
+7. **Topologia de Ponto a Ponto:**
+
+   - Cada dispositivo está conectado diretamente a outro dispositivo, formando uma rede ponto a ponto.
+   - Muito comum em redes de comunicação entre dois dispositivos.
+
+8. **Topologia de Grade:**
+   - Dispositivos são organizados em linhas horizontais e verticais, formando uma grade.
+   - Cada dispositivo está conectado aos dispositivos adjacentes.
+
 ## Equipamentos de rede
 
 ### Balanceador de carga
@@ -143,4 +184,5 @@
   4. Camada de transporte
   5. Camada de sessão
   6. Camada de apresentação
+     - Criptografia e compactação de dados dos serviços web
   7. Camada de aplicação

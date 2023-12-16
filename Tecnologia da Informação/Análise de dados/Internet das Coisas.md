@@ -1,6 +1,7 @@
 # Internet das Coisas - IoT
 
 ## Histórico
+
 - 1958, DARPA, Defense Advanced Research Projects Agency
   - Desenvolveu o programa de comunicação entre computadores
   - Recebeu o nome de Interfaces Message Processors (IMP)
@@ -11,7 +12,9 @@
   - Hipertexto
 
 ## Conectividade
+
 ### Redes
+
 - PAN, Personal Area Network
   - Bluetooth: o mais comum para redes de curto alcance
   - Zigbee: para lâmpadas, tomadas, sensores e smart objects
@@ -23,9 +26,11 @@
 - WAN, ou Internet
 
 ### Meios de transmissão de dados
+
 - Luz (fibra óptica), ar (WiFi) e metal (cabos de cobre, alumínio)
 
 ### DNS, Domain Name System
+
 - **Definição**
   - Traduz nomes de domínio legíveis por humanos em endereços IP legíveis por máquina
   - Exemplo: www.websitename.com para um intervalo alfanumérico
@@ -36,6 +41,7 @@
   - Sistema de tradução de domínios
 
 ### Domínio
+
 - É o endereço de um site na internet na forma de um nome
 - **Tipos**
   - Genéricos: art, com, eco, emp, net, ong
@@ -44,6 +50,7 @@
 - **Registro**
   - Tabela DNS
     - Endereço MAC de Origem (ID de fábrica da placa de rede)
+      - Pode ser usado para detectar aparelhos conectados sem autorização
     - IP de Origem
     - Nome da máquina de origem (configurado no Sistema Operacional)
     - Requisição
@@ -51,16 +58,19 @@
     - Nome da máquina/domínio de destino
 
 ### TCP, Transmission Control Protocol
+
 - Pacote ou package
 
 ### IP, Internet Protocol
 
 ### Velocidade de navegação
+
 - Medida em Mbps (Megabits por segundo)
 - Tempo de download = tamanho do arquivo (MB) / velocidade (MBps)
 - MBps = Mbps / 8
 
 ### Nuvem ou cloud
+
 - Serviços oferecidos via Internet
 - Infraestrutura, software e dados remotos
 - **Exemplos**
@@ -88,7 +98,9 @@
   - Confiabilidade perante os stakeholders
 
 ## Hardware e infraestrutura
+
 ### Equipamentos
+
 - **Roteador (Router)**
   - Conecta duas redes, normalmente residência/negócio ao provedor
 - **Switch**
@@ -104,6 +116,7 @@
   - ADSL (linha telefônica), Cabo de TV, Rádio, Fibra Óptica e móvel ( 4G, 4,5G e 5G)
 
 ### Eletricidade
+
 - **Corrente elétrica**
   - Alternada (Nickolas Tesla)
     - Longa distância com perdas pequenas e menos geradores
@@ -112,6 +125,7 @@
     - Amplamente utilizada
 
 ### Componentes eletrônicos
+
 - **Transformador**
   - De corrente alternada da tomada para corrente contínua para os equipamentos eletrônicos
 - **Resistor ou Resistência**
@@ -128,6 +142,7 @@
 - **LED (Ligth-Emitting Diode, Diodo Emissor de Luz)**
 
 ### Automação
+
 - **Raspberry PI (micro computador)**
   - Fundação criada em 2006, Universidade de Cambridge
   - Preço acessível
@@ -144,11 +159,13 @@
 - **Emulador Fritzing**
 
 ## Legislação
+
 - Lei nº 12.965/2014, Marco Civil da Internet
 - Lei nº 13.709/2018, Lei Geral de Proteção de Dados
 - Decreto nº 9.854/2019, Plano Nacional de Internet das Coisas
 
 ## Mercado de trabalho (Indústria 4.0)
+
 - Quarta revolução industrial
 - **Especialidades**
   - Segurança para IoT
