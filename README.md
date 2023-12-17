@@ -12,7 +12,22 @@
 
 - [Data Visualization](/Tecnologia%20da%20Informação/Análise%20de%20dados/Data%20Visualization.md)
 
-#### Web Scraping
+- [Internet das Coisas](<Tecnologia da Informação/Análise de dados/Internet das Coisas.md>)
+
+#### Machine Learning
+
+- [Deep Learning with TensorFlow](<Tecnologia da Informação/Análise de dados/Deep Learning with TensorFlow.md>)
+
+- [Inteligência Artificial](<Tecnologia da Informação/Análise de dados/Inteligência Artificial.md>)
+- [Teoria dos Grafos](<Tecnologia da Informação/Análise de dados/Teoria dos Grafos.md>)
+
+#### Ferramentas
+
+- [Jupyter Notebook](<Tecnologia da Informação/Análise de dados/Jupyter Notebook.md>)
+- [Numpy](<Tecnologia da Informação/Análise de dados/Numpy.md>)
+- [Pandas](<Tecnologia da Informação/Análise de dados/Pandas.md>)
+
+##### Web Scraping
 
 - [Requests and Beautiful Soup](/Tecnologia%20da%20Informação/Análise%20de%20dados/Web%20Scraping/Requests%20and%20Beautiful%20Soup.md)
 
