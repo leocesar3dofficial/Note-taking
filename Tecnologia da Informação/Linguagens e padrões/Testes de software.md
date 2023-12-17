@@ -141,6 +141,8 @@
 
 ## Padrões de Qualidade
 
+**Atributos de qualidade:** segurança, compreensibilidade e portabilidade.
+
 ### TDD (Test Driven Development)
 
 - Desenvolvimento Orientado a Testes

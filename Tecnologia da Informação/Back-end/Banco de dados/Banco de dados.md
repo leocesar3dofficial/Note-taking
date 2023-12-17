@@ -99,6 +99,7 @@ São duas abordagens diferentes para modelagem e representação de sistemas.
       - Caixas retangulares para representar as entidades.
       - Linhas para denotar os relacionamentos.
       - Símbolos para indicar a cardinalidade e a participação dos elementos.
+    - **Elementos básicos:** Entidades, Atributos e Relacionamentos
   - **Atributos Multivalorados e Compostos**
     - Permite a modelagem de estruturas de dados mais complexas.
   - **Herança e Generalização/Especialização**
@@ -146,30 +147,28 @@ São duas abordagens diferentes para modelagem e representação de sistemas.
 - **De Renomeação**
   - **Renomeação (ρ):** Renomeia atributos ou relações para facilitar a clareza e evitar conflitos de nome.
 
-#### Normalização
+##### Normalização
 
-##### Características
+###### Características
 
 - Envolve identificar as dependências funcionais entre os atributos de uma tabela.
 - Divide a tabela em várias tabelas menores, se necessário, para eliminar dependências indesejadas.
-- Facilita a manutenção dos
-
-dados.
-
+- Facilita a manutenção dos dados.
 - Possibilita um melhor desempenho nas operações de consulta e atualização.
 - Baseada em uma série de regras e formas normais.
   - Ajudam a estruturar as tabelas e seus relacionamentos de forma otimizada.
 
-##### Finalidades
+###### Finalidades
 
 - Evitar e reduzir a redundância de dados.
 - Garantir a consistência, integridade e a eficiência dos dados.
 
-##### Formas Normais Comuns
+###### Formas Normais Comuns
 
 - **Primeira Forma Normal (1NF)**
   - Cada atributo de uma tabela deve conter um único valor atômico.
   - Não deve haver repetição de grupos de valores em um mesmo atributo.
+  - Não deve possuir valores de atributos que sejam multivalorados ou compostos.
 - **Segunda Forma Normal (2NF)**
   - Uma tabela já deve estar na 1NF.
   - Todos os atributos não chave devem depender totalmente da chave primária.
@@ -182,12 +181,13 @@ dados.
   - Uma tabela já deve estar na 3NF.
   - Todo atributo não chave precisa depender funcionalmente diretamente da chave, seja ela primária ou candidata.
   - Ausência de dependências entre os atributos não chave.
+  - Elimina toda redundância que pode ser descoberta com base nas dependências funcionais, porém, podendo restar outros tipos de redundância.
 - **Quarta Forma Normal (4NF)**
   - Ausência de dependências multivaloradas.
 - **Quinta Forma Normal (5NF)**
   - Ausência de dependências de junção.
 
-### Em Rede
+#### Em Rede
 
 #### História
 
@@ -266,7 +266,7 @@ dados.
 - Com suporte e implementação ampla em sistemas de gerenciamento de banco de dados (SGBDs)
 - SQL é uma linguagem padronizada e amplamente adotada para consultas e manipulação de dados em sistemas relacionais
 
-### Hierárquico
+#### Hierárquico
 
 #### História
 
@@ -289,7 +289,7 @@ dados.
 - Rigidez da estrutura hierárquica
 - Modificação e manutenção dos dados são mais complexas
 
-### Distribuído
+#### Distribuído
 
 #### Características
 
@@ -309,7 +309,7 @@ dados.
 - Permitir a escalabilidade
 - Fornecer tolerância a falhas
 
-### Orientado a Objetos (NoSQL)
+#### Orientado a Objetos (NoSQL)
 
 #### Características
 
@@ -443,15 +443,17 @@ dados.
 
 - Aprimora o desempenho das consultas executadas em um banco de dados
   - Plano de Execução
-    - Determina a melhor estratégia para executar uma consulta, otimizando o tempo de resposta e utilização dos recursos
+    - Determina a melhor estratégia para executar uma consulta, otimizando o tempo de resposta e utilização dos recursos.
   - Índices
-    - Cria e gerencia índices para acelerar a busca e recuperação de dados, reduzindo o tempo de execução das consultas
+    - Cria e gerencia índices para acelerar a busca e recuperação de dados, reduzindo o tempo de execução das consultas.
   - Estatísticas e Análise
-    - Coleta informações sobre os dados e o uso das consultas para realizar ajustes e otimizações adicionais
+    - Coleta informações sobre os dados e o uso das consultas para realizar ajustes e otimizações adicionais.
   - Cache
-    - Armazena em cache os resultados de consultas frequentes para evitar a necessidade de executá-las repetidamente
+    - Armazena em cache os resultados de consultas frequentes para evitar a necessidade de executá-las repetidamente.
   - Refatoração de Consultas
-    - Reescreve consultas para melhorar a eficiência, eliminando operações desnecessárias e simplificando a lógica
+    - Reescreve consultas para melhorar a eficiência, eliminando operações desnecessárias e simplificando a lógica.
+  - Buffer
+    - Busca dados do armazenamento de disco para a memória principal.
 
 ### Características de banco de dados massivos (Big Data)
 

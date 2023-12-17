@@ -586,16 +586,16 @@ LS).
 
 ## Assinatura Digital
 
-- Garantia da integridade, confidencialidade e não repúdio
-- Permite que uma pessoa ou entidade assine um documento eletronicamente
-- Utiliza um par de chaves criptográficas, uma pública e outra privada
-- Mecanismo que fornece confiança na identidade das partes envolvidas
+- Garantia da integridade, confidencialidade e não repúdio.
+- Permite que uma pessoa ou entidade assine um documento eletronicamente.
+- Utiliza um par de chaves criptográficas, uma pública e outra privada.
+- Mecanismo que fornece confiança na identidade das partes envolvidas.
 
 ### Processo
 
-1. O remetente utiliza sua chave privada para criar a assinatura digital
-   - Garante que o documento não tenha sido alterado após a assinatura
-2. O destinatário utiliza a chave pública para verificar a autenticidade da assinatura
+1. O remetente utiliza sua chave privada para criar a assinatura digital.
+   - Garante que o documento não tenha sido alterado após a assinatura.
+2. O destinatário utiliza a chave pública para verificar a autenticidade da assinatura.
 
 ## Certificação Digital
 

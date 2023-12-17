@@ -75,6 +75,12 @@
 - Oculta os detalhes internos de implementação de um objeto.
 - Expõe apenas as interfaces necessárias para interagir com ele.
   - Garante que a interação com a classe ocorra por meio de uma interface bem definida.
+    - Interface é um contrato que define um conjunto de métodos que uma classe deve
+      implementar
+      - Descreve o comportamento que uma classe deve ter, mas não fornece a implementação
+      - As classes que implementam uma interface devem fornecer suas próprias implementações
+      - Maneira de alcançar a abstração, modularidade, flexibilidade e a reutilização de código, independentemente de suas heranças
+      - Usadas para atingir o conceito de polimorfismo
   - Getters e setters dão acesso aos atributos protegidos de forma segura.
 - Promove a segurança e a manutenção do código.
   - Promove a modularidade, reutilização de código e facilita a manutenção do programa.

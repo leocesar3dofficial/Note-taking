@@ -38,6 +38,7 @@
 - **Cascata**
   - Fases sequenciais e inflexíveis
   - Recomendado para pequenos projetos
+  - Modelo de processo prescritivo e sequencial mais antigo
 - **Iterativo**
   - Entrega de um subconjunto de requisitos até a conclusão do projeto
   - Os requisitos podem ser alterados entre as iterações

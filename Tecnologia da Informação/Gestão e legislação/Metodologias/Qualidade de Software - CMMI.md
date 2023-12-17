@@ -59,6 +59,7 @@
       - Garantir que o produto cumpra os requisitos
     - Validação, VAL
       - O produto cumpre a função esperada
+      - O software se adequa a suas especificações e as do cliente
     - Foco de Processo Organizacional, OPF
       - Minimizar pontos fracos e gerar melhorias
     - Definição de Processo Organizacional, OPD
