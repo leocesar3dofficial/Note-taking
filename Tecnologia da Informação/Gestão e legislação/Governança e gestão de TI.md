@@ -463,6 +463,14 @@
 
 ### Resolução CNJ nº 182/2013 (Diretrizes para as contratações de Solução de Tecnologia da Informação e Comunicação)
 
+#### Documentos
+
+- **Oficialização da Demanda:** detalhamento da necessidade da Área Demandante.
+
 ### Resolução CNJ nº 370/2021 (Estratégia Nacional de Tecnologia da Informação e Comunicação do Poder Judiciário - ENTIC-JUD)
 
 ### Resolução CNJ nº 335/2020 (Plataforma Digital do Poder Judiciário Brasileiro - PDPJ-Br)
+
+#### Política de governança e gestão
+
+- Poderá adotar outros requisitos face a evolução tecnológica.

@@ -90,7 +90,10 @@
     - Os dados estejam organizados, protegidos contra perdas e acessíveis quando necessário
       - Configuração de políticas de retenção de dados
       - Monitoramento do desempenho do sistema
-      - Implementação de mecanismos de backup para garantir a integridade dos dados ao longo do tempo
+      - Implementação de mecanismos de backup para garantir a integridade dos dados ao longo do tempo.
+      - RAID 5 (Redundant Array of Independent Disks)
+        - Arranjo de discos que usa a paridade para garantir a segurança e redundância dos dados.
+        - $$ EspaçoDisponível = (NúmeroDeDiscos - 1) \times CapacidadeDoMenorDisco
   - Implantação e administração de soluções de proteção e de recuperação de dados contra-ataques cibernéticos
     - Preocupação fundamental na administração de armazenamento e backup, dada a crescente ameaça de ciberataques, como ransomware
     - Envolve a configuração de firewalls, sistemas de detecção de intrusões, criptografia e medidas de segurança

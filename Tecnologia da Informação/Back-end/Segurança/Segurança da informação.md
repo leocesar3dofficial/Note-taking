@@ -612,22 +612,23 @@ LS).
 
 ### Características
 
-- Conjunto de tecnologias, políticas e procedimentos de gerenciamento do uso de criptografia de chave pública
-- Permite que uma pessoa criptografe dados usando a chave pública de outra pessoa
-- Somente o detentor da chave privada poderá descriptografar esses dados
+- Conjunto de tecnologias, políticas e procedimentos de gerenciamento do uso de criptografia de chave pública.
+- Permite que uma pessoa criptografe dados usando a chave pública de outra pessoa.
+- Somente o detentor da chave privada poderá descriptografar esses dados.
 
 ### Componentes
 
 1. Autoridade Certificadora (CA - Certification Authority)
-   - Responsável por emitir e gerenciar certificados digitais
-   - Garante a autenticidade do certificado
-   - Garante a identidade do titular da chave pública
+   - Autoridade de chave pública.
+   - Responsável por emitir e gerenciar certificados digitais.
+   - Garante a autenticidade do certificado.
+   - Garante a identidade do titular da chave pública.
 2. Repositório de Chaves
-   - Local onde as chaves e os certificados digitais são armazenados e consultados
-   - Podem ser públicos ou privados
+   - Local onde as chaves e os certificados digitais são armazenados e consultados.
+   - Podem ser públicos ou privados.
 3. Política de Certificação
-   - Regras, diretrizes e práticas
-   - Regem o processo de emissão, revogação e gerenciamento dos certificados
+   - Regras, diretrizes e práticas.
+   - Regem o processo de emissão, revogação e gerenciamento dos certificados.
 4. Infraestrutura de Gestão de Chaves (KMI - Key Management Infrastructure)
    - Geração, armazenamento, distribuição, revogação e renovação das chaves
    - Padrão UIT-T X.509

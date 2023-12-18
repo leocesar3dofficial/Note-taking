@@ -138,6 +138,29 @@
 - Voz sobre IP (VoIP): Permite a transmissão de chamadas telefônicas pela Internet
 - Vídeo sobre IP: Permite a transmissão de vídeo pela rede
 
+### Protocolos baseados na especificação H.323
+
+Criado pelo International Telecommunication Union Telecommunication Standardization Sector (ITU-T)
+
+#### Protocolos
+
+- **H.225.0:** Registration, Admission and Status (RAS).
+- **H.225.0** Call Signaling based on Q.931.
+- **H.245** control protocol for multimedia communication,
+  - Describes the messages and procedures used for capability exchange.
+  - Opening and closing logical channels for audio, video and data, control and indications.
+- Real-time Transport Protocol (RTP), for sending or receiving multimedia information (voice, video, or text) between any two entities.
+- **H.235** series describes security within H.323, including security for both signaling and media.
+- **H.239** describes dual stream use in videoconferencing, usually one for live video, the other for still images.
+- **H.450** series describes various supplementary services.
+- **H.460** series defines optional extensions that might be implemented by an endpoint or a Gatekeeper, including ITU-T Recommendations H.460.17, H.460.18, and H.460.19 for Network address translation (NAT) / Firewall (FW) traversal.
+
+#### Codecs
+
+- **Audio codecs:** G.711, G.729 (including G.729a), G.723.1, G.726, G.722, G.728, Speex, AAC-LD.
+- **Text codecs:** T.140.
+- **Video codecs:** H.261, H.263, H.264, H.265.
+
 ## Multicast, IGMP, PIM-SM
 
 - Multicast: Transmissão de dados para múltiplos destinos simultaneamente
