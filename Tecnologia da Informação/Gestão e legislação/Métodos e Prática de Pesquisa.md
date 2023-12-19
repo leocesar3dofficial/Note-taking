@@ -95,9 +95,9 @@
                  - 95% = 1,96
                  - 99% = 2,58
              - População finita
-               - $$ n = \frac{NZ_{c}^{2} \sigma^2}{E^2 (N - 1) + Z_{c}^{2} - \sigma^2} $$
+               - $$ n = \frac{NZ*{c}^{2} \sigma^2}{E^2 (N - 1) + Z*{c}^{2} - \sigma^2} $$
              - População infinita
-               - $$ n = \frac{Z_{c}^{2} \sigma^2}{E^2} $$
+               - $$ n = \frac{Z\_{c}^{2} \sigma^2}{E^2} $$
          - Estratificada
            - Dividir a população em subpopulações ou estratos
          - Conglomerado ou cluster

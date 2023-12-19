@@ -7,7 +7,7 @@
 - Define um conjunto de processos genéricos para o gerenciamento de TI
 
 - Compatível e complementar a outros frameworks e padrões
-  - Como o ITIL, ISO/IEC 27001, PMBoK, etc.
+  - Como o [ITIL](../Governança%20e%20gestão%20de%20TI.md#biblioteca-itil®-versão-4-2019-information-technology-infrastructure-library), [ISO/IEC 27001](<../Governança e gestão de TI.md#isoiec-270022013>), [PMBoK](../Governança%20e%20gestão%20de%20TI.md#gestão-de-projetos-pmbok), etc.
 
 ### Domínios
 

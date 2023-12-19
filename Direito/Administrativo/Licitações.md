@@ -32,7 +32,7 @@
   - Plano de contratações anual
   - Pagamento em 5 dias úteis da fatura
 - **Normas gerais**
-  - Licitações
+  - Licitações, Lei 14.133/2021, substitui a Lei Lei 8.666/1993
   - Contrato administrativo
     - Preceitos de direito público
     - Supletivamente

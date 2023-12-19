@@ -21,7 +21,7 @@
 
 ### Conexões
 
-- Fluxo de sequência (\_\_\_\_➤)
+- Fluxo de sequência (\_\_\_➤)
 - Fluxo de mensagem (◇.....➢)
 - Associação (.....)
 

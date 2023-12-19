@@ -92,7 +92,7 @@
        - Grammar and sentences
      4. Set the scale
      - **Types**
-       - Likert
+       - Likert (de 1 a 5 ou Discordo totalmente à Concordo totalmente)
        - Semantic differential
        - Rank order
        - Balanced or unbalanced

@@ -62,26 +62,28 @@
 
 - Financeira
   - Lucro líquido
-    - Receita total - Custos e despesas
+    - $$ Receita total - Custos e despesas $$
   - Retorno sobre o investimento (ROI)
-    - Lucro líquido / Investimento total
+    - $$ Lucro líquido / Investimento total $$
 - Cliente
   - Índice de satisfação do cliente
     - Média das avaliações de satisfação dos clientes
   - NPS (Net Promoter Score)
-    - Percentual de promotores - Percentual de detratores
+    - $$ Percentual de promotores - Percentual de detratores $$
 - Processos internos
   - Tempo médio de entrega do produto
-    - Soma dos tempos de entrega / Número de pedidos
+    - $$ Soma dos tempos de entrega / Número de pedidos $$
   - Taxa de defeitos ou retrabalho
-    - Número de produtos defeituosos / Número total de produtos
+    - $$ Número de produtos defeituosos |divide Número total de produtos $$
 - Aprendizado e crescimento
   - Horas de treinamento por funcionário
-    - Total de horas de treinamento / Número de funcionários
+    - $$ Total de horas de treinamento / Número de funcionários $$
   - Taxa de retenção de talentos
-    - Número de funcionários retidos / Número de funcionários no início do período
+    - $$ Número de funcionários retidos / Número de funcionários no início do período $$
 
-## Gestão de projetos (PMBoK 7ª Edição, 2021)
+## Gestão de projetos PMBoK
+
+7ª Edição, 2021
 
 ### Project Management Body of Knowledge
 
@@ -118,8 +120,29 @@
   - Considera todos os aspectos para entrega de valor
   - **Percepção de valor:** foco das entregas para os resultados pretendidos.
 - Design Thinking
-  - Inovação e resolução de problemas
-  - Estimula a criatividade e o pensamento colaborativo
+  - Características
+    - Inovação e resolução de problemas
+    - Estimula a criatividade e o pensamento colaborativo
+  - Processo
+    1. Imersão
+       - Preliminar (pesquisa exploratória)
+       - Em profundidade (Conclusiva)
+    2. Análise e síntese
+       - Cartões de insights
+       - Diagramas de afinidades
+       - Mapas conceituais
+    3. Ideação
+       - Brainstorming
+       - Sessões de cocriação com o público e profissionais da área
+    4. Prototipagem
+       - Criação de soluções inovadoras
+- Business Model Canvas (quadro)
+  - Key Partners, Activities and Resources
+  - Value Propositions
+  - Customer Relationships and Segments
+  - Channels (Distribution)
+  - Cost Structure
+  - Revenue Streams
 
 #### Ferramentas
 
@@ -182,6 +205,7 @@
 - Probabilidade de ocorrer um evento específico
 - Probabilidade de que este evento provoque consequências
 - Gravidade dessas eventuais consequências
+- Causas => Probabilidade => Consequências => Gravidade
 
 #### Nível de risco
 
@@ -376,6 +400,28 @@
   - Internos: pontos fortes e fracos
   - Externos: oportunidades e ameaças
 
+#### Matriz GUT (Gravidade, Urgência e Tendência)
+
+Características
+
+- Ferramenta utilizada na priorização de tarefas e estratégias
+- Entenda tendência como: se nada for feito, e aí, vai piorar?
+
+Método
+
+- Listar forças;
+- Escala de 1 a 5 para a gravidade, urgência e tendência de cada força;
+- Multiplicar os resultados (gravidade x urgência x tendência) de cada força;
+- Fazer a média dos resultados das forças;
+- Repetir os passos acima com as fraquezas, oportunidades e ameaças.
+
+Exemplo
+
+| PROBLEMA             | GRAVIDADE | URGÊNCIA | TENDÊNCIA | PRIORIDADE |
+| -------------------- | --------- | -------- | --------- | ---------- |
+| Definir o problema 1 | 5         | 5        | 5         | 125        |
+| Definir o problema 2 | 4         | 3        | 1         | 12         |
+
 ### Matriz RACI (Responsibility Assignment matrix)
 
 - Características
@@ -395,7 +441,7 @@
 
 - Conjunto de boas práticas e orientações para a gestão de serviços de TI
 - Conformidade com a norma ISO/IEC 20000 (gestão de TI)
-- Integração com abordagens ágeis, DevOps, Lean, COBIT
+- Integração com abordagens ágeis, DevOps, [Lean](Metodologias/Agile%20Frameworks/Lean.md), [COBIT](</Tecnologia da Informação/Gestão e legislação/Metodologias/Framework COBIT 2019.md>)
 - Mentalidade orientada a serviços, colaboração e entrega contínua de valor
 
 ### Componentes
