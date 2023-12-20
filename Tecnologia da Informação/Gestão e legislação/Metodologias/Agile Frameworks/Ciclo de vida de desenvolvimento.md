@@ -8,6 +8,7 @@
   - Integrar testes de segurança em todas as etapas
 - **Objetivo**
   - Minimizar os riscos do projeto
+- O gerenciamento eficiente do desenvolvimento de software se concentra nos 4 Ps: pessoas; produto; processo; e, projeto.
 
 ## Benefícios
 
@@ -35,10 +36,18 @@
 
 ## Modelos
 
-- **Cascata**
-  - Fases sequenciais e inflexíveis
-  - Recomendado para pequenos projetos
-  - Modelo de processo prescritivo e sequencial mais antigo
+- **Cascata ou Waterfall**
+  - Características
+    - Fases sequenciais, sistemáticas e inflexíveis
+    - Recomendado para pequenos projetos
+    - Modelo de processo prescritivo e sequencial mais antigo
+  - **Fases**
+    - Especificação dos requisitos do cliente
+    - Planejamento
+    - Modelagem
+    - Construção
+    - Entrega
+    - Suporte contínuo
 - **Iterativo**
   - Entrega de um subconjunto de requisitos até a conclusão do projeto
   - Os requisitos podem ser alterados entre as iterações

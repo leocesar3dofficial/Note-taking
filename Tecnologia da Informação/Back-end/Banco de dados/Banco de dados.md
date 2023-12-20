@@ -35,7 +35,6 @@ O modelo de dados é criado a partir da visão geral do negócio. Define os obje
 ###### Lógica
 
 - Tipos de dados, restrições e índices.
-
 - Não considera os detalhes de implementação nos Sistemas de Bancos de Dados.
 
 ###### Física
@@ -51,17 +50,41 @@ O modelo de dados é criado a partir da visão geral do negócio. Define os obje
 
 Notação gráfica amplamente utilizada para modelagem de sistemas de software.
 
-- Notação visual que usa símbolos gráficos para representar elementos.
-  - Classes, objetos, relacionamentos, comportamentos, entre outros.
-- Mais orientada a objetos e é amplamente utilizada no desenvolvimento de software.
-  - Desde a análise, projeto até a documentação e comunicação entre as equipes.
-- Linguagem padronizada.
-- Possui uma ampla variedade de diagramas.
-  - Diagramas de classes, sequência, atividades, entre outros.
-- Flexível e extensível.
-  - Permite que os desenvolvedores criem diagramas específicos para diferentes domínios e necessidades.
-- Propriedades
-  - Dependência: mudanças na definição de um elemento (o fornecedor) podem causar mudanças ao outro (o cliente).
+- **Características**
+
+  - Notação visual que usa símbolos gráficos para representar elementos.
+    - Classes, objetos, relacionamentos, comportamentos, entre outros.
+  - Mais orientada a objetos e é amplamente utilizada no desenvolvimento de software.
+    - Desde a análise, projeto até a documentação e comunicação entre as equipes.
+  - Linguagem padronizada.
+  - Possui uma ampla variedade de diagramas.
+    - Diagramas de classes, sequência, atividades, entre outros.
+  - Flexível e extensível.
+    - Permite que os desenvolvedores criem diagramas. específicos para diferentes domínios e necessidades.
+  - Propriedades.
+    - **Dependência:** mudanças na definição de um elemento (o fornecedor) podem causar mudanças ao outro (o cliente).
+
+- **Diagramas Estruturais:**
+
+  1. **Diagrama de Classes:** Representa a estrutura estática do sistema, mostrando as classes, seus atributos, métodos e os relacionamentos entre elas.
+
+  2. **Diagrama de Objetos:** Detalha instâncias de classes e seus relacionamentos em um determinado momento durante a execução do sistema.
+
+  3. **Diagrama de Componentes:** Ilustra a estrutura física dos componentes de software e suas interações.
+
+  4. **Diagrama de Implantação:** Mostra a disposição física dos artefatos de software em nós (hardware) e suas interações.
+
+- **Diagramas Comportamentais:**
+
+  1. **Diagrama de Casos de Uso:** Descreve as interações entre atores (usuários externos) e o sistema, destacando os cenários de uso.
+
+  2. **Diagrama de Sequência:** Representa a ordem temporal das mensagens entre objetos durante uma interação.
+
+  3. **Diagrama de Comunicação:** Similar ao diagrama de sequência, mostra as interações entre objetos, mas enfatiza as associações entre eles.
+
+  4. **Diagrama de Máquina de Estados:** Modela o comportamento de um objeto em termos de estados que ele pode assumir e transições entre esses estados.
+
+  5. **Diagrama de Atividades:** Descreve o fluxo de atividades, incluindo a sequência de ações e decisões.
 
 ###### IDEF (Integrated Definition Language)
 
