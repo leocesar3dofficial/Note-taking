@@ -9,10 +9,35 @@
 - Executar o fluxo de execução principal de forma completa
 - Ambiente semelhante ao do usuário final
 
-#### Unitários
+#### Unitários (Unit Testing)
 
 - Verifica se as partes do software funcionam de maneira isolada das demais partes do sistema
 - Teste realizado pelo próprio desenvolvedor
+
+##### Princípios FIRST
+
+**Fast (Rápidos):** realizar testes unitários frequentemente.
+
+- A execução precisa ser rápida, em milissegundos.
+- Se necessário deve-se dividir uma suíte de testes em chunks (pedaços) menores.
+
+**Independent (Independentes):** Em nenhum momento crie dependência entre os testes unitários.
+
+- A ordem de execução dos testes de unidade é irrelevante. O que possibilita, inclusive, execuções paralelas.
+- Use o DRY (Don’t Repeat Yourself) para eliminar dependência entre testes.
+
+**Repeatable (Determinísticos):** os testes unitários devem sempre ter o mesmo resultado.
+
+- Uma vez que os testes ora passam e ora falham, estes são chamados de Flaky (alarme falso).
+- Segundo um estudo do Google (Flaky Tests at Google and How We Mitigate Them) [2016], aproximadamente 16% dos testes são passíveis de Flaky Tests.
+
+**Self-Validating (Auto-verificáveis/explicativos):** o resultado deve binário, ou melhor, auto-explicativo (passou/falhou). Desta forma, o resultado pode ser verificado e interpretado.
+
+- Um relatório contendo evidências (screenshots, se possível) é uma ferramenta que agiliza a verificação de possíveis falhas nos testes executados.
+
+**Timely (Previamente escritos):** escrever os testes antes deles serem executados no código.
+
+- No início eles irão e devem falhar. No entanto, ao decorrer da implementação do código de produção, os testes começão a passar (caso realmente esteja de acordo com o esperado).
 
 ##### SUT (System Under Test)
 

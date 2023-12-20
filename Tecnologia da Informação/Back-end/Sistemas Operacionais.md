@@ -38,6 +38,8 @@
 - Time sharing: evolução da Multiprogramação
 - Diminuição do tempo de resposta: de horas para segundos
 - TSS, Multics e CP/CMS: memória virtual
+  - Técnica que permite a execução de processos que não estão totalmente na memória.
+  - Os programas podem ser maiores do que a memória física (RAM).
 - Unix, 1971
   - AT&T Bell Laboratories
   - por Ken Thompson, Dennis Ritchie, Douglas McIlroy e Joe Ossanna

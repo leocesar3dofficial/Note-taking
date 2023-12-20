@@ -79,6 +79,8 @@
   - Django (Python)
   - Flask (Python microframework)
   - JPA (Java, interface comum para frameworks ORM)
+    - Based on Hibernate on its inception.
+    - Jakarta Persistence API (formerly Java Persistence API).
   - Hibernate (Java, Mapeamento Objeto-Relacional ou Object-Relational Mapping (ORM))
 
     - Hibernate 6.2 usa a estratégia otimista de bloqueio por padrão
