@@ -130,9 +130,13 @@
 
 #### Conceito
 
-- Segunda versão do protocolo HTTP (Hypertext Transfer Protocol)
-- Utilizado para comunicação entre navegadores web e servidores
-- Projetado para melhorar o desempenho da web, incluindo carregamento de páginas e recursos web
+- Segunda versão do protocolo HTTP (Hypertext Transfer Protocol).
+- Utilizado para comunicação entre navegadores web e servidores.
+- Permite a transferência de dados entre redes de computadores.
+- Possibilita que ao inserir a URL do seu site na Web seja possível ver os conteúdos e dados que nele existem.
+- É a base da comunicação que existe em toda a Internet em que os sites e conteúdos que tragam hiperlinks possam ser encontrados mais facilmente.
+- Projetado para melhorar o desempenho da web, incluindo carregamento de páginas e recursos web.
+- Na camada de transporte, o protocolo TCP.
 
 #### Características
 

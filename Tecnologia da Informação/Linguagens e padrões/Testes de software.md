@@ -130,9 +130,10 @@
 
 ### Testes de Integração
 
-- Verificar se os diferentes componentes de um sistema funcionam bem juntos quando são integrados
-- **Objetivo**: Identificar problemas que possam surgir quando os componentes individuais do software são combinados e interagem entre si
-- Incluem testes de regressão para garantir que as alterações nos componentes integrados não tenham introduzido defeitos ou problemas inesperados
+- Verificar se os diferentes componentes de um sistema funcionam bem juntos quando são integrados.
+- **Objetivo**: Identificar problemas que possam surgir quando os componentes individuais do software são combinados e interagem entre si.
+- Concentram-se na **comunicação entre partes** do sistema.
+- Incluem testes de regressão para garantir que as alterações nos componentes integrados não tenham introduzido defeitos ou problemas inesperados.
 
 #### Integração Contínua
 
@@ -160,9 +161,9 @@
 
 ### Testes de Regressão
 
-- Garantir que as alterações recentes no software não tenham introduzido novos defeitos ou afetado negativamente as funcionalidades existentes
-- É útil em cenários de desenvolvimento ágil, onde as alterações frequentes são feitas
-- Pode ser automatizado para economizar tempo e recursos
+- Garantir que as **alterações/mudanças** recentes no software não tenham introduzido novos defeitos ou afetado negativamente as funcionalidades existentes.
+- É útil em cenários de desenvolvimento ágil, onde as alterações frequentes são feitas.
+- Pode ser automatizado para economizar tempo e recursos.
 
 ## Padrões de Qualidade
 
@@ -242,7 +243,8 @@
 - O que é quantificado
   - Entradas, saídas
   - Consultas
-  - Arquivos lógicos
+  - Arquivos lógicos (não contêm dados)
+    - Representação ou visualização de um ou mais arquivos físicos (multiformatos).
   - Interfaces do usuário de um sistema
 - Utiliza-se de estimativas
 - Independe da tecnologia utilizada
@@ -342,12 +344,18 @@
 ### JUnit (Java)
 
 - **Descrição**
-  - É um dos frameworks de teste mais conhecido e usado
+  - É um dos frameworks de teste mais conhecido e usado.
 - **Características**
-  - Suporta anotações para definir testes e configurações
-  - Oferece assertivas para verificar resultados esperados
-  - Integração com IDEs populares, como Eclipse e IntelliJ IDEA
-  - Suporte para testes parametrizados e suítes de testes
+  - Suporta anotações para definir testes e configurações.
+  - Oferece assertivas para verificar resultados esperados.
+  - Integração com IDEs populares, como Eclipse e IntelliJ IDEA.
+  - Suporte para testes parametrizados e suítes de testes.
+- **Módulos**
+  - Plataforma JUnit, JUnit Jupiter e JUnit Vintage.
+- **Anotações e recursos**
+  - @Test: é possível especificar um método de teste.
+  - assertEquals: um método de asserção localizado normalmente no interior dos métodos de testes.
+    - Faz o método de teste falhar ou ter sucesso.
 
 ### Mockito (Java)
 
@@ -365,9 +373,10 @@
   - É uma ferramenta de automação de testes de interface de usuário (UI) de aplicativos web
 
 - **Características**
-  - Suporta várias linguagens de programação, incluindo Java, Python e C#
-  - Permite a automação de ações de navegação em navegadores web
-  - Usado para testar aplicativos web em diferentes navegadores e sistemas operacionais
+  - Suporta várias linguagens de programação, incluindo Java, Python e C#.
+  - Permite a automação de ações de navegação em navegadores web.
+  - Usado para testar aplicativos web em diferentes navegadores e sistemas operacionais.
+  - WebDriver API pode ser utilizada para a automação de aplicações Web com a linguagem Java e com a API de testes JUnit.
 
 ### Jest (JavaScript)
 

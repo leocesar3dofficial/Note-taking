@@ -59,7 +59,7 @@
 
 ### TCP, Transmission Control Protocol
 
-- Pacote ou package
+- Pacote ou package.
 
 ### IP, Internet Protocol
 

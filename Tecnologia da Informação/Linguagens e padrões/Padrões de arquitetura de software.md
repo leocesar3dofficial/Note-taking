@@ -87,9 +87,10 @@
 
 #### Criptografia
 
-- Garantir a confidencialidade dos dados
-- Uso de protocolos como HTTPS (HTTP seguro)
-- Utilizar criptografia de ponta a ponta com chaves assimétricas
+- Garantir a confidencialidade dos dados.
+- Uso de protocolos como HTTPS (HTTP seguro).
+  - Utiliza a porta 443.
+- Utilizar criptografia de ponta a ponta com chaves assimétricas.
 
 #### Validação e sanitização de entrada
 

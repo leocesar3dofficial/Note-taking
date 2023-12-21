@@ -3,10 +3,11 @@
 - **Servidores Web (HTTP Server)**
 
   - Nginx
-    - Liberar portas se usar o Uncomplicated Firewall (UFW) com os perfis
-      - Nginx Full: Abre as portas 80 e 443 (para criptografia SSL/TLS)
-      - Nginx HTTP: Abre apenas a porta 80 (para tráfego da Web não criptografado)
-      - Nginx HTTPS: Abre apenas a porta 443 (para criptografia SSL/TLS)
+    - Armazena em cache todas as respostas às solicitações feitas com os métodos HTTP (GET e HEAD) na primeira vez que essas respostas são recebidas de um servidor proxy.
+    - Liberar portas se usar o Uncomplicated Firewall (UFW) com os perfis.
+      - Nginx Full: Abre as portas 80 e 443 (para criptografia SSL/TLS).
+      - Nginx HTTP: Abre apenas a porta 80 (para tráfego da Web não criptografado).
+      - Nginx HTTPS: Abre apenas a porta 443 (para criptografia SSL/TLS).
   - Apache
   - IIS (Microsoft Internet Information Services)
 

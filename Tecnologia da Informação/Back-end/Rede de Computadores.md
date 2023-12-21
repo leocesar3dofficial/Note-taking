@@ -4,10 +4,10 @@
 
 ### Protocolos
 
-- Conjunto de protocolos utilizados para a comunicação na Internet
-- TCP (Transmission Control Protocol)
-- IP (Internet Protocol)
-- Fundamentais para o funcionamento da internet
+- Conjunto de protocolos utilizados para a comunicação na Internet.
+- TCP (Transmission Control Protocol).
+- IP (Internet Protocol).
+- Fundamentais para o funcionamento da Internet.
 
 ### Segmentação e Endereçamento
 
@@ -15,6 +15,14 @@
 - Os endereços IPv4 consistem em quatro grupos de números
 - O IPv6 usa endereços muito mais longos
 - Segmentação refere-se à divisão de dados em pacotes para transmissão pela rede
+
+### Camadas
+
+1. **Fisica:** Modem, RDIS, RS-32, EIA- 422, RS-449, Bluetooth, USB.
+2. **Enlance:** Ethernet, 802.11 WIFI, IEEE 802.1Q, 802.11G, HDLC, Token ring, FDDI, PPP, Switch, Frame relay.
+3. **Rede:** IP (IPV4, IPV6), ARP, RARP, ICMP, IPSec, etc.
+4. **Transporte:** TCP, UDP, RTP, SCTP, DCCP.
+5. **Aplicação:** HTTP, SMTP, FTP, SSH, TELNET, SIP, RDP, IRC, SNMP, NNTP, POP3, IMAP, BitTorrent, DNS, PING, etc.
 
 ## Protocolos de Roteamento
 

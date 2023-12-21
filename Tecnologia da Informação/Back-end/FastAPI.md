@@ -272,7 +272,20 @@ async def read_user_item(
     return item
 ```
 
-##### Cookie
+##### Cookies
+
+Características
+
+- Cookies são gravados no lado cliente.
+- O cabeçalho/header HTTP de resposta “Set-Cookie” envia cookies do servidor para o cliente.
+- A diretiva “Max-Age” define o número de segundos até o cookie expirar.
+- Diretiva HttpOnly
+  - Usado para prevenir de ataques cross-site scripting (XSS).
+  - São inacessíveis para a API JavaScript Document.cookie.
+  - São enviados só para o servidor.
+  - Exemplo: cookies que persistem sessões de servidor.
+
+Como usar:
 
 ```python
 from fastapi import Cookie, FastAPI

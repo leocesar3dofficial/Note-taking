@@ -10,6 +10,9 @@
 
 ## Controle de versão com Git
 
+- Sistema de controle de versão distribuído. Diferente do Subversion (SVN), que é um sistema de controle de versão centralizado.
+- o Git é o sistema de controle de versão mais flexível, escalável e amplamente adotado.
+
 ## Ferramentas de orquestração
 
 ### Gitlab (similar ao GitHub)

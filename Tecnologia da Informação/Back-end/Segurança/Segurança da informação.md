@@ -365,10 +365,14 @@
 
 - Protocolos de segurança para estabelecer uma conexão criptografada.
 - Fornecem autenticação, integridade e confidencialidade dos dados transmitidos.
-- Usos:
+- Usos
   - Transações financeiras online.
   - E-mails seguros.
   - Acesso a sites por meio de HTTPS.
+    - Mensagens do handshake
+      1. ClientHello, enviada pelo cliente.
+      2. ServerHello, enviada pelo servidor.
+         - Contém os parâmetros criptográficos que serão utilizados na conexão.
 
 ### SSH (Secure Shell Protocol)
 
@@ -552,14 +556,12 @@
   - Gerencia informações de diretório, como usuários e grupos em sistemas de autenticação centralizada, como serviços de diretório ativos.
 
 - **SMTP (Simple Mail Transfer Protocol)**
+
   - Protocolo de texto simples para enviar e receber e-mails pela Internet.
   - Responsável pelo envio de mensagens de e-mail entre servidores.
-  - Opera nas portas 25, 587 (conexões seguras usando STARTTLS), e 465 (conexões seguras usando SSL/T
-
-LS).
-
-- Permite a entrega de mensagens aos destinatários corretos.
-- Funciona em conjunto com outros protocolos como POP3 e IMAP para receber e gerenciar e-mails em clientes de e-mail.
+  - Opera nas portas 25, 587 (conexões seguras usando STARTTLS), e 465 (conexões seguras usando SSL/TLS).
+  - Permite a entrega de mensagens aos destinatários corretos.
+  - Funciona em conjunto com outros protocolos como POP3 e IMAP para receber e gerenciar e-mails em clientes de e-mail.
 
 - **NFS (Network File System)**
 

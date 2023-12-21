@@ -1,10 +1,12 @@
 # Arquitetura de sistemas web
 
-## Protocolo HTTP (Hypertext Transfer Protocol)
+## Protocolo HTTP
 
+- Hypertext Transfer Protocol.
 - O HTTP é o protocolo utilizado para comunicação entre clientes (geralmente navegadores) e servidores web.
 - Define como as informações são solicitadas e transmitidas na web.
 - Permite a transferência de recursos como páginas HTML, imagens e outros elementos da web.
+- É stateless: ou seja não guarda estado das conexões.
 
 ## SSL (Secure Sockets Layer)
 

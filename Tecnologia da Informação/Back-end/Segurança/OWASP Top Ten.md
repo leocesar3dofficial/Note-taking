@@ -22,10 +22,12 @@
        - Configure seu aplicativo para que ele só aceite solicitações de origens confiáveis
        - Ajuda a prevenir solicitações de sites não autorizados
      - Utilizar cabeçalhos HTTP apropriados
-       - Configure cabeçalhos HTTP, como o cabeçalho "Referer" e o cabeçalho "Origin"
-       - Para verificar a origem de solicitações e rejeitar solicitações de fontes não autorizadas
-     - Exigir autenticação sensível
-       - Solicitações que envolvem ações sensíveis devem exigir autenticação adicional
+       - Cabeçalhos
+         - Host: contém o DNS do servidor.
+       - Configure cabeçalhos HTTP, como o cabeçalho "Referer" e o cabeçalho "Origin".
+       - Para verificar a origem de solicitações e rejeitar solicitações de fontes não autorizadas.
+     - Exigir autenticação sensível.
+       - Solicitações que envolvem ações sensíveis devem exigir autenticação adicional.
        - Como a solicitação de senha ou autenticação de dois fatores
      - Fornecer confirmação para ações críticas
        - Como a exclusão de uma conta ou transferência de fundos
