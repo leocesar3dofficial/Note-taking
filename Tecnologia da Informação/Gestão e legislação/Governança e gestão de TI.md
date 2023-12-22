@@ -62,24 +62,24 @@
 
 - Financeira
   - Lucro líquido
-    - $$ Receita total - Custos e despesas $$
+    - $$ \text{Receita total} - \text{Custos e despesas} $$
   - Retorno sobre o investimento (ROI)
-    - $$ Lucro líquido / Investimento total $$
+    - $$ \frac{\text{Lucro líquido}}{\text{Investimento total}} $$
 - Cliente
   - Índice de satisfação do cliente
     - Média das avaliações de satisfação dos clientes
   - NPS (Net Promoter Score)
-    - $$ Percentual de promotores - Percentual de detratores $$
+    - $$ \text{Percentual de promotores} - \text{Percentual de detratores} $$
 - Processos internos
   - Tempo médio de entrega do produto
-    - $$ Soma dos tempos de entrega / Número de pedidos $$
+    - $$ \frac{\text{Soma dos tempos de entrega}} {\text{Número de pedidos}} $$
   - Taxa de defeitos ou retrabalho
-    - $$ Número de produtos defeituosos |divide Número total de produtos $$
+    - $$ \frac{\text{Número de produtos defeituosos}} {\text{Número total de produtos}} $$
 - Aprendizado e crescimento
   - Horas de treinamento por funcionário
-    - $$ Total de horas de treinamento / Número de funcionários $$
+    - $$ \frac{\text{Total de horas de treinamento}} {\text{Número de funcionários}} $$
   - Taxa de retenção de talentos
-    - $$ Número de funcionários retidos / Número de funcionários no início do período $$
+    - $$ \frac{\text{Número de funcionários retidos}} {\text{Número de funcionários no início do período}} $$
 
 ## Gestão de projetos PMBoK
 

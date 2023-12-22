@@ -88,3 +88,20 @@
   - Verificação
   - Validação
   - Solução Técnica
+
+## Métricas
+
+### Taxa de defeitos por mil linhas de código (KLOC)
+
+- Avalia a qualidade do código-fonte de um programa.
+- Quantifica o número de defeitos, bugs ou erros encontrados no software em relação à quantidade de linhas de código escritas.
+
+### Fórmula
+
+$$ \text{Taxa de Defeitos por KLOC} = \frac{\text{Número total de defeitos}}{\text{Número total de milhares de linhas de código (KLOC)}} $$
+
+## Conceitos
+
+### Rigor
+
+É a abordagem que produz produtos mais confiáveis pelo controle das variáveis envolvidas.

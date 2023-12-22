@@ -238,13 +238,23 @@
 
 ### 2. Pontos de Função (Function Points)
 
+#### Características
+
 - Funcionalidades fornecidas por um sistema.
 - Orientada para a análise do impacto das funcionalidades do software.
 
 #### O que é quantificado
 
-- Entradas, saídas.
-- Consultas.
+- Interações entre o usuário e o sistema (externa) e sua complexidade (baixa à altamente complexa):
+  - **Entradas**
+    - Os dados vão do ambiente externo para o sistema.
+    - Exemplo: Um formulário preenchido pelo usuário.
+  - **Saídas**
+    - Os dados vão do sistema para o ambiente externo.
+    - Exemplo: Um relatório gerado pelo sistema e enviado ao usuário.
+  - **Consultas**
+    - O sistema responde a uma pergunta ou consulta do usuário sem alterar dados.
+    - Exemplo: Uma pesquisa ao sistema para obter informações. Gera uma saída.
 - Arquivos lógicos (não contêm dados).
   - Representação ou visualização de um ou mais arquivos físicos (multiformatos).
 - Interfaces do usuário de um sistema.
@@ -275,6 +285,8 @@
 ### 6. Análise de Pontos de Função
 
 - Funcionalidades que um sistema deve realizar.
+- Análise dinâmica
+  - É possível identificar exceções que não foram tratadas.
 
 ### 7. Análise de Ponto de Função Ajustada (APFA)
 

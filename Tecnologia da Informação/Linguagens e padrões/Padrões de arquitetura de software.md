@@ -4,6 +4,7 @@
 
 - **Separação de Responsabilidades:**
 
+  - Utiliza o princípio de Separação de Conceitos (Separation of Concerns, SoC).
   - O modelo (model) representa os dados e a lógica de negócios.
   - A visão (view) é responsável pela apresentação dos dados ao usuário.
   - O controlador (controller) manipula as interações do usuário e coordena o modelo e a visão.
