@@ -1,154 +1,191 @@
-**Plataformas de Desenvolvimento**
+# Plataformas de Desenvolvimento
 
-- **Servidores Web (HTTP Server)**
+## Servidores Web (HTTP Server)
 
-  - Nginx
-    - Armazena em cache todas as respostas às solicitações feitas com os métodos HTTP (GET e HEAD) na primeira vez que essas respostas são recebidas de um servidor proxy.
-    - Liberar portas se usar o Uncomplicated Firewall (UFW) com os perfis.
-      - Nginx Full: Abre as portas 80 e 443 (para criptografia SSL/TLS).
-      - Nginx HTTP: Abre apenas a porta 80 (para tráfego da Web não criptografado).
-      - Nginx HTTPS: Abre apenas a porta 443 (para criptografia SSL/TLS).
-  - Apache
-  - IIS (Microsoft Internet Information Services)
+- Nginx
+  - Armazena em cache todas as respostas às solicitações feitas com os métodos HTTP (GET e HEAD) na primeira vez que essas respostas são recebidas de um servidor proxy.
+  - Liberar portas se usar o Uncomplicated Firewall (UFW) com os perfis.
+    - Nginx Full: Abre as portas 80 e 443 (para criptografia SSL/TLS).
+    - Nginx HTTP: Abre apenas a porta 80 (para tráfego da Web não criptografado).
+    - Nginx HTTPS: Abre apenas a porta 443 (para criptografia SSL/TLS).
+- Apache
+- IIS (Microsoft Internet Information Services)
 
-- **Servidores de Aplicação**
+## Servidores de Aplicação
 
-  - Java Platform, Enterprise Edition (JEE)
-  - Wildfly
-    - Usa JBoss Modules para fornecer isolamento de aplicação
-    - Console de Administração (Recursos)
-      - Criar a conta de administrador (somente no primeiro acesso)
-      - Interface baseada na web (acesso via navegador/browser)
-      - Iniciar e parar o servidor
-      - Implantar e desimplantar aplicativos
-      - Configurar o servidor
-      - Monitorar o desempenho do servidor
-  - Tomcat
-  - Node.js
-    - Express
-    - Next.js
+- Java Platform, Enterprise Edition (JEE)
+- Wildfly
+  - Usa JBoss Modules para fornecer isolamento de aplicação
+  - Console de Administração (Recursos)
+    - Criar a conta de administrador (somente no primeiro acesso)
+    - Interface baseada na web (acesso via navegador/browser)
+    - Iniciar e parar o servidor
+    - Implantar e desimplantar aplicativos
+    - Configurar o servidor
+    - Monitorar o desempenho do servidor
+- Tomcat
+- Node.js
 
-- **Conceito de Servidores de Armazenamento de Objetos**
+  - Express
+  - Next.js
 
-  - **Plataformas**
-    - Jackrabbit (JCR)
-      - Plataforma de gerenciamento de conteúdo baseada na tecnologia Java Content Repository (JCR)
-      - Fornece um ambiente de armazenamento hierárquico para conteúdo estruturado e não estruturado
-      - Permite o gerenciamento eficiente de informações em um formato flexível
-      - Oferece recursos avançados de pesquisa, versionamento, controle de acesso e suporte a transações
-      - Adequado para aplicativos que exigem um sistema robusto de gerenciamento de conteúdo
-    - H2 DB
-      - Sistema de gerenciamento de banco de dados relacional (RDBMS) escrito em Java
-      - Conhecido por sua leveza, desempenho rápido e facilidade de uso
-      - Pode ser usado como um banco de dados incorporado em aplicativos Java ou como um servidor de banco de dados autônomo
-      - Suporta recursos avançados, como consultas SQL, transações ACID, índices, replicação e suporte a vários modos de acesso
-      - Uma escolha popular para aplicativos que exigem uma solução de banco de dados eficiente
-    - MinIO
-      - Sistema de armazenamento de objetos de código aberto
-      - Compatível com o protocolo S3 da Amazon
-      - Projetado para ser escalável, altamente disponível e fácil de usar
-      - Permite armazenar e recuperar grandes volumes de dados não estruturados
-      - Interface simples baseada em RESTful APIs
-      - Recursos como criptografia, replicação, balanceamento de carga e suporte a várias regiões
-      - Opção popular para aplicativos que precisam de armazenamento distribuído de objetos
-    - Apache Kafka
-      - Plataforma de streaming distribuída
-      - Usada para construir sistemas de mensagens em tempo real e processamento de fluxo de dados
-      - Projetado para lidar com grandes volumes de dados em tempo real
-      - Fornece uma arquitetura escalável e tolerante a falhas
-      - Permite a captura, armazenamento e processamento de streams de eventos em tempo real
-      - Fornece recursos como particionamento, replicação, persistência e garantias de entrega
-      - Amplamente utilizado em aplicativos de streaming, processamento de eventos, ingestão de dados em tempo real e pipelines de dados
-    - RabbitMQ
-      - Sistema de mensagens de código aberto
-      - Implementa o protocolo Advanced Message Queuing Protocol (AMQP)
-      - Fornece uma plataforma robusta para troca de mensagens entre aplicativos distribuídos
-      - Permite o envio e a recepção de mensagens assíncronas entre diferentes componentes de um sistema
-      - Garante a entrega confiável e ordenada das mensagens
-      - Suporta recursos avançados, como filas, trocas, roteamento flexível e filas de mensagens persistentes
-      - Amplamente utilizado em aplicativos de integração, microservices, sistemas distribuídos e arquiteturas orientadas a eventos
-    - ActiveMQ
-      - **Fornecedor**
-        - Solução de mensageria de código aberto mantida pela Apache Software Foundation
-        - Adotado pela comunidade de código aberto e é conhecido por ser de fácil uso e configuração
-      - **Protocolos Suportados**
-        - Protocolo OpenWire, MQTT, AMQP, STOMP e WebSocket
-        - Isso o torna versátil e adequado para uma variedade de casos de uso
-      - **Modelo de Mensagens**
-        - Segue o modelo de publish-subscribe e o modelo de fila de mensagens
-        - Permite a comunicação assíncrona entre diferentes aplicativos e componentes
-      - **Escalabilidade**
-        - Pode ser configurado para atender às necessidades de escalabilidade horizontal e vertical
-      - **Integração com o Ecossistema Apache**
-        - Como parte do ecossistema Apache, pode ser facilmente integrado com outras ferramentas e tecnologias Apache
-          - como o Apache Camel, para criar soluções de integração mais abrangentes
-    - WebSphereMQ (IBM MQ)
-      - **Fornecedor**
-        - Desenvolvido pela IBM
-        - Solução de mensageria comercial de alto desempenho usada em ambientes empresariais
-      - **Protocolos Suportados**
-        - TCP/IP, HTTP, WebSphere MQ JMS, entre outros
-        - Compatível com outros produtos da IBM
-      - **Modelo de Mensagens**
-        - Segue o modelo de fila de mensagens e é conhecido por sua confiabilidade
-        - Garante que as mensagens sejam entregues uma única vez e na ordem correta
-      - **Recursos Avançados**
-        - Clustering para alta disponibilidade
-          - Alternativa paralela à estrutura funcional de redes de dados, elétrica e computacional
-        - Criptografia de mensagens, suporte a transações distribuídas
-        - Integração com outros produtos da IBM, como o WebSphere Application Server
-      - **Licenciamento**
-        - É uma solução comercial e requer licenciamento
+## Conceito de Servidores de Armazenamento de Objetos
 
-- **Gerenciamento de Contêineres**
+### Plataformas
 
-  - Docker
-    - Plataforma de código aberto para empacotar, distribuir e executar aplicativos em contêineres
-    - Contêineres são ambientes isolados que contêm todas as dependências e bibliotecas necessárias para executar um aplicativo
-      - Segregação de processos no mesmo kernel
-      - O processo é isolado o máximo possível de todo o resto do ambiente
-    - Garante que ele seja executado consistentemente em diferentes ambientes
-    - Fornece uma maneira fácil e eficiente de criar, implantar e gerenciar contêineres
-    - Permite a escalabilidade e a portabilidade de aplicativos
-    - Facilita a implantação de aplicativos e a construção de ambientes de desenvolvimento consistentes
+- Jackrabbit (JCR)
+  - Plataforma de gerenciamento de conteúdo baseada na tecnologia Java Content Repository (JCR)
+  - Fornece um ambiente de armazenamento hierárquico para conteúdo estruturado e não estruturado
+  - Permite o gerenciamento eficiente de informações em um formato flexível
+  - Oferece recursos avançados de pesquisa, versionamento, controle de acesso e suporte a transações
+  - Adequado para aplicativos que exigem um sistema robusto de gerenciamento de conteúdo
+- H2 DB
+  - Sistema de gerenciamento de banco de dados relacional (RDBMS) escrito em Java
+  - Conhecido por sua leveza, desempenho rápido e facilidade de uso
+  - Pode ser usado como um banco de dados incorporado em aplicativos Java ou como um servidor de banco de dados autônomo
+  - Suporta recursos avançados, como consultas SQL, transações ACID, índices, replicação e suporte a vários modos de acesso
+  - Uma escolha popular para aplicativos que exigem uma solução de banco de dados eficiente
+- MinIO
+  - Sistema de armazenamento de objetos de código aberto
+  - Compatível com o protocolo S3 da Amazon
+  - Projetado para ser escalável, altamente disponível e fácil de usar
+  - Permite armazenar e recuperar grandes volumes de dados não estruturados
+  - Interface simples baseada em RESTful APIs
+  - Recursos como criptografia, replicação, balanceamento de carga e suporte a várias regiões
+  - Opção popular para aplicativos que precisam de armazenamento distribuído de objetos
+- Apache Kafka
+  - Plataforma de streaming distribuída
+  - Usada para construir sistemas de mensagens em tempo real e processamento de fluxo de dados
+  - Projetado para lidar com grandes volumes de dados em tempo real
+  - Fornece uma arquitetura escalável e tolerante a falhas
+  - Permite a captura, armazenamento e processamento de streams de eventos em tempo real
+  - Fornece recursos como particionamento, replicação, persistência e garantias de entrega
+  - Amplamente utilizado em aplicativos de streaming, processamento de eventos, ingestão de dados em tempo real e pipelines de dados
+- RabbitMQ
+  - Sistema de mensagens de código aberto
+  - Implementa o protocolo Advanced Message Queuing Protocol (AMQP)
+  - Fornece uma plataforma robusta para troca de mensagens entre aplicativos distribuídos
+  - Permite o envio e a recepção de mensagens assíncronas entre diferentes componentes de um sistema
+  - Garante a entrega confiável e ordenada das mensagens
+  - Suporta recursos avançados, como filas, trocas, roteamento flexível e filas de mensagens persistentes
+  - Amplamente utilizado em aplicativos de integração, microservices, sistemas distribuídos e arquiteturas orientadas a eventos
+- ActiveMQ
+  - **Fornecedor**
+    - Solução de mensageria de código aberto mantida pela Apache Software Foundation
+    - Adotado pela comunidade de código aberto e é conhecido por ser de fácil uso e configuração
+  - **Protocolos Suportados**
+    - Protocolo OpenWire, MQTT, AMQP, STOMP e WebSocket
+    - Isso o torna versátil e adequado para uma variedade de casos de uso
+  - **Modelo de Mensagens**
+    - Segue o modelo de publish-subscribe e o modelo de fila de mensagens
+    - Permite a comunicação assíncrona entre diferentes aplicativos e componentes
+  - **Escalabilidade**
+    - Pode ser configurado para atender às necessidades de escalabilidade horizontal e vertical
+  - **Integração com o Ecossistema Apache**
+    - Como parte do ecossistema Apache, pode ser facilmente integrado com outras ferramentas e tecnologias Apache
+      - como o Apache Camel, para criar soluções de integração mais abrangentes
+- WebSphereMQ (IBM MQ)
 
-- Kubernetes
-  - Plataforma de orquestração de contêineres de código aberto
-  - Automatiza o gerenciamento, a escalabilidade e a implantação de aplicativos em contêineres
-  - Usado para implantar e gerenciar aplicativos em ambientes de produção escaláveis e altamente disponíveis
-  - Fornece um ambiente para implantar e executar aplicativos em vários nós de um cluster
-    - **Cluster:** é um grupo de nós
-    - **Nó:** é uma máquina que executa o kubelet
-    - **Kubelet:** é um processo que gerencia os contêineres em um nó
-  - Gerencia automaticamente a distribuição de carga, o balanceamento de recursos e a resiliência dos aplicativos
+  - **Fornecedor**
+    - Desenvolvido pela IBM
+    - Solução de mensageria comercial de alto desempenho usada em ambientes empresariais
+  - **Protocolos Suportados**
+    - TCP/IP, HTTP, WebSphere MQ JMS, entre outros
+    - Compatível com outros produtos da IBM
+  - **Modelo de Mensagens**
+    - Segue o modelo de fila de mensagens e é conhecido por sua confiabilidade
+    - Garante que as mensagens sejam entregues uma única vez e na ordem correta
   - **Recursos Avançados**
-    - Dimensionamento automático
-    - Monitoramento
-    - Recuperação automática de falhas
-    - Gerenciamento de segredos
-  - **Ferramentas**
-    - Argo CD
-      - **Características**
-        - Ferramenta de entrega contínua declarativa e GitOps para Kubernetes
-        - Usado para gerenciar o ciclo de vida de aplicativos em um cluster Kubernetes
-        - Permite que você defina, implante e monitore aplicativos em um cluster Kubernetes
-        - Usa arquivos YAML e Git
-      - **Recursos**
-        - Automatizar a implantação de aplicativos
-        - Auditar as alterações de configuração
-        - Garantir que os ambientes de implantação sejam consistentes e confiáveis
-    - OpenShift (Red Hat)
-      - Construída em cima do Kubernetes
-        - Install, update, and manage the lifecycle of Kubernetes native applications (Operators)
-        - Cluster service version (definir metadados)
-      - Usado por empresas para criar, implantar e gerenciar aplicativos em contêineres de maneira eficiente e produtiva
-      - É uma plataforma de desenvolvimento e implantação de aplicativos baseada em contêineres
-      - Fornece recursos adicionais de gerenciamento e automação
-      - Facilita a implantação e o gerenciamento de aplicativos em contêineres
-      - Recursos de desenvolvimento, integração contínua, implantação contínua e escalabilidade automática
-      - Fornece um catálogo de serviços prontos para uso
-      - Suporta o desenvolvimento de aplicativos em várias linguagens de programação
-      - Permite a integração com ferramentas populares de desenvolvimento e DevOps
+    - Clustering para alta disponibilidade
+      - Alternativa paralela à estrutura funcional de redes de dados, elétrica e computacional
+    - Criptografia de mensagens, suporte a transações distribuídas
+    - Integração com outros produtos da IBM, como o WebSphere Application Server
+  - **Licenciamento**
+    - É uma solução comercial e requer licenciamento
+
+## Gerenciamento de Contêineres
+
+### Docker
+
+#### Características
+
+- Plataforma de código aberto para empacotar, distribuir e executar aplicativos em contêineres.
+- Contêineres são ambientes isolados que contêm todas as dependências e bibliotecas necessárias para executar um aplicativo.
+  - Segregação de processos no mesmo kernel.
+  - O processo é isolado o máximo possível de todo o resto do ambiente.
+- Garante que ele seja executado consistentemente em diferentes ambientes.
+- Fornece uma maneira fácil e eficiente de criar, implantar e gerenciar contêineres.
+- Permite a escalabilidade e a portabilidade de aplicativos.
+- Facilita a implantação de aplicativos e a construção de ambientes de desenvolvimento consistentes.
+- Segue o formato estabelecido pela [OCI](#oci-open-container-initiative).
+
+#### Recursos
+
+- **Imagens Docker:** Pacotes pré-configurados que contêm tudo o que é necessário para executar um aplicativo.
+- **Dockerfile:** Um arquivo de configuração usado para construir imagens Docker de forma reproduzível.
+- **Docker Hub:** Um repositório online para compartilhar e distribuir imagens Docker.
+
+### Kubernetes
+
+#### Características
+
+- Também conhecido como K8s e desenvolvido pelo Google, é uma plataforma de orquestração de contêineres declarativa de código aberto.
+- Automatiza o gerenciamento, a escalabilidade e a implantação de aplicativos em contêineres.
+- Usado para implantar e gerenciar aplicativos em ambientes de produção escaláveis e altamente disponíveis.
+- Fornece um ambiente para implantar e executar aplicativos em vários nós de um cluster:
+  - **Cluster:** é um grupo de nós.
+  - **Nó:** é uma máquina que executa o kubelet.
+  - **Kubelet:** é um processo que gerencia os contêineres em um nó.
+- Gerencia automaticamente a distribuição de carga, o balanceamento de recursos e a resiliência dos aplicativos.
+
+#### Recursos
+
+- Dimensionamento automático.
+- Monitoramento.
+- Recuperação automática de falhas.
+- Gerenciamento de segredos.
+- **Pods:** A menor unidade em Kubernetes, que contém um ou mais contêineres.
+- **Service:** Define um conjunto lógico de Pods e uma política de acesso a esses Pods.
+- **Deployment:** Permite a definição e atualização de aplicativos.
+
+#### Ferramentas
+
+- Argo CD
+  - **Características**
+    - Ferramenta de entrega contínua declarativa e GitOps para Kubernetes
+    - Usado para gerenciar o ciclo de vida de aplicativos em um cluster Kubernetes
+    - Permite que você defina, implante e monitore aplicativos em um cluster Kubernetes
+    - Usa arquivos YAML e Git
+  - **Recursos**
+    - Automatizar a implantação de aplicativos
+    - Auditar as alterações de configuração
+    - Garantir que os ambientes de implantação sejam consistentes e confiáveis
+- OpenShift (Red Hat)
+  - Construída em cima do Kubernetes
+    - Install, update, and manage the lifecycle of Kubernetes native applications (Operators)
+    - Cluster service version (definir metadados)
+  - Usado por empresas para criar, implantar e gerenciar aplicativos em contêineres de maneira eficiente e produtiva
+  - É uma plataforma de desenvolvimento e implantação de aplicativos baseada em contêineres
+  - Fornece recursos adicionais de gerenciamento e automação
+  - Facilita a implantação e o gerenciamento de aplicativos em contêineres
+  - Recursos de desenvolvimento, integração contínua, implantação contínua e escalabilidade automática
+  - Fornece um catálogo de serviços prontos para uso
+  - Suporta o desenvolvimento de aplicativos em várias linguagens de programação
+  - Permite a integração com ferramentas populares de desenvolvimento e DevOps
+
+### OCI (Open Container Initiative)
+
+#### Características
+
+- A OCI é uma iniciativa de padrões abertos criada para garantir a portabilidade entre diferentes implementações de contêineres.
+- Foi lançada para estabelecer padrões comuns para o formato de contêineres e as especificações de execução.
+
+#### Componentes Principais
+
+- **Image Specification:** Define o formato e a estrutura de uma imagem de contêiner.
+- **Runtime Specification:** Define como um contêiner deve ser executado e interagir com o sistema operacional subjacente.
+- **Objetivo:**
+  - Fornecer uma base comum para que diferentes implementações de contêineres possam interoperar e oferecer uma experiência consistente para os usuários.
 
 ## Arquiteturas de infraestrutura em nuvem (cloud computing)
 
@@ -221,7 +258,7 @@
 - Promove a modularidade, o reuso e a flexibilidade na construção de aplicativos em nuvem
 - Permite a escalabilidade horizontal e a manutenção simplificada
 
-#### Modelo de serviço em nuvem
+#### Modelos de serviço em nuvem
 
 ##### IaaS (Infraestrutura como Serviço)
 
@@ -238,17 +275,18 @@
 
 ##### SaaS (Software como Serviço)
 
-- Um aplicativo é disponibilizado aos usuários por meio da Internet
-- Em vez de adquirir e instalar o software localmente, os usuários acessam o aplicativo remotamente
-  - Geralmente por meio de um navegador da web
-- O provedor de nuvem é responsável pela manutenção, atualização e operação do software
-- Os usuários se concentram em usar o aplicativo sem se preocupar com a infraestrutura subjacente
-- Utilizado em diversas áreas
-  - Gerenciamento de relacionamento com o cliente (CRM)
-  - Colaboração
-  - Gerenciamento de projetos
-  - Recursos Humanos
-  - Exemplos: Google Docs
+- Um aplicativo é disponibilizado aos usuários por meio da Internet.
+- Em vez de adquirir e instalar o software localmente, os usuários acessam o aplicativo remotamente.
+  - Geralmente por meio de um navegador web.
+- O provedor de nuvem é responsável pela manutenção, atualização e operação do software.
+  - Tópico relacionado: [12 fatores](/Tecnologia%20da%20Informação/Gestão%20e%20legislação/Metodologias/12%20fatores.md).
+- Os usuários se concentram em usar o aplicativo sem se preocupar com a infraestrutura subjacente.
+- Utilizado em diversas áreas:
+  - Gerenciamento de relacionamento com o cliente (CRM).
+  - Colaboração.
+  - Gerenciamento de projetos.
+  - Recursos Humanos.
+  - Exemplos: Google Docs, Figma, etc.
 
 ##### PaaS (Plataforma como Serviço)
 
@@ -381,11 +419,11 @@
 
 ## Low-code e no-code
 
-### Utilizam plataformas visuais e intuitivas para facilitar o desenvolvimento de aplicativos
+Utilizam plataformas visuais e intuitivas para facilitar o desenvolvimento de aplicativos.
 
 ### Benefícios
 
-- Podem ser usadas por usuários que não são desenvolvedores
-- Facilitam o desenvolvimento de aplicativos
-- Oferecem uma variedade de recursos de segurança, mas não são isentos de falhas
-- São geralmente mais rápidas e eficientes do que o desenvolvimento manual
+- Podem ser usadas por usuários que não são desenvolvedores.
+- Facilitam o desenvolvimento de aplicativos.
+- Oferecem uma variedade de recursos de segurança, mas não são isentos de falhas.
+- São geralmente mais rápidas e eficientes do que o desenvolvimento manual.

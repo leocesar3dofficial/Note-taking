@@ -12,10 +12,12 @@
 ## Princípios
 
 1. **Cultura de colaboração**
+
    - As equipes de desenvolvimento e operações são integradas em uma única equipe.
    - Enfatiza a importância da colaboração e comunicação eficaz entre as equipes.
    - Envolve a quebra de barreiras e a criação de um ambiente de confiança e compartilhamento de responsabilidades.
    - Anti-padrão: Falta de colaboração entre equipes.
+
 2. **Automação**
 
    - Permite a implantação e integração contínuas.
@@ -102,3 +104,78 @@
    - Análise de logs.
    - Implementação de mecanismos automatizados de resposta a incidentes.
    - Ações corretivas rápidas são tomadas para mitigar ameaças em potencial e melhorar a segurança do sistema.
+
+## Boas Práticas
+
+1. **Automação de Infraestrutura:**
+
+   - Utilização de ferramentas de automação, como o Ansible, Chef, ou Puppet, para provisionamento e configuração automatizados de ambientes de infraestrutura.
+
+2. **Monitoramento Contínuo:**
+
+   - Implementação de soluções de monitoramento que acompanham o desempenho do aplicativo e da infraestrutura em tempo real, possibilitando a detecção rápida de problemas.
+
+3. **Logs Centralizados:**
+
+   - Agregação e análise centralizada de logs do aplicativo e dos componentes da infraestrutura, facilitando a solução de problemas e a compreensão do comportamento do sistema.
+
+4. **Testes de Performance:**
+
+   - Realização de testes de desempenho e escalabilidade para garantir que o aplicativo atenda aos requisitos sob carga e que seja possível identificar e corrigir gargalos de desempenho.
+
+5. **Orquestração de Containers:**
+
+   - Utilização de plataformas de orquestração de containers, como Kubernetes, para facilitar a implantação, o gerenciamento e a escalabilidade de aplicativos baseados em containers.
+
+6. **Pipeline de Entrega Completa (Full CI/CD Pipeline):**
+
+   - Desenvolvimento de pipelines de entrega que abranjam todas as fases, desde a integração contínua até a entrega contínua, com testes automatizados, revisões de código e implementação.
+
+7. **Segurança DevSecOps:**
+
+   - Integração da segurança no ciclo de vida do desenvolvimento, garantindo que as práticas de segurança estejam presentes desde a concepção até a implantação.
+
+8. [**Gestão de Configuração:**](<../Back-end/Gestão de Configuração.md>)
+
+   - Utilização de ferramentas de gestão de configuração para controlar e versionar as configurações do ambiente, garantindo consistência e reproducibilidade.
+
+9. **Políticas de Retenção e Backup:**
+
+   - Implementação de políticas de retenção de dados e procedimentos de backup para garantir a recuperação eficiente em caso de falhas ou perda de dados.
+
+10. **Feedback Contínuo:**
+    - Estabelecimento de uma cultura de feedback contínuo, incentivando a comunicação eficaz entre equipes de desenvolvimento, operações e outros stakeholders.
+
+Essas práticas, quando combinadas, contribuem para a construção de um ambiente de desenvolvimento robusto, ágil e orientado pela automação, promovendo a entrega de software de alta qualidade de maneira eficiente e segura.
+
+## Desenvolvimento com containers/contêineres
+
+1. **Integração Contínua (CI):**
+
+   - A integração contínua é uma prática em que os desenvolvedores integram seu código no repositório compartilhado com frequência, várias vezes ao dia.
+   - Cada integração desencadeia a execução de testes automatizados para garantir que as alterações não quebrem a funcionalidade existente.
+   - O objetivo é detectar e corrigir problemas de integração rapidamente, melhorando a qualidade do código e permitindo um desenvolvimento mais ágil.
+
+2. **Entrega Contínua (CD):**
+
+   - A entrega contínua é uma extensão da integração contínua que leva a automação um passo adiante.
+   - Após a integração bem-sucedida e a execução de testes, o código é automaticamente construído (build), testado e preparado para implantação em ambientes de produção (deploy).
+   - A entrega contínua busca garantir que o software esteja sempre pronto para ser entregue ao cliente, reduzindo os tempos de espera e os riscos associados às implantações manuais.
+
+3. **Feature Flags (Toggles):**
+
+   - As feature flags são mecanismos que permitem ativar ou desativar determinadas funcionalidades do software durante a execução.
+   - Essas flags permitem que as equipes controlem o lançamento de novas funcionalidades, mesmo que estas estejam presentes no código, mas ocultas aos usuários.
+   - As feature flags são úteis para realizar testes A/B, lançar funcionalidades gradualmente e realizar rollouts controlados.
+   - Exemplos: adição/remoção de botões, filtros de pesquisa, etc.
+
+4. **Deploy A/B:**
+
+   - O deploy A/B envolve a implantação simultânea de duas versões diferentes do aplicativo, A e B, para diferentes grupos de usuários.
+   - Esse método permite comparar o desempenho e a aceitação entre as duas versões e tomar decisões informadas sobre a implementação completa da versão mais bem-sucedida.
+
+5. **Deploy Canário:**
+   - O deploy canário é uma técnica que envolve a implantação gradual de uma nova versão do software para um pequeno subconjunto dos usuários ou servidores.
+   - Uma pequena porção do tráfego do usuário (ou uma parte específica da infraestrutura) é direcionada para a nova versão do software, enquanto o restante continua a ser atendido pela versão anterior.
+   - Esse subconjunto é chamado de "canário" e serve como um indicador antecipado de problemas potenciais antes da implantação em escala total.
+   - Se a versão canário for bem-sucedida, a implementação é estendida para os demais usuários ou servidores.

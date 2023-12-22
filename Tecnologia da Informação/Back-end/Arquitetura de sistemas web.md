@@ -77,12 +77,12 @@
 - Práticas que automatizam a integração, testes e implantação de código.
 - Permitem entregas de software mais frequentes e confiáveis.
 
-## Docker e Kubernetes
+## [Docker e Kubernetes](<../Linguagens e padrões/Plataformas de desenvolvimento.md#docker>)
 
 - São tecnologias de contêinerização e orquestração.
 - Simplificam o empacotamento, implantação e gerenciamento de aplicativos em ambientes de contêiner.
 
-## Gerência de Configuração de Software
+## [Gerência de Configuração de Software](<Gestão de Configuração.md>)
 
 - Envolve práticas como o uso de sistemas de controle de versão (como o Git).
 - Rastrear e gerenciar alterações no código-fonte.

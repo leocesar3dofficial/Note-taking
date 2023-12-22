@@ -238,18 +238,20 @@
 
 ### 2. Pontos de Função (Function Points)
 
-- Funcionalidade fornecida por um sistema
-- Orientada para a análise do impacto das funcionalidades do software
-- O que é quantificado
-  - Entradas, saídas
-  - Consultas
-  - Arquivos lógicos (não contêm dados)
-    - Representação ou visualização de um ou mais arquivos físicos (multiformatos).
-  - Interfaces do usuário de um sistema
-- Utiliza-se de estimativas
-- Independe da tecnologia utilizada
-- Baseia-se na visão do usuário
-- Existem ferramentas automatizadas e métodos que podem auxiliar no cálculo
+- Funcionalidades fornecidas por um sistema.
+- Orientada para a análise do impacto das funcionalidades do software.
+
+#### O que é quantificado
+
+- Entradas, saídas.
+- Consultas.
+- Arquivos lógicos (não contêm dados).
+  - Representação ou visualização de um ou mais arquivos físicos (multiformatos).
+- Interfaces do usuário de um sistema.
+- Utiliza-se de estimativas.
+- Independe da tecnologia utilizada.
+- Baseia-se na visão do usuário.
+- Existem ferramentas automatizadas e métodos que podem auxiliar no cálculo.
 
 ### 3. Velocidade (Velocity)
 
@@ -272,7 +274,7 @@
 
 ### 6. Análise de Pontos de Função
 
-- Funcionalidades que um sistema deve realizar
+- Funcionalidades que um sistema deve realizar.
 
 ### 7. Análise de Ponto de Função Ajustada (APFA)
 
