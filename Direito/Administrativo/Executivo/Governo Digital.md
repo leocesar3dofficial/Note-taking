@@ -1,4 +1,4 @@
-# Governo eletrônico
+# Governo Digital
 
 - LEI Nº 14.129, DE 29 DE MARÇO DE 2021
 
@@ -89,3 +89,19 @@
 - Acompanhamento de resultados e promoção do processo decisório fundamentado em evidências.
 - Necessidade de gestão de riscos e controle interno, respeitando princípios como a integração da gestão de riscos ao planejamento estratégico.
 - A auditoria interna governamental deve agregar valor e melhorar as operações das organizações, focando em avaliação independente e prevenção de fraudes.
+
+## Estratégia Nacional de Governo Digital ou Estratégia de Governo Digital
+
+- DECRETO Nº 11.260, DE 22 DE NOVEMBRO DE 2022
+- Elaboração e encaminhamento da Estratégia Nacional de Governo Digital, no âmbito do Poder Executivo federal.
+
+### Responsabilidades e Parcerias
+
+- A Secretaria de Governo Digital da Secretaria Especial de Desburocratização, Gestão e Governo Digital do Ministério da Economia, em parceria com a Secretaria Especial de Modernização do Estado da Secretaria-Geral da Presidência da República, será responsável pela elaboração da estratégia.
+
+### Participação dos Entes Federativos
+
+- Estados, Distrito Federal e Municípios serão convidados a participar da discussão da proposta da Estratégia Nacional de Governo Digital, promovendo um caráter colaborativo e integrado.
+
+### Prazo de Vigência da Estratégia
+- A vigência será de 4 anos, coincidindo com o Plano Plurianual e submetida à aprovação do Presidente da República.
