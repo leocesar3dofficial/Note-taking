@@ -333,7 +333,11 @@
 - Esses controles fornecem orientações para a implementação de medidas de segurança
 - Foco na proteção contra ameaças cibernéticas
 
-#### ISO/IEC 27001:2013, requisitos para sistemas de gestão de segurança da informação (SGSI)
+#### ISO/IEC 17799:2005, Código de prática para a gestão da segurança da informação
+
+- A norma ABNT NBR ISO/IEC 17799 foi substituída pela ISO/IEC 27002.
+
+#### ISO/IEC 27001:2013, Requisitos para sistemas de gestão de segurança da informação (SGSI)
 
 - Características
 
@@ -343,6 +347,7 @@
     bem como gerenciar os riscos de segurança da informação
 
 - Componentes
+
   - Contexto da organização
     - A organização deve definir seu contexto, requisitos e expectativas relacionados à segurança da informação
   - Liderança

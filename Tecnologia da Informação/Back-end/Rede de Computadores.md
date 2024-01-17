@@ -208,7 +208,7 @@ Criado pelo International Telecommunication Union Telecommunication Standardizat
 
 - Modelo de rede de computador referência da ISO dividido em camadas de funções
 - Usado em uma rede local (Ethernet)
-- Dividido em 7 camadas
+- Camadas
   1. Camada física
   2. Camada de enlace de dados
   3. Camada de rede
