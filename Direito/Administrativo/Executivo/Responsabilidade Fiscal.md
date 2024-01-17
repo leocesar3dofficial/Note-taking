@@ -28,7 +28,7 @@
     - Evolução do patrimônio líquido
     - Situação financeira e atuarial, entre outros aspectos
 
-## Lei Orçamentária Anual
+### Lei Orçamentária Anual
 
 - Necessidade de compatibilidade com o plano plurianual e a lei de diretrizes orçamentárias
 - Inclusão de reserva de contingência
@@ -42,12 +42,12 @@
 
 ## Receita Pública
 
-### Previsão e da Arrecadação
+### Previsão e Arrecadação
 
 - Instituição, previsão e efetiva arrecadação de tributos.
 - Proíbe transferências voluntárias para entes que não observem tais requisitos.
 
-### Renúncia de Receita
+### Renúncia
 
 - Condições para a concessão de benefícios tributários que resultem em renúncia de receita
 - Exige estimativas de impacto e medidas de compensação, evitando prejudicar as metas fiscais.
@@ -139,21 +139,21 @@
 - As que firmarem contrato de gestão com objetivos e metas de desempenho terão autonomia gerencial, orçamentária e financeira.
 - Exige a divulgação de informações específicas nos balanços trimestrais das empresas controladas.
 
-### Transparência, Controle e Fiscalização
+## Transparência, Controle e Fiscalização
 
-#### Transparência da Gestão Fiscal
+### Transparência da Gestão Fiscal
 
 - Estabelece instrumentos de transparência, como planos, orçamentos, leis de diretrizes orçamentárias, prestações de contas, relatórios da execução orçamentária e gestão fiscal.
 - Destaca a importância da participação popular e audiências públicas durante a elaboração e discussão dos planos, orçamentos e leis de diretrizes orçamentárias.
 - Inclui a liberação em tempo real de informações detalhadas sobre a execução orçamentária e financeira.
 
-#### Escrituração e Consolidação das Contas
+### Escrituração e Consolidação das Contas
 
 - Identificação individualizada dos recursos
 - Registro segundo o regime de competência
 - Apresentação de demonstrações contábeis específicas.
 
-#### Relatório Resumido da Execução Orçamentária
+### Relatório Resumido da Execução Orçamentária
 
 - Balanço orçamentário
 - Demonstrativos da execução de receitas e despesas
@@ -166,19 +166,19 @@
 - Medidas corretivas
 - Demonstrativos de despesas, receitas e outros aspectos.
 
-#### Prestações de Contas
+### Prestações de Contas
 
 - Os Chefes do Poder Executivo devem incluir as contas dos outros Poderes na prestação de contas.
 - Os Tribunais de Contas emitam parecer prévio sobre as contas em prazos específicos.
 
-#### Fiscalização da Gestão Fiscal
+### Fiscalização da Gestão Fiscal
 
 - Define as responsabilidades do Poder Legislativo, Tribunais de Contas e sistema de controle interno na fiscalização do cumprimento da Lei Complementar.
 - Estabelece áreas de ênfase na fiscalização
     - Metas orçamentárias
     - Limites para operações de crédito, despesa com pessoal, entre outros.
 
-## disposições finais e transitórias
+## Disposições finais e transitórias
 
 ### Fixação de Limites por Lei Estadual ou Municipal
 
