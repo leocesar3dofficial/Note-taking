@@ -37,7 +37,7 @@ Ferramenta matemática que calcula o tempo necessário de execução. Considera 
     - Quadrático: O(N^2).
     - Cúbico: O(N^3).
   - Razoável (linear): O(N).
-  - Bom (logaritímica): O(log(N)).
+  - Bom (Logarítmica): O(log(N)).
   - Melhor (constante): O(1).
 - **Notação Omega (Ω):** Descreve o melhor cenário.
 - **Notação Theta (θ):** Representa a complexidade média de um algoritmo.
@@ -54,8 +54,44 @@ Ferramenta matemática que calcula o tempo necessário de execução. Considera 
    - Se uma solução falha, rastreia-se o ponto de falha e constrói-se a próxima solução.
    - Continua esse processo até encontrar a solução ou todas as soluções possíveis.
 4. **Busca**
-   - Busca elementos ou grupos de elementos de uma determinada estrutura de dados.
-   - Podem ser de tipos diferentes.
+   - **Características:**
+      - Busca elementos ou grupos de elementos de uma determinada estrutura de dados.
+      - Podem ser de tipos diferentes.
+   - **Tipos (do mais lento ao mais rápido):**
+      1. **Linear Search**
+          - **Características**
+            - Percorre cada elemento sequencialmente até encontrar o elemento desejado ou atingir o final da lista.
+            - Recomendado para um dataset pequeno.
+          - **Complexidade:**
+            - Tempo: O(N) (Linear).
+            - Espaço: O(1) (Constante).
+      2. **Sentinel Linear Search**
+          - **Características**
+            - Similar à busca linear, mas com um elemento extra (sentinela) no final da lista, o que elimina a necessidade de verificar o final da lista durante a busca.
+          - **Complexidade:**
+            - Tempo: O(n) (Linear).
+            - Espaço: O(1) (Constante).
+      3. **Binary Search**
+          - **Características**
+            - Requer que a lista esteja ordenada.
+            - Divide repetidamente a lista ao meio e compara o elemento alvo com o elemento no meio, eliminando metade da lista em cada iteração.
+          - **Complexidade:**
+            - Tempo: O(log n) (Logarítmica).
+            - Espaço: O(1) (Constante).
+      4. **Ternary Search**
+          - **Características**
+            - Semelhante à busca binária, mas divide a lista em três partes iguais em vez de duas.
+            - Compara com o elemento alvo, elimina uma parte da lista a cada iteração.
+          - **Complexidade:**
+            - Tempo: O(log3 n) (Logarítmica na base 3).
+            - Espaço: O(1) (Constante).          
+      5. **Interpolation Search**
+          - **Características**
+            - Também exige que a lista esteja ordenada.
+            - Calcula uma estimativa da posição do elemento alvo com base na distribuição dos valores na lista e ajusta a posição de busca.
+          - **Complexidade:**
+            - Tempo: O(n) (Linear).
+            - Espaço: O(1) (Constante).          
 5. **Ordenação/Classificação**
    - **Características:**
      - Organizar dados de uma maneira particular.
@@ -69,7 +105,7 @@ Ferramenta matemática que calcula o tempo necessário de execução. Considera 
           1. Atravessa da esquerda e compara os elementos adjacentes e o mais alto é colocado no lado direito.
           2. O maior elemento é movido primeiro para a extremidade mais à direita.
         - **Complexidade:**
-          - Tempo: O(N^2) (Pior).
+          - Tempo: O(n^2) (Pior).
           - Espaço: O(1) (Constante).
      2. **Selection Sort**
         - **Características:**
@@ -78,7 +114,7 @@ Ferramenta matemática que calcula o tempo necessário de execução. Considera 
           1. Seleciona repetidamente o menor (ou maior) elemento da parte não classificada.
           2. Troca o elemento para a parte classificada da lista.
         - **Complexidade:**
-          - Tempo: O(N^2) (Pior).
+          - Tempo: O(n^2) (Pior).
           - Espaço: O(1) (Constante).
      3. **Insertion Sort**
         - **Características:**
@@ -87,19 +123,8 @@ Ferramenta matemática que calcula o tempo necessário de execução. Considera 
           1. A matriz é virtualmente dividida em uma parte classificada e outra não classificada.
           2. Os valores da parte não classificada são selecionados e colocados na posição correta na parte classificada.
         - **Complexidade:**
-          - Tempo: O(N^2) (Pior).
-          - Espaço: O(N) (Linear).
-        - **Implementação (Python):**
-          ```python
-          def insertion_sort(lista):
-              for i in range(1, len(lista)):
-                  chave = lista[i]
-                  k = i
-                  while k > 0 and chave < lista[k - 1]:
-                      lista[k] = lista[k - 1]
-                      k -= 1
-                  lista[k] = chave
-          ```
+          - Tempo: O(n^2) (Pior).
+          - Espaço: O(n) (Linear).
      4. **Quick Sort**
         - **Características:**
           - Usa a abordagem Dividir e Conquistar (ineficiente em sua complexidade de tempo).
@@ -107,7 +132,7 @@ Ferramenta matemática que calcula o tempo necessário de execução. Considera 
           1. Escolhe um pivô e o coloca em sua posição correta no array.
           2. Classifica e particiona os elementos menores à sua esquerda e os maiores à sua direita.
         - **Complexidade:**
-          - Tempo: O(N \* log(N)) (Ruim).
+          - Tempo: O(n \* log(n)) (Ruim).
           - Espaço: O(1) (Constante).
 6. **Hash**
    - Semelhante ao algoritmo de busca.

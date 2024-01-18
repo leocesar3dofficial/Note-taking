@@ -108,24 +108,38 @@ Saída: relatórios ou dashboards em tempo real. Nível de precisão dos dados c
   - Sistema que centraliza os dados coletados de diversas fontes
   - Elementos
     - Fontes de dados
+      - Características
+        - Incluem dados transacionais, externos, históricos e agregados.
+        - Podem incluir DBMS, ERP e CRM, entre outros.
       - Formas de comunicação
         - OLTP (On-line Transaction Processing)
+          - Transações em tempo real.
+          - Suportam e otimizam operações diárias de uma organização, como inserção, atualização e exclusão de registros em bancos de dados.
         - OLAP (On-line Analytical Processing)
           - MOLAP (Multidimensional Online Analytical Processing)
+            - Armazenamento multidimensional dos dados, frequentemente usando cubos OLAP.
+            - Esses cubos são eficientes para consultas analíticas complexas e agregações.
           - ROLAP (Relational Online Analytical Processing)
+            - Usa um modelo relacional para armazenar os dados analíticos.
+            - Ele não pré-agrega os dados como em MOLAP, mas busca diretamente no banco de dados relacional para obter resultados.
           - HOLAP (Hybrid Online Analytical Processing)
-    - Bancos de dados (backend)
-      - Metadados
-        - Dados sobre os dados
-        - Atributos: descrição, ambiente, forma de manipulação, para onde é distribuído
-        - Tipos
-          - Técnicos (sintáticos, estruturais)
-          - De negócio (semânticos)
-      - Data Staging
-        - Identificar e classificar dados sujos para posterior migração
-    - Ferramentas ETL
-      - Ferramentas para mineração, análise e geração de relatórios (frontend)
-      - Exemplos: Tableau, Power BI, SAP Analytics Cloud
+            - Combina elementos do MOLAP e ROLAP.
+            - Pode usar armazenamento multidimensional para resumos rápidos, mas também se integra com dados detalhados armazenados em bancos de dados relacionais.
+      - Bancos de dados (backend)
+        - Metadados
+          - Dados sobre os dados
+          - Atributos: descrição, ambiente, forma de manipulação, para onde é distribuído
+          - Tipos
+            - Técnicos (sintáticos, estruturais)
+            - De negócio (semânticos)
+        - Data Staging
+          - Identificar e classificar dados sujos para posterior migração
+      - Ferramentas ETL
+        - Ferramentas para mineração, análise e geração de relatórios (frontend)
+        - Processamento em lote
+        - Exemplos: Tableau, Power BI, SAP Analytics Cloud
+      - APIs (Application Programming Interfaces)
+        - Para integração entre sistemas
   - Características
     - Orientado por assunto
     - Integrado

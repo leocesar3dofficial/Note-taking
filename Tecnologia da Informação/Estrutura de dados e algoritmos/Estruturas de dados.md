@@ -140,27 +140,42 @@ Estruturas de dados referem-se à forma de processar, armazenar, recuperar e org
 
 - **Características**
   - Estrutura hierárquica
-  - Nó inicial chama-se raiz (root)
-  - Nós ligados por arestas
-  - Possui altura, níveis e grau (depth)
+    - Com um nó raiz que se ramifica em diferentes níveis de subárvores.
+    - Implementadas usando estruturas de dados como arrays, listas encadeadas ou estruturas de nós.
+    - Nó inicial chama-se raiz (root)
+    - Nós ligados por arestas
+    - Possui altura, níveis e grau (depth)
   - Relação de parentesco: parent/child
   - É uma estrutura de dados recursiva
+    - Permite que um problema seja dividido em subproblemas menores.
+    - Envolvendo os nós filhos de um nó específico.
+
 - **Tipos**
 
   - Binary Tree
-
-    - Heaps
-      - Usadas para implementar filas de prioridade
-      - São uma árvore binária especial
-      - Cada nó pai tem um valor menor ou igual aos valores de seus filhos
-      - Garante que o nó raiz contenha o menor valor na árvore
-      - Usados para realizar operações de inserção e remoção do elemento de maior ou menor prioridade
-      - Possui tempo logarítmico
+    - Características
+      - Árvores binárias são aquelas em que cada nó tem, no máximo, dois filhos: um à esquerda e outro à direita.
+      - São amplamente utilizadas em algoritmos de busca e ordenação.
+  - Heaps
+    - Usadas para implementar filas de prioridade
+    - São uma árvore binária especial
+    - Cada nó pai tem um valor menor ou igual aos valores de seus filhos
+    - Garante que o nó raiz contenha o menor valor na árvore
+    - Usados para realizar operações de inserção e remoção do elemento de maior ou menor prioridade
+    - Possui tempo logarítmico
     - Estratégias de ordenação: Pré-ordem; Intra-ordem; Pós-ordem
 
-  - Binary Search Tree
-  - AVL Tree
+  - Binary Search Tree (BST)
+    - Para cada nó, os valores dos nós na subárvore à esquerda são menores e os valores na subárvore à direita são maiores.
+    - Facilitam operações de busca, inserção e remoção.
+    - Filas de Prioridades
+      - É uma estrutura de dados que mantém uma coleção de elementos associados a prioridades.
+      - Os elementos de maior prioridade são processados primeiro.
   - B-Tree, etc.
+  - Árvores Balanceadas
+    - A diferença de altura entre as subárvores esquerda e direita de cada nó é limitada.
+    - Exemplos incluem árvores AVL e árvores rubro-negras.
+    - Essa propriedade garante tempos de busca, inserção e remoção eficientes.
 
 - **Aplicações**
   - Priority queues
