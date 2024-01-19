@@ -180,7 +180,7 @@ Saída: relatórios ou dashboards em tempo real. Nível de precisão dos dados c
 
 ### Descoberta de Conhecimento em Banco de Dados (DCBD)
 
-- Knowledge Discovery in Databases
+- Knowledge Discovery in Databases (KDD)
 - Identificação de padrões em um conjunto de dados
 - Características dos dados explorados
   - Validade
