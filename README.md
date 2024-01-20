@@ -2,7 +2,7 @@
 
 ## Direito
 
-### Administrativo .
+### Administrativo
 
 - [Conceitos básicos](<Direito/Administrativo/Conceitos básicos.md>)
 - [Agentes Públicos](<Direito/Administrativo/Agentes públicos.md>)
