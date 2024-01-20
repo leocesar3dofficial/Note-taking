@@ -146,6 +146,7 @@ sudo systemctl mask bluetooth.service
 - **Video Codecs:**
   - `sudo apt install ubuntu-restricted-extras -y`
   - `sudo apt install vlc`
+- **Font Manager:** `sudo apt install font-manager`
 
 ## Uninstall Software
 
