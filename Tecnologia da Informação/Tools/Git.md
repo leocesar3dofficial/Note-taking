@@ -2,6 +2,8 @@
 
 ## Clone Repository
 
+- Make sure you have Git [installed](#install) and [setup user](#setup)
+
 ### Public
 
 ```bash
@@ -158,13 +160,13 @@ sudo apt update
 sudo apt install git
 ```
 
-## Version
+### Version
 
 ```bash
 git --version
 ```
 
-## Setup
+### Setup
 
 ```bash
 git config --global user.name "Your Name"
@@ -182,13 +184,13 @@ git config --global user.email "yourname@example.com"
   node_modules/
   ```
 
-## Colorful Output
+### Colorful Output
 
 ```bash
 git config --global color.ui auto
 ```
 
-## Verify User
+### Verify User
 
 ```bash
 git config --get user.name

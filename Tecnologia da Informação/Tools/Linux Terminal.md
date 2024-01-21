@@ -143,10 +143,21 @@ sudo systemctl mask bluetooth.service
 
 - **Text Editor:** `sudo apt install notepadqq`
 - **File Merge and Comparison:** `FreeFileSync_11.27_Install.run`
-- **Video Codecs:**
-  - `sudo apt install ubuntu-restricted-extras -y`
-  - `sudo apt install vlc`
+- **Video Codecs**
+
+  ```bash
+  sudo apt install ubuntu-restricted-extras -y
+  sudo apt install vlc`
+  ```
+
+- **Video Converter:** `sudo apt install ./winff_1.5.5-8build1_all.deb`
 - **Font Manager:** `sudo apt install font-manager`
+- **OBS Studio**
+
+  ```bash
+  sudo add-apt-repository ppa:obsproject/obs-studio
+  sudo apt install obs-studio
+  ```
 
 ## Uninstall Software
 
@@ -161,13 +172,13 @@ sudo systemctl mask bluetooth.service
 1. Restart the GUI:
 
    ```bash
-   `sudo startx`
+   sudo startx
    ```
 
 2. Reinstall the GUI (GNOME Desktop Environment)
 
    ```bash
-   `sudo apt-get install --reinstall ubuntu-desktop`
+   sudo apt-get install --reinstall ubuntu-desktop
    ```
 
 ### Error while trying to install: /var/lib/dpkg/lock or lock-frontend
