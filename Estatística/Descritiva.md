@@ -89,3 +89,143 @@
   $$
   Mo_{Czuber} = 30 + \left[10 \times \left(\frac{70 - 50}{(2 \times 70) - (50 + 60)}\right) \right] = 36,67
   $$
+
+## Medidas Separatrizes
+
+- São valores que separam o rol (os dados ordenados) em quatro (quartis), dez (decis)
+ou em cem (percentis) partes iguais.
+- **Ordene os dados:** Coloque os dados do rol em ordem crescente.
+
+### Quartis 
+
+1. **Encontre Q1:** é o valor que separa os 25% inferior dos dados.
+
+$$ Q1 = \frac{{n + 1}}{4} $$
+
+2. **Encontre Q2 (Mediana):** é o valor que separa os 50% inferior dos dados. Se $ n $ for ímpar, Q2 é o valor no meio dos dados ordenados. Se $ n $ for par, Q2 é a média dos dois valores no meio.
+
+3. **Encontre Q3:** é o valor que separa os 75% inferior dos dados.
+
+$$ Q3 = \frac{{3(n + 1)}}{4} $$
+
+### Decis
+
+- São os nove pontos que dividem a distribuição em 10 partes
+iguais. 
+
+### Percentis ou Cetis
+
+- São os 99 valores que dividem a distribuição em 100
+partes iguais, abrangendo, cada um, 1% do número total da distribuição.
+
+## Medidas de dispersão
+
+- Avaliar o grau de variabilidade ou dispersão dos dados em um conjunto.
+- Elas oferecem insights sobre o quão "espalhados" os valores estão em relação à média.
+
+### Amplitude
+
+- A amplitude é a diferença entre o maior e o menor valor em um conjunto de dados.
+- **Fórmula:** $ \text{Amplitude} = \text{Máximo} - \text{Mínimo} $
+
+### Variância
+
+- A variância é uma medida que expressa o quão longe cada valor do conjunto está da média.
+- Fórmula para a variância populacional $ \sigma^2 $:
+
+  $$ \sigma^2 = \frac{\sum_{i=1}^{n}(X_i - \mu)^2}{n} $$
+
+- Fórmula para a variância amostral ($ s^2 $):
+
+  $$ s^2 = \frac{\sum_{i=1}^{n}(X_i - \bar{X})^2}{n-1} $$
+  
+- **Onde:**
+  - $ X_i $ são os valores individuais,
+  - $ \mu $ é a média populacional,
+  - $ \bar{X} $ é a média amostral,
+  - $ n $ é o número de observações.
+
+### Desvio Padrão
+
+- O desvio padrão é a raiz quadrada da variância. Ele fornece uma medida de dispersão mais fácil de interpretar.
+- Fórmula para o desvio padrão populacional ($ \sigma $):
+
+  $$ \sigma = \sqrt{\sigma^2} $$
+
+- Fórmula para o desvio padrão amostral ($ s $):
+
+  $$ s = \sqrt{s^2} $$
+
+## Medidas de forma
+
+- Descrevem a forma da distribuição de dados.
+- Fornecem informações sobre a simetria e a inclinação da distribuição.
+
+### Assimetria (Skewness)
+
+- Mede a falta de simetria em uma distribuição.
+- **Positiva:** Curva de distribuição se estende mais para a direita (caudas mais longas à direita).
+- **Negativa:** Curva de distribuição se estende mais para a esquerda (caudas mais longas à esquerda).
+
+$$ \text{Assimetria} = \frac{n}{(n-1)(n-2)} \sum_{i=1}^{n} \left(\frac{x_i - \bar{x}}{s}\right)^3 $$
+
+- **Onde:**
+  - $n$ é o tamanho da amostra.
+  - $x_i$ é cada valor na amostra.
+  - $\bar{x}$ é a média da amostra.
+  - $s$ é o desvio padrão da amostra.
+
+### Curtose (Kurtosis)
+
+- A curtose mede o pico (altura) e a forma das caudas de uma distribuição.
+- **Alta:** têm caudas mais pesadas (mais valores extremos)
+- **Baixa** têm caudas mais leves.
+
+$$ \text{Curtose} = \frac{\frac{1}{n} \sum_{i=1}^{n} (x_i - \bar{x})^4}{\left(\frac{1}{n} \sum_{i=1}^{n} (x_i - \bar{x})^2\right)^2} - 3 $$
+
+## Medidas de associação
+
+- São utilizadas para avaliar o grau de relação entre duas variáveis.
+
+### Coeficiente de Correlação de Pearson (r)
+
+- *Tipo de Variáveis:* Variáveis quantitativas contínuas.
+- *Interpretação:* Varia de -1 a 1. Quanto mais próximo de 1 ou -1, mais forte é a correlação, enquanto 0 indica ausência de correlação.
+
+$$ r = \frac{\sum{(X_i - \bar{X})(Y_i - \bar{Y})}}{\sqrt{\sum{(X_i - \bar{X})^2} \sum{(Y_i - \bar{Y})^2}}} $$
+
+- Onde $ \bar{X} $ e $ \bar{Y} $ são as médias de X e Y, respectivamente.
+
+### Coeficiente de Correlação de Spearman (ρ ou rs)
+
+- *Tipo de Variáveis:* Ordinais ou quando a relação não é linear.
+- *Interpretação:* Varia de -1 a 1. Semelhante ao coeficiente de correlação de Pearson, mas não assume uma relação linear.
+- *Cálculo:* Calcula-se a correlação de postos das observações.
+
+### Coeficiente de Correlação de Kendall (τ ou tau)
+
+- *Tipo de Variáveis:* Ordinais.
+- *Interpretação:* Avalia a concordância entre as ordens das observações em ambas as variáveis.
+- *Cálculo:* Baseia-se no número de pares concordantes e discordantes.
+
+### Coeficiente de Determinação (R²)
+
+- *Tipo de Variáveis:* Variável independente (X) e variável dependente (Y).
+- *Interpretação:* Indica a proporção da variação em Y que é explicada pela variação em X.
+
+$$ R^2 = \frac{\text{Variância explicada}}{\text{Variância total}} $$
+
+### Qui-quadrado (χ²)
+
+- *Tipo de Variáveis:* Variáveis categóricas (nominais ou ordinais).
+- *Interpretação:* Testa a independência entre duas variáveis categóricas.
+- *Cálculo:* Comparação das frequências observadas e esperadas em uma tabela de contingência.
+
+### Coeficiente de Contingência (C)
+
+- *Tipo de Variáveis:* Variáveis categóricas (nominais ou ordinais).
+- *Interpretação:* Mede a força da associação entre duas variáveis categóricas.
+
+$$ C = \sqrt{\frac{\chi^2}{n + \chi^2}} $$
+
+
