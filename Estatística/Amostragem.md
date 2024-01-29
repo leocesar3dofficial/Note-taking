@@ -67,6 +67,15 @@
    - $ \sigma $ é o desvio padrão populacional.
    - $ n $ é o tamanho da amostra.
 
+### Variância da distribuição amostral ou Variância amostral
+
+$$ \sigma^2_{\bar{x}} = \frac{\sigma^2}{n} $$
+
+- **onde:**
+   - $\sigma^2_{\bar{x}}$ é a variância da distribuição amostral das médias,
+   - $\sigma^2$ é a variância da população,
+   - $n$ é o tamanho da amostra.
+
 ### Amostragem Estratificada
 
 1. **Tamanho da Amostra Estratificada $ n_h $:**

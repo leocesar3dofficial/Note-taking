@@ -18,7 +18,15 @@ $$ P(E) = \frac{n(E)}{n(S)} $$
 
 - **Probabilidade Condicional (P(A|B)):** Probabilidade de A ocorrer dado que B ocorreu.
 
+- **Teorema de Bayes:**
+
 $$ P(A|B) = \frac{P(A \cap B)}{P(B)} $$
+
+- onde:
+    - $ P(A|B) $ é a probabilidade condicional de A dado B.
+    - $ P(A \cap B) $ é a probabilidade conjunta de A e B.
+        - Ou $ P(B|A) \cdot P(A) $
+    - $ P(B) $ é a probabilidade marginal de B.
 
 - **Independência:** Dois eventos, A e B, são independentes se a ocorrência de um não afeta a ocorrência do outro.
 
