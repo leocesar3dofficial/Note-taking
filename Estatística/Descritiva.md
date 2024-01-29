@@ -156,6 +156,22 @@ partes iguais, abrangendo, cada um, 1% do número total da distribuição.
 
   $$ s = \sqrt{s^2} $$
 
+### Escore Z
+
+- A pontuação z, também conhecida como escore padrão, é uma medida estatística que expressa a posição de um dado valor em relação à média de uma distribuição e é medida em termos de desvios padrão dessa média.
+- Ela indica quantos desvios padrão um determinado valor está acima ou abaixo da média de uma distribuição.
+- É útil para comparar valores em diferentes distribuições, pois ela normaliza os dados, permitindo que você avalie a posição relativa de um valor em relação à média e ao desvio padrão da distribuição.
+- Uma pontuação z positiva indica que o valor está acima da média, enquanto uma pontuação z negativa indica que está abaixo da média.
+- Uma pontuação z de 0 significa que o valor é igual à média da distribuição.
+
+$$ z = \frac{{X - \mu}}{{\sigma}} $$
+
+- **Onde:**
+  - $ z $ é a pontuação z,
+  - $ X $ é o valor individual,
+  - $ \mu $ é a média da distribuição,
+  - $ \sigma $ é o desvio padrão da distribuição.
+
 ## Medidas de forma
 
 - Descrevem a forma da distribuição de dados.

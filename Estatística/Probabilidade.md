@@ -44,3 +44,22 @@ $$ P(A \cap B) = P(A) \cdot P(B) $$
 
 - **Função Densidade de Probabilidade (FDP) para Variáveis Contínuas:** Descreve a probabilidade relativa de que uma variável aleatória assuma um determinado valor.
 
+## Distribuição binomial
+
+- É um modelo estatístico que descreve o número de sucessos em um número fixo de tentativas independentes, cada uma com a mesma probabilidade de sucesso.
+- Ela é amplamente utilizada em estatística para modelar situações em que um evento pode ter apenas dois resultados possíveis: sucesso ou fracasso.
+
+- Os principais requisitos para que um experimento siga uma distribuição binomial são:
+
+    1. Existem um número fixo de tentativas ou ensaios (n).
+    2. Cada tentativa é independente das outras.
+    3. A probabilidade de sucesso (denotada por p) é constante em todas as tentativas.
+
+$$ P(X = k) = \binom{n}{k} \cdot p^k \cdot (1-p)^{n-k} $$
+
+- **onde:**
+    - $ P(X = k) $ é a probabilidade de obter exatamente $ k $ sucessos,
+    - $ \binom{n}{k} $ é o coeficiente binomial, representando o número de maneiras diferentes de escolher $ k $ sucessos em $ n $ tentativas,
+    - $ p $ é a probabilidade de sucesso em uma tentativa,
+    - $ (1-p) $ é a probabilidade de fracasso em uma tentativa,
+    - $ n $ é o número total de tentativas.
