@@ -11,20 +11,34 @@
 
 $$ P(E) = \frac{n(E)}{n(S)} $$
 
-- Onde $ n(E) $ é o número de resultados favoráveis ao evento E e $ n(S) $ é o número total de resultados possíveis.
+- Onde $ n(E) $ é o número de eventos favoráveis ao evento E e $ n(S) $ é o número de eventos possíveis.
 
 ## Probabilidade Condicional e Independência
 
+- **Probabilidade da união de eventos:**
+
+$$ P(A \cup B) = P(A) + P(B) - P(A \cap B) $$
+
 - **Probabilidade Condicional (P(A|B)):** Probabilidade de A ocorrer dado que B ocorreu.
 
-- **Teorema de Bayes:**
+- A Lei da Probabilidade Total expressa a probabilidade de um evento A em termos das probabilidades condicionais do evento A dado diferentes eventos B. Se tivermos um conjunto completo e mutuamente excludente de eventos B_1, B_2, ..., B_n, então a Lei da Probabilidade Total é dada por:
+
+$$ P(A) = P(A | B_1) \cdot P(B_1) + P(A | B_2) \cdot P(B_2) + \ldots + P(A | B_n) \cdot P(B_n) $$
+
+- **Onde:**
+
+- $ P(A) $ é a probabilidade do evento A.
+- $ P(B_1), P(B_2), \ldots, P(B_n) $ são as probabilidades dos eventos B_1, B_2, ..., B_n, que formam um conjunto completo e mutuamente excludente, ou seja, apenas um dos eventos pode ocorrer.
+- $ P(A | B_1), P(A | B_2), \ldots, P(A | B_n) $ são as probabilidades condicionais de A dado B_1, B_2, ..., B_n.
+
+- **Teorema de Bayes ou Teorema da Multiplicação:**
 
 $$ P(A|B) = \frac{P(A \cap B)}{P(B)} $$
 
-- onde:
+- **Onde:**
 
   - $ P(A|B) $ é a probabilidade condicional de A dado B.
-  - $ P(A \cap B) $ é a probabilidade conjunta de A e B.
+  - $ P(A \cap B) $ é a interseção de A e B.
     - Ou $ P(B|A) \cdot P(A) $
   - $ P(B) $ é a probabilidade marginal de B.
 
