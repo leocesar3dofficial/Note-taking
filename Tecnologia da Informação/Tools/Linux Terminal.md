@@ -159,9 +159,11 @@ sudo systemctl mask bluetooth.service
   sudo apt install obs-studio
   ```
 
-## Uninstall Software
+- **qBittorent:** `sudo apt-get install qbittorrent`
 
-- `sudo apt remove <package-name>`
+## Uninstall Software (and all its dependencies)
+
+- `sudo apt remove <package-name> --auto-remove`
 
 ## Troubleshooting
 
