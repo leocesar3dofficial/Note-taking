@@ -29,8 +29,9 @@
 ## Etapas
 
 1. Planejamento
-   - Jogo de Planejamento (Planning Game)
+   - Jogo de Planejamento (Iteration Planning Game)
      - Priorização de funcionalidades baseada nas User Stories (história dos usuários)
+     - Estimação, feita por cada programador, do tempo que será necessário para realizar cada tarefa sob sua responsabilidade
      - Semanal
 2. Projeto ("Designing")
 3. Codificação

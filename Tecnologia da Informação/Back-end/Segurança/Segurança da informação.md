@@ -210,28 +210,41 @@
 #### Tipos
 
 - **Simétrica**
+
   - Chave única para criptografar e descriptografar os dados
   - Modos de operação
+
     - **Electronic Codebook (ECB)**
+
       - Modo mais simples
       - Cada bloco de dados é cifrado independentemente
       - Revela padrões
+
     - **Cipher Block Chaining (CBC)**
+
       - Cada bloco de dados é XORed (operação de OU exclusivo)
       - Texto cifrado do bloco anterior como base para o próximo bloco de dados
       - Dependência entre os blocos, gerando texto cifrado diferente
       - Requer um vetor de inicialização (IV) para o primeiro bloco
+
     - **Cipher Feedback (CFB)**
+
       - Usa um gerador de sequência de números pseudoaleatórios
       - Usado em criptografia síncrona
+
     - **Output Feedback (OFB)**
+
       - Semelhante ao modo CFB
       - Keystream: bloco de texto livre de um valor conhecido
+
     - **Counter (CTR)**
+
       - Um contador é cifrado e usado como chave
       - Permite paralelismo na cifragem
-        - Implementações em hardware e criptografia em tempo real
+      - Implementações em hardware e criptografia em tempo real
+
 - **Assimétrica (duas chaves)**
+
   - Chave pública para criptografar
   - Chave privada para descriptografar
 

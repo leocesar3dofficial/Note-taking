@@ -67,14 +67,13 @@
 
 ###### Mocks
 
-- Objetos pré-programados formam uma especificação das chamadas que se espera que recebam
+Objetos pré-programados formam uma especificação das chamadas que se espera que recebam
 
-##### Benefícios
-
-- Verificar o comportamento de objetos que dependem de outros objetos
-- Verificar o comportamento de objetos que são lentos para executar
-- Tornar os testes unitários mais rápidos e eficientes
-- Melhorar a qualidade do código
+- **Benefícios**
+  - Verificar o comportamento de objetos que dependem de outros objetos
+  - Verificar o comportamento de objetos que são lentos para executar
+  - Tornar os testes unitários mais rápidos e eficientes
+  - Melhorar a qualidade do código
 
 ### Funcionais
 
@@ -89,6 +88,7 @@
 
 - Determinar se o software está pronto para ser entregue ao cliente ou usuário final
 - Validar se o software atende aos critérios de aceitação acordados com o cliente ou partes interessadas
+- Realizado pelo usuário final
 
 #### Tipos
 
@@ -131,9 +131,12 @@
 ### Testes de Integração
 
 - Verificar se os diferentes componentes de um sistema funcionam bem juntos quando são integrados.
-- **Objetivo**: Identificar problemas que possam surgir quando os componentes individuais do software são combinados e interagem entre si.
+- **Objetivo:** Identificar problemas que possam surgir quando os componentes individuais do software são combinados e interagem entre si.
 - Concentram-se na **comunicação entre partes** do sistema.
 - Incluem testes de regressão para garantir que as alterações nos componentes integrados não tenham introduzido defeitos ou problemas inesperados.
+- **Tipos**
+  - Interfaces com o usuário
+  - Cenários de uso
 
 #### Integração Contínua
 
@@ -327,8 +330,14 @@
 #### Características
 
 - Requisitos que não estão diretamente relacionados às funcionalidades do software,
-  mas sim a características que afetam o desempenho, a escalabilidade, a segurança, a usabilidade
-  e outros aspectos que não envolvem a lógica do sistema
+  mas sim a características que afetam o
+  - Desempenho / Eficiência
+  - Escalabilidade
+  - Segurança
+  - Usabilidade
+  - Portabilidade
+    - Afeta negativamente a eficiência
+  - Outros aspectos que não envolvem a lógica do sistema
 - Envolve a validação e a verificação desses requisitos
 
 #### Tipos

@@ -72,6 +72,7 @@
   - Propagação de Sinais
     - Forma como os sinais de rádio se propagam no ambiente, sofrendo atenuação e interferência
   - 802.11: É uma família de padrões para redes sem fio
+    - 802.11 a e n: tanto para frequência 2.4 GHz quanto 5 GHz
 
 ### VSAT (Very Small Aperture Terminal)
 

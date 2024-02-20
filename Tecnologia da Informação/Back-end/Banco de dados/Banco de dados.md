@@ -68,11 +68,17 @@ Notação gráfica amplamente utilizada para modelagem de sistemas de software.
 
   1. **Diagrama de Classes:** Representa a estrutura estática do sistema, mostrando as classes, seus atributos, métodos e os relacionamentos entre elas.
 
-  2. **Diagrama de Objetos:** Detalha instâncias de classes e seus relacionamentos em um determinado momento durante a execução do sistema.
+     - **Elementos**
+       - **Níveis de acesso:**  
+         '#' = protected / protegido  
+         <u>Sublinhado</u> = estático  
+         _Itálico_ = abstrato
 
-  3. **Diagrama de Componentes:** Ilustra a estrutura física dos componentes de software e suas interações.
+2. **Diagrama de Objetos:** Detalha instâncias de classes e seus relacionamentos em um determinado momento durante a execução do sistema.
 
-  4. **Diagrama de Implantação:** Mostra a disposição física dos artefatos de software em nós (hardware) e suas interações.
+3. **Diagrama de Componentes:** Ilustra a estrutura física dos componentes de software e suas interações.
+
+4. **Diagrama de Implantação:** Mostra a disposição física dos artefatos de software em nós (hardware) e suas interações.
 
 - **Diagramas Comportamentais:**
 
@@ -85,6 +91,11 @@ Notação gráfica amplamente utilizada para modelagem de sistemas de software.
   4. **Diagrama de Máquina de Estados:** Modela o comportamento de um objeto em termos de estados que ele pode assumir e transições entre esses estados.
 
   5. **Diagrama de Atividades:** Descreve o fluxo de atividades, incluindo a sequência de ações e decisões.
+
+     - **Elementos**
+       - Condição de guarda
+         - Precisa ser satisfeita para permitir que uma transição associada seja ativada
+         - Expressão booleana entre colchetes
 
 ###### IDEF (Integrated Definition Language)
 

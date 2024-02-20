@@ -289,7 +289,13 @@
 - Interrupções
   - Habilitam o software a responder aos sinais do hardware via sinais
 - Threads: processos concorrentes
-  - Estados: nascido, pronto, em execução, em espera, adormecido, morto, bloqueado/Deadlock
+  - Estados
+    - Nascido
+    - Pronto
+    - Em execução, em espera, adormecido, morto
+    - Bloqueado/Deadlock
+      - Dois ou mais processos não podem continuar suas execuções
+      - cada um deles espera pelos recursos alocados entre eles
   - Tipos: de usuário, de núcleo, híbrido
 
 ## Segurança

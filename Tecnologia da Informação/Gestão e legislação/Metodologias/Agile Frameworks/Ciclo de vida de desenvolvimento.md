@@ -41,6 +41,7 @@
     - Fases sequenciais, sistemáticas e inflexíveis
     - Recomendado para pequenos projetos
     - Modelo de processo prescritivo e sequencial mais antigo
+    - Resultados previsíveis ou preditivo
   - **Fases**
     - Especificação dos requisitos do cliente
     - Planejamento
@@ -51,6 +52,9 @@
 - **Iterativo**
   - Entrega de um subconjunto de requisitos até a conclusão do projeto
   - Os requisitos podem ser alterados entre as iterações
+  - Multi-cascata ou Mini-cascatas
+    - Combina elementos do modelo cascata, aplicado de maneira iterativa
+    - Essa filosofia incremental também é usada em processos ágeis
   - **Desvantagens**
     - Alteração do escopo
     - Subestimação de recursos

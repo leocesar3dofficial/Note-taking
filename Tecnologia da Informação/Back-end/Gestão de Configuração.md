@@ -8,10 +8,26 @@
 - Pipelines de implantação
   - Compilação, testes, empacotamento e implantação no ambiente de produção
 
-## Controle de versão com Git
+## Controle de versão
+
+### Git
 
 - Sistema de controle de versão distribuído. Diferente do Subversion (SVN), que é um sistema de controle de versão centralizado.
 - o Git é o sistema de controle de versão mais flexível, escalável e amplamente adotado.
+
+### CVS (Concurrent Versions System)
+
+- Código Aberto
+
+#### Criar um repositório
+
+```bash
+cvs -d <caminho do diretório> init
+```
+
+- **Onde:**  
+   -d: diretório  
+   init: inicializar o repositório
 
 ## Ferramentas de orquestração
 

@@ -415,7 +415,7 @@
 - É uma técnica que permite que um programa execute tarefas em segundo plano
 - Sem bloquear a execução principal do programa
 - Em vez de esperar que uma tarefa seja concluída antes de continuar
-- ela permite que o programa continue executando outras tarefas enquanto aguarda a conclusão de operações demoradas
+- Permite que o programa continue executando outras tarefas enquanto aguarda a conclusão de operações demoradas
 - Usada para melhorar a responsividade e o desempenho de sistemas que precisam lidar com E/S intensiva
   - Aplicativos web que precisam processar várias solicitações simultaneamente
 

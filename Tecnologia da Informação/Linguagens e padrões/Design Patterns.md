@@ -40,7 +40,7 @@
 
 ##### Tipos
 
-- **Adapter**
+- **Class Adapter**
 
   - Permite que classes com interfaces incompatíveis trabalhem juntas, envolvendo sua própria interface em torno de uma classe já existente
 
@@ -65,6 +65,7 @@
   - Reduz o custo de criar e manipular um grande número de objetos semelhantes
 
 - **Proxy**
+
   - Fornece um espaço reservado para outro objeto controlar o acesso, reduzir custos e simplificar a complexidade
 
 #### Comportamentais
