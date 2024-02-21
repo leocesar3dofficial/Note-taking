@@ -79,7 +79,9 @@ ON customers.customer_id = orders.customer_id;
 
 ## CREATE
 
-### TABLE Example
+### TABLE
+
+Example 1
 
 ```sql
 CREATE TABLE customers (
@@ -87,6 +89,17 @@ CREATE TABLE customers (
   name VARCHAR(50),
   email VARCHAR(100),
   phone VARCHAR(20)
+);
+```
+
+Example 2
+
+```sql
+CREATE TABLE COMPUTADORES (
+  idComputador int PK,
+  Sala varchar(30) NOT NULL,
+  Responsavel varchar(255),
+  Status varchar(10)
 );
 ```
 
@@ -162,12 +175,20 @@ VALUES (1234, 'John Doe', 'Computer Science', 3.5);
 
 ## UPDATE
 
-### Example
+### Example 1
 
 ```sql
 UPDATE students
 SET major = 'Mathematics', gpa = 3.7
 WHERE id = 1234;
+```
+
+### Example 2
+
+Aumentar o preço dos produtos em estoque em 10%
+
+```sql
+UPDATE ESTOQUE SET PRECO = PRECO * 1.1;
 ```
 
 ## DELETE

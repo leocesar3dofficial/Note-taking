@@ -432,5 +432,9 @@
 - Usada para melhorar o desempenho e a capacidade de resposta de sistemas
 - Permite que tarefas concorrentes sejam executadas em paralelo
 - Importante em sistemas multiusuários e que precisam lidar com carga de trabalho intensiva
+- Reentrância ou Código reentrante
+  - É um trecho de código escrito de forma que possa ser compartilhado por diversos programas ao mesmo tempo
+  - Exige que apenas uma cópia do programa esteja na memória
+  - O código não pode ser modificado por nenhum usuário no momento em que está sendo executado
 
 ## Sub-rotinas (ou funções)
