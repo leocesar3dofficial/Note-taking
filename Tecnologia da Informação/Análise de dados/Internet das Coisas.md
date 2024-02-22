@@ -27,7 +27,7 @@
 
 ### Meios de transmissão de dados
 
-- Luz (fibra óptica), ar (WiFi) e metal (cabos de cobre, alumínio)
+- Luz (fibra ótica), ar (Wi-Fi) e metal (cabos de cobre, alumínio)
 
 ### DNS, Domain Name System
 
@@ -105,6 +105,18 @@
   - Conecta duas redes, normalmente residência/negócio ao provedor
 - **Switch**
   - Conexões ou portas para os equipamentos se conectarem ao roteador (cabo ou WiFi)
+    - Padrões
+      - IEEE 802.11 (Wi-Fi)
+      - IEEE 802.3 (Fast Ethernet [cabo que usa MAC])
+        - 10BASE-T ➜ limite de 10 Mbps
+        - 100BASE-T ➜ UTP ➜ cat 3 ➜ 4 pares trançados ➜ Codificação Manchester
+          - Modo Half-duplex ou Full-duplex
+        - 100BASE-TX ➜ UTP ➜ cat 5 ➜ 2 pares trançados ➜ Full duplex ➜ Codificação 4B/5B
+        - 100BASE-FX ➜ Fibra ➜ Multimodo ➜ Full duplex
+      - IEEE 802.5 (Token Ring)
+      - IEEE 802.8 (Fibra ótica)
+        - 100BASE-F
+      - IEEE 802.15 (Bluetooth)
 - **Hub**
   - Tipo de switch onde toda a comunicação e disponibilizada para todos os equipamentos
   - Não é comum utilizá-lo atualmente, foi substituído pelo Switch
@@ -113,7 +125,7 @@
 - **Dongle WiFi**
   - Pendrive para conexão em rede para dispositivos móveis
 - **Links de conexão**
-  - ADSL (linha telefônica), Cabo de TV, Rádio, Fibra Óptica e móvel ( 4G, 4,5G e 5G)
+  - ADSL (linha telefônica), Cabo de TV, Rádio, Fibra ótica e móvel ( 4G, 4,5G e 5G)
 
 ### Eletricidade
 

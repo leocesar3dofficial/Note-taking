@@ -29,6 +29,13 @@
 
 - É um sistema que traduz nomes de domínio (por exemplo, www.example.com) em endereços IP.
 - Permite que os navegadores encontrem os servidores corretos para acessar um site.
+- Subdomínio: Inserir um Resource Record (RR) no mapa da zona
+  - Exemplo: `rh IN NS ns2.exemplo.com`
+    - NS: Name Server (Servidor de Domínio), especifica servidores DNS para o domínio ou subdomínio.
+      - Pelo menos, dois registros NS devem ser definidos para cada domínio.
+      - Um principal e outro secundário.
+    - CNAME: Canonical NAME.
+      - Especifica um apelido (alias) para o hostname (A). É uma forma de redirecionamento.
 
 ## Balanceamento de Carga
 

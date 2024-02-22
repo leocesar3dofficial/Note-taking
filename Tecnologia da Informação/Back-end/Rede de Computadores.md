@@ -13,6 +13,10 @@
 
 - O endereçamento IP é usado para identificar dispositivos em uma rede
 - Os endereços IPv4 consistem em quatro grupos de números
+  - Exemplos
+    - 192.168.136 e 140 (Rede)
+    - 192.168.137 (Host)
+    - 192.168.139 (Broadcast)
 - O IPv6 usa endereços muito mais longos
 - Segmentação refere-se à divisão de dados em pacotes para transmissão pela rede
 
@@ -22,7 +26,7 @@
 2. **Enlance:** Ethernet, 802.11 WIFI, IEEE 802.1Q, 802.11G, HDLC, Token ring, FDDI, PPP, Switch, Frame relay.
 3. **Rede:** IP (IPV4, IPV6), ARP, RARP, ICMP, IPSec, etc.
 4. **Transporte:** TCP, UDP, RTP, SCTP, DCCP.
-5. **Aplicação:** HTTP, SMTP, FTP, SSH, TELNET, SIP, RDP, IRC, SNMP, NNTP, POP3, IMAP, BitTorrent, DNS, PING, etc.
+5. **Aplicação:** HTTP, SMTP, FTP, SSH, TELNET, SIP, RDP, IRC, SNMP, NNTP, POP3 (receber emails), IMAP (Internet Message Access Protocol, para receber emails), BitTorrent, DNS, PING, etc.
 
 ## Protocolos de Roteamento
 
@@ -71,8 +75,8 @@
     - São frequências de rádio que requerem uma licença para uso devido à regulamentação governamental
   - Propagação de Sinais
     - Forma como os sinais de rádio se propagam no ambiente, sofrendo atenuação e interferência
-  - 802.11: É uma família de padrões para redes sem fio
-    - 802.11 a e n: tanto para frequência 2.4 GHz quanto 5 GHz
+  - IEEE 802.11: É uma família de padrões para redes sem fio (Wi-Fi)
+    - 802.11a e 802.11n: usados tanto para frequência 2.4 GHz quanto 5 GHz
 
 ### VSAT (Very Small Aperture Terminal)
 
@@ -81,7 +85,7 @@
 - Composta por estações terrestres de pequeno porte ou terminais VSAT
 - Se comunicam com satélites em órbita
 - Usadas em comunicações empresariais, governamentais, militares e de transporte
-- Em locais remotos sem acesso à internet via cabo ou fibra óptica
+- Em locais remotos sem acesso à internet via cabo ou fibra ótica
 - Oferecem uma solução de comunicação de alta velocidade e confiável para esses locais
 - Não dependem de infraestruturas terrestres
 - São menos suscetíveis a interrupções ou falhas devido a condições climáticas ou desastres naturais
@@ -211,7 +215,12 @@ Criado pelo International Telecommunication Union Telecommunication Standardizat
 - Usado em uma rede local (Ethernet)
 - Camadas
   1. Camada física
-  2. Camada de enlace de dados
+  2. Camada de enlace ou link de dados
+  - Subcamadas
+    - MAC (Media Access Control)
+      - Próxima da camada física (inferior)
+    - LLC (Logical Link Control)
+      - Próxima da camada de rede (superior)
   3. Camada de rede
   4. Camada de transporte
   5. Camada de sessão

@@ -82,6 +82,10 @@
 
   - Monitora o tráfego de rede em busca de atividades suspeitas ou intrusões.
   - Identifica potenciais ameaças e emite alertas quando atividades maliciosas são detectadas.
+    - Tipos de ameaças
+      - **Bot:** é um programa que se comunica com o invasor e permite que a máquina seja controlada remotamente.
+        - Infecção e propagação similar ao do worm
+      - **Botnet:** rede formada por centenas ou milhares de computadores zumbis e que permite potencializar as ações danosas executadas pelos bots.
   - Não toma medidas diretas para interrompê-las.
 
 - **Intrusion Prevention System (IPS)**
@@ -99,12 +103,13 @@
 - **Proxy**
 
   - Um servidor proxy age como intermediário entre um dispositivo e a Internet.
+  - Componentes responsável por intermediar a comunicação entre estações e os servidores da rede externa.
   - Usado para ocultar o endereço IP do dispositivo.
   - Filtra conteúdo da web e melhora a segurança.
   - Protege a rede interna contra ameaças externas.
-  - proxy reverso
-    - Um proxy regular com uma camada adicional
-    - É um servidor que é colocado por cima do ""servidor web interno" para que possa ser o primeiro ponto de contato com clientes do lado da web
+  - Proxy reverso
+    - Um proxy regular com uma camada adicional.
+    - É um servidor que é colocado por cima do "servidor web interno" para que possa ser o primeiro ponto de contato com clientes do lado da web.
 
 - **Identity Access Management (IAM)**
 
@@ -125,6 +130,7 @@
   - É essencial para proteger computadores contra ameaças de software malicioso.
 
 - **Antispam**
+
   - Projetado para filtrar e bloquear mensagens de e-mail indesejadas.
   - Reduz o volume de e-mails não solicitados que chegam às caixas de entrada dos usuários.
   - Protege contra ameaças que podem ser distribuídas por meio de e-mails.
@@ -570,10 +576,10 @@
 
 - **SMTP (Simple Mail Transfer Protocol)**
 
-  - Protocolo de texto simples para enviar e receber e-mails pela Internet.
+  - Protocolo de texto simples para enviar e-mails pela Internet.
   - Responsável pelo envio de mensagens de e-mail entre servidores.
   - Opera nas portas 25, 587 (conexões seguras usando STARTTLS), e 465 (conexões seguras usando SSL/TLS).
-  - Permite a entrega de mensagens aos destinatários corretos.
+  - Permite o envio de mensagens aos destinatários corretos.
   - Funciona em conjunto com outros protocolos como POP3 e IMAP para receber e gerenciar e-mails em clientes de e-mail.
 
 - **NFS (Network File System)**

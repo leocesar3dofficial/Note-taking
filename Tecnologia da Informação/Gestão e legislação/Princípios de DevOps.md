@@ -99,6 +99,7 @@
    - Os resultados são monitorados e tratados de forma ágil.
 
 5. **Monitoramento e resposta a incidentes**
+
    - Detecção e resposta a incidentes de segurança em tempo real.
    - Monitoramento constante das aplicações e infraestrutura.
    - Análise de logs.
