@@ -78,6 +78,9 @@ cvs -d <caminho do diretório> init
 
 - Ferramenta de automação de código aberto
 - Permite a automação de tarefas de configuração e gerenciamento de servidores
+  - Via playbooks
+    - composto por plays
+      - sequências de tasks que, por sua vez, chamam modules.
 - Utiliza uma abordagem baseada em YAML e SSH para descrever as tarefas que devem ser executadas em servidores remotos
 - Conhecido por sua simplicidade e facilidade de uso
 - Não requer agentes em máquinas remotas

@@ -24,6 +24,8 @@
 
 - **Publicidade e Transparência:** A publicidade dos atos administrativos é crucial para eficácia e moralidade, exceto em casos de segurança nacional.
 
+- **Direito a verdade:** não pode omiti-la, falseá-la, mentir.
+
 ### Cortesia e Deveres Fundamentais do Servidor
 
 - **Cortesia e Bom Trato:** Cortesia, boa vontade e atenção no serviço público são essenciais para manter a disciplina e evitar danos morais.

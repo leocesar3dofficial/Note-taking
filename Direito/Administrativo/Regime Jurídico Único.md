@@ -1,5 +1,7 @@
 # Regime jurídico único
 
+LEI Nº 8.112, DE 11 DE DEZEMBRO DE 1990
+
 ## Conceitos
 
 ### Servidor
@@ -77,6 +79,8 @@
       - Prefeito: facultado optar pela remuneração
     - Estudo ou Missão no Exterior
     - Servir em organismo internacional
+- Vedado
+  - Licença Capacitação
 
 ### Avaliação de desempenho
 
@@ -332,6 +336,6 @@
 
 ### Vantagens
 
-- Indenizações (não se incorporam) (pág 11)
+- Indenizações (não se incorporam)
 - Gratificações (incorporam-se)
 - Adicionais (incorporam-se)

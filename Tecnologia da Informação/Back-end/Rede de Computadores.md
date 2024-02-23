@@ -26,7 +26,17 @@
 2. **Enlance:** Ethernet, 802.11 WIFI, IEEE 802.1Q, 802.11G, HDLC, Token ring, FDDI, PPP, Switch, Frame relay.
 3. **Rede:** IP (IPV4, IPV6), ARP, RARP, ICMP, IPSec, etc.
 4. **Transporte:** TCP, UDP, RTP, SCTP, DCCP.
-5. **Aplicação:** HTTP, SMTP, FTP, SSH, TELNET, SIP, RDP, IRC, SNMP, NNTP, POP3 (receber emails), IMAP (Internet Message Access Protocol, para receber emails), BitTorrent, DNS, PING, etc.
+5. **Aplicação:**
+   HTTP, SMTP (Envio de emails), FTP, SSH, TELNET, SIP, RDP, IRC, SNMP, NNTP (Network News Transfer Protocol, grupos de discussão, obsoleto),
+   POP3 (Post Office Protocol, receber emails),
+   IMAP (Internet Message Access Protocol),
+   - realiza o sincronismo entre o cliente e o servidor de e-mail
+   - acessa as caixas de mensagens que estão no servidor de correio
+   - replica as ações de leitura ou troca de diretório no servidor
+   - permite que as mensagens sejam guardadas tanto na máquina local quanto no servidor
+   - envia, recebe, sincroniza, webmail
+   - mais avançado que o POP3
+     BitTorrent, DNS, PING, etc.
 
 ## Protocolos de Roteamento
 

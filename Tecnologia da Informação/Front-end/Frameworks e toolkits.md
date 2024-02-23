@@ -137,6 +137,7 @@
   - **Ferramentas de Desenvolvimento**
     - Android Studio é a principal IDE.
       - Oferece recursos de depuração, emuladores e uma variedade de ferramentas para simplificar o desenvolvimento.
+      - Permite construir apps com código parcialmente em Java e parcialmente em Kotlin, sem restrições.
 
 - iOS (Swift)
 

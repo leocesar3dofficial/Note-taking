@@ -144,7 +144,8 @@
 
 ## Natural Language Processing (NLP)
 
-- Tokenization
+- Tokenization ou tokenização
+  - dividir o texto da mensagem em palavras isoladas
 - Word stemming, lemmatization
 - TF-IDF (Term Frequency-Inverse Document Frequency)
 
@@ -185,3 +186,4 @@
 - Plotly.py: Interactive Graph Library
 - Streamlit: Web Dashboard
 - Scikit-Learn: Machine Learning
+  - Regressão Linear, treinar o modelo: `model = skl.LinearRegression().fit(x, y) `

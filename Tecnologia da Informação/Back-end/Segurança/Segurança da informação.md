@@ -578,7 +578,9 @@
 
   - Protocolo de texto simples para enviar e-mails pela Internet.
   - Responsável pelo envio de mensagens de e-mail entre servidores.
-  - Opera nas portas 25, 587 (conexões seguras usando STARTTLS), e 465 (conexões seguras usando SSL/TLS).
+  - Opera nas portas
+    - 25, 587 (conexões seguras usando STARTTLS).
+    - 465 (conexões seguras usando SSL/TLS).
   - Permite o envio de mensagens aos destinatários corretos.
   - Funciona em conjunto com outros protocolos como POP3 e IMAP para receber e gerenciar e-mails em clientes de e-mail.
 
@@ -628,6 +630,8 @@
   - Comércio eletrônico
   - Serviços bancários
   - Assinatura eletrônica de documentos públicos ou privados (cartório)
+    - Emitido para Pessoa Física
+      - Assinatura Digital apenas da Autoridade Certificadora (AC)
 
 ## Infraestruturas de Chaves Públicas (PKI – Public Key Infrastructure)
 
