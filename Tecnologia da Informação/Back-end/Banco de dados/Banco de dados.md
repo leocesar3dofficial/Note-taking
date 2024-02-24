@@ -419,9 +419,9 @@ São duas abordagens diferentes para modelagem e representação de sistemas.
 
 #### Controle de acesso
 
-- Conjunto de mecanismos e políticas utilizados para controlar o acesso aos dados
-- Permite definir permissões e restrições para diferentes usuários ou grupos de usuários
-- Determina quais operações eles podem realizar (por exemplo, leitura, gravação, exclusão)
+- Conjunto de mecanismos e políticas utilizados para controlar o acesso aos dados.
+- Permite definir permissões e restrições para diferentes usuários ou grupos de usuários.
+- Determina quais operações eles podem realizar (por exemplo, leitura, gravação, exclusão).
 
 #### Usuário
 
@@ -476,17 +476,17 @@ São duas abordagens diferentes para modelagem e representação de sistemas.
 #### Otimização de Consultas
 
 - Aprimora o desempenho das consultas executadas em um banco de dados
-  - Plano de Execução
+  - **Plano de Execução**
     - Determina a melhor estratégia para executar uma consulta, otimizando o tempo de resposta e utilização dos recursos.
-  - Índices
+  - **Índices**
     - Cria e gerencia índices para acelerar a busca e recuperação de dados, reduzindo o tempo de execução das consultas.
-  - Estatísticas e Análise
+  - **Estatísticas e Análise**
     - Coleta informações sobre os dados e o uso das consultas para realizar ajustes e otimizações adicionais.
-  - Cache
+  - **Cache**
     - Armazena em cache os resultados de consultas frequentes para evitar a necessidade de executá-las repetidamente.
-  - Refatoração de Consultas
+  - **Refatoração de Consultas**
     - Reescreve consultas para melhorar a eficiência, eliminando operações desnecessárias e simplificando a lógica.
-  - Buffer
+  - **Buffer**
     - Busca dados do armazenamento de disco para a memória principal.
 
 ### Características de banco de dados massivos (Big Data)

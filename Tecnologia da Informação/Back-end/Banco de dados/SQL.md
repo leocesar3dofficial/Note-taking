@@ -12,10 +12,36 @@ WHERE condition;
 
 ### Example
 
+1. **básico**
+
 ```sql
 SELECT *
 FROM customers
 WHERE age >= 18;
+```
+
+2. **Retorna o CNPJ e a razão social de empresas que não possuem a característica 'ESG'**
+
+```sql
+SELECT E.CNPJ, E.razaoSocial
+FROM Empresa E
+WHERE E.CNPJ NOT IN
+  (
+    SELECT T.CNPJ
+    FROM Tem T
+    JOIN Caracteristica C ON (T.cod = C.cod)
+    WHERE C.sigla = 'ESG'
+  )
+```
+
+3. **Quantas são jovens e que nasceram no estado do Rio de Janeiro**
+
+```sql
+SELECT COUNT(*)
+FROM Pessoa P, Faixa F
+WHERE P.faixaEtaria = F.nome
+  AND P.unidadeFederativaNascimento = 'RJ'
+  AND F.maiorIdade <= 19
 ```
 
 ### JOIN

@@ -180,7 +180,7 @@
 - A OCI é uma iniciativa de padrões abertos criada para garantir a portabilidade entre diferentes implementações de contêineres.
 - Foi lançada para estabelecer padrões comuns para o formato de contêineres e as especificações de execução.
 
-#### Componentes Principais
+#### Principais componentes
 
 - **Image Specification:** Define o formato e a estrutura de uma imagem de contêiner.
 - **Runtime Specification:** Define como um contêiner deve ser executado e interagir com o sistema operacional subjacente.

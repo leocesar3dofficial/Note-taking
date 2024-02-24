@@ -225,6 +225,10 @@
    - Trabalho conjunto na modelagem, execução e melhoria de processos
    - Recursos de controle de acesso para garantir segurança na modificação dos processos
 
+## Blockchain
+
+Possibilita o armazenamento e compartilhamento de dados de forma distribuída, criptografada e sem a intermediação de terceiros.
+
 ## Modelo Nacional de Interoperabilidade (MNI) (usado somente no Judiciário)
 
 ### Objetivo

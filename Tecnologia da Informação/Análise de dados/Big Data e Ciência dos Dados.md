@@ -7,6 +7,7 @@
 - Não há um consenso sobre o conceito
 - Alto volume de dados
 - Dados complexos, variados, heterogêneos (não estruturados) e derivam de múltiplas fontes
+- Variedade, Velocidade, Veracidade e Valor (descritos a seguir)
 - Controles distribuídos e não centralizados
   - Heterogeneidade
     - Um dos requisitos de um sistema de arquivos distribuídos
