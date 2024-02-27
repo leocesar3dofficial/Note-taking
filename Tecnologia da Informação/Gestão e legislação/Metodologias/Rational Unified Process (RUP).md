@@ -11,7 +11,7 @@
 
 ## Fases principais
 
-1. **Iniciação (Inception) ou Concepção:** estabelecer o escopo e os objetivos do projeto.
+1. **Iniciação (Inception) ou Concepção:** estabelece o escopo e os objetivos do projeto.
 
    - Identificar os principais stakeholders, as necessidades dos usuários e os riscos iniciais.
    - Análise de viabilidade.
@@ -24,7 +24,7 @@
      - Descrição da arquitetura ou um plano de desenvolvimento do software.
    - Estimativas de recursos e prazos.
    - **Metas**
-     - Desenvolver uma compreensão do problema dominante.
+     - Desenvolver uma compreensão do problema dominante ou análise do domínio do problema.
      - Estabelecer um framework da arquitetura para o sistema.
      - Desenvolver o plano do projeto.
      - Identificar os maiores riscos do projeto.

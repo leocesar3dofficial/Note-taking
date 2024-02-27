@@ -12,6 +12,7 @@
 ### Objective
 
 - Track the progress of work
+- Não possui limite de tempo fixo
 
 ### Card/item status
 

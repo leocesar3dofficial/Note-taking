@@ -60,6 +60,8 @@
     - Subestimação de recursos
 - **Espiral**
   - Pequenos ciclos repetidos + fluxo sequencial linear do modelo cascata
+  - Orientado por riscos
+    - Todos os riscos mitigados -> próxima etapa iniciada
   - Criação de protótipos em cada ciclo
   - Adequado para projetos grandes e complexos
 - **Ágil**

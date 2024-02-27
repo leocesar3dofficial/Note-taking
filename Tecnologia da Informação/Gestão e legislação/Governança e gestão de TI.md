@@ -213,6 +213,7 @@
 
 #### MVP (Minimum Viable Product) ou Produto Mínimo Viável
 
+- Versão mais simples de um produto
 - Validação de uma ideia de negócio
 - Análise de problemas, oportunidades e feedbacks
 
