@@ -152,7 +152,7 @@ sudo systemctl mask bluetooth.service
 
 - **Video Converter:** `sudo apt install ./winff_1.5.5-8build1_all.deb`
 - **Font Manager:** `sudo apt install font-manager`
-- **OBS Studio**
+- **OBS Studio:**
 
   ```bash
   sudo add-apt-repository ppa:obsproject/obs-studio
@@ -160,6 +160,19 @@ sudo systemctl mask bluetooth.service
   ```
 
 - **qBittorent:** `sudo apt-get install qbittorrent`
+- **flatpak:** `sudo apt install flatpak`
+
+  Add Flathub repository:
+
+  ```bash
+    flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+  ```
+
+  Install Blender:
+
+  ```bash
+      flatpak install flathub org.blender.Blender
+  ```
 
 ## Uninstall Software (and all its dependencies)
 
