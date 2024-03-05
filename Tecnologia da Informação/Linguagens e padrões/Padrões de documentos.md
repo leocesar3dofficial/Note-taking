@@ -27,10 +27,17 @@
 
 ## SOAP (Simple Object Access Protocol)
 
-- Protocolo de comunicação usado para trocar mensagens entre sistemas distribuídos através da Internet.
+- Protocolo de comunicação para troca de informações/mensagens entre sistemas distribuídos
+  - Permite que aplicativos em diferentes plataformas e linguagens se comuniquem de maneira padronizada
 - Define uma estrutura de mensagem XML representando solicitações e respostas entre o cliente e o servidor.
+  - Exige o uso de XML para fornecer a resposta
+  - Baseado em padrões XML para estruturar os dados transmitidos
+  - Estrutura de mensagem com envelope SOAP contendo cabeçalho (opcional) e corpo (obrigatório)
+- Usa HTTP como protocolo de transporte padrão
+  - Protocolo extensível permitindo definição de protocolos específicos de aplicação (bindings)
 - Facilita a interoperabilidade entre diferentes plataformas e tecnologias.
 - Mecanismos de proteção incluem autenticação via token.
+- Amplamente utilizado em aplicações e serviços web
 
 ## JSON (JavaScript Object Notation)
 

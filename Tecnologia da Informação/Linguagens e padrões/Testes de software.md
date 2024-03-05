@@ -325,12 +325,11 @@ Objetos pré-programados formam uma especificação das chamadas que se espera q
 
 - Linters e analisadores de código, são frequentemente usadas para automatizar o processo de revisão do código
 
-### 10. Teste de Requisitos Não Funcionais (RNF)
+### 10. Teste de Requisitos Não Funcionais (RNFs)
 
 #### Características
 
-- Requisitos que não estão diretamente relacionados às funcionalidades do software,
-  mas sim a características que afetam o
+- Requisitos que não estão diretamente relacionados às funcionalidades do software, mas sim a características que afetam o:
   - Desempenho / Eficiência
   - Escalabilidade
   - Segurança
@@ -340,7 +339,25 @@ Objetos pré-programados formam uma especificação das chamadas que se espera q
   - Outros aspectos que não envolvem a lógica do sistema
 - Envolve a validação e a verificação desses requisitos
 
-#### Tipos
+#### Classificação dos Requisitos Não Funcionais
+
+- **Requisitos de produtos:** Requisitos que especificam o comportamento do produto.
+  - Requisitos de usabilidade (facilidade de uso).
+  - Requisitos de eficiência. Ex.: o sistema deverá processar n requisições por um determinado tempo.
+  - Requisitos de confiabilidade. Ex.: o sistema deverá ter alta disponibilidade, p.exemplo, 99% do tempo.
+  - Requisitos de portabilidade. Ex.: o sistema deverá executar em qualquer plataforma.
+- **Requisitos organizacionais:** Requisitos decorrentes de políticas e procedimentos corporativos.
+  - Ex. padrões, infraestrutura,etc.
+  - Requisitos de entrega. Ex.: um relatório de acompanhamento deverá ser fornecido toda segunda-feira.
+  - Requisitos de implementação. Ex.: o sistema deverá ser desenvolvido na linguagem Java.
+  - Requisitos de padrões. Ex.: uso de programação orientada a objeto sob a plataforma A.
+- **Requisitos externos:** Requisitos decorrentes de fatores externos ao sistema e ao processo de desenvolvimento.
+  - Ex. requisitos de interoperabilidade, legislação,localização geográfica, etc.
+  - Requisitos de interoperabilidade. Ex.: o sistema deverá se comunicar com o banco SQL Server.
+  - Requisitos éticos. Ex.: o sistema não apresentará aos usuários quaisquer dados de cunho privativo.
+  - Requisitos legais. Ex.: o sistema deverá atender às normas legais, tais como padrões, leis, etc.
+
+#### Tipos de testes para RNFs
 
 - Teste de Carga
   - Avaliar o desempenho do sistema sob carga máxima ou condições de pico

@@ -29,7 +29,7 @@
 - Adequado para aplicações compatíveis com navegadores web
 - Criação de interfaces que permitem que os clientes acessem e manipulem recursos em um sistema
   - Baseado em HTTP
-  - Recursos identificados por URLs e podem ser representados em diferentes formatos (JSON, XML)
+  - Recursos identificados por URLs e podem ser representados em diferentes formatos (JSON, XML, HTML, CSS, RSS (Really Simple Syndication))
 
 #### Princípios
 
@@ -49,15 +49,7 @@
 
 ### SOAP (Simple Object Access Protocol)
 
-#### Características
-
-- Protocolo de comunicação para troca de informações entre sistemas distribuídos
-- Permite que aplicativos em diferentes plataformas e linguagens se comuniquem de maneira padronizada
-- Baseado em padrões XML para estruturar os dados transmitidos
-  - Estrutura de mensagem com envelope SOAP contendo cabeçalho (opcional) e corpo (obrigatório)
-- Usa HTTP como protocolo de transporte padrão
-- Protocolo extensível permitindo definição de protocolos específicos de aplicação (bindings)
-- Amplamente utilizado em aplicações e serviços web
+[Detalhes aqui](/Tecnologia%20da%20Informação/Linguagens%20e%20padrões/Padrões%20de%20documentos.md#soap-simple-object-access-protocol)
 
 ### XMLHttpRequest
 

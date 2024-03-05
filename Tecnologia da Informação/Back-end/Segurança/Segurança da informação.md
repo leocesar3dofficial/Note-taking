@@ -19,16 +19,17 @@
   - Garantir que os dados estejam acessíveis aos usuários quando necessário.
   - Meios: redundância, recuperação de desastres, monitoramento, backup.
 
-- **Não Repúdio**
+- **Não Repúdio ou Irretratabilidade**
 
   - Visa garantir que o autor não negue ter criado e assinado o documento.
+    - Negação falsa de envolvimento em uma associação / transação
   - Capacidade de provar a autoria de uma mensagem ou transação.
   - Meios: assinatura digital, carimbo (time stamp), auditoria.
 
 - **Privacidade**
-  Pode ser alcançada com o uso de uma VPN (Rede Privada Virtual)
 
-  Conexão segura e criptografada entre dois pontos em uma rede
+  - Pode ser alcançada com o uso de uma VPN (Rede Privada Virtual).
+  - Conexão segura e criptografada entre dois pontos em uma rede.
 
   1. **Criptografia:** As VPNs utilizam protocolos de criptografia para proteger a integridade e confidencialidade dos dados transmitidos.
 
@@ -324,6 +325,7 @@
   - Algoritmo de criptografia simétrica
   - Alta segurança
   - Tamanhos de chave: AES-128, AES-192 e AES-256
+    - Limita o tamanho do bloco a 128 bits.
   - Usos
     - Criptografar dados confidenciais
     - Criptografia de arquivos e dispositivos
@@ -384,14 +386,28 @@
 
 - Protocolos de segurança para estabelecer uma conexão criptografada.
 - Fornecem autenticação, integridade e confidencialidade dos dados transmitidos.
-- Usos
+- **Usos**
   - Transações financeiras online.
   - E-mails seguros.
   - Acesso a sites por meio de HTTPS.
+    - O servidor é sempre autenticado e o cliente é opcionalmente autenticado.
     - Mensagens do handshake
-      1. ClientHello, enviada pelo cliente.
+      1. ClientHello, enviada pelo cliente (obrigatório).
       2. ServerHello, enviada pelo servidor.
          - Contém os parâmetros criptográficos que serão utilizados na conexão.
+- **Autenticação no TLS**
+  - O cliente e o servidor negociam qual método de autenticação será usado.
+  - O servidor envia seu certificado digital ao cliente.
+  - O cliente verifica o certificado do servidor para garantir que ele é confiável.
+  - Se o cliente for autenticado, ele envia seu certificado digital ao servidor.
+  - O servidor verifica o certificado do cliente para garantir que ele é confiável.
+  - **Vantagens**
+    - Garante a identidade do servidor
+      - O cliente tem certeza de que está se comunicando com o servidor correto.
+    - Protege contra ataques de phishing
+      - O cliente não pode ser enganado a se conectar a um servidor falso.
+    - Protege contra ataques de man-in-the-middle
+      - O invasor não pode interceptar e modificar os dados que estão sendo transmitidos.
 
 ### SSH (Secure Shell Protocol)
 

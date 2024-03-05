@@ -56,7 +56,8 @@
 
 ### BSC (Balanced Scorecard)
 
-- Medir e gerir o desempenho organizacional
+- Traduz a missão empresarial e a estratégia em objetivos e iniciativas
+- Objetivo de medir e gerir o desempenho organizacional
 
 #### Perspectivas
 

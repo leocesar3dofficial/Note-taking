@@ -13,11 +13,15 @@
 - Spring (ecossistema Java)
 
   - Spring Boot (bootstrap ou inicialização de aplicativos)
+
     ### Conceito
+
     - Fornece um conjunto de ferramentas e convenções para criar aplicativos autônomos e prontos para produção.
     - Construído sobre o framework Spring (Java).
     - Torna o desenvolvimento mais rápido e simplificado.
+
     ### Recursos
+
     - **Configuração Conveniente**
       - Oferece configuração automática com base nas dependências adicionadas ao projeto.
       - Reduz a necessidade de configuração manual.
@@ -30,11 +34,16 @@
     - **Monitoramento e Métricas**
       - Oferece suporte a monitoramento e métricas integrados.
       - Torna mais fácil a implantação e o gerenciamento de aplicativos em produção.
+
     ### Casos de Uso
+
     - Desenvolvimento rápido de aplicativos, microsserviços, APIs RESTful e aplicativos da web.
     - Simplifica a configuração, aumentando a produtividade dos desenvolvedores.
+
   - Spring MVC (Model-View-Controller)
+
     #### Recursos
+
     - **DispatcherServlet**
       - Componente central do Spring MVC que recebe todas as solicitações HTTP.
       - Encaminha para os Controladores apropriados com base em mapeamentos definidos.
@@ -48,12 +57,15 @@
       - Garante que os dados de entrada do usuário sejam válidos.
     - **Integração com Spring**
       - Pode ser integrado com outros módulos do Spring (como Spring Security e Spring Boot).
+
   - Spring Cloud (ferramentas para sistemas distribuídos)
 
     ### Conceito
 
     - Conjunto de ferramentas e bibliotecas no ecossistema Spring.
     - Facilita a construção de sistemas distribuídos e aplicativos em nuvem.
+      - Promove a independência de estado de serviço.
+        - Capacidade de um serviço funcionar de forma autônoma e sem depender do estado de outros serviços para realizar suas operações.
     - Fornece abstrações e soluções para problemas comuns de desenvolvimento de microsserviços.
 
     ### Recursos
@@ -103,14 +115,18 @@
   - .NET Core
   - NodeJS (Javascript)
   - gRPC
+
     ### Conceito
+
     - Framework de código aberto desenvolvido pelo Google.
     - Facilita a comunicação entre sistemas distribuídos.
     - Usado em cenários de microsserviços.
     - Baseado no protocolo HTTP/2.
     - Utiliza o protocolo de serialização de dados protobuf (Protocol Buffers).
       - Define interfaces de serviço e mensagens.
+
     ### Características
+
     - **RPC (Remote Procedure Call)**
       - Permite que os aplicativos chamem funções em servidores remotos de maneira semelhante a uma chamada local.
     - **Suporte a várias linguagens de programação**

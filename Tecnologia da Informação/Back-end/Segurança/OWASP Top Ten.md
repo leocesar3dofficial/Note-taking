@@ -93,3 +93,7 @@
    - Registro e Monitoramentos Insuficientes
 
 10. **Server Side Request Forgery (Falsificação de Solicitação do Lado do Servidor)**
+
+## Common Weakness Enumeration (CWE)
+
+É uma lista desenvolvida pela comunidade de pontos fracos comuns de software e hardware.
