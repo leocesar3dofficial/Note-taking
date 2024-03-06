@@ -169,6 +169,9 @@
     - Outras placas controladoras
   - **Modelos** Uno, Mega ou Nano
 - **Emulador Fritzing**
+- **Control Room**
+  - Software que gerencia, programa, executa e configura vários recursos de bots e Executores de bots.
+  - Usa uma coleção de serviços web especializados.
 
 ## Legislação
 

@@ -66,7 +66,9 @@ Notação gráfica amplamente utilizada para modelagem de sistemas de software.
 
 - **Diagramas Estruturais:**
 
-  1. **Diagrama de Classes:** Representa a estrutura estática do sistema, mostrando as classes, seus atributos, métodos e os relacionamentos entre elas.
+  1. **Diagrama de Classes:**
+  
+    Representa a estrutura estática do sistema, mostrando as classes, seus atributos, métodos e os relacionamentos entre elas.
 
      - **Elementos**
        - **Níveis de acesso:**  
@@ -74,28 +76,44 @@ Notação gráfica amplamente utilizada para modelagem de sistemas de software.
          <u>Sublinhado</u> = estático  
          _Itálico_ = abstrato
 
-2. **Diagrama de Objetos:** Detalha instâncias de classes e seus relacionamentos em um determinado momento durante a execução do sistema.
+2. **Diagrama de Objetos:**
 
-3. **Diagrama de Componentes:** Ilustra a estrutura física dos componentes de software e suas interações.
+    Detalha instâncias de classes e seus relacionamentos em um determinado momento durante a execução do sistema.
 
-4. **Diagrama de Implantação:** Mostra a disposição física dos artefatos de software em nós (hardware) e suas interações.
+3. **Diagrama de Componentes:**
+
+    Ilustra a estrutura física dos componentes de software e suas interações.
+
+4. **Diagrama de Implantação:**
+
+    Mostra a disposição física dos artefatos de software em nós (hardware) e suas interações.
 
 - **Diagramas Comportamentais:**
 
-  1. **Diagrama de Casos de Uso:** Descreve as interações entre atores (usuários externos) e o sistema, destacando os cenários de uso.
+  1. **Diagrama de Casos de Uso:**
 
-  2. **Diagrama de Sequência:** Representa a ordem temporal das mensagens entre objetos durante uma interação.
+     Descreve as interações / associações entre atores (usuários externos) e o sistema, destacando os cenários de uso.
 
-  3. **Diagrama de Comunicação:** Similar ao diagrama de sequência, mostra as interações entre objetos, mas enfatiza as associações entre eles.
+  2. **Diagrama de Sequência:**
 
-  4. **Diagrama de Máquina de Estados:** Modela o comportamento de um objeto em termos de estados que ele pode assumir e transições entre esses estados.
+     Representa a ordem temporal das mensagens entre objetos durante uma interação.
+
+  3. **Diagrama de Comunicação:**
+
+     Similar ao diagrama de sequência, mostra as interações entre objetos, mas enfatiza as associações entre eles.
+
+  4. **Diagrama de Máquina de Estados:**
+
+     Modela o comportamento de um objeto em termos de estados que ele pode assumir e transições entre esses estados.
 
   5. **Diagrama de Atividades:** Descreve o fluxo de atividades, incluindo a sequência de ações e decisões.
 
      - **Elementos**
+       - Início: bola cheia.
+       - Fim: bola no interior de um círculo.
        - Condição de guarda
-         - Precisa ser satisfeita para permitir que uma transição associada seja ativada
-         - Expressão booleana entre colchetes
+         - Precisa ser satisfeita para permitir que uma transição associada seja ativada.
+         - Expressão booleana entre colchetes. Ex. [sim], [não].
 
 ###### IDEF (Integrated Definition Language)
 

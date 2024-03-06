@@ -60,9 +60,16 @@
 
 ## Pillars
 
-- Transparency
-- Inspection
-- Adaptation
+- Transparency (Transparência)
+  - Todas as informações devem ser visíveis e claras para todos.
+  - Promove a confiança e a colaboração.
+- Inspection (Inspeção)
+  - Inspeção regular de todos os aspectos do trabalho sendo realizado.
+  - Avaliar continuamente o progresso do trabalho, a qualidade do produto, os processos e as interações da equipe.
+- Adaptation (Adaptação)
+  - Adaptar os planos, processos e produtos para otimizar o valor entregue.
+  - Ajustar o backlog do produto, redefinir prioridades, revisar práticas de trabalho.
+  - Até mesmo mudar a direção estratégica do projeto, se necessário.
 
 ## Values
 

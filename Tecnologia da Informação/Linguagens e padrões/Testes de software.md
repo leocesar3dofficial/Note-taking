@@ -246,6 +246,26 @@ Objetos pré-programados formam uma especificação das chamadas que se espera q
 - Funcionalidades fornecidas por um sistema.
 - Orientada para a análise do impacto das funcionalidades do software.
 
+#### Fórmula
+
+$$ \text{Pontos de Função (PF)} = \sum_{i=1}^{n} \text{Complexidade}\_i \times \text{Peso}\_i $$
+
+Onde:
+
+- $ n $ é o número de componentes.
+- $ \text{Complexidade}\_i $ é a complexidade de cada componente.
+- $ \text{Peso}\_i $ é o peso atribuído a cada nível de complexidade (baixa, média, alta).
+
+#### Tabela de pesos
+
+| Componente                   | Baixa | Média | Alta |
+| ---------------------------- | ----- | ----- | ---- |
+| EE (Entrada Externa)         | 3     | 4     | 6    |
+| CE (Consulta Externa)        | 3     | 4     | 6    |
+| SE (Saída Externa)           | 4     | 5     | 7    |
+| ALE (Arquivo Lógico Externo) | 5     | 7     | 10   |
+| ALI (Arquivo Lógico Interno) | 7     | 10    | 15   |
+
 #### O que é quantificado
 
 - Interações entre o usuário e o sistema (externa) e sua complexidade (baixa à altamente complexa):
@@ -306,20 +326,22 @@ Objetos pré-programados formam uma especificação das chamadas que se espera q
 
 #### Características
 
-- Revisão e a avaliação do código-fonte de um programa de software sem a necessidade de executá-lo
-- Identificar problemas, erros, vulnerabilidades de segurança, violações de padrões de codificação e más práticas
+- Revisão e a avaliação do código-fonte de um programa de software sem a necessidade de executá-lo.
+- Identificar problemas, erros, vulnerabilidades de segurança, violações de padrões de codificação e más práticas.
+- **Walk-through**
+  - Revisão manual do código-fonte, documentação e de outros artefatos por membros da equipe.
 
 #### Detecção de Erros
 
-- Identificar erros no código, como variáveis não inicializadas, uso incorreto de operadores, loops infinitos e outros problemas de lógica
+- Identificar erros no código, como variáveis não inicializadas, uso incorreto de operadores, loops infinitos e outros problemas de lógica.
 
 #### Melhoria da Qualidade
 
-- Garantir que o código siga padrões de codificação, seja coeso e fácil de entender, e siga as melhores práticas
+- Garantir que o código siga padrões de codificação, seja coeso e fácil de entender, e siga as melhores práticas.
 
 #### Segurança
 
-- Identificar vulnerabilidades de segurança no código, como potenciais pontos de injeção de SQL, vulnerabilidades de Cross-Site Scripting (XSS) e muito mais
+- Identificar vulnerabilidades de segurança no código, como potenciais pontos de injeção de SQL, vulnerabilidades de Cross-Site Scripting (XSS) e muito mais.
 
 #### Automatização
 

@@ -81,6 +81,7 @@ Entrada (Input) -> Processamento -> Saída (Output). Tipos de sistema: fechado e
 
 - Bancos de informações
 - Sistemas de informação
+  - Responsável pela coleta, armazenamento, processamento, recuperação e disseminação de informações. 
 
 ## Tipos de Sistema de Informação
 
@@ -96,17 +97,17 @@ Entrada (Input) -> Processamento -> Saída (Output). Tipos de sistema: fechado e
     6. Relatório das exceções
   - Módulos MRP II
     1. Production Planning (PP)
-    - Investimentos em equipamentos
-    - Estoques agregados
-    - Quantidade a ser produzida
+       - Investimentos em equipamentos
+       - Estoques agregados
+       - Quantidade a ser produzida
     2. Master Production Schedule (MPS)
-    - Desdobramento dos planos de longo prazo
-    - Determinar os níveis de produção e estoque
+       - Desdobramento dos planos de longo prazo
+       - Determinar os níveis de produção e estoque
     3. Capacity Requirements Planning (CRP)
-    - Desdobramento dos planos do MPS
+       - Desdobramento dos planos do MPS
     4. Shop Floor Control (SFC)
-    - Coleta dados sobre cada posto de trabalho
-    - Gera informações sobre os resultados da produção
+       - Coleta dados sobre cada posto de trabalho
+       - Gera informações sobre os resultados da produção
   - Estrutura do produto
 - ERP (Enterprise Resources Planning)
   - Front-office: Vendas, Serviços

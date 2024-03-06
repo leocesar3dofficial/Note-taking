@@ -7,7 +7,7 @@
   - Bugs
     - Mistakes in programs that cause them to behave differently than intended
   - Debugger
-    - Walk through our the program step-by-step
+    - Walk through the program step-by-step
     - Can inspect variables and other information while the program is running
     - Breakpoint: a place, line of code, where we want the debugger to pause execution
   - Rubber duck
