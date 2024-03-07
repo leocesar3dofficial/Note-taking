@@ -56,8 +56,8 @@
 
 ### BSC (Balanced Scorecard)
 
-- Traduz a missão empresarial e a estratégia em objetivos e iniciativas
-- Objetivo de medir e gerir o desempenho organizacional
+- Traduz a missão empresarial e a estratégia em objetivos e iniciativas.
+- Objetivo de medir e gerir o desempenho organizacional.
 
 #### Perspectivas
 
@@ -72,28 +72,59 @@
   - NPS (Net Promoter Score)
     - $$ \text{Percentual de promotores} - \text{Percentual de detratores} $$
 - Processos internos
-  - Tempo médio de entrega do produto
-    - $$ \frac{\text{Soma dos tempos de entrega}} {\text{Número de pedidos}} $$
-  - Taxa de defeitos ou retrabalho
-    - $$ \frac{\text{Número de produtos defeituosos}} {\text{Número total de produtos}} $$
+  - Avalia o grau de inovação nos processos de gestão da empresa e o nível de qualidade de suas operações.
+  - Indicadores
+    - Tempo médio de entrega do produto
+      - $$ \frac{\text{Soma dos tempos de entrega}} {\text{Número de pedidos}} $$
+    - Taxa de defeitos ou retrabalho
+      - $$ \frac{\text{Número de produtos defeituosos}} {\text{Número total de produtos}} $$
 - Aprendizado e crescimento
   - Horas de treinamento por funcionário
     - $$ \frac{\text{Total de horas de treinamento}} {\text{Número de funcionários}} $$
   - Taxa de retenção de talentos
     - $$ \frac{\text{Número de funcionários retidos}} {\text{Número de funcionários no início do período}} $$
 
+#### Componentes
+
+- Objetivos
+  - Estabelece o que a empresa deseja alcançar em cada perspectiva.
+- Metas
+  - Quantifica a performance em cada indicador, de acordo com o objetivo proposto.
+- Iniciativas ou projetos
+  - Ações para atingir as metas e objetivos.
+- Indicadores
+  - Mede o desempenho dos objetivos e metas.
+
 ## Gestão de projetos PMBoK
 
-7ª Edição, 2021
+7ª Edição, 2021.
+Project Management Body of Knowledge
 
-### Project Management Body of Knowledge
+### Grupos de Processos
 
-#### Domínios de desempenho
+- Iniciação
+- Monitoramento e Controle (Processo de fundo)
+  - Executado durante praticamente todo o tempo do projeto.
+  - Sub processos
+    - Planejamento
+    - Execução
+- Encerramento
 
-- **São 8 domínios:** Stakeholders, Equipe, Desenvolvimento e Ciclo de Vida, Planejamento, Trabalho do projeto, Entrega, Avaliação, Incerteza
-- são executados simultaneamente ao longo do projeto
+### Domínios de desempenho
 
-#### Métodos
+- **São 8 domínios:** 
+  - Stakeholders
+  - Equipe
+  - Desenvolvimento e Ciclo de Vida
+  - Planejamento
+  - Trabalho do projeto
+  - Entrega
+  - Avaliação
+  - Incerteza
+    - Diminui o risco e aumenta o custo de mudanças ao longo do projeto.
+- São executados simultaneamente ao longo do projeto
+
+### Métodos
 
 - Abordagem Sistêmica
   - Aspectos
@@ -102,17 +133,17 @@
     - Ambientais
     - Econômicos
 - Ciclo de Vida do Projeto
-  - Preditivo
+  - Preditivo (cascata ou waterfall)
   - Iterativo
   - Incremental
-  - Adaptativo
+  - Adaptativo (metodologias ágeis)
   - Híbrido
 - Gerenciamento Ágil
   - Adaptabilidade
   - Colaboração
   - Entrega incremental
 
-#### Técnicas
+### Técnicas
 
 - Análise de Stakeholders
   - Identificação, análise e engajamento
@@ -145,14 +176,17 @@
   - Cost Structure
   - Revenue Streams
 
-#### Ferramentas
+### Ferramentas
 
 - Matriz de Rastreabilidade
-  - Documentar as relações entre os requisitos e entregas
+  - Documentar as relações entre os requisitos e as entregas.
 - [Kanban](</Tecnologia da Informação/Gestão e legislação/Metodologias/Agile Frameworks/Kanban.md>)
 - Simulações específicas
+- Estrutura Analítica do Projeto (EAP)
+  - Representação hierárquica do escopo do trabalho do projeto, dividido em partes menores e mais gerenciáveis. 
+  - Assume a forma de um organograma, portanto, um gráfico hierárquico.
 
-### Processos Ágeis
+## Processos Ágeis
 
 - Metodologia [Scrum](</Tecnologia da Informação/Gestão e legislação/Metodologias/Agile Frameworks/Scrum.md>)
 - Sistema de gestão [Kanban](</Tecnologia da Informação/Gestão e legislação/Metodologias/Agile Frameworks/Kanban.md>)
@@ -212,6 +246,25 @@
 
 - Combinação da probabilidade e sua consequência
 
+#### Técnicas
+
+1. Análise Preliminar de Risco (APR)
+  - Estudo antecipado e detalhado de todas as fases do trabalho.
+2. Análise de Árvore de Falhas (AAF)
+  - Analisar as falhas, suas causas e consequências.
+  - Evento-Topo: evento indesejado que gerou a falha.
+3. Árvore de Causas (ADC)
+  - Análise de acidentes.
+  - Identificar as falhas que antecederam o evento final (lesão ou não).
+4. Análise de Modos de Falhas e Efeitos (FMEA)
+  - Identificar potenciais modos de falha.
+5. Estudo de Perigos e Operabilidade (HAZOP)
+  - Identificar os perigos e problemas de operabilidade.
+6. Técnica de Incidentes Críticos (TIC)
+  - Identificar erros e condições inseguras.
+7. What-If (WI)
+  - Testar possíveis omissões.
+
 #### MVP (Minimum Viable Product) ou Produto Mínimo Viável
 
 - Versão mais simples de um produto
@@ -263,31 +316,21 @@
 - Estabelecimento do contexto
   - Identificar ativos de informação, ameaças potenciais, vulnerabilidades e consequências de riscos
 - Avaliação de riscos
-
   - Probabilidade de ocorrência e impacto nas operações da organização
   - Envolve a análise qualitativa e/ou quantitativa
-
 - Tratamento de riscos
-
   - Mitigar, aceitar, transferir ou evitar os riscos
   - Definição de medidas de segurança
-
 - Comunicação e consulta
-
   - Envolver as partes interessadas (stakeholders)
   - Comunicar informações relevantes sobre o tratamento de riscos
-
 - Monitoramento e revisão
-
   - O processo é contínuo
   - Monitorar e revisar regularmente o desempenho das estratégias de tratamento de riscos
   - Auditorias, avaliações de conformidade e revisões periódicas
-
 - Registros e documentação
-
   - Enfatiza a importância da documentação de todas as etapas do processo
   - Identificação, avaliações, tratamento de riscos e atividades de monitoramento
-
 - Melhoria contínua
   - Rever e aprimorar regularmente as práticas de gerenciamento de riscos com base em lições aprendidas e mudanças no ambiente de TIC
 
@@ -342,14 +385,11 @@
 #### ISO/IEC 27001:2013, Requisitos para sistemas de gestão de segurança da informação (SGSI)
 
 - Características
-
   - Faz parte da série de normas ISO/IEC 27000, sobre práticas e padrões relacionados à segurança da informação
   - Visa estabelecer, implementar, operar, monitorar, manter e melhorar continuamente um sistema de gestão de segurança da informação
   - Ajudar as organizações a proteger suas informações, garantindo a confidencialidade, integridade e disponibilidade dos dados,
     bem como gerenciar os riscos de segurança da informação
-
 - Componentes
-
   - Contexto da organização
     - A organização deve definir seu contexto, requisitos e expectativas relacionados à segurança da informação
   - Liderança
@@ -375,7 +415,7 @@
 - É uma norma internacional que fornece diretrizes gerais e boas práticas
   - para o estabelecimento, implementação, manutenção e melhoria de um sistema de gestão de segurança da informação
 - Não define controles de segurança específicos
-- Fornece uma estrutura/framework para organizações adaptarem as práticas de segurança à sua realidade
+- Fornece uma estrutura / framework para organizações adaptarem as práticas de segurança à sua realidade
 - A norma aborda
   - Políticas de segurança
   - Gestão de ativos

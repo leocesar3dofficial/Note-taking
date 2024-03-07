@@ -22,7 +22,8 @@ Processo onde dados são captados e convertidos em informações úteis ao negó
 - **Efetividade:** Eficácia x eficiência
 - **Valor:** Valor percebido x valor real
 
-Saída: relatórios ou dashboards em tempo real. Nível de precisão dos dados coletados: entre 50% e 90%.
+- Saídas: relatórios ou dashboards em tempo real. Nível de precisão dos dados coletados: entre 50% e 90%.
+- Em estratégias de redes sociais mede-se: Volume, Engajamento e Conversão.
 
 ## Benefícios
 
