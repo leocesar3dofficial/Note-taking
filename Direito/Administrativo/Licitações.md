@@ -33,6 +33,8 @@
   - Pagamento em 5 dias úteis da fatura
 - **Normas gerais**
   - Licitações, Lei 14.133/2021, substitui a Lei Lei 8.666/1993
+  - Obrigatório
+    - Fundos especiais direta ou indiretamente controlados pela Administração Pública
   - Contrato administrativo
     - Preceitos de direito público
     - Supletivamente
@@ -66,7 +68,7 @@
         - Pessoa com deficiência
         - Reabilitado da Previdência Social
         - Aprendiz
-    - Não abrange:
+    - Não abrange
       - Estatais
         - Empresa pública
         - Sociedade de economia mista
@@ -213,10 +215,11 @@
     - Pessoa com deficiência
     - Reabilitado da Previdência Social
   - Atendam às regras de acessibilidade
-- Margem de preferência (até 25% do preço)
-  - Atender as normas técnicas brasileiras
-  - Reciclados, recicláveis ou biodegradáveis
-  - (8.666-93) Empresas de inovação e tecnologia
+- Margem de preferência (Regra: até 10% do preço)
+  - Percentual definido em regulamento
+    - Bens manufaturados e serviços nacionais que Atendam as normas técnicas brasileiras
+    - Reciclados, recicláveis ou biodegradáveis
+  - (8.666-93) Empresas nacionais de inovação e tecnologia (Até 20% do preço)
   - (8.666-93) Baseado em estudos sobre:
     - Geração de emprego e renda
     - Efeito na arrecadação de tributos
@@ -276,12 +279,19 @@
 ### Pregão
 
 - Rito procedimental comum
+  - Ferramentas, equipamentos e materiais de uso comum 
 - Padrões de desempenho e qualidade especificados
 
 ### Concorrência
 
 - Rito procedimental comum
 - Qualquer interessado (requisitos mínimos)
+- Critérios (todos exceto o maior lance, que é exclusivo do Leilão)
+  - Menor preço
+  - Melhor técnica ou conteúdo artístico
+  - Técnica e preço
+  - Maior retorno econômico
+  - Maior desconto
 - Limites
   - Engenharia: acima de R$ 1,5 milhão
   - Demais: acima de R$ 650 mil
@@ -298,6 +308,12 @@
   - Científico
   - Artístico
 - Prêmio ou remuneração
+- Contratação de pessoal
+  - Não pode mudar os requisitos para inscrição e critérios de aprovação
+  - Pode ampliar o número de vagas previstas no Edital (ato discricionário)
+    - O número de vagas inicial é puramente enunciativa
+    - Dentro do prazo de validade do concurso
+    - Obedecida a ordem de classificação
 
 ### Leilão
 
@@ -310,17 +326,20 @@
 ### Diálogo competitivo
 
 - Inovação tecnológica ou técnica
-- Adaptação de soluções de mercado (sistemas)
+- Adaptação de uma ou mais soluções de mercado (sistemas)
+  - Explorar ideias e soluções
 - Especificações técnicas imprecisas
+  - A administração pública deseja interagir com os licitantes previamente
+- Proposta final pelos licitantes após o encerramento dos diálogos
 
-### (8.666-93) Tomada de preços
+### (8.666-93) Tomada de preços (Revogada)
 
 - Interessado devidamente cadastrado
 - Limites
   - Engenharia: até R$ 1,5 milhão
   - Demais: até R$ 650 mil
 
-### (8.666-93) Convite
+### (8.666-93) Convite (Revogada)
 
 - Interessado do ramo pertinente
 - Mais de 3 interessados -> Novo convite
@@ -397,6 +416,35 @@
   - Treinamento e aperfeiçoamento de pessoal
   - Restauração de obra de arte e de bem de valor histórico
   - Controle de qualidade e tecnológico, análise, teste e ensaio
+- Credenciamento
+- Aquisição ou locação de imóvel ideal
+  - Características de instalações e de localização tornem necessária sua escolha
+
+## Processo licitatório
+
+## Habilitação
+
+- Critérios
+  - Cumprimento das exigências de reserva de cargos
+
+### Encerramento da licitação
+
+- Saneamento de irregularidades
+- Revogação: revogar por motivo de conveniência e oportunidade (ato discricionário)
+  - Resultante de fato superveniente devidamente comprovado
+  - Prévia manifestação dos interessados
+- Anulação (ilegalidade insanável)
+  - Modo: de ofício ou mediante provocação
+  - Consequências
+    - Tornar sem efeito todos os atos subsequentes
+    - Apuração de responsabilidade
+  - Prévia manifestação dos interessados
+- Adjudicação e homologação: adjudicar o objeto e homologar a licitação
+
+### Recursos
+
+- Anulação ou revogação: 3 dias úteis
+  - Prazo contado da data de intimação ou de lavratura da ata
 
 # Agentes públicos
 

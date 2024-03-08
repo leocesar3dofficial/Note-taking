@@ -4,6 +4,14 @@
 
 - Representação gráfica dos processos de um sistema
 
+## Boas práticas
+
+- Definir inícios e fins claros.
+- Manter claro os cenários primários e alternativos.
+- Definir marcos (milestones)
+- Usar os padrões BPMN (standards).
+- Simplificar diagramas.
+
 ## Elementos
 
 ### Eventos
@@ -45,3 +53,8 @@
   - Círculo duplo com pentágono: apenas Event-Based
   - Círculo simples com pentágono: Event-Based exclusivo
   - Círculo simples com +: Event-Based paralelo
+
+## ARIS-EPC (Event-driven Process Chain)
+
+- Notação de modelagem de processos de negócios.
+- Ênfase em eventos e em transições de estados.
