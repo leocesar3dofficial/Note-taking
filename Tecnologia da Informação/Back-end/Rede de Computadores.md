@@ -22,21 +22,78 @@
 
 ### Camadas
 
-1. **Fisica:** Modem, RDIS, RS-32, EIA- 422, RS-449, Bluetooth, USB.
-2. **Enlance:** Ethernet, 802.11 WIFI, IEEE 802.1Q, 802.11G, HDLC, Token ring, FDDI, PPP, Switch, Frame relay.
-3. **Rede:** IP (IPV4, IPV6), ARP, RARP, ICMP, IPSec, etc.
-4. **Transporte:** TCP, UDP, RTP, SCTP, DCCP.
+1. **Fisica:**
+
+Modem, RDIS, RS-32, EIA- 422, RS-449, Bluetooth, USB
+
+2. **Enlance:**
+
+Ethernet, 802.11 WIFI, IEEE 802.1Q, 802.11G, HDLC, Token ring, FDDI, PPP, Switch, Frame relay
+
+3. **Rede:**
+
+IP (IPV4, IPV6), ARP, RARP, ICMP, IPSec, etc
+
+4. **Transporte:**
+
+- **TCP (Transmission Control Protocol)**
+
+   - Orientado à conexão
+   - Garantir a entrega ordenada e sem erros de dados entre aplicativos em uma rede
+   - Controle de congestionamento, retransmissão de pacotes perdidos e confirmações
+      - Garantir a confiabilidade na entrega dos dados
+   - É utilizado em navegadores da web, e-mail e transferência de arquivos.
+
+- **UDP (User Datagram Protocol)**
+
+   - Não confiável e sem conexão
+   - Transmite dados sem garantia de entrega ou ordenação
+   - UDP é mais rápido e mais eficiente em termos de sobrecarga de rede do que TCP
+   - Usado em aplicativos onde uma pequena perda de dados não é crítica
+      - Streaming de vídeo
+      - Jogos online
+      - Transmissão de áudio em tempo real
+
+- **RTP (Real-Time Transport Protocol)**
+
+   - Projetado para transmissão em tempo real de dados
+      - Videoconferência
+      - Streaming de vídeo
+      - Telefonia VoIP (Voice over IP)
+   - Possui controle de atraso, compensação de jitter e sequenciamento de pacotes
+   - Usado em conjunto com o RTCP
+
+- **SCTP (Stream Control Transmission Protocol)**
+
+   - Orientado a mensagens
+      - Telefonia IP
+      - Sinalização de redes de telecomunicações
+      - Transferência de arquivos
+   - Confiabilidade, entrega ordenada e controle de congestionamento
+   - Suporta múltiplos fluxos de dados (multiplexada) dentro de uma única conexão
+   - Robusto contra ataques
+      - Negação de serviço (DoS)
+      - Flooding
+
+- **DCCP (Datagram Congestion Control Protocol)**
+
+  - Combina algumas características do TCP e do UDP
+  - Controle de congestionamento, semelhante ao TCP, e suporta transmissões não confiáveis, semelhante ao UDP
+  - Usado em aplicações que exigem comunicação em tempo real com tolerância a perdas de dados, como jogos online e transmissões de vídeo
+  - Os aplicativos escolhem diferentes perfis de serviço, dependendo das necessidades de confiabilidade e latência
+
 5. **Aplicação:**
-   HTTP, SMTP (Envio de emails), FTP, SSH, TELNET, SIP, RDP, IRC, SNMP, NNTP (Network News Transfer Protocol, grupos de discussão, obsoleto),
-   POP3 (Post Office Protocol, receber emails),
-   IMAP (Internet Message Access Protocol),
-   - realiza o sincronismo entre o cliente e o servidor de e-mail
-   - acessa as caixas de mensagens que estão no servidor de correio
-   - replica as ações de leitura ou troca de diretório no servidor
-   - permite que as mensagens sejam guardadas tanto na máquina local quanto no servidor
-   - envia, recebe, sincroniza, webmail
-   - mais avançado que o POP3
-     BitTorrent, DNS, PING, etc.
+
+HTTP, SMTP (Envio de emails), FTP, SSH, TELNET, SIP, RDP, IRC, SNMP, NNTP (Network News Transfer Protocol, grupos de discussão, obsoleto),
+POP3 (Post Office Protocol, receber emails),
+IMAP (Internet Message Access Protocol),
+- realiza o sincronismo entre o cliente e o servidor de e-mail
+- acessa as caixas de mensagens que estão no servidor de correio
+- replica as ações de leitura ou troca de diretório no servidor
+- permite que as mensagens sejam guardadas tanto na máquina local quanto no servidor
+- envia, recebe, sincroniza, webmail
+- mais avançado que o POP3
+  BitTorrent, DNS, PING, etc.
 
 ## Protocolos de Roteamento
 

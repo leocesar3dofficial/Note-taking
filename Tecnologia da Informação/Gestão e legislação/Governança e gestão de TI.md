@@ -497,12 +497,12 @@ Exemplo
   - Compreensão do valor do serviço
   - Pensamento orientado a serviços
   - Princípios-chave
-    - Foco no valor do serviço
+    - Foco na entraga de valor do serviço
     - Começar onde você está
       - Aproveitar os ativos existentes e lidar com as circunstâncias atuais
     - Progresso iterativo
       - Feedback dos stakeholders e melhoria contínua
-    - Colaboração e visibilidade/transparência
+    - Colaboração e visibilidade / transparência
     - Pensamento holístico
     - Simplicidade e praticidade
     - Melhoria contínua
@@ -512,6 +512,8 @@ Exemplo
   - Contextuais: políticos, econômicos, ambientais, legais, sociais
 - Cadeia de valor do serviço (etapas)
   - Engajar, planejar, melhorar, envolver, projetar/desenhar, transição, entregar e suporte
+  - Sistema de Valor de Serviço (Service Value System)
+    - Fluxo de valor flexível
 - Práticas (gerenciamento)
   - Gerais
     - Gerenciamento da estratégia
@@ -531,7 +533,7 @@ Exemplo
     - Melhoria contínua
   - Serviços
     - Análise de negócio
-    - Central de serviço
+    - Central de serviço (função)
     - Desenho de serviço
     - Gerenciamento de ativos de TI
     - Gerenciamento de capacidade e desempenho
@@ -539,10 +541,9 @@ Exemplo
     - Gerenciamento de configuração de serviço
     - Gerenciamento de continuidade de serviço
     - Gerenciamento de disponibilidade
-    - Gerenciamento de incidente
+    - Gerenciamento de incidentes e problemas (processo)
     - Gerenciamento de liberação
     - Gerenciamento de nível de serviço
-    - Gerenciamento de problema
     - Gerenciamento de requisição de serviço
     - Habilitação de mudança
     - Monitoramento e gerenciamento de evento

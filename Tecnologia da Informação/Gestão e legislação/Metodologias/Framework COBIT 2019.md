@@ -1,17 +1,19 @@
-## Framework COBIT 2019 (Control Objectives for Information and Related Technologies)
+# Framework COBIT 2019 (Control Objectives for Information and Related Technologies)
 
-### Características
+## Características
 
+- É um framework de gerenciamento de TI
+  - Desenvolver, organizar e implementar estratégias de gestão de informação e governança de TI
 - Desenvolvido pela ISACA (Information Systems Audit and Control Association)
 - Foco na entrega de valor, riscos e recursos
-- Define um conjunto de processos genéricos para o gerenciamento de TI
+- Define um modelo / conjunto de processos genéricos para o gerenciamento e governança de TI
 
 - Compatível e complementar a outros frameworks e padrões
   - Como o [ITIL](../Governança%20e%20gestão%20de%20TI.md#biblioteca-itil®-versão-4-2019-information-technology-infrastructure-library), [ISO/IEC 27001](<../Governança e gestão de TI.md#isoiec-270022013>), [PMBoK](../Governança%20e%20gestão%20de%20TI.md#gestão-de-projetos-pmbok), etc.
 
-### Domínios
+## Domínios
 
-#### Planejar e Organizar
+### 1. Planejar e Organizar
 
 - PO1 Definir um Plano Estratégico de TI
   - 1 Responder aos requerimentos de negócios de maneira alinhada com a estratégia de negócios.
@@ -55,7 +57,7 @@
   - 2 Responder aos requerimentos de governança em linha com a Alta Direção.
   - 25 Entregar projetos no tempo certo dentro do orçamento e com os padrões de qualidade esperados.
 
-#### Adquirir e Implementar
+### 2. Adquirir e Implementar
 
 - AI1 Identificar Soluções
   - 6 Definir como funções de negócios e requerimentos de controles são convertidos em soluções automatizadas efetivas e eficientes.
@@ -90,7 +92,7 @@
   - 13 Assegurar apropriado uso e a performance das soluções de aplicativos e de tecnologia.
   - 21 Assegurar que os serviços e infraestrutura de TI podem resistir e recuperar-se de falhas devido a erros, ataques deliberados ou desastres.
 
-#### Entregar e Suportar
+### 3. Entregar e Suportar
 
 - DS1 Definir e Gerenciar Níveis de Serviço
   - 3 Assegurar a satisfação dos usuários.
@@ -147,7 +149,7 @@
   - 3 Assegurar a satisfação dos usuários.
   - 23 Garantir que os serviços de TI fiquem disponíveis de acordo com o requerido.
 
-#### Monitorar e Avaliar
+### 4. Monitorar e Avaliar
 
 - ME1 Monitorar e Avaliar o Desempenho
   - 2 Responder aos requerimentos de governança em linha com a Alta Direção.

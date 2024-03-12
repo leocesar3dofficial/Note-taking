@@ -3,7 +3,7 @@
 ## Definições
 
 - Capability Maturity Model Integration
-- Modelo de Maturidade em Capacitação – Integração
+- Modelo de Maturidade em Capacitação - Integração
 - Modelo de avaliação de qualidade organizacional de processos
 - Usado no desenvolvimento de produtos e serviços
 
