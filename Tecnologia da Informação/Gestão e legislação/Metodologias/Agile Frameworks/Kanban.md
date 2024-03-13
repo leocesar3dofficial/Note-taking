@@ -31,3 +31,16 @@
 - Shortened time cycles
 - Fewer bottlenecks
 - Continuous delivery
+
+## Tipos de sistema
+
+### Pull (puxar)
+
+- Os componentes só passam para a próxima estação quando houver necessidade
+- Processar quando é feito um pedido
+
+### Push (empurrar)
+
+- Os componentes são “empurrados” para a produção mais rapidamente do que a saída do produto acabado
+- Leva a um aumento do "work in process"
+- Processar em antecipação de uma necessidade

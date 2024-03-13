@@ -103,6 +103,7 @@ cvs -d <caminho do diretório> init
 
 - Desenvolvido pela Atlassian
 - Objetivos: planejar, rastrear e gerenciar projetos
+    - Linha de base (baseline): comparar o andamento do projeto com a previsão original
 - Funcionalidades
   - Acompanhamento de tarefas e problemas
     - Criar tarefas, problemas ou histórias de usuário

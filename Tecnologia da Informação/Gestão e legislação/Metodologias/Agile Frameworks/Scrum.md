@@ -17,7 +17,7 @@
 - Commonly used in software development
 - Used for developing, delivering, and sustaining complex products
 - Designed for teams of ten or fewer members
-- Lightweight, iterative, and incremental
+- Lightweight, iterative, and incremental (leve, iterativa e incremental)
 
 ### Produto
 
@@ -33,7 +33,7 @@
 1. Um Product Owner ordena o trabalho de um problema complexo em um Product Backlog
 2. O Time Scrum transforma uma seleção do trabalho em um incremento de valor durante um Sprint
 3. O Time Scrum e seus stakeholders inspecionam os resultados e ajustam para o próximo Sprint
-4. Repita
+4. Repete o processo
 
 ## Team Members
 
@@ -145,3 +145,19 @@
      - Plan ways to increase quality and effectiveness
    - Características
      - Timebox: maximum of three hours for a one-month Sprint
+
+## 12 princípios do desenvolvimento ágil
+
+- Garantir a satisfação do cliente, entregando rápida e continuamente software funcional;
+- Até mesmo mudanças tardias de escopo no projeto são bem-vindas;
+- Software funcional é entregue frequentemente (semanal ou mensal, no menor intervalo possível);
+- Cooperação constante entre as pessoas que entendem do "negócio" e os desenvolvedores;
+- Projetos surgem por meio de indivíduos motivados, devendo existir uma relação de confiança;
+- A melhor forma de transmissão de informação entre desenvolvedores é através da conversa "cara a cara";
+- Software funcional é a principal medida de progresso do projeto;
+- Novos recursos de software devem ser entregues constantemente.
+    - Clientes e desenvolvedores devem manter um ritmo até a conclusão do projeto;
+- Design do software deve prezar pela excelência técnica;
+- Simplicidade: a arte de maximizar a quantidade de trabalho que não é feito;
+- As melhores arquiteturas, requisitos e designs emergem de equipes auto-organizáveis;
+- Em intervalos regulares (sprints), a equipe reflete sobre como se tornar mais eficaz e então refina e ajusta seu comportamento.

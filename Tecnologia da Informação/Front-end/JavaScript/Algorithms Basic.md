@@ -5,6 +5,26 @@
 let fahrenheit = (celsius * 9 / 5) + 32;
 ```
 
+## Fizzbuzz
+
+```javascript
+function fizzBuzz(n) {
+  for(let i=1; i <= n; i++){
+    if(i % 3 === 0 && i % 5 === 0){
+      console.log('fizzbuzz');
+    }else if( i % 3 === 0 ){
+      console.log('fizz');
+    }else if( i % 5 === 0){
+      console.log('buzz');
+    }else{
+      console.log(i);
+    }
+  }
+}
+
+fizzBuzz(5); // 1, 2, fizz, 4, buzz
+```
+
 ## Reverse a String
 
 ### Solution 1
@@ -26,6 +46,17 @@ function reverseString(str) {
     .reverse()
     .join("");
 }
+```
+
+## Reverse a Integer
+
+```javascript
+function reverseInt(n) {
+  const reversed = n.toString().split('').reverse().join('');
+  return parseInt(reversed) * Math.sign(n);
+}
+
+console.log(reverseInt(15)); // 51
 ```
 
 ## Factorial
@@ -58,6 +89,26 @@ function factorialize(num) { // using reduce function
     new Array(num)
       .fill(undefined)
       .reduce((product, _, index) => product * (index + 1), 1);
+}
+```
+
+## MaxChar (most common character)
+
+```javascript
+function maxChar(string){
+  let chars = {};
+  let maxChar = '';
+
+  for (let char of string){
+    let current = char; 
+    char[current] = char[current] + 1 || 1 ;
+
+    if (maxChar === '' || chars[current] > chars[maxChar]) {
+      maxChar = current;
+    }
+  }
+
+return maxChar;
 }
 ```
 
@@ -300,6 +351,15 @@ function titleCase(str) {
 }
 ```
 
+### Solution 5
+
+```javascript
+function capitalize(str) {
+  const words = str.split(' ');
+  return words.map(word => word[0].toUpperCase() + word.slice(1)).join(' ');
+}
+```
+
 ## Slice and Splice
 
 ### Solution 1
@@ -360,6 +420,20 @@ function frankenSplice(arr1, arr2, n) {
 
   return result;
 }
+```
+
+## Anagrams
+
+```javascript
+function cleanStr(str){
+  return str.toLowerCase().replace(/[\W]/g,'').split('').sort().join('');
+}
+
+function anagrams(stringA, stringB) {
+  return cleanStr(stringA) === cleanStr(stringB);
+}
+
+console.log(anagrams('RAIL! SAFETY!', 'fairy tales')); // True
 ```
 
 ## Falsy Bouncer
@@ -496,7 +570,7 @@ function mutation(arr) {
 }
 ```
 
-## Chunky Monkey
+## Chunky Monkey (array chunking)
 
 ### Solution 1
 ```javascript

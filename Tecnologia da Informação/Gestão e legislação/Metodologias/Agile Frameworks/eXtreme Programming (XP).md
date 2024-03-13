@@ -28,15 +28,16 @@
 
 ## Etapas
 
-1. Planejamento
+1. **Planejamento**
    - Jogo de Planejamento (Iteration Planning Game)
      - Priorização de funcionalidades baseada nas User Stories (história dos usuários)
-     - Estimação, feita por cada programador, do tempo que será necessário para realizar cada tarefa sob sua responsabilidade
+     - Estimação, feita por cada programador, do tempo que será necessário para realizar cada tarefa sob sua responsabilidade (tempo ideal)
+         - **Tempo ideal:** estimar homens-hora por tarefa sem interrupções, atrasos ou obstáculos significativos
      - Semanal
-2. Projeto ("Designing")
-3. Codificação
+2. **Projeto** ("Designing")
+3. **Codificação**
    - Fases pequenas (Small Releases)
-4. Testes
+4. **Testes**
    - Desenvolvimento Orientado a Testes (Test Driven Development)
    - Testes Automatizados (Automated Tests)
    - Testes de Aceitação (Customer Tests)

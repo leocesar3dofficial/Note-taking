@@ -379,7 +379,7 @@ Onde:
   - Requisitos éticos. Ex.: o sistema não apresentará aos usuários quaisquer dados de cunho privativo.
   - Requisitos legais. Ex.: o sistema deverá atender às normas legais, tais como padrões, leis, etc.
 
-#### Tipos de testes para RNFs
+#### Tipos de testes para Requisitos Não Funcionais
 
 - Teste de Carga
   - Avaliar o desempenho do sistema sob carga máxima ou condições de pico
@@ -392,6 +392,11 @@ Onde:
 - Teste de Segurança
   - Envolve verificar se os requisitos de segurança do sistema estão sendo atendidos
   - Identificar e corrigir vulnerabilidades e garantir a integridade e a confidencialidade dos dados
+  - Dynamic Application Security Testing (DAST)
+      - Covers security weaknesses and vulnerabilities present in an application
+      - Análise em tempo de execução
+      - It is a black-box test
+      - Detect vulnerabilities by actually performing attacks
 - Teste de Usabilidade
   - Avalia a facilidade de uso do sistema, incluindo a interface do usuário,
     a acessibilidade e a experiência do usuário para garantir que atenda aos requisitos de usabilidade

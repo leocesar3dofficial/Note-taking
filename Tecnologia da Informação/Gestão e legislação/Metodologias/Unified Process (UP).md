@@ -51,7 +51,7 @@
   - Riscos
   - Arquitetura
 - **Elaboração**
-  - Requisitos funcionais
+  - Requisitos funcionais (o que o software / sistema deve fazer) 
   - Detalhamento da arquitetura
   - Gerenciamento dos riscos
 - **Construção**
