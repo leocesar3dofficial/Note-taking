@@ -387,8 +387,9 @@ Project Management Body of Knowledge
 - Características
   - Faz parte da série de normas ISO/IEC 27000, sobre práticas e padrões relacionados à segurança da informação
   - Visa estabelecer, implementar, operar, monitorar, manter e melhorar continuamente um sistema de gestão de segurança da informação
-  - Ajudar as organizações a proteger suas informações, garantindo a confidencialidade, integridade e disponibilidade dos dados,
-    bem como gerenciar os riscos de segurança da informação
+  - Ajudar as organizações a proteger suas informações
+    - Garantir a confidencialidade, integridade e disponibilidade dos dados
+    - Gerenciar os riscos de segurança da informação
 - Componentes
   - Contexto da organização
     - A organização deve definir seu contexto, requisitos e expectativas relacionados à segurança da informação

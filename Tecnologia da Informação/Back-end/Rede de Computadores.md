@@ -110,6 +110,10 @@ IMAP (Internet Message Access Protocol),
 ### LAN (Local Area Network)
 
 - É uma rede de curto alcance, geralmente em um único local físico
+- **Dispositivos**
+   - Network-Attached Storage (NAS)
+      - Armazenar, Gerenciar e Compartilhar arquivos entre vários dispositivos conectados à rede local
+      - Hardware de armazenamento conectado à rede
 
 ### PAN (Personal Area Network)
 

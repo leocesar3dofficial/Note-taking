@@ -83,7 +83,6 @@
   - Backup manual ou automático
   - Restore seletivo, apenas algumas tabelas
 - **Storage e Backup**
-
   - Administração e operação de serviços de arquivamento
     - Gestão de sistemas e infraestrutura destinados a armazenar dados por longos períodos de tempo
     - Necessário para cumprir requisitos legais ou regulamentares de retenção de dados
@@ -91,10 +90,15 @@
       - Configuração de políticas de retenção de dados
       - Monitoramento do desempenho do sistema
       - Implementação de mecanismos de backup para garantir a integridade dos dados ao longo do tempo.
-      - **RAID 5** (Redundant Array of Independent Disks)
-        - Arranjo de discos que usa a paridade para garantir a segurança e redundância dos dados.
-        - Espelhamento só ocorre no RAID 1.
-        - $$ EspaçoDisponível = (NúmeroDeDiscos - 1) \times CapacidadeDoMenorDisco
+      - **Tipos de RAID (Redundant Array of Independent Disks)**
+        - **RAID 0:** striping
+        - **RAID 1:** espelhamento
+        - **RAID 5:** distribuição com paridade 
+          - Arranjo de discos que usa a paridade para garantir a segurança e redundância dos dados.
+          - Espelhamento só ocorre no RAID 1 e 10.
+          - $$ EspaçoDisponível = (NúmeroDeDiscos - 1) \times CapacidadeDoMenorDisco $$
+        - **RAID 6:** distribuição com paridade dupla
+        - **RAID 10:** combina espelhamento e striping
   - Implantação e administração de soluções de proteção e de recuperação de dados contra-ataques cibernéticos
     - Preocupação fundamental na administração de armazenamento e backup, dada a crescente ameaça de ciberataques, como ransomware
     - Envolve a configuração de firewalls, sistemas de detecção de intrusões, criptografia e medidas de segurança

@@ -600,6 +600,12 @@
   - Permite o envio de mensagens aos destinatários corretos.
   - Funciona em conjunto com outros protocolos como POP3 e IMAP para receber e gerenciar e-mails em clientes de e-mail.
 
+- **CIFS (Common Internet File System)**
+
+  - Protocolo de compartilhamento de arquivos
+  - Permitir que dispositivos em uma rede acessem e compartilhem arquivos
+  - Usado em ambientes Windows
+
 - **NFS (Network File System)**
 
   - Protocolo de sistema de arquivos de rede.

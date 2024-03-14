@@ -15,6 +15,8 @@
 - O produto deve ser acessível a todos os usuários, independentemente de suas habilidades, capacidades físicas ou dispositivos utilizados.
 - Inclui fornecer suporte para tecnologias assistivas como leitores de tela.
 - Garantir que o design seja inclusivo e adaptável a diferentes contextos de uso.
+- Acessibilidade e usabilidade devem ser consideradas para a construção de protótipos
+- Devem ser testadas antes da codificação
 
 #### Diretrizes
 

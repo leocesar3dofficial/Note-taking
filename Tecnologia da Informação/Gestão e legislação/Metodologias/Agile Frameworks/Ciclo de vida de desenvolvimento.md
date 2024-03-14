@@ -49,6 +49,16 @@
     - Construção
     - Entrega
     - Suporte contínuo
+- **Modelo V**
+  - Características
+    - Melhoria e derivação do modelo em cascata
+    - Fases paralelas de desenvolvimento e teste
+  - **Fases**
+    - Lado esquerdo: Verificação (requisitos sejam atendidos) <-> lado direito: Validação (produto certo)
+    - Especificação de requisitos <-> Teste de Aceitação
+    - Projeto de alto nível (análise) <-> Teste de Sistema
+    - Projeto detalhado (Arquitetura) <-> Teste de Integração
+    - Codificação <-> Teste de Unidade
 - **Iterativo**
   - Entrega de um subconjunto de requisitos até a conclusão do projeto
   - Os requisitos podem ser alterados entre as iterações

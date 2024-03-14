@@ -96,7 +96,7 @@
 ### Camada de virtualização
 
 - A virtualização é uma tecnologia que permite a criação de ambientes virtuais que simulam o comportamento de um sistema operacional real
-- Máquinas Virtuais
+- Máquinas Virtuais (hypervisor)
   - VM opera de maneira independente e isolada
   - Não confundir com emulação
   - Criadas a partir de um software chamado hipervisor
@@ -104,11 +104,11 @@
     - Tipo 2: é executado em cima de um sistema operacional já existente e é responsável por gerenciar as VMs
   - Exemplos
     - Xen
-      - É um hipervisor de tipo 1
+      - É um hypervisor de tipo 1
       - Permite a execução simultânea de vários sistemas operacionais em um único hardware
       - Usado em servidores e data centers
     - KVM (Kernel-based Virtual Machine)
-      - É um hipervisor de tipo 1
+      - É um hypervisor de tipo 1
       - Permite a execução simultânea de vários sistemas operacionais em um único hardware
       - Baseado no kernel do Linux e faz parte do código do Linux existente
       - Aproveita todas as funcionalidades, correções e avanços novos do Linux sem engenharia adicional
@@ -174,6 +174,7 @@
 
 - Monolítica
 - Em camadas
+  - Firmware -> Sistema Operacional -> Aplicativos
 - Micronúcleo (MicroKernel): alto grau de modularidade
 - SO de Redes (SOR)
   - Servidores de arquivos, bancos de dados, impressão, comunicação, gerenciamento
@@ -202,12 +203,17 @@
   - Contígua
   - Lista encadeada
   - Lista encadeada usando uma tabela na memória
-  - I-nodes (UNIX)
+  - Inode, I-node ou Nó-i (UNIX / Linux)
+    - Estrutura de dados que descreve um objeto do sistema de arquivos, como um arquivo ou diretório
 
 ### Sistemas de arquivos
 
 - FAT, 1977, Microsoft
-- EXT (extended file system), 1992, Linux
+- EXT (Extended File System), 1992, Linux
+  - Atributos do EXT4 (atual)
+    - Identificação do usuário (UID) dono do arquivo
+    - Identificação do grupo (GID) ao qual o arquivo pertence
+    - Permissões de acesso de leitura, de escrita e de execução
 - NTFS, 1993, Microsoft
 - FAT16, 1995, Microsoft
 - FAT32, 1996, Microsoft
