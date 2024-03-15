@@ -8,7 +8,7 @@
 
 ##### Modelagem
 
-Utiliza do DER (Diagrama de Entidade e Relacionamento)
+Utiliza o DER (Diagrama de Entidade e Relacionamento).
 
 ###### Conceitual
 
@@ -48,7 +48,7 @@ O modelo de dados é criado a partir da visão geral do negócio. Define os obje
 
 ###### UML (Unified Modeling Language)
 
-Notação gráfica amplamente utilizada para modelagem de sistemas de software.
+- Notação gráfica amplamente utilizada para modelagem de sistemas de software.
 
 - **Características**
 
@@ -68,31 +68,37 @@ Notação gráfica amplamente utilizada para modelagem de sistemas de software.
 
   1. **Diagrama de Classes:**
   
-    Representa a estrutura estática do sistema, mostrando as classes, seus atributos, métodos e os relacionamentos entre elas.
+    - Representa a estrutura estática do sistema, mostrando as classes, seus atributos, métodos e os relacionamentos entre elas.
 
      - **Elementos**
-       - **Níveis de acesso:**  
-         '#' = protected / protegido  
-         <u>Sublinhado</u> = estático  
-         _Itálico_ = abstrato
+       - **Níveis de acesso**
 
-2. **Diagrama de Objetos:**
+          - '#' = protected / protegido.
+          - <u>Sublinhado</u> = estático.
+          - _Itálico_ = abstrato.
 
-    Detalha instâncias de classes e seus relacionamentos em um determinado momento durante a execução do sistema.
+       - **Relacionamentos**
 
-3. **Diagrama de Componentes:**
+          - Subclasse (generalização): linha continua com a Ponta de flecha vazada (não preenchida).
+          - Implementa Interface (realização): linha tracejada com a Ponta de flecha vazada.
 
-    Ilustra a estrutura física dos componentes de software e suas interações.
+  2. **Diagrama de Objetos:**
 
-4. **Diagrama de Implantação:**
+      Detalha instâncias de classes e seus relacionamentos em um determinado momento durante a execução do sistema.
 
-    Mostra a disposição física dos artefatos de software em nós (hardware) e suas interações.
+  3. **Diagrama de Componentes:**
+
+      Ilustra a estrutura física dos componentes de software e suas interações.
+
+  4. **Diagrama de Implantação:**
+
+      Mostra a disposição física dos artefatos de software em nós (hardware) e suas interações.
 
 - **Diagramas Comportamentais:**
 
   1. **Diagrama de Casos de Uso:**
 
-     Descreve as interações / associações entre atores (usuários externos) e o sistema, destacando os cenários de uso.
+     Descreve as interações / associações / contexto entre atores (usuários externos) e o sistema, destacando os cenários de uso.
 
   2. **Diagrama de Sequência:**
 

@@ -61,8 +61,8 @@
 1. **Modelagem:** Criação de modelos para entender e comunicar a estrutura e o comportamento do sistema.
 
    - **Modelo de Domínio**
-     - É uma representação visual ou conceitual das principais entidades, conceitos e relacionamentos dentro do domínio do problema
-     - É um dos artefatos produzidos durante a fase de Elaboração
+     - É uma representação visual ou conceitual das principais entidades, conceitos e relacionamentos dentro do domínio do problema.
+     - É um dos artefatos produzidos durante a fase de Elaboração.
 
 2. **Análise e Design:** Transformação dos requisitos em uma solução estruturada e arquitetada.
 

@@ -277,6 +277,12 @@ Project Management Body of Knowledge
 - Resultado negativo (prejuízo) de ações para agilizar a entrega de uma funcionalidade ou um projeto
 - Precisa ser refatorado posteriormente, elevando os custos e perdas
 
+#### Sistemas legados
+
+- Fatores para a manutenção ou descarte do sistema legado.
+  - Custos de manutenção, modernização, migração (adaptação) e integração.
+  - Baixo valor para a empresa, mesmo que tenha alta qualidade.
+
 ### Estrutura
 
 #### NIST (National Institute of Standards and Technology)

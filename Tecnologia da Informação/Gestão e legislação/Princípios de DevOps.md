@@ -4,10 +4,13 @@
 
 ## Processo
 
-- **Shift left**: Planejar > Codificar > Build > Testar
+- **Shift left**: Planejar > Codificar > Build > Testar.
+
+  - Os testes devem ser feitos desde as fases iniciais do ciclo de vida do produto. 
   - A segurança do software é levada em consideração desde o início do desenvolvimento.
   - A segurança é uma prioridade fundamental para todas as equipes de DevOps.
-- **Shift right**: Lançar > Deploy > Operar > Monitorar
+  
+- **Shift right**: Lançar > Deploy > Operar > Monitorar.
 
 ## Princípios
 

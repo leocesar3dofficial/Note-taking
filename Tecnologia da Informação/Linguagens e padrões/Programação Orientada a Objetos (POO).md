@@ -17,6 +17,44 @@
 - Uma classe serve como um plano ou template para criar objetos.
 - Ela encapsula os dados (propriedades) e comportamentos (métodos).
 
+- **Tipos de classe**
+
+  1. **Base ou Superclasse**
+  
+    - Classe da qual outras classes derivam.
+    - Fornece um conjunto de funcionalidades comuns que são herdadas por suas subclasses.
+    - Por exemplo, uma classe "Animal" pode ser uma superclasse para classes como "Cachorro", "Gato", etc.
+
+  2. **Classe Derivada ou Subclasse**
+  
+    - Classe que herda atributos e métodos de uma classe base.
+    - Pode adicionar novos comportamentos ou modificar os existentes.
+    - Por exemplo, a classe "Cachorro" pode ser uma subclasse da classe "Animal".
+
+  3. **Classe Abstrata**
+    
+    - Classe que não pode ser instanciada por si só.
+    - É projetada para ser herdada por outras classes.
+    - Pode conter métodos abstratos, ou seja, métodos que devem ser implementados pelas subclasses.
+    - Por exemplo, uma classe "Veículo" pode ser abstrata, com métodos como "acelerar" e "frear" que devem ser implementados por suas subclasses concretas.
+
+  4. **Classe Concreta**
+  
+    - Classe que pode ser instanciada diretamente.
+    - Fornece implementações para todos os métodos abstratos herdados de suas superclasses.
+    - Por exemplo, uma classe "Carro" pode ser uma classe concreta derivada da classe abstrata "Veículo".
+
+  5. **Classe Final**
+  
+    - Classe que não pode ser estendida, ou seja, não pode ter subclasses.
+    - Garantir que uma classe não seja alterada ou estendida em futuras implementações.
+    - Por exemplo, em Java, você pode declarar uma classe como final.
+
+  6. **Classe Estática**
+  
+    - Classes que não podem ser instanciadas e contêm apenas membros estáticos, como métodos e variáveis estáticas.
+    - Usadas para agrupar funcionalidades relacionadas que não precisam ser instanciadas.
+
 ### Objeto
 
 - É uma instância de uma classe.

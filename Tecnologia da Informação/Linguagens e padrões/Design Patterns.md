@@ -8,116 +8,121 @@
 
 ##### Características
 
-- Abstraem e/ou adiam o processo de criação dos objetos
-- Usados em sistemas que dependem mais da composição de objetos do que herança
+- Abstraem e/ou adiam o processo de criação dos objetos.
+- Usados em sistemas que dependem mais da composição de objetos do que herança.
 
 ##### Tipos
 
 - **Factory Method (criar)**
 
-  - Permite que uma classe delegue a responsabilidade de criar objetos para outra classe
+  - Permite que uma classe delegue a responsabilidade de criar objetos para outra classe.
 
 - **Abstract Factory**
 
-  - Agrupa fábricas de objetos que têm um tema comum
+  - Agrupa fábricas de objetos que têm um tema comum.
 
 - **Builder (construir)**
 
-  - Permite que um objeto seja construído em etapas
+  - Permite que um objeto seja construído em etapas.
 
 - **Prototype (copiar)**
 
-  - Permite que um objeto seja copiado para criar um novo objeto
+  - Permite que um objeto seja copiado para criar um novo objeto.
 
 - **Singleton**
-  - Restringe a criação de objetos para uma única instância
+
+  - Restringe a criação de objetos para uma única instância.
 
 #### Estruturais
 
 ##### Características
 
-- Definem a forma como classes e objetos são compostos para formar estruturas maiores
+- Definem a forma como classes e objetos são compostos para formar estruturas maiores.
 
 ##### Tipos
 
 - **Class Adapter**
 
-  - Permite que classes com interfaces incompatíveis trabalhem juntas, envolvendo sua própria interface em torno de uma classe já existente
+  - Permite que classes com interfaces incompatíveis trabalhem juntas, envolvendo sua própria interface em torno de uma classe já existente.
 
 - **Bridge**
 
-  - Desacopla uma abstração de sua implementação para que ambas possam variar independentemente
+  - Desacopla uma abstração de sua implementação para que ambas possam variar independentemente.
 
 - **Composite (compor)**
 
-  - Permite que objetos sejam compostos em uma hierarquia de objetos
+  - Permite que objetos sejam compostos em uma hierarquia de objetos.
 
 - **Decorator**
 
-  - Adiciona/sobrescreve dinamicamente o comportamento em um método existente de um objeto
+  - Adiciona / sobrescreve dinamicamente o comportamento em um método existente de um objeto.
 
 - **Facade**
 
-  - Fornece uma interface simplificada para um grande conjunto de código
+  - Fornece uma interface simplificada para um grande conjunto de código.
 
 - **Flyweight**
 
-  - Reduz o custo de criar e manipular um grande número de objetos semelhantes
+  - Reduz o custo de criar e manipular um grande número de objetos semelhantes.
 
 - **Proxy**
 
-  - Fornece um espaço reservado para outro objeto controlar o acesso, reduzir custos e simplificar a complexidade
+  - Fornece um objeto que atua como um substituto para um objeto de serviço real usado por um cliente.
+  - Fornece um espaço reservado para outro objeto (substituto ou placeholder) controlar o acesso, reduzir custos e simplificar a complexidade.
+  - O objeto proxy tem a mesma interface que um serviço.
+    - O torna intercambiável com um objeto real quando passado para um cliente.
 
 #### Comportamentais
 
 ##### Características
 
-- Definem os algoritmos e atribuições de responsabilidades entre os objetos
+- Definem os algoritmos e atribuições de responsabilidades entre os objetos.
 
 ##### Tipos
 
 - **Chain of Responsibility**
 
-  - Delega comandos para uma cadeia de objetos de processamento
+  - Delega comandos para uma cadeia de objetos de processamento.
 
 - **Command**
 
-  - Cria objetos que encapsulam ações e parâmetros
+  - Cria objetos que encapsulam ações e parâmetros.
 
 - **Interpreter**
 
-  - Implementa uma linguagem especializada
+  - Implementa uma linguagem especializada.
 
 - **Iterator (iterar)**
 
-  - Permite que os objetos de uma coleção sejam iterados
+  - Permite que os objetos de uma coleção sejam iterados.
 
 - **Mediator**
 
-  - Permite um acoplamento flexível entre classes, sendo a única classe que tem conhecimento detalhado de seus métodos
+  - Permite um acoplamento flexível entre classes, sendo a única classe que tem conhecimento detalhado de seus métodos.
 
 - **Memento**
 
-  - Fornece a capacidade de restaurar um objeto para seu estado anterior (desfazer)
+  - Fornece a capacidade de restaurar um objeto para seu estado anterior (desfazer).
 
 - **Observer**
 
-  - É um padrão de publicação/assinatura, permitindo que vários objetos observadores vejam um evento
+  - É um padrão de publicação/assinatura, permitindo que vários objetos observadores vejam um evento.
 
 - **State**
 
-  - Permite que um objeto altere seu comportamento quando seu estado interno muda
+  - Permite que um objeto altere seu comportamento quando seu estado interno muda.
 
 - **Strategy**
 
-  - Permite a seleção dinâmica de um algoritmo de uma família de algoritmos em tempo de execução
+  - Permite a seleção dinâmica de um algoritmo de uma família de algoritmos em tempo de execução.
 
 - **Template Method**
 
-  - Define o esqueleto de um algoritmo como uma classe abstrata, permitindo que suas subclasses forneçam um comportamento concreto
+  - Define o esqueleto de um algoritmo como uma classe abstrata, permitindo que suas subclasses forneçam um comportamento concreto.
 
 - **Visitor**
-  - Separa um algoritmo de uma estrutura de objetos, movendo a hierarquia de métodos para um objeto
+
+  - Separa um algoritmo de uma estrutura de objetos, movendo a hierarquia de métodos para um objeto.
 
 ## Anti-Padrões (Anti-Patterns)
 

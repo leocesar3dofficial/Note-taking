@@ -231,8 +231,23 @@
   #### Associação
 
   - Usadas para descobrir relações frequentes ou regras de associação em conjuntos de dados
-  - Algoritmo Apriori é um exemplo notável de técnica de associação
-  - Aplicado a dados transacionais, como históricos de compras, para identificar padrões de compra de produtos relacionados
+  - Algoritmo Apriori (1994)
+    - **Características**
+      - Um dos algoritmos mais populares na mineração de dados transacionais
+      - Mineração de regras de associação
+      - Usado para descobrir padrões frequentes em conjuntos de dados
+        - Análise de cesta de compras
+        - Análise de comportamento do usuário na web
+        - Análise de registros médicos, etc.
+      - Do latim: a partir do que vem antes, conhecimento prévio sobre os conjuntos de dados
+      - Simplicidade e eficiência
+      - Otimizações: pruning, hashing
+    - **Etapas**
+      1. **Geração de itemsets frequentes:** Identificar todos os itens frequentes
+      2. **Geração de conjuntos candidatos:** Gerar conjuntos candidatos de tamanho k
+      3. **Verificação de suporte:** Segunda passagem sobre o conjunto de transações
+      4. **Iteração:** Repetir até que não seja possível gerar mais conjuntos frequentes
+      5. **Geração de regras de associação:** Expressam relações entre diferentes itens
 
   #### Recomendação
 
@@ -364,7 +379,16 @@
     - Índice silhouette:
       - Média total da aproximação de todos os pontos em relação a todos os demais pontos de seus clusters
   - Matriz de confusão:
-    - Avaliar o desempenho de um modelo de classificação a partir da frequência de erros e acertos
+    - Avaliar o desempenho de um modelo de classificação a partir da frequência de erros e acertos.
+    - Fórmula de acurácia
+
+      $$ \text{Acurácia} = \frac{\text{Verdadeiros Positivos} + \text{Verdadeiros Negativos}}{\text{Total de Amostras}} $$
+
+        - **Onde:**
+          - Verdadeiros Positivos (VP) são os casos em que o modelo classificou corretamente as instâncias positivas.
+          - Verdadeiros Negativos (VN) são os casos em que o modelo classificou corretamente as instâncias negativas.
+          - Total de Amostras é o número total de instâncias na base de dados.
+
   - Medida de confiança de uma regra de associação:
     - Calculada pela porcentagem de transações que contêm o antecedente e o consequente da regra
     - Exemplo:
