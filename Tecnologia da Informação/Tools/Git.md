@@ -67,7 +67,9 @@ git add [file.extension]
 git add .  # all files in the current directory
 ```
 
-### Commit File to Repository
+### Commit changes to Repository
+
+- Registrar as mudanças locais em um repositório.
 
 ```bash
 git commit -m "[descriptive message]"
@@ -131,7 +133,7 @@ git push --force-with-lease  # same as above, but generates an error message if 
 git revert 'commit message'
 
 
-# Reverte the changes to the latest commit
+# Revert the changes to the latest commit
 git revert HEAD
 
 # Updates the remote repository with the local changes

@@ -174,19 +174,19 @@ Objetos pré-programados formam uma especificação das chamadas que se espera q
 
 ### TDD (Test Driven Development)
 
-- Desenvolvimento Orientado a Testes
-- É uma prática de desenvolvimento de software
-- Enfatiza a criação de testes automatizados antes de escrever o código de produção para cada funcionalidade
+- Desenvolvimento Orientado a Testes.
+- É uma prática de desenvolvimento de software.
+- Enfatiza a criação de testes automatizados antes de escrever o código de produção para cada funcionalidade.
 
 #### Etapas
 
-1. Escrever um teste automatizado que falhe
-2. Implementar o código necessário para fazer o teste passar
-3. Refatorar o código para melhorar sua qualidade
+1. Escrever um teste automatizado que falhe.
+2. Implementar o código necessário para fazer o teste passar.
+3. Refatorar o código para melhorar sua qualidade.
 
-- Garante que o código seja testado de forma abrangente e contínua durante o processo de desenvolvimento
-- Gera um código confiável, modular e de fácil manutenção
-- O desenvolvedor se concentra nos requisitos e comportamentos esperados do sistema
+- Garante que o código seja testado de forma abrangente e contínua durante o processo de desenvolvimento.
+- Gera um código confiável, modular e de fácil manutenção.
+- O desenvolvedor se concentra nos requisitos e comportamentos esperados do sistema.
 
 ### DDD (Domain Driven Design)
 
@@ -243,8 +243,12 @@ Objetos pré-programados formam uma especificação das chamadas que se espera q
 
 #### Características
 
-- Funcionalidades fornecidas por um sistema.
+- Funcionalidades implementadas, sob o ponto de vista do usuário.
 - Orientada para a análise do impacto das funcionalidades do software.
+- Utiliza-se de estimativas.
+- Independe da tecnologia utilizada.
+- Baseia-se na visão do usuário.
+- Existem ferramentas automatizadas e métodos que podem auxiliar no cálculo.
 
 #### Fórmula
 
@@ -281,10 +285,6 @@ Onde:
 - Arquivos lógicos (não contêm dados).
   - Representação ou visualização de um ou mais arquivos físicos (multiformatos).
 - Interfaces do usuário de um sistema.
-- Utiliza-se de estimativas.
-- Independe da tecnologia utilizada.
-- Baseia-se na visão do usuário.
-- Existem ferramentas automatizadas e métodos que podem auxiliar no cálculo.
 
 ### 3. Velocidade (Velocity)
 
@@ -313,9 +313,9 @@ Onde:
 
 ### 7. Análise de Ponto de Função Ajustada (APFA)
 
-- Combina os pontos de função com fatores de ajuste
-- Leva em consideração aspectos como complexidade técnica, desempenho, reutilização de componentes, entre outros
-- Oferece uma estimativa mais refinada e precisa
+- Combina os pontos de função com fatores de ajuste.
+- Leva em consideração aspectos como complexidade técnica, desempenho, reutilização de componentes, entre outros.
+- Oferece uma estimativa mais refinada e precisa.
 
 ### 8. Análise de Custo-Benefício (ROI, Return Over Investment)
 

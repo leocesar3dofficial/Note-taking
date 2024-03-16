@@ -175,13 +175,14 @@ Processo onde dados são captados e convertidos em informações úteis ao negó
 ### Sistemas de Informação
 
 1. **BPM (Business Process Management):**
-   - Auxilia na interpretação e otimização de processos
+   - Auxilia na interpretação e otimização de processos.
 2. **ERP (Enterprise Resource Planning):**
-   - Objetivo de integrar todas as áreas e processos em uma única plataforma
+   - Objetivo de integrar todas as áreas e processos em uma única plataforma.
+   - Permite obter insights preditivos, baseados em dados com informações em tempo real sobre a organização.
 3. **SCM (Supply Chain Management):**
-   - Logística
+   - Logística.
 4. **CRM (Customer Relationship Management):**
-   - Gerenciar os relacionamentos e interações com clientes
+   - Gerenciar os relacionamentos e interações com clientes.
 
 ### Planilhas eletrônicas
 
