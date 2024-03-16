@@ -1,9 +1,8 @@
 ﻿# Pandas
 
-**Stands for:**
-- Panel data
-- Multidimensional structured datasets
-- Python data analysis
+- **Stands for:** Panel data.
+- Multidimensional structured datasets.
+- Python data analysis.
 
 **Import:**
 ```python

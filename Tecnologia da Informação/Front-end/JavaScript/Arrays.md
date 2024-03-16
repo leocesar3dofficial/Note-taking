@@ -1,15 +1,15 @@
 # Arrays
 
-- Mutable and type agnostic
+- Mutable and type agnostic.
 
 ## Dimension
 
-- Single or one dimension
-- N-dimensional
+- Single or one dimension.
+- N-dimensional.
 
 ## Bracket notation to access and modify array values
 
-- Number of elements in an array: `Array.length` // it is a property and not a function
+- Number of elements in an array: `Array.length` // it is a property and not a function.
 
 ## Add items
 
@@ -23,7 +23,7 @@
 
 ## Add or remove items from arbitrary indexes
 
-- `Array.splice()` // one or more values
+- `Array.splice()` // one or more values.
 
 ## Extract part of an array
 
@@ -33,7 +33,7 @@
 
 - `[...myArray]`
 - `let thatArray = [...thisArray];` // copy
-- `let thatArray = ['basil', 'cilantro', ...myArray, 'coriander'];` // combine
+- `let thatArray = ['basil', 'cilantro', ...myArray, 'coriander'];` // combine.
 
 ## Check for the presence of an element with `indexOf()`
 

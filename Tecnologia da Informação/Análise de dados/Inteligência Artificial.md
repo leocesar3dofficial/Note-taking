@@ -222,11 +222,11 @@
 
   #### Redução de Dimensionalidade
 
-  - Usada para reduzir a quantidade de recursos em um conjunto de dados, mantendo as informações essenciais
-  - Ajuda a simplificar a análise de dados, economizar recursos computacionais e melhorar o desempenho dos modelos de aprendizado de máquina
+  - Usada para reduzir a quantidade de recursos em um conjunto de dados, mantendo as informações essenciais.
+  - Ajuda a simplificar a análise de dados, economizar recursos computacionais e melhorar o desempenho dos modelos de aprendizado de máquina.
   - Técnicas:
-    - Análise de Componentes Principais (PCA)
-    - Seleção de Recursos
+    - Análise de Componentes Principais (PCA).
+    - Seleção de Recursos.
 
   #### Associação
 
@@ -267,41 +267,41 @@
 
 #### Dedutiva
 
-- De uma regra geral para uma nova regra específica/derivada
+- De uma regra geral para uma nova regra específica / derivada.
 
 #### Por resposta/feedback
 
 - Subtipos:
-  - Supervisionado
+  - Supervisionado.
     - Conceito:
-      - Conjunto de entradas incertas (atributos previsores) gera uma saída desejada (atributos alvo ou meta)
+      - Conjunto de entradas incertas (atributos previsores) gera uma saída desejada (atributos alvo ou meta).
       - Técnicas de agrupamento:
-        - Agrupar dados que sejam semelhantes entre si
-        - Não necessariamente fazem a previsão de um atributo alvo
-  - Não supervisionado
+        - Agrupar dados que sejam semelhantes entre si.
+        - Não necessariamente fazem a previsão de um atributo alvo.
+  - Não supervisionado.
     - Conceito:
-      - Entradas dos dados não são plenamente conhecidas
-      - Sem rótulos ou categorias predefinidas
-      - Exploração de padrões intrínsecos
-      - Uso de algoritmos de agrupamento
+      - As Entradas dos dados não são plenamente conhecidas.
+      - Sem rótulos ou categorias predefinidas.
+      - Exploração de padrões intrínsecos.
+      - Uso de algoritmos de agrupamento.
     - Algoritmos:
-      - Expectation-Maximization (EM)
+      - Expectation-Maximization (EM).
         - Conceito:
-          - Cria deduções esporádicas com base nos dados
+          - Cria deduções esporádicas com base nos dados.
         - Etapas:
           1. Expectativa:
-             - Gera hipótese/probabilidade/peso dos valores esperados
+             - Gera hipótese / probabilidade / peso dos valores esperados.
           2. Maximização (média das hipóteses):
-             - Encontrar valores para os dados que maximizem sua probabilidade
-             - Covariância entre os dados
+             - Encontrar valores para os dados que maximizem sua probabilidade.
+             - Covariância entre os dados.
       - K-means
         - Conceito:
-          - Realiza um processo de aproximação entre os diferentes clusters
-          - Aproximação euclidiana dos atributos de cada elemento
+          - Realiza um processo de aproximação entre os diferentes clusters.
+          - Aproximação euclidiana dos atributos de cada elemento.
           - Distância euclidiana:
-            - Uma dimensão = $\sqrt{(a - b)^2}$
-            - Bidimensional = $\sqrt{(ax - bx)^2 + (ay - by)^2}$
-      - Hierárquico
+            - Uma dimensão = $ \sqrt{(a - b)^2} $
+            - Bidimensional = $ \sqrt{(ax - bx)^2 + (ay - by)^2} $
+      - Hierárquico.
 
 #### Por reforço
 
@@ -378,7 +378,7 @@
       - Calcular a diferença entre os clusters
     - Índice silhouette:
       - Média total da aproximação de todos os pontos em relação a todos os demais pontos de seus clusters
-  - Matriz de confusão:
+  - Matriz de confusão (confusion matrix):
     - Avaliar o desempenho de um modelo de classificação a partir da frequência de erros e acertos.
     - Fórmula de acurácia
 

@@ -143,36 +143,36 @@
 ### Visualização
 
 - **Características**
-  - Apresentação de informações em formato imagético ou gráfico
-  - Facilita a compreensão de grandes volumes de dados
-  - Elemento da análise exploratória
+  - Apresentação de informações em formato imagético ou gráfico.
+  - Facilita a compreensão de grandes volumes de dados.
+  - Elemento da análise exploratória.
 - **Processo cíclico**
-  - Pré-processamento: filtragem, limpeza e transformação dos dados
-  - Mapeamento visual: geração de variáveis e respectivas representações gráficas
-  - Representação: imagem ou gráfico final
+  - Pré-processamento: filtragem, limpeza e transformação dos dados.
+  - Mapeamento visual: geração de variáveis e respectivas representações gráficas.
+  - Representação: imagem ou gráfico final.
 - **Técnicas e ferramentas**
   - **Data Cube e Nanocube**
-    - Matriz multidimensional de valores
-    - Operations: slicing, dicing, pivoting, and aggregation
+    - Matriz multidimensional de valores.
+    - Operations: slicing, dicing, pivoting, and aggregation.
   - **Stream processing**
   - **Stream computing**
-    - Analisar os dados em movimento
-    - Tratamento dos dados estáticos em tempo real
+    - Analisar os dados em movimento.
+    - Tratamento dos dados estáticos em tempo real.
   - **imMens**
-    - Plataforma online que oferece interações em tempo real
+    - Plataforma online que oferece interações em tempo real.
   - **Oracle Data Mining**
   - **Tableau**
   - **Pentaho**
   - **Chartio**
-    - Relatórios no navegador web
+    - Relatórios no navegador web.
   - **Alteryx**
-    - No code para análise de dados
+    - No code para análise de dados.
   - **Talend**
-    - Ferramenta ETL
+    - Ferramenta ETL.
   - **Knime**
-    - Plataforma de análise de dados
+    - Plataforma de análise de dados.
   - **Python**
-    - Jupyter, Pandas, Anaconda (distribuidora de pacotes/bibliotecas)
+    - Jupyter, Pandas, Anaconda (distribuidora de pacotes / bibliotecas).
 
 ## Projeto de Ciência de Dados
 
