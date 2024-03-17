@@ -183,8 +183,6 @@ sudo systemctl mask bluetooth.service
 
 ### On Boot, the OS GUI Does not load, and you have access to the CLI
 
-#### Solutions:
-
 1. Restart the GUI:
 
    ```bash
@@ -204,8 +202,6 @@ Could not get lock /var/lib/dpkg/lock – open (11: Resource temporarily unavail
 E: Unable to lock the administration directory (/var/lib/dpkg/),
 is another process using it?
 ```
-
-#### Solutions:
 
 1. Try one at a time
 
@@ -244,4 +240,11 @@ is another process using it?
 
    # Update APT package lists
    sudo apt update
+   ```
+### Pending update of "snap-store" snap Close the app to avoid disruptions
+
+1. Kill all processes associated with the Snap Store and update all installed snap packages on the system to their latest versions.
+
+   ```bash
+   sudo killall snap-store && sudo snap refresh
    ```
