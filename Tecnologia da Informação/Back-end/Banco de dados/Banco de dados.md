@@ -169,6 +169,7 @@ O modelo de dados é criado a partir da visão geral do negócio. Define os obje
   - **Modelagem Conceitual**
     - Modelar a estrutura conceitual de um banco de dados.
     - Capturando as entidades, atributos e relacionamentos.
+    - É independente do Sistema de Gerenciamento de Banco de Dados (SGBD).
   - **Ênfase nos Relacionamentos**
     - Suporta relacionamentos binários (1:1, 1:N, N:M).
     - Permite a definição de restrições e cardinalidades específicas.

@@ -28,20 +28,27 @@
 
 - **Privacidade**
 
-  - Pode ser alcançada com o uso de uma VPN (Rede Privada Virtual).
   - Conexão segura e criptografada entre dois pontos em uma rede.
+  - Pode ser alcançada com o uso de uma VPN (Rede Privada Virtual).
+    - Usa o protocolo ESP (Encapsulating Security Payload).
+      - Adiciona autenticação e confidencialidade.
+      - Garantir que somente os destinatários autorizados possam ter acesso ao conteúdo do pacote.
+      - Protocolo da suíte do IPsec (IP Security).
+      - Modalidade de operação Gateway-to-Gateway.
 
-  1. **Criptografia:** As VPNs utilizam protocolos de criptografia para proteger a integridade e confidencialidade dos dados transmitidos.
+    - **Recursos de uma VPN**
 
-  2. **Autenticação:** Garante a identidade dos usuários e dispositivos, evitando acessos não autorizados.
+      1. **Criptografia:** Utilizam protocolos de criptografia para proteger a integridade e confidencialidade dos dados transmitidos.
 
-  3. **Túneis Seguros:** A comunicação entre os pontos é encapsulada em túneis seguros, protegendo-a contra ameaças externas.
+      2. **Autenticação:** Garante a identidade dos usuários e dispositivos, evitando acessos não autorizados.
 
-  4. **Privacidade:** Ao ocultar o endereço IP do usuário, as VPNs ajudam a preservar a privacidade online.
+      3. **Túneis Seguros (tunneling):** A comunicação entre os pontos é encapsulada em túneis seguros, protegendo-a contra ameaças externas (protocolo ESP).
 
-  5. **Acesso Remoto Seguro:** Permite que usuários se conectem a redes corporativas de forma segura a partir de locais remotos, como em home office.
+      4. **Privacidade:** Ao ocultar o endereço IP do usuário, as VPNs ajudam a preservar a privacidade online.
 
-  6. **Prevenção contra Interceptação:** Dificulta a interceptação e monitoramento não autorizado da comunicação.
+      5. **Acesso Remoto Seguro:** Permite que usuários se conectem a redes corporativas de forma segura a partir de locais remotos, como em home office.
+
+      6. **Prevenção contra Interceptação:** Dificulta a interceptação e monitoramento não autorizado da comunicação.
 
 - **Controle de Acesso**
   - Segurança física e lógica.
@@ -58,9 +65,12 @@
 - **Firewall**
 
   - Atua como uma barreira entre uma rede privada e a rede pública, como a Internet.
-  - Controla o tráfego de entrada e saída.
+  - Monitora o tráfego de entrada e saída de rede.
   - Permite ou bloqueia com base em regras de segurança.
+    - Funciona como um filtro de pacotes
+    - Permite ou não a liberação de pacotes.
   - Pode ser implementado em hardware (dispositivos dedicados) ou software (programas em execução em servidores).
+  - Baixo custo e eficácia satisfatória.
 
 - **Next Generation Firewall (NGFW)**
 
@@ -76,7 +86,7 @@
   - Filtra, monitora e bloqueia o tráfego HTTP de e para um aplicativo ou site da Web.
   - Capaz de filtrar o conteúdo de aplicativos web específicos.
   - Pode evitar ataques decorrentes de falhas de segurança de aplicativos Web.
-    - Como injeção de SQL, XSS (cross-site scripting), inclusão de arquivos e configurações erradas de segurança.
+    - Como injeção de SQL, XSS (Cross-Site Scripting), inclusão de arquivos e configurações erradas de segurança.
   - Serviços Cloud oferecem essa opção como a AWS (Amazon) e GoCache.
 
 - **Intrusion Detection System (IDS)**
@@ -97,6 +107,8 @@
 
 - **Security Information and Event Management (SIEM)**
 
+  - Fornece uma visão holística da segurança da informação de uma organização.
+  - Agrega e analisa eventos e logs de várias fontes em toda a infraestrutura de TI. 
   - Combina a capacidade de coletar e analisar informações de segurança de vários dispositivos e sistemas em uma única plataforma.
   - Fornece insights em tempo real sobre a segurança da rede.
   - Ajuda na detecção de ameaças e auxilia na conformidade com regulamentações de segurança.
@@ -486,6 +498,10 @@
 - Usado para a detecção de ameaças, permitindo estratégias de defesa mais eficazes ao compreender o comportamento dos invasores.
 - Ferramenta de pesquisa e referência para profissionais de segurança.
 - Permite a compreensão e comunicação das táticas utilizadas pelos adversários.
+- **Ataques**
+  - Evasão de defesa.
+    - dDesinstalar / desativar software de segurança.
+    - Ofuscar / criptografar dados e scripts. 
 
 ### Cyber Security Body Of Knowledge (CyBOK)
 
