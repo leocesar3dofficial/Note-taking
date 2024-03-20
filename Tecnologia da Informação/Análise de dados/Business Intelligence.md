@@ -115,11 +115,19 @@ Processo onde dados são captados e convertidos em informações úteis ao negó
 
 ### Armazenamento
 
-#### Data Warehouse (DW).
+#### Data Warehouse (DW)
 
-- Sistema que centraliza os dados coletados de diversas fontes.
+- **Características**
+
+  - Sistema que centraliza os dados coletados de diversas fontes.
+  - Orientado por assunto.
+  - Integrado.
+  - Variável no tempo (histórico dos registros).
+  - Não volátil.
+  - Deve evoluir com o tempo com o uso de estratégias evolucionárias.
 
 - **Fontes de dados**
+
   - Características.
     - Incluem dados transacionais, externos, históricos e agregados.
     - Podem incluir DBMS, ERP e CRM, entre outros.
@@ -154,15 +162,8 @@ Processo onde dados são captados e convertidos em informações úteis ao negó
   - **APIs (Application Programming Interfaces)**
     - Para integração entre sistemas.
 
-- **Características**
-
-  - Orientado por assunto.
-  - Integrado.
-  - Variável no tempo (histórico dos registros).
-  - Não volátil.
-  - Deve evoluir com o tempo com o uso de estratégias evolucionárias.
-
 - **Tipos**
+
   - Quanto a dimensão.
     - Enterprise Data Warehouse (EDW).
     - Data Marts (DM).
@@ -179,7 +180,7 @@ Processo onde dados são captados e convertidos em informações úteis ao negó
 
 #### Data Lake
 
-Armazenamento de dados não estruturados.
+- Armazenamento de dados não estruturados.
 
 ### Sistemas de Informação
 
@@ -213,7 +214,7 @@ Armazenamento de dados não estruturados.
 
 ### Data cleansing (limpeza de dados)
 
-Detecção, reparo ou a exclusão de dados
+- Detecção, reparo ou a exclusão de dados.
 
 ### Dashboard
 
