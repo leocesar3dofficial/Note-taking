@@ -66,7 +66,7 @@
 - Analista de negócio
 - Designer
 
-## Impactos na organização/negócio
+## Impactos na organização / negócio
 
 - **Governança**
   - Como a organização/negócio conduz suas atividades em relação aos stakeholders

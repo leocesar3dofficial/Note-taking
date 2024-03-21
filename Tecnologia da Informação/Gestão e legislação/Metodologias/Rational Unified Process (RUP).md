@@ -76,6 +76,8 @@
 
 7. **Gerência de Projeto:** Planejamento e gerenciamento do projeto.
 
+- Aplicar conhecimentos, habilidades, ferramentas e técnicas às atividades de um projeto, a fim de cumprir os seus requisitos.
+
 8. **Ambiente:** Fornecimento de infraestrutura e suporte técnico para a equipe de desenvolvimento.
 
 9. **Revisão e Avaliação:** Garantia da qualidade do processo e dos artefatos produzidos.

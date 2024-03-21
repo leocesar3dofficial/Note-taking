@@ -295,10 +295,10 @@
 
 ### Testes de segurança
 
-- Testes de penetração (penetration testing)
-- Análise de vulnerabilidades
-- Testes de segurança automatizados
-- Revisões de código para identificar possíveis brechas ou falhas de segurança
+- Testes de penetração (penetration testing).
+- Análise de vulnerabilidades.
+- Testes de segurança automatizados.
+- Revisões de código para identificar possíveis brechas ou falhas de segurança.
 
 ## Cliente-servidor
 

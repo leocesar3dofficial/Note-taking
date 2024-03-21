@@ -36,15 +36,15 @@
 
 4. **Request Forgery (Cross-Site Request Forgery, CSRF)**
 
-   - Implemente tokens anti-CSRF para evitar que um atacante force usuários a realizar ações indesejadas
+   - Implemente tokens anti-CSRF para evitar que um atacante force usuários a realizar ações indesejadas.
 
 5. **Quebra de Controle de Acesso (Broken Access Control)**
 
-   - Certifique-se de que os usuários não possam acessar recursos ou ações para as quais não têm permissão
+   - Certifique-se de que os usuários não possam acessar recursos ou ações para as quais não têm permissão.
 
 6. **Exposição de Dados Sensíveis**
 
-   - Proteja dados confidenciais, usando criptografia e técnicas de mascaramento
+   - Proteja dados confidenciais, usando criptografia e técnicas de mascaramento.
 
 7. **Configuração Incorreta de Segurança**
 
@@ -96,4 +96,8 @@
 
 ## Common Weakness Enumeration (CWE)
 
-É uma lista desenvolvida pela comunidade de pontos fracos comuns de software e hardware.
+- É uma lista desenvolvida pela comunidade de pontos fracos comuns de software e hardware.
+
+### Path Transversal
+
+- Tem como objetivo acessar arquivos e diretórios que estão armazenados fora do diretório utilizado pela aplicação (Webroot).

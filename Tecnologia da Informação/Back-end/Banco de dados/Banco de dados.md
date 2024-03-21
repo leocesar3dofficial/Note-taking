@@ -837,20 +837,20 @@ O modelo de dados é criado a partir da visão geral do negócio. Define os obje
     - Pode ser adaptada para atender às necessidades específicas de cada projeto.
   - Composta por fases que cobrem todo o ciclo de vida do projeto.
     1. Fase de Entendimento do Negócio.
-    - Compreender os objetivos de negócio, requisitos e recursos disponíveis.
+        - Compreender os objetivos de negócio, requisitos e recursos disponíveis.
     2. Fase de Entendimento dos Dados.
-    - Realizar a coleta, exploração e descrição dos dados disponíveis.
+        - Realizar a coleta, exploração e descrição dos dados disponíveis.
     3. Fase de Preparação dos Dados.
-    - Realizar atividades de limpeza, transformação e formatação dos dados para prepará-los para a modelagem.
+        - Realizar atividades de limpeza, transformação e formatação dos dados para prepará-los para a modelagem.
     4. Fase de Modelagem.
-    - Desenvolver e avaliar diferentes modelos de mineração de dados.
-    - Utiliza técnicas e algoritmos adequados.
+        - Desenvolver e avaliar diferentes modelos de mineração de dados.
+        - Utiliza técnicas e algoritmos adequados.
     5. Fase de Avaliação.
-    - Avaliar e validar os modelos de mineração de dados criados.
-    - Garante que eles atendam aos objetivos do projeto.
+        - Avaliar e validar os modelos de mineração de dados criados.
+        - Garante que eles atendam aos objetivos do projeto.
     6. Fase de Implantação.
-    - Implementar os resultados da mineração de dados no ambiente de produção.
-    - Criação de relatórios e suporte ao uso prático dos resultados.
+        - Implementar os resultados da mineração de dados no ambiente de produção.
+        - Criação de relatórios e suporte ao uso prático dos resultados.
 
 #### Técnicas Estatísticas e Algoritmos
 

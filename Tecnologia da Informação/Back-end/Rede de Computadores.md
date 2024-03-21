@@ -253,17 +253,13 @@ Criado pelo International Telecommunication Union Telecommunication Standardizat
 
 ## Software Defined Networks (SDN)
 
-- SDN: Uma abordagem de rede que separa o plano de controle do plano de dados, permitindo a programação dinâmica da rede
-
-## Autenticação 802.1x
-
-- 802.1x: Um protocolo de autenticação utilizado em redes com e sem fio
+- SDN: Uma abordagem de rede que separa o plano de controle do plano de dados, permitindo a programação dinâmica da rede.
 
 ## Padrões e Normas de Cabeamento Estruturado
 
-- NBR 14565 e ISO/IEC 11801: Normas relacionadas ao cabeamento de redes internas em edifícios
-- NBR 16665 e ISO/IEC 24764: Normas para data centers
-- EIA/TIA 568A e 568B: Normas para a conectorização UTP (par trançado não blindado)
+- NBR 14565 e ISO/IEC 11801: Normas relacionadas ao cabeamento de redes internas em edifícios.
+- NBR 16665 e ISO/IEC 24764: Normas para data centers.
+- EIA/TIA 568A e 568B: Normas para a conectorização UTP (par trançado não blindado).
 
 ## Serviços de Rede Microsoft Windows Server
 

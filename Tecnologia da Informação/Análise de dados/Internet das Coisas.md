@@ -102,30 +102,36 @@
 ### Equipamentos
 
 - **Roteador (Router)**
-  - Conecta duas redes, normalmente residência/negócio ao provedor
+  - Conecta duas redes, normalmente residência/negócio ao provedor.
 - **Switch**
-  - Conexões ou portas para os equipamentos se conectarem ao roteador (cabo ou WiFi)
-    - Padrões
-      - IEEE 802.11 (Wi-Fi)
-      - IEEE 802.3 (Fast Ethernet [cabo que usa MAC])
-        - 10BASE-T ➜ limite de 10 Mbps
-        - 100BASE-T ➜ UTP ➜ cat 3 ➜ 4 pares trançados ➜ Codificação Manchester
-          - Modo Half-duplex ou Full-duplex
-        - 100BASE-TX ➜ UTP ➜ cat 5 ➜ 2 pares trançados ➜ Full duplex ➜ Codificação 4B/5B
-        - 100BASE-FX ➜ Fibra ➜ Multimodo ➜ Full duplex
-      - IEEE 802.5 (Token Ring)
-      - IEEE 802.8 (Fibra ótica)
-        - 100BASE-F
-      - IEEE 802.15 (Bluetooth)
+  - Conexões ou portas para os equipamentos se conectarem ao roteador (cabo ou WiFi).
+    - Padrões:
+      - IEEE 802.11 (Wi-Fi).
+      - IEEE 802.1x: Protocolo de autenticação utilizado em redes com e sem fio.
+          - Utiliza o protocolo Extensible Authentication Protocol (EAP).
+          - Protocolo de autenticação extensível (EAP).
+              - Suplicante (usuário) => Autenticador => Servidor de autenticação.
+      - IEEE 802.3 (Fast Ethernet [cabo que usa MAC]).
+        - 10BASE-T ➜ limite de 10 Mbps.
+        - 100BASE-T ➜ UTP ➜ cat 3 ➜ 4 pares trançados ➜ Codificação Manchester.
+          - Modo Half-duplex ou Full-duplex.
+        - 100BASE-TX ➜ UTP ➜ cat 5 ➜ 2 pares trançados ➜ Full duplex ➜ Codificação 4B/5B.
+        - 100BASE-FX ➜ Fibra ➜ Multimodo ➜ Full duplex.
+      - IEEE 802.5 (Token Ring).
+      - IEEE 802.8 (Fibra ótica).
+        - 100BASE-F.
+      - IEEE 802.15 (Bluetooth, WPAN).
+      - IEEE 802.16 (redes metropolitanas sem fio, WiMAX).
+      - IEEE 802.19 (coexistência de diferentes tecnologias sem fio na mesma faixa de frequência).
 - **Hub**
-  - Tipo de switch onde toda a comunicação e disponibilizada para todos os equipamentos
-  - Não é comum utilizá-lo atualmente, foi substituído pelo Switch
+  - Tipo de switch onde toda a comunicação e disponibilizada para todos os equipamentos.
+  - Não é comum utilizá-lo atualmente, foi substituído pelo Switch.
 - **Ponto de Acesso (Access Point)**
-  - Repetidor de WiFi
+  - Repetidor de WiFi.
 - **Dongle WiFi**
-  - Pendrive para conexão em rede para dispositivos móveis
+  - Pendrive para conexão em rede para dispositivos móveis.
 - **Links de conexão**
-  - ADSL (linha telefônica), Cabo de TV, Rádio, Fibra ótica e móvel ( 4G, 4,5G e 5G)
+  - ADSL (linha telefônica), Cabo de TV, Rádio, Fibra ótica e móvel ( 4G, 4,5G e 5G).
 
 ### Eletricidade
 

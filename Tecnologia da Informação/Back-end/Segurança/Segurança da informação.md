@@ -58,7 +58,7 @@
     - Autenticação (permitir ou bloquear o acesso).
       - Violação do princípio de privilégio mínimo.
       - Ferramenta de segundo fator (2FA, Two-factor authentication).
-        - Mais de um fator de autenticação: ex. senha e um código gerado por um dispositivo 2FA.
+        - Mais de um fator de autenticação ou multifator: ex. senha e um código gerado por um dispositivo 2FA.
 
 ## Gestão da Segurança
 
@@ -161,6 +161,7 @@
 
 - Documento que detalha as medidas que uma organização deve tomar para garantir a continuidade de suas operações críticas.
   - Em caso de incidentes que possam afetar adversamente seus processos de negócios.
+- Documento que orienta a organização a responder a uma disrupção e retomar, recuperar e restaurar a entrega de produtos e serviços, de acordo com os objetivos de continuidade de negócios (ABNT ISO 22301).
 
 #### Etapas
 
@@ -514,7 +515,7 @@
 
 ### NIST Cybersecurity Framework (Framework de Cibersegurança do NIST)
 
-- Conjunto de diretrizes e melhores práticas desenvolvido pelo Instituto Nacional de Padrões e Tecnologia (NIST) dos Estados Unidos.
+- Conjunto de diretrizes e melhores práticas desenvolvido pelo Instituto Nacional de Padrões e Tecnologia (NIST, National Institute of Standards and Technology) dos Estados Unidos.
 - Fornece orientações para organizações melhorarem sua postura de segurança cibernética.
 - Foco na identificação, proteção, detecção, resposta e recuperação de ameaças.
 - Composto por cinco funções principais: Identificar, Proteger, Detectar, Responder e Recuperar.
@@ -540,6 +541,11 @@
    - Análise de incidentes para determinar natureza e gravidade.
 3. **Contenção, Erradicação e Recuperação**
    - Tomar medidas para conter o incidente, erradicar a ameaça e restaurar a normalidade.
+   - Jump Kit:
+      - Estojo portátil de materiais.
+      - Contem um laptop carregado com software apropriado.
+          - Farejadores de pacotes e ferramentas de forense digital.
+      - Dispositivos de backup, mídia virgem e cabos de rede.
 4. **Comunicação**
    - Notificar partes interessadas internas e externas, incluindo autoridades reguladoras, conforme necessário.
 5. **Documentação e Relatórios**
@@ -900,9 +906,14 @@
 
 ### Lei nº 13.709/2018 (Lei Geral de Proteção de Dados Pessoais - LGPD)
 
-- Inspirada no Regulamento Geral de Proteção de Dados (GDPR) da União Europeia
-- Vigência a partir de setembro de 2020
-- Objetivo: garantir a privacidade e a segurança dos dados pessoais
+- Inspirada no Regulamento Geral de Proteção de Dados (GDPR) da União Europeia.
+- Vigência a partir de setembro de 2020.
+- Objetivo: garantir a privacidade e a segurança dos dados pessoais.
+    - Análise de Impacto de Privacidade (PIA, Privacy Impact Assessment).
+        - Potenciais impactos de um processo, sistema de informação, programa, módulo de software ou dispositivo.
+        - Relatório com medidas tomadas para o tratamento de riscos.
+        - Consulta às partes interessadas
+        - NBR ISO 29134:2020.
 
 #### Princípios
 

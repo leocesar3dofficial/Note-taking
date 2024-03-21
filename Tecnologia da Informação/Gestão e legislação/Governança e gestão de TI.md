@@ -136,11 +136,15 @@ Project Management Body of Knowledge.
 
 #### Ciclo de Vida do Projeto
 
-- Preditivo (cascata ou waterfall).
-- Iterativo.
-- Incremental.
-- Adaptativo (metodologias ágeis).
-- Híbrido.
+- O desempenho do projeto é comparado ao seu plano de gerenciamento, para determinar se ele deve ser alterado, encerrado ou continuado, conforme planejado.
+
+- **Modelos:**
+
+  - Preditivo (cascata ou waterfall).
+  - Iterativo.
+  - Incremental.
+  - Adaptativo (metodologias ágeis).
+  - Híbrido.
 
 #### Gerenciamento Ágil
 
@@ -332,7 +336,11 @@ Project Management Body of Knowledge.
   - Identificar ativos de informação, ameaças potenciais, vulnerabilidades e consequências de riscos.
 - Avaliação de riscos.
   - Probabilidade de ocorrência e impacto nas operações da organização.
-  - Envolve a análise qualitativa e/ou quantitativa.
+  - Envolve a análise:
+      - Qualitativa:
+          - Magnitude das consequências: pequena, média e grande.
+          - Probabilidade: alta, média e baixa.
+      - Quantitativa.
 - Tratamento de riscos.
   - Mitigar, aceitar, transferir ou evitar os riscos.
   - Definição de medidas de segurança.
