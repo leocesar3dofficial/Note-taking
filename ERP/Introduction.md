@@ -1,10 +1,16 @@
 # Introduction to Enterprise Resource Planning (ERP)
-217
+358
 ## Concepts
 
 - Term coined by Gartner, Inc.
 - Evolution of the Material Requirements Planning (MRP and MRP II) systems.
 - Business process: Is a collection of activities that together add value.
+- Best of breed: Mix modules from various enterprise software vendors.
+    - Requires data and business logic integration.
+- Data types:
+    - Configuration tables.
+    - Master data: Client, Suppliers, Products, Accounts registration.
+    - Transaction data: daily operations.
 
 ### Objective
 
@@ -51,6 +57,7 @@
 ## Actors / Roles
 
 - End users.
+    - Role-Based Access.
 - Auditor.
 - Consultant.
 
@@ -59,6 +66,11 @@
 ### Supply Chain
 
 - Sales and Distribution.
+    - Point of Sale (POS).
+        - Sales and payments.
+        - Returns.
+        - Item exchange.
+        - Gift cards.
 - Transportation Management.
 - Purchasing.
 - Warehouse Management.
@@ -101,8 +113,28 @@
 ## Implementation process
 
 - Business case development.
-    -  Identify the business’s challenges, or pain points.
-- Package selection.
+    - Identify the business’s challenges, or pain points.
+    - Project sponsorship and ownership from the organization's leaders.
+- Package selection or development.
+    - Form a dedicated team.
+    - IT infrastructure assessment.
+    - Installation.
+    - Configuration.
+    - Customization.
+        - Data analysis.
+            - Reports.
+            - Queries.
+            - Alerts.
+            - Dashboards.
+        - Interfaces and forms.
+        - Data migration through ETL (extract, transform, load) conversion.
+        - Enhancements through system's exits.
+            - Use of system's scripting language.
+        - Modifications of the original codebase.
+            - Higher risk and costs.
+            - Difficult to integrate and interface with other systems.
+            - The ERP vendor typically does not support custom code.
+            - Use of third-party software (bolt-on).
 - Business process analysis.
 - Project management.
 - Testing.
