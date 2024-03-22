@@ -125,39 +125,40 @@
 
 ### Centrais
 
-- Núcleo (kernel)
-- Escalonador de processos
-- Memória
-  - Componentes (do mais rápido para o mais lento)
-    - Registradores
-    - Memória cache da CPU
-    - Memória principal, RAM
-      - Memória lógica
-      - Memória física
-    - Memória de armazenamento em massa (disco e sólido)
-  - Gerenciador
-    - Alocar a memória aos processos, quando for necessário
-    - Liberar a memória, quando um processo terminar
-    - Tratar do problema de swapping, isto é, quando a memória é insuficiente
-- Gerenciador de E/S
-  - Estruturado em camadas
-    - Software
-      - Sistema de arquivos
-      - Device drivers
-    - Hardware
-      - Controladores
-      - Dispositivo de E/S
-- Gerenciador de comunicação interprocessos (IPC)
-  - Modelos de comunicação
-    - Difusão (broadcast)
-    - Produtor-consumidor (unidirecional)
-    - Cliente-servidor
-    - Peer-to-Peer (P2P)
-    - Caixa de correio (mailbox)
-    - Diálogo
-- Gerenciador de sistemas de arquivos
-  - Elementos: arquivo e diretório
-  - Tipos de arquivo: executável, dados, multimídia
+- Núcleo (kernel).
+- Escalonador de processos.
+- Memória.
+  - Componentes (do mais rápido para o mais lento).
+    - Registradores.
+    - Memória cache da CPU.
+    - Memória principal, RAM.
+      - Memória lógica.
+      - Memória física.
+    - Memória de armazenamento em massa (disco e sólido).
+  - Gerenciador.
+    - Alocar a memória aos processos, quando for necessário.
+    - Liberar a memória, quando um processo terminar.
+    - Tratar do problema de swapping, isto é, quando a memória é insuficiente.
+- Gerenciador de E/S.
+  - Estruturado em camadas.
+    - Software.
+      - Sistema de arquivos.
+      - Device drivers.
+    - Hardware.
+      - Controladores.
+      - Dispositivo de E/S.
+- Gerenciador de comunicação interprocessos (IPC).
+  - Modelos de comunicação.
+    - Difusão (broadcast).
+    - Produtor-consumidor (unidirecional).
+    - Cliente-servidor.
+    - Peer-to-Peer (P2P).
+    - Caixa de correio (mailbox).
+    - Diálogo.
+- Gerenciador de sistemas de arquivos.
+  - Elementos: arquivo e diretório.
+  - Tipos de arquivo: executável, dados, multimídia.
+    - Pipe: é um canal de comunicação, ou um redirecionamento de dados entre dois processos.
 
 ## Objetivos
 
@@ -208,12 +209,24 @@
 
 ### Sistemas de arquivos
 
-- FAT, 1977, Microsoft
-- EXT (Extended File System), 1992, Linux
-  - Atributos do EXT4 (atual)
-    - Identificação do usuário (UID) dono do arquivo
-    - Identificação do grupo (GID) ao qual o arquivo pertence
-    - Permissões de acesso de leitura, de escrita e de execução
+- FAT, 1977, Microsoft.
+- EXT (Extended File System), 1992, Linux.
+  - Atributos do EXT4 (atual).
+    - Identificação do usuário (UID) dono do arquivo.
+    - Identificação do grupo (GID) ao qual o arquivo pertence.
+    - Permissões de acesso de leitura, de escrita e de execução.
+      - Privilégios de root: `su <senha do superusuário>`.
+      - Permissões de arquivos com o comando Chmod no modo octal:
+        - Valores de 0 a 7: `chmod Setuid (root, opcional) | Proprietário | Grupo | Outros <nome do arquivo>`
+        - **Permissões:**
+          - 0: Sem permissão.
+          - 1: Execução.
+          - 2: Gravação.
+          - 3: Execução e Gravação.
+          - 4: Leitura.
+          - 5: Leitura e Execução.
+          - 6: Leitura e Gravação.
+          - 7: Leitura, Execução e Gravação.
 - NTFS, 1993, Microsoft
 - FAT16, 1995, Microsoft
 - FAT32, 1996, Microsoft
@@ -278,52 +291,64 @@
 
 ### Processos
 
-- Espaço de endereçamento: texto, dados, pilha
-- Estados: execução, pronto, bloqueado
-- Transições de estado: acordado ou adormecido
-- Elementos de um processo (espaço de endereçamento)
-  - Número de Identificação de Processo (Process Identification Number – PIN)
-  - Bloco de Controle de Processo ou descritor de processo (Process Control Block – PCB)
-- Processo Init no Linux
-  - kswapd: gerenciamento de memória
-  - khubd: operações de dispositivos
-  - xfs: operações do sistema de arquivos
-  - login: autenticação dos usuários, bash
-  - klogd: log do kernel
-- Chaveamento de contexto
-  - Interrompe a execução de um processo e começa a executar outro que estava no estado pronto
-- Interrupções
-  - Habilitam o software a responder aos sinais do hardware via sinais
-- Threads: processos concorrentes
-  - Estados
-    - Nascido
-    - Pronto
-    - Em execução, em espera, adormecido, morto
-    - Bloqueado/Deadlock
-      - Dois ou mais processos não podem continuar suas execuções
-      - cada um deles espera pelos recursos alocados entre eles
-  - Tipos: de usuário, de núcleo, híbrido
+- Basicamente um programa em execução.
+- Espaço de endereçamento: texto, dados, pilha.
+- Estados: execução, pronto, bloqueado.
+- Transições de estado: acordado ou adormecido.
+- Elementos de um processo (espaço de endereçamento).
+  - Número de Identificação de Processo (Process Identification Number – PIN).
+  - Bloco de Controle de Processo ou descritor de processo (Process Control Block – PCB).
+- Processo Init no Linux.
+  - kswapd: gerenciamento de memória.
+  - khubd: operações de dispositivos.
+  - xfs: operações do sistema de arquivos.
+  - login: autenticação dos usuários, bash.
+  - klogd: log do kernel.
+- Chaveamento de contexto.
+  - Interrompe a execução de um processo e começa a executar outro que estava no estado pronto.
+- Interrupções.
+  - Habilitam o software a responder aos sinais do hardware via sinais.
+- Threads: processos concorrentes.
+  - Estados.
+    - Nascido.
+    - Pronto.
+    - Em execução, em espera, adormecido, morto.
+    - Bloqueado/Deadlock.
+      - Dois ou mais processos não podem continuar suas execuções.
+      - cada um deles espera pelos recursos alocados entre eles.
+  - Tipos: de usuário, de núcleo, híbrido.
+  - Mecanismos de sincronização de processos:
+    - **Semáforos:** Permitem que vários processos acessem um recurso compartilhado, mas controlam o número máximo de acessos simultâneos.
+    - **Mutex (Mutual Exclusion):** Tipo de semáforo, permite que apenas um processo acesse um recurso compartilhado por vez.
+    - **Monitores:** Permitem que vários processos acessem um conjunto de recursos compartilhados, mas controlam o acesso a cada recurso individualmente.
+    - **Condições de Variável:** Permitem que os processos esperem que uma condição específica seja satisfeita antes de continuar a execução.
+    - **Sinais (Signals):** notificar um processo sobre eventos.
+    - **Filas de Mensagens (Message Queues):** Os processos trocam mensagens de forma assíncrona.
+    - **Barreiras (Barriers):** Pontos de sincronização de processos.
+- Algoritmos de escalonamento.
+  - Critérios de comparação:
+    - Turnaround: Afere o tempo total, desde a submissão do processo até a sua conclusão.
 
 ## Segurança
 
 ### Criptografia
 
-- Conceito
-  - Codificação e decodificação de dados, interpretados apenas pelos receptores
+- Conceito.
+  - Codificação e decodificação de dados, interpretados apenas pelos receptores.
   - Cifra: sistema criptográfico, um algoritmo para a criptografia das mensagens.
-    - Ex. cifra de César: transposição, na qual a ordem das letras é alterada
-  - Cadeias binárias com uma chave de tamanho determinado, 64 bits
-- Chave secreta ou criptografia simétrica
-- Processo
-  - Emissor > Texto comum > Criptografa > Texto cifrado > Meio de comunicação (como internet) > Mesma chave simétrica secreta > Texto comum > Receptor
-- Central de distribuição de chaves (Key Distribution Center – KDC)
-- Autoridade certificadora (AC): valida os certificados
-- Tipos
-  - Rivest-Shamir-Adleman (RSA), 1970
-  - Privacidade Razoável (Pretty Good Privacy – PGP), 1991
-- Assinaturas digitais de documentos
-  - Message Digest 5 – MD5), gera um hash de 16 bytes
-  - Secure Hash Algorithm – SHA-1), gera um hash de 20 bytes
+    - Ex. cifra de César: transposição, na qual a ordem das letras é alterada.
+  - Cadeias binárias com uma chave de tamanho determinado, 64 bits.
+- Chave secreta ou criptografia simétrica.
+- Processo:
+  - Emissor > Texto comum > Criptografa > Texto cifrado > Meio de comunicação (como internet) > Mesma chave simétrica secreta > Texto comum > Receptor.
+- Central de distribuição de chaves (Key Distribution Center – KDC).
+- Autoridade certificadora (AC): valida os certificados.
+- Tipos:
+  - Rivest-Shamir-Adleman (RSA), 1970.
+  - Privacidade Razoável (Pretty Good Privacy – PGP), 1991.
+- Assinaturas digitais de documentos.
+  - Message Digest 5 – (MD5), gera um hash de 16 bytes.
+  - Secure Hash Algorithm – (SHA-1), gera um hash de 20 bytes.
 
 ### Autenticação
 

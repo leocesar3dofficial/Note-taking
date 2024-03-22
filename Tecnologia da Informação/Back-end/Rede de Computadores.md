@@ -263,18 +263,20 @@ Criado pelo International Telecommunication Union Telecommunication Standardizat
 
 ## Serviços de Rede Microsoft Windows Server
 
-- DNS: Sistema de Nomes de Domínio
-  - Whois
-    - É um protocolo usado para consultar os bancos de dados
-    - Armazenam as informações sobre quem são os proprietários ou registrantes de um domínio
-    - Protocolo de consultas e respostas sobre DNS
-    - Um dos protocolos mais antigos da web
-- DHCP: Protocolo de Configuração Dinâmica de Hosts
-- RADIUS: Protocolo de autenticação e autorização
-- Autenticação, Certificados: Métodos de segurança
-- Active Directory (AD)
-  - Serviço de diretório utilizado para gerenciar recursos em uma rede Windows
-  - Árvore, floresta, domínios Windows
+- DNS: Sistema de Nomes de Domínio.
+  - Whois.
+    - É um protocolo usado para consultar os bancos de dados.
+    - Armazenam as informações sobre quem são os proprietários ou registrantes de um domínio.
+    - Protocolo de consultas e respostas sobre DNS.
+    - Um dos protocolos mais antigos da web.
+- DHCP: Protocolo de Configuração Dinâmica de Hosts.
+- RADIUS: Protocolo de autenticação e autorização.
+- Autenticação, Certificados: Métodos de segurança.
+- Active Directory (AD).
+  - Serviço de diretório utilizado para gerenciar recursos em uma rede Windows.
+  - Árvore, floresta, domínios Windows.
+  - Comandos de terminal:
+    - Remover um grupo e outros objetos: `dsrm <objeto>`  
 
 ## Modelo OSI (Open System Interconnection)
 

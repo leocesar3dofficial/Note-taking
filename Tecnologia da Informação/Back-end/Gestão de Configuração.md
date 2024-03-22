@@ -1,12 +1,12 @@
-# Gestão de Configuração e Integração e entrega contínua (CI/CD)
+# Gestão de Configuração, Integração e entrega contínua (CI/CD)
 
 ## Características
 
-- Automatizar e agilizar o processo de construção, teste e entrega de software
-- Integração frequente do código em um repositório
-- Configuração de infraestrutura como código (IaC)
-- Pipelines de implantação
-  - Compilação, testes, empacotamento e implantação no ambiente de produção
+- Automatizar e agilizar o processo de construção, teste e entrega de software.
+- Integração frequente do código em um repositório.
+- Configuração de infraestrutura como código (IaC).
+- Pipelines de implantação.
+  - Compilação, testes, empacotamento e implantação no ambiente de produção.
 
 ## Controle de versão
 
@@ -76,16 +76,16 @@ cvs -d <caminho do diretório> init
 
 ### Ansible
 
-- Ferramenta de automação de código aberto
-- Permite a automação de tarefas de configuração e gerenciamento de servidores
-  - Via playbooks
-    - composto por plays
-      - sequências de tasks que, por sua vez, chamam modules.
-- Utiliza uma abordagem baseada em YAML e SSH para descrever as tarefas que devem ser executadas em servidores remotos
-- Conhecido por sua simplicidade e facilidade de uso
-- Não requer agentes em máquinas remotas
-- Suporta a automação de tarefas em sistemas Windows e Unix
-- Também pode ser usado para orquestração de aplicativos e provisionamento de infraestrutura
+- Ferramenta de automação de código aberto.
+- Permite a automação de tarefas de configuração e gerenciamento de servidores.
+  - Via Playbooks.
+    - Composto por Plays.
+      - Sequências de Tasks que, por sua vez, chamam Modules.
+- Utiliza uma abordagem baseada em YAML e SSH para descrever as tarefas que devem ser executadas em servidores remotos.
+- Conhecido por sua simplicidade e facilidade de uso.
+- Não requer agentes em máquinas remotas.
+- Suporta a automação de tarefas em sistemas Windows e Unix.
+- Também pode ser usado para orquestração de aplicativos e provisionamento de infraestrutura.
 
 ### ShellScript
 

@@ -26,7 +26,7 @@
 
 - Lack of information, or it is too time costly, or inaccurate.
 - Disparate systems for functional areas.
-    - Led to duplicate data.
+    - Lead to duplicate data.
 - Business model changes.
 - Growth.
 - Need for advanced functionality.

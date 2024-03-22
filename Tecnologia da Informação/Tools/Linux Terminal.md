@@ -39,6 +39,12 @@ echo set completion-ignore-case on | sudo tee -a /etc/inputrc
 - **Create Nested Directories:** `mkdir -p [parent]/[child]`
 - **Create File:** `touch [name of the file with extension]`
 - **List Directory Content:** `ls [directory]`
+  - Operadores:
+    - `-R`: Lista de forma recursiva.
+    - `-l`: Mostra os detalhes em formato longo.
+    - `-a`: Mostra todos os arquivos e ocultos.
+    - `>`: Redireciona a saída para um arquivo.
+  - Exemplo: `ls -Rla > <filename>`
 - **Change Directory:** `cd [name of the directory]`
 
 ### Go to Drive
