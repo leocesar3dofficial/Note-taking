@@ -1,5 +1,5 @@
 # Introduction to Enterprise Resource Planning (ERP)
-358
+
 ## Concepts
 
 - Term coined by Gartner, Inc.
