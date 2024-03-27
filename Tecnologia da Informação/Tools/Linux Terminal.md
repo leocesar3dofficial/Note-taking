@@ -78,6 +78,7 @@ cd /path/to/my\ folder\ with\ spaces/
   - `sudo apt update`
   - `sudo apt upgrade`
   - `sudo apt update && sudo apt upgrade`
+  - Remove orphaned dependencies: `sudo apt autoremove`
 - **Check OS Version:** `lsb_release -a`
 - **List Services:**
   - `service --status-all`
