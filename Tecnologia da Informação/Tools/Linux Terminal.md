@@ -175,10 +175,11 @@ sudo systemctl mask bluetooth.service
     flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
   ```
 
-  Install Blender:
+  Install or update Blender:
 
   ```bash
       flatpak install flathub org.blender.Blender
+      flatpak update org.blender.Blender
   ```
 
 ## Uninstall Software (and all its dependencies)
@@ -247,6 +248,7 @@ is another process using it?
    # Update APT package lists
    sudo apt update
    ```
+
 ### Pending update of "snap-store" snap Close the app to avoid disruptions
 
 1. Kill all processes associated with the Snap Store and update all installed snap packages on the system to their latest versions.
