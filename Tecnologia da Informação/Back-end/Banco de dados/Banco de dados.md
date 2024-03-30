@@ -354,6 +354,7 @@ O modelo de dados é criado a partir da visão geral do negócio. Define os obje
 - **Orientado a Documento (MongoDB)**
 
   - Dados são armazenados em documentos no formato JSON ou BSON (Binary JSON).
+  - Análogo a uma linha em uma tabela de banco de dados relacional.
   - Cada documento pode ter uma estrutura flexível.
   - Documentos podem ser agrupados em coleções, permitindo consultas rápidas e eficientes.
 
