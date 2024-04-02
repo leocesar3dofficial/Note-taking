@@ -38,6 +38,10 @@ Details about a module: `npm list <package-name>`
 npm install --save
 ```
 
+- Update modules: `npm update`
+- Check for outdated packages: `npm outdated`
+- Update package.json to latest versions of each module (dangerous!): `ncu -u`
+
 ### Run app
 
 - **Normal**: `node <your app name>.js`
