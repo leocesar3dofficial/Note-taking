@@ -22,14 +22,15 @@ npm init
 ### Install necessary modules
 
 ```bash
+npm install
+npm i <module name>
 npm install express mongoose cors --save
 ```
 
-or
+List installed modules/dependencies: `npm list`
 
-```bash
-npm i <module name>
-```
+Details about a module: `npm list <package-name>`
+
 
 ### Simple install based on the project's package.js file
 
