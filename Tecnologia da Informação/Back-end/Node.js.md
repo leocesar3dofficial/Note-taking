@@ -124,3 +124,25 @@ npm install --save
 ```bash
 npm uninstall library-name
 ```
+
+## Libraries guide
+
+### MailDev
+
+1. Install globally: `npm install -g maildev`
+2. Start: `maildev`
+3. Access the Web Interface: http://localhost:1080
+4. Configure Your Application:
+
+   ```javascript
+   const nodemailer = require('nodemailer');
+
+   const transporter = nodemailer.createTransport({
+     host: 'localhost',
+     port: 1025,
+     ignoreTLS: true // Disable TLS for MailDev
+   });
+   ```
+
+5. Send Test Emails.
+6. Stop MailDev: `Ctrl + C`
