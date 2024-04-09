@@ -1,6 +1,6 @@
 # Tecnologias de Marcação e Estilos
 
-- [**HTML**](</Tecnologia da Informação/Front-end/Semantic HTML Example.md>)
+- [**HTML**](</Tecnologia da Informação/Front-end/HTML.md>)
 - **CSS**
   - Importar na Página
     - Externo: `<link rel="stylesheet" href="mystyle.css">`

@@ -1,4 +1,4 @@
-# Introduction to Enterprise Resource Planning (ERP)
+# Enterprise Resource Planning (ERP)
 
 ## Concepts
 

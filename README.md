@@ -26,15 +26,15 @@
 
 #### Machine Learning
 
-- [Deep Learning with TensorFlow](<Tecnologia da Informação/Análise de dados/Deep Learning with TensorFlow.md>)
+- [Deep Learning with TensorFlow](<Tecnologia da Informação/Análise de dados/Tools/Deep Learning with TensorFlow.md>)
 - [Inteligência Artificial](<Tecnologia da Informação/Análise de dados/Inteligência Artificial.md>)
 - [Teoria dos Grafos](<Tecnologia da Informação/Análise de dados/Teoria dos Grafos.md>)
 
 #### Ferramentas
 
-- [Jupyter Notebook](<Tecnologia da Informação/Análise de dados/Jupyter Notebook.md>)
-- [Numpy](<Tecnologia da Informação/Análise de dados/Numpy.md>)
-- [Pandas](<Tecnologia da Informação/Análise de dados/Pandas.md>)
+- [Jupyter Notebook](<Tecnologia da Informação/Análise de dados/Tools/Jupyter Notebook.md>)
+- [Numpy](<Tecnologia da Informação/Análise de dados/Tools/Numpy.md>)
+- [Pandas](<Tecnologia da Informação/Análise de dados/Tools/Pandas.md>)
 
 ##### Web Scraping
 

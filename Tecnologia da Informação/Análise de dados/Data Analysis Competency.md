@@ -166,8 +166,8 @@
 
 ### Libraries
 
-- [NumPy](</Tecnologia da Informação/Análise de dados/Numpy.md>): Deal with a large amount of number's data.
-- Pandas: Panel Data.
+- [NumPy](</Tecnologia da Informação/Análise de dados/Tools/Numpy.md>): Deal with a large amount of number's data.
+- [Pandas](</Tecnologia da Informação/Análise de dados/Tools/Pandas.md>): Panel Data.
 - Matplotlib: Basic Graph Library.
 - Seaborn: Prettier Graph Library.
 - Plotly.py: Interactive Graph Library.
