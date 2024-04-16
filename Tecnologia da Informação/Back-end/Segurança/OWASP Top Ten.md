@@ -9,30 +9,30 @@
 
 2. **Quebra de Autenticação e Gerenciamento de Sessão**
 
-   - Garanta que a autenticação e o gerenciamento de sessão sejam sólidos
-   - Use práticas como tokens de segurança e expiração de sessão
+   - Garanta que a autenticação e o gerenciamento de sessão sejam sólidos.
+   - Use práticas como tokens de segurança e expiração de sessão.
 
 3. **Cross-Site Scripting (XSS)**
 
-   - Proteja seu aplicativo contra ataques XSS
-     - Utilizar tokens anti-CSRF
-       - Inclua tokens de segurança exclusivos em formulários e solicitações que exigem ações sensíveis
-       - Esses tokens devem ser verificados no lado do servidor para garantir a legitimidade da solicitação
-     - Implementar políticas de mesma origem (Same-Origin Policy)
-       - Configure seu aplicativo para que ele só aceite solicitações de origens confiáveis
-       - Ajuda a prevenir solicitações de sites não autorizados
-     - Utilizar cabeçalhos HTTP apropriados
-       - Cabeçalhos
+   - Proteja seu aplicativo contra ataques XSS.
+     - Utilizar tokens anti-CSRF.
+       - Inclua tokens de segurança exclusivos em formulários e solicitações que exigem ações sensíveis.
+       - Esses tokens devem ser verificados no lado do servidor para garantir a legitimidade da solicitação.
+     - Implementar políticas de mesma origem (Same-Origin Policy).
+       - Configure seu aplicativo para que ele só aceite solicitações de origens confiáveis.
+       - Ajuda a prevenir solicitações de sites não autorizados.
+     - Utilizar cabeçalhos HTTP apropriados.
+       - Cabeçalhos.
          - Host: contém o DNS do servidor.
        - Configure cabeçalhos HTTP, como o cabeçalho "Referer" e o cabeçalho "Origin".
        - Para verificar a origem de solicitações e rejeitar solicitações de fontes não autorizadas.
      - Exigir autenticação sensível.
        - Solicitações que envolvem ações sensíveis devem exigir autenticação adicional.
-       - Como a solicitação de senha ou autenticação de dois fatores
-     - Fornecer confirmação para ações críticas
-       - Como a exclusão de uma conta ou transferência de fundos
-       - Solicite que o usuário confirme a ação, mesmo que já esteja autenticado
-     - Validar e escapar adequadamente todas as saídas de dados
+       - Como a solicitação de senha ou autenticação de dois fatores.
+     - Fornecer confirmação para ações críticas.
+       - Como a exclusão de uma conta ou transferência de fundos.
+       - Solicite que o usuário confirme a ação, mesmo que já esteja autenticado.
+     - Validar e escapar adequadamente todas as saídas de dados.
 
 4. **Request Forgery (Cross-Site Request Forgery, CSRF)**
 
