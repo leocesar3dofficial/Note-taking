@@ -1,6 +1,6 @@
 # Chart.js
 
-1. **Download Chart.js**: Go to the Chart.js GitHub releases page (https://github.com/chartjs/Chart.js/releases). Or use npm:
+1. **Download Chart.js**: Go to: https://github.com/chartjs/Chart.js/releases or use npm:
 
 ```bash
 npm install chart.js
