@@ -314,10 +314,9 @@ myPromise.then((result) => {});
 myPromise.catch((error) => {});
 ```
 
-## Dynamic import of module
+## Dynamic import of a module
 
 ```javascript
-// Dynamically import a module
 import('./module.js')
   .then((module) => {
     // Do something with the module
