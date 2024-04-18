@@ -187,6 +187,10 @@ sudo systemctl mask bluetooth.service
 
 - `sudo apt remove <package-name> --auto-remove`
 
+Or for the whole OS:
+
+- `sudo apt-get autoremove`
+
 ## Troubleshooting
 
 ### On Boot, the OS GUI Does not load, and you have access to the CLI
