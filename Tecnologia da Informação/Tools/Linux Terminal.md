@@ -186,8 +186,9 @@ sudo systemctl mask bluetooth.service
 ## Uninstall Software (and all its dependencies)
 
 - `sudo apt remove <package-name> --auto-remove`
+- `sudo apt-get remove --purge <package-name>`
 
-Or for the whole OS:
+Or for removing unused packages for the whole OS:
 
 - `sudo apt-get autoremove`
 
