@@ -57,6 +57,7 @@ cd /path/to/my\ folder\ with\ spaces/
 - **Up One Level:** `cd` or `cd ..`
 - **Return to User Directory:** `cd ~`
 - **Rename File or Directory (Move):** `mv [current name] [new name]`
+  - Bulk extension renane: `find . -name "*.extension" -exec bash -c 'mv "$0" "${0%.extension}.new-extension"' {} \;`
 - **Copy File or Directory:** `cp [current directory] [new directory]`
 - **Delete File (Remove):** `rm [name]`
 - **Delete Directory (Remove):** `rm -r [name]`
