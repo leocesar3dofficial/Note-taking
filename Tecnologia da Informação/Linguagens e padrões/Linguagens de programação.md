@@ -6,32 +6,30 @@
 
 #### Características
 
-- Alto nível, interpretada e orientada a objetos
-- Amplamente usada para desenvolvimento web e criação de aplicações front-end interativas
-- Suporta programação assíncrona e manipulação do DOM (Document Object Model)
-- Possui uma vasta quantidade de bibliotecas e frameworks disponíveis
+- Alto nível, interpretada e orientada a objetos.
+- Usada para desenvolvimento web e criação de aplicações front-end interativas.
+- Suporta programação assíncrona e manipulação do DOM (Document Object Model).
+- Possui uma vasta quantidade de bibliotecas e frameworks disponíveis.
 
-##### Declarations
-
-###### Hoisting (elevar)
-
-- Variable can be declared after it has been used
-- Only var can be used before declared, but may return undefined
-- let variables will return ReferenceError
-- const variables will is a syntax error
+- Declarations
+  - Hoisting (elevar):
+    - Variable can be declared after it has been used.
+    - Only var can be used before declared, but may return undefined.
+    - let variables will return ReferenceError.
+    - const variables will is a syntax error.
 
 #### Pontos fortes
 
-- Fácil integração com HTML e CSS
-- É uma linguagem onipresente no desenvolvimento web
-- Pode ser executada em qualquer navegador
-- Suporte à programação assíncrona com Promises e async/await
+- Fácil integração com HTML e CSS.
+- É uma linguagem onipresente no desenvolvimento web.
+- Pode ser executada em qualquer navegador.
+- Suporte à programação assíncrona com Promises e async/await.
 
 #### Pontos fracos
 
-- Pode ser inconsistente em diferentes navegadores
-- A tipagem dinâmica pode levar a erros difíceis de serem detectados
-- É necessário ter cuidado para evitar problemas de segurança, como injeção de código
+- Pode ser inconsistente em diferentes navegadores.
+- A tipagem dinâmica pode levar a erros difíceis de serem detectados.
+- É necessário ter cuidado para evitar problemas de segurança, como injeção de código.
 
 ### TypeScript
 

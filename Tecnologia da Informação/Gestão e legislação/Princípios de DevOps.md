@@ -58,6 +58,7 @@
    - O controle de versão é uma parte importante desse gerenciamento.
 
 7. **Feedback rápido**
+
    - Gera aprendizado contínuo e melhoria.
    - Coleta de feedback dos usuários e das operações em tempo real.
    - Análise de métricas e indicadores para tomar decisões informadas e impulsionar a inovação.

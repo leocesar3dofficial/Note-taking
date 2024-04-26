@@ -400,31 +400,31 @@
 
 ### Definição
 
-- Comunicação verbal e textual
-- Fundamentada em regras gramaticais e dialetos
+- Comunicação verbal e textual.
+- Fundamentada em regras gramaticais e dialetos.
 
 ### Modelos
 
-- N-grama
+- **N-grama**
   - Definição:
-    - Identificar a linguagem utilizada no input
-    - Cadeia de Markov de ordem 1-N (N como o número de caracteres)
-      - Não depende de estado anterior
-      - Assume a forma de grafos
-    - Gera uma árvore de dependência
-  - Tipos: 1, 2 ou 3-grama (entradas com um, dois ou três caracteres)
-- Redes Neurais Artificiais
+    - Identificar a linguagem utilizada no input.
+    - Cadeia de Markov de ordem 1-N (N como o número de caracteres).
+      - Não depende de estado anterior.
+      - Assume a forma de grafos.
+    - Gera uma árvore de dependência.
+  - Tipos: 1, 2 ou 3-grama (entradas com um, dois ou três caracteres).
+- **Redes Neurais Artificiais**
   - Conceito:
-    - Algoritmos de classificação supervisionadas para gerar respostas e realizar tarefas
+    - Algoritmos de classificação supervisionadas para gerar respostas e realizar tarefas.
   - Características:
-    - Possuem camadas de tratamento para classificação dos objetos
-    - Cada nodo possui um peso e desvio associados (weights and biases)
-    - Não têm um modelo do mundo explícito
-    - Usam seu conhecimento implícito dos padrões de linguagem e do mundo real
+    - Possuem camadas de tratamento para classificação dos objetos.
+    - Cada nodo possui um peso e desvio associados (weights and biases).
+    - Não têm um modelo do mundo explícito.
+    - Usam seu conhecimento implícito dos padrões de linguagem e do mundo real.
 
 ### Processo
 
-- Classificação ou categorização dos dados (entradas ou inputs)
+- Classificação ou categorização dos dados (entradas ou inputs).
 
 ## Percepção
 
@@ -433,12 +433,12 @@
 #### Funcionalidades
 
 - Filtragem
-  - Cálculos probabilísticos usados para representar conjuntos de hipóteses
+  - Cálculos probabilísticos usados para representar conjuntos de hipóteses.
 - Previsão
-  - Percepção de ocorrência de estados futuros
+  - Percepção de ocorrência de estados futuros.
 - Suavização
-  - Realizar previsões com base em dados passados
+  - Realizar previsões com base em dados passados.
 - Explicação mais provável
-  - Identificar padrões e gerar conclusões
+  - Identificar padrões e gerar conclusões.
 - Aprendizagem
-  - Aprender com eventos passados
+  - Aprender com eventos passados.
