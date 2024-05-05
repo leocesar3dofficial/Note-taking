@@ -263,3 +263,11 @@ is another process using it?
    ```bash
    sudo killall snap-store && sudo snap refresh
    ```
+
+### Gimp can not access drive: Permission denied
+
+1. Run the command:
+
+   ```bash
+   sudo snap connect gimp:removable-media :removable-media
+   ```
