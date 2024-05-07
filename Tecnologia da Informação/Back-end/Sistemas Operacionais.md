@@ -207,7 +207,7 @@
   - Inode, I-node ou Nó-i (UNIX / Linux)
     - Estrutura de dados que descreve um objeto do sistema de arquivos, como um arquivo ou diretório
 
-### Sistemas de arquivos
+### Sistema de arquivos
 
 - FAT, 1977, Microsoft.
 - EXT (Extended File System), 1992, Linux.
