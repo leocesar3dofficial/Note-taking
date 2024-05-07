@@ -19,6 +19,11 @@
   - Engenharia de Sistemas
   - Engenharia de Hardware
   - Engenharia de Software
+    - Engenharia de requisitos
+      1. Identificação
+      2. Documentação
+      3. Validação
+      4. Gerenciamento
   - Outros processos de suporte tecnológico
 - **CMMI-ACQ**
   - Aquisição e terceirização de bens de serviços

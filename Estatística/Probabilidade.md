@@ -60,8 +60,8 @@ $$ P(A \cap B) = P(A) \cdot P(B) $$
 
 ## Distribuição binomial
 
-- É um modelo estatístico que descreve o número de sucessos em um número fixo de tentativas independentes, cada uma com a mesma probabilidade de sucesso.
-- Ela é amplamente utilizada em estatística para modelar situações em que um evento pode ter apenas dois resultados possíveis: sucesso ou fracasso.
+- Modelo estatístico que descreve o número de sucessos em um número fixo de tentativas independentes, cada uma com a mesma probabilidade de sucesso.
+- Utilizada para modelar situações em que um evento pode ter apenas dois resultados possíveis: sucesso ou fracasso.
 
 - Os principais requisitos para que um experimento siga uma distribuição binomial são:
 

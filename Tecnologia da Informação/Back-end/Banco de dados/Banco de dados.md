@@ -77,70 +77,74 @@ O modelo de dados é criado a partir da visão geral do negócio. Define os obje
 
   - Notação visual que usa símbolos gráficos para representar elementos.
     - Classes, objetos, relacionamentos, comportamentos, entre outros.
-  - Mais orientada a objetos e é amplamente utilizada no desenvolvimento de software.
+  - Orientada a objetos e utilizada no desenvolvimento de software.
     - Desde a análise, projeto até a documentação e comunicação entre as equipes.
   - Linguagem padronizada.
   - Possui uma ampla variedade de diagramas.
     - Diagramas de classes, sequência, atividades, entre outros.
   - Flexível e extensível.
-    - Permite que os desenvolvedores criem diagramas. específicos para diferentes domínios e necessidades.
+    - Permite que os desenvolvedores criem diagramas específicos para diferentes domínios e necessidades.
   - Propriedades.
     - **Dependência:** mudanças na definição de um elemento (o fornecedor) podem causar mudanças ao outro (o cliente).
 
 - **Diagramas Estruturais:**
 
   1. **Diagrama de Classes:**
-  
-    - Representa a estrutura estática do sistema, mostrando as classes, seus atributos, métodos e os relacionamentos entre elas.
 
-     - **Elementos**
-       - **Níveis de acesso**
+  - Representa a estrutura estática do sistema, mostrando as classes, seus atributos, métodos e os relacionamentos entre elas.
 
-          - '#' = protected / protegido.
-          - <u>Sublinhado</u> = estático.
-          - _Itálico_ = abstrato.
+  - **Elementos**
 
-       - **Relacionamentos**
+    - **Níveis de acesso**
 
-          - Subclasse (generalização): linha continua com a Ponta de flecha vazada (não preenchida).
-          - Implementa Interface (realização): linha tracejada com a Ponta de flecha vazada.
+      - '#' = protected / protegido.
+      - <u>Sublinhado</u> = estático.
+      - _Itálico_ = abstrato.
+
+    - **Relacionamentos**
+
+      - Subclasse (generalização): linha continua com a Ponta de flecha vazada (não preenchida).
+      - Implementa Interface (realização): linha tracejada com a Ponta de flecha vazada.
 
   2. **Diagrama de Objetos:**
 
-      Detalha instâncias de classes e seus relacionamentos em um determinado momento durante a execução do sistema.
+     - Detalha instâncias de classes e seus relacionamentos em um determinado momento durante a execução do sistema.
 
   3. **Diagrama de Componentes:**
 
-      Ilustra a estrutura física dos componentes de software e suas interações.
+     - Ilustra a estrutura física dos componentes de software e suas interações.
 
   4. **Diagrama de Implantação:**
 
-      Mostra a disposição física dos artefatos de software em nós (hardware) e suas interações.
+     - Mostra a disposição física dos artefatos de software em nós (hardware) e suas interações.
 
 - **Diagramas Comportamentais:**
 
   1. **Diagrama de Casos de Uso:**
 
-     Descreve as interações / associações / contexto entre atores (usuários externos) e o sistema, destacando os cenários de uso.
+     - Descreve as interações / associações / contexto entre atores (usuários externos) e o sistema, destacando os cenários de uso.
 
   2. **Diagrama de Sequência:**
 
-     Representa a ordem temporal das mensagens entre objetos durante uma interação.
+     - Representa a ordem temporal das mensagens entre objetos durante uma interação.
 
   3. **Diagrama de Comunicação:**
 
-     Similar ao diagrama de sequência, mostra as interações entre objetos, mas enfatiza as associações entre eles.
+     - Similar ao diagrama de sequência, mostra as interações entre objetos, mas enfatiza as associações entre eles.
 
   4. **Diagrama de Máquina de Estados:**
 
-     Modela o comportamento de um objeto em termos de estados que ele pode assumir e transições entre esses estados.
+     - Modela o comportamento de um objeto em termos de estados que ele pode assumir e transições entre esses estados.
 
-  5. **Diagrama de Atividades:** Descreve o fluxo de atividades, incluindo a sequência de ações e decisões.
+  5. **Diagrama de Atividades:**
+
+     - Descreve o fluxo de atividades, incluindo a sequência de ações e decisões.
 
      - **Elementos**
+
        - Início: bola cheia.
        - Fim: bola no interior de um círculo.
-       - Condição de guarda
+       - Condição de guarda:
          - Precisa ser satisfeita para permitir que uma transição associada seja ativada.
          - Expressão booleana entre colchetes. Ex. [sim], [não].
 
@@ -157,8 +161,10 @@ O modelo de dados é criado a partir da visão geral do negócio. Define os obje
 
   - São duas abordagens diferentes para modelagem e representação de sistemas.
   - Possuem propósitos semelhantes.
-  - Diferenças
-    - Enquanto a UML possui ênfase na orientação a objetos, o IDEF possui ênfase em processos, fluxos de trabalho e informações.
+
+  - **Diferenças**
+
+    - UML: ênfase na orientação a objetos, IDEF: ênfase em processos, fluxos de trabalho e informações.
     - Ambas as notações têm suas próprias vantagens e são aplicáveis em diferentes contextos de modelagem de sistemas.
     - A escolha entre UML e IDEF dependerá das necessidades específicas do sistema e do domínio em questão.
 
@@ -178,7 +184,7 @@ O modelo de dados é criado a partir da visão geral do negócio. Define os obje
       - Caixas retangulares para representar as entidades.
       - Linhas para denotar os relacionamentos.
       - Símbolos para indicar a cardinalidade e a participação dos elementos.
-    - **Elementos básicos:** Entidades, Atributos e Relacionamentos
+    - **Elementos básicos:** Entidades, Atributos e Relacionamentos.
   - **Atributos Multivalorados e Compostos**
     - Permite a modelagem de estruturas de dados mais complexas.
   - **Herança e Generalização/Especialização**
@@ -275,7 +281,7 @@ O modelo de dados é criado a partir da visão geral do negócio. Define os obje
   - Amplamente utilizado nas décadas seguintes.
   - Com o surgimento do modelo relacional e a padronização do SQL, sua popularidade diminuiu significativamente.
 
-- **Características**  
+- **Características**
 
   - Utiliza uma estrutura hierárquica.
   - Os dados são organizados em uma coleção chamada conjuntos de registros.
@@ -574,6 +580,7 @@ O modelo de dados é criado a partir da visão geral do negócio. Define os obje
   - É necessário cuidado ao usar tabelas temporárias em operações distribuídas.
     - Cada nó de processamento terá sua própria instância da tabela temporária.
   - Existem opções para controlar a visibilidade e o escopo dos dados em tabelas temporárias.
+
     - Opção "ON COMMIT DELETE ROWS" para tabelas globais temporárias, que remove os dados da tabela após cada transação.
 
   - **Tipos**
@@ -838,20 +845,20 @@ O modelo de dados é criado a partir da visão geral do negócio. Define os obje
     - Pode ser adaptada para atender às necessidades específicas de cada projeto.
   - Composta por fases que cobrem todo o ciclo de vida do projeto.
     1. Fase de Entendimento do Negócio.
-        - Compreender os objetivos de negócio, requisitos e recursos disponíveis.
+       - Compreender os objetivos de negócio, requisitos e recursos disponíveis.
     2. Fase de Entendimento dos Dados.
-        - Realizar a coleta, exploração e descrição dos dados disponíveis.
+       - Realizar a coleta, exploração e descrição dos dados disponíveis.
     3. Fase de Preparação dos Dados.
-        - Realizar atividades de limpeza, transformação e formatação dos dados para prepará-los para a modelagem.
+       - Realizar atividades de limpeza, transformação e formatação dos dados para prepará-los para a modelagem.
     4. Fase de Modelagem.
-        - Desenvolver e avaliar diferentes modelos de mineração de dados.
-        - Utiliza técnicas e algoritmos adequados.
+       - Desenvolver e avaliar diferentes modelos de mineração de dados.
+       - Utiliza técnicas e algoritmos adequados.
     5. Fase de Avaliação.
-        - Avaliar e validar os modelos de mineração de dados criados.
-        - Garante que eles atendam aos objetivos do projeto.
+       - Avaliar e validar os modelos de mineração de dados criados.
+       - Garante que eles atendam aos objetivos do projeto.
     6. Fase de Implantação.
-        - Implementar os resultados da mineração de dados no ambiente de produção.
-        - Criação de relatórios e suporte ao uso prático dos resultados.
+       - Implementar os resultados da mineração de dados no ambiente de produção.
+       - Criação de relatórios e suporte ao uso prático dos resultados.
 
 #### Técnicas Estatísticas e Algoritmos
 
