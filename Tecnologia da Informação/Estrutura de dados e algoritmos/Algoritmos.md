@@ -2,7 +2,8 @@
 
 ## Conceito
 
-Conjunto de operações executadas passo a passo para executar uma tarefa. Pode ser visto como um processo ou conjunto de instruções.
+- Conjunto de operações executadas passo a passo para executar uma tarefa.
+- Pode ser visto como um processo ou um conjunto de instruções.
 
 ## Objetivos
 
@@ -18,16 +19,17 @@ Conjunto de operações executadas passo a passo para executar uma tarefa. Pode 
    - Fatores que impactam o tempo de execução:
      - O número de operações.
      - A velocidade do dispositivo.
-     - A velocidade de transferência de dados, caso em rede.
+     - A velocidade de transferência de dados, caso esteja em uma rede.
 2. **De espaço:**
-   - Mede a quantidade de espaço necessária para executar o código.
+   - Mede a quantidade de espaço (uso de memória) necessária para executar o código.
    - Espaço Auxiliar: espaço extra usado no programa além da estrutura de dados de entrada.
 
 ### Notação assintótica ou "f está em Ο(g)"
 
 #### Conceito
 
-Ferramenta matemática que calcula o tempo necessário de execução. Considera o tamanho de entrada e não requer a execução do código.
+- Ferramenta matemática que calcula o tempo necessário de execução.
+- Considera o tamanho de entrada e não requer a execução do código.
 
 #### Tipos
 
@@ -55,43 +57,43 @@ Ferramenta matemática que calcula o tempo necessário de execução. Considera 
    - Continua esse processo até encontrar a solução ou todas as soluções possíveis.
 4. **Busca**
    - **Características:**
-      - Busca elementos ou grupos de elementos de uma determinada estrutura de dados.
-      - Podem ser de tipos diferentes.
+     - Busca elementos ou grupos de elementos de uma determinada estrutura de dados.
+     - Podem ser de tipos diferentes.
    - **Tipos (do mais lento ao mais rápido):**
-      1. **Linear Search**
-          - **Características**
-            - Percorre cada elemento sequencialmente até encontrar o elemento desejado ou atingir o final da lista.
-            - Recomendado para um dataset pequeno.
-          - **Complexidade:**
-            - Tempo: O(N) (Linear).
-            - Espaço: O(1) (Constante).
-      2. **Sentinel Linear Search**
-          - **Características**
-            - Similar à busca linear, mas com um elemento extra (sentinela) no final da lista, o que elimina a necessidade de verificar o final da lista durante a busca.
-          - **Complexidade:**
-            - Tempo: O(n) (Linear).
-            - Espaço: O(1) (Constante).
-      3. **Binary Search**
-          - **Características**
-            - Requer que a lista esteja ordenada.
-            - Divide repetidamente a lista ao meio e compara o elemento alvo com o elemento no meio, eliminando metade da lista em cada iteração.
-          - **Complexidade:**
-            - Tempo: O(log n) (Logarítmica).
-            - Espaço: O(1) (Constante).
-      4. **Ternary Search**
-          - **Características**
-            - Semelhante à busca binária, mas divide a lista em três partes iguais em vez de duas.
-            - Compara com o elemento alvo, elimina uma parte da lista a cada iteração.
-          - **Complexidade:**
-            - Tempo: O(log3 n) (Logarítmica na base 3).
-            - Espaço: O(1) (Constante).          
-      5. **Interpolation Search**
-          - **Características**
-            - Também exige que a lista esteja ordenada.
-            - Calcula uma estimativa da posição do elemento alvo com base na distribuição dos valores na lista e ajusta a posição de busca.
-          - **Complexidade:**
-            - Tempo: O(n) (Linear).
-            - Espaço: O(1) (Constante).          
+     1. **Linear Search**
+        - **Características**
+          - Percorre cada elemento sequencialmente até encontrar o elemento desejado ou atingir o final da lista.
+          - Recomendado para um dataset pequeno.
+        - **Complexidade:**
+          - Tempo: O(N) (Linear).
+          - Espaço: O(1) (Constante).
+     2. **Sentinel Linear Search**
+        - **Características**
+          - Similar à busca linear, mas com um elemento extra (sentinela) no final da lista, o que elimina a necessidade de verificar o final da lista durante a busca.
+        - **Complexidade:**
+          - Tempo: O(n) (Linear).
+          - Espaço: O(1) (Constante).
+     3. **Binary Search**
+        - **Características**
+          - Requer que a lista esteja ordenada.
+          - Divide repetidamente a lista ao meio e compara o elemento alvo com o elemento no meio, eliminando metade da lista em cada iteração.
+        - **Complexidade:**
+          - Tempo: O(log n) (Logarítmica).
+          - Espaço: O(1) (Constante).
+     4. **Ternary Search**
+        - **Características**
+          - Semelhante à busca binária, mas divide a lista em três partes iguais em vez de duas.
+          - Compara com o elemento alvo, elimina uma parte da lista a cada iteração.
+        - **Complexidade:**
+          - Tempo: O(log3 n) (Logarítmica na base 3).
+          - Espaço: O(1) (Constante).
+     5. **Interpolation Search**
+        - **Características**
+          - Também exige que a lista esteja ordenada.
+          - Calcula uma estimativa da posição do elemento alvo com base na distribuição dos valores na lista e ajusta a posição de busca.
+        - **Complexidade:**
+          - Tempo: O(n) (Linear).
+          - Espaço: O(1) (Constante).
 5. **Ordenação/Classificação**
    - **Características:**
      - Organizar dados de uma maneira particular.
@@ -101,6 +103,7 @@ Ferramenta matemática que calcula o tempo necessário de execução. Considera 
         - **Características:**
           - O mais simples dos algoritmos de ordenação.
           - Não é adequado para grandes conjuntos de dados.
+          - O maior elemento (ou o menor, dependendo da direção da ordenação) "sobe" gradualmente até a posição correta, como uma bolha na superfície da água.
         - **Etapas:**
           1. Atravessa da esquerda e compara os elementos adjacentes e o mais alto é colocado no lado direito.
           2. O maior elemento é movido primeiro para a extremidade mais à direita.
@@ -129,7 +132,7 @@ Ferramenta matemática que calcula o tempo necessário de execução. Considera 
         - **Características:**
           - Usa a abordagem Dividir e Conquistar (ineficiente em sua complexidade de tempo).
         - **Etapas:**
-          1. Escolhe um pivô e o coloca em sua posição correta no array.
+          1. Escolhe um pivô e o coloca em sua posição correta no array ou matriz.
           2. Classifica e particiona os elementos menores à sua esquerda e os maiores à sua direita.
         - **Complexidade:**
           - Tempo: O(n \* log(n)) (Ruim).
