@@ -34,13 +34,13 @@
 #### Tipos
 
 - **Notação Big-O (Ο):** Descreve o pior cenário possível (mais usado de todos).
+  - Melhor (constante): O(1).
+  - Bom (Logarítmica): O(log(N)).
+  - Razoável (linear): O(N).
   - Ruim (N log de N): O(N \* log(N)).
   - Pior: O(N!), O(c^N), O(N^c).
     - Quadrático: O(N^2).
     - Cúbico: O(N^3).
-  - Razoável (linear): O(N).
-  - Bom (Logarítmica): O(log(N)).
-  - Melhor (constante): O(1).
 - **Notação Omega (Ω):** Descreve o melhor cenário.
 - **Notação Theta (θ):** Representa a complexidade média de um algoritmo.
 
@@ -101,7 +101,8 @@
    - **Tipos (do mais lento ao mais rápido):**
      1. **Bubble Sort**
         - **Características:**
-          - O mais simples dos algoritmos de ordenação.
+          - O mais simples, e um dos mais ineficientes, dos algoritmos de ordenação.
+          - Utilizado apenas para fins didáticos.
           - Não é adequado para grandes conjuntos de dados.
           - O maior elemento (ou o menor, dependendo da direção da ordenação) "sobe" gradualmente até a posição correta, como uma bolha na superfície da água.
         - **Etapas:**
