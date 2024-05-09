@@ -208,8 +208,19 @@ IMAP (Internet Message Access Protocol),
 
 ### Balanceador de carga
 
-- Os recursos são combinados de forma eficaz para a distribuição das requisições por todos os sistemas
-- TODO: OUTROS EQUIPAMENTOS
+- Os recursos são combinados de forma eficaz para a distribuição das requisições por todos os sistemas.
+
+### Switch
+
+- Conecta dispositivos em uma rede local (LAN).
+
+### Roteador
+
+- Encaminha pacotes de dados entre redes computacionais.
+
+### Access Point (Ponto de Acesso)
+
+- Permite que dispositivos sem fio se conectem a uma rede com fio.
 
 ## Qualidade de Serviço (QoS)
 

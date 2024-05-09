@@ -54,7 +54,37 @@
 
 - For.
   - Só pode ser usado quando se sabe a quantidade de vezes que o loop vai acontecer.
-- TODO: OUTROS LOOPS
+
+```python
+# Iterando por uma lista
+frutas = ["maçã", "banana", "laranja"]
+for fruta in frutas:
+    print(fruta)
+```
+
+- while.
+  - Quando não se sabe previamente quantas vezes o loop precisa ser executado, mas sim enquanto uma condição for verdadeira. 
+
+```python
+# Exemplo de loop while
+x = 0
+while x < 5:
+    print(x)
+    x += 1
+```
+- do-while.
+  - Similar ao `while`, mas garante que o corpo do loop seja executado pelo menos uma vez antes de verificar a condição.
+  - Não existe em Python.
+
+```python
+# Exemplo de implementação de do-while em Python
+x = 0
+while True:
+    print(x)
+    x += 1
+    if x >= 5:
+        break
+```
 
 #### Variables
 

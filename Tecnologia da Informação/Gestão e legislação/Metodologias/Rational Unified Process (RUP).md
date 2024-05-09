@@ -31,16 +31,24 @@
 
 3. **Construção (Construction):** o desenvolvimento do sistema ocorre em iterações incrementais.
 
-- Implementação dos componentes do sistema.
-- As partes do sistema são desenvolvidas em paralelo e integradas.
-- Realização de testes e as funcionalidades são adicionadas progressivamente.
+   - Implementação dos componentes do sistema.
+   - As partes do sistema são desenvolvidas em paralelo e integradas.
+   - Realização de testes e as funcionalidades são adicionadas progressivamente.
 
 4. **Transição (Transition):** o sistema é preparado para a entrega final.
 
-- Realização dos testes finais, correções de bugs, treinamento de usuários e implantação do sistema em ambiente de produção.
-- Documentação final e o encerramento formal do ciclo de desenvolvimento.
+   - Realização dos testes finais, correções de bugs, treinamento de usuários e implantação do sistema em ambiente de produção.
+   - Documentação final e o encerramento formal do ciclo de desenvolvimento.
 
-5. **Produção:** TODO: COMPLETAR FASE
+5. **Produção:**
+
+   - Suporte técnico e help desk para usuários finais.
+   - Monitoramento contínuo do desempenho do sistema e resolução de problemas de desempenho.
+   - Realização de atualizações e correções de bugs conforme necessário.
+   - Implementação de novos recursos ou melhorias no sistema com base no feedback do usuário.
+   - Gerenciamento de mudanças e solicitações de alterações no sistema.
+   - Manutenção da documentação do sistema atualizada.
+   - Planejamento e execução de atividades de treinamento para novos usuários ou atualizações de funcionalidades.
 
 ## Disciplinas principais
 
