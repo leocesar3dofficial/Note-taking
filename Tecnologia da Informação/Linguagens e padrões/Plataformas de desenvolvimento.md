@@ -3,30 +3,75 @@
 ## Servidores Web (HTTP Server)
 
 - **Nginx**
-  - Armazena em cache todas as respostas às solicitações feitas com os métodos HTTP (GET e HEAD) na primeira vez que essas respostas são recebidas de um servidor proxy.
-  - Liberar portas se usar o Uncomplicated Firewall (UFW) com os perfis.
-    - Nginx Full: Abre as portas 80 e 443 (para criptografia SSL/TLS).
-    - Nginx HTTP: Abre apenas a porta 80 (para tráfego da Web não criptografado).
-    - Nginx HTTPS: Abre apenas a porta 443 (para criptografia SSL/TLS).
+
+  - Utilizado como um servidor proxy reverso e também como um servidor web HTTP.
+    - Liberar portas se usar o Uncomplicated Firewall (UFW) com os perfis.
+      - Full: Abre as portas 80 e 443 (para criptografia SSL/TLS).
+      - HTTP: Abre apenas a porta 80 (para tráfego da Web não criptografado).
+      - HTTPS: Abre apenas a porta 443 (para criptografia SSL/TLS).
+  - Opera com grandes volumes de tráfego, devido ao gerenciamento de conexões simultâneas.
+    - Armazena em cache todas as respostas às solicitações feitas com os métodos HTTP (GET e HEAD) na primeira vez que essas respostas são recebidas de um servidor proxy.
+  - Código aberto, alta performance, escalabilidade e baixo consumo de recursos.
+
 - **Apache**
+
+  - Código aberto mantido pela Apache Software Foundation.
+  - Um dos servidores web mais antigos e populares.
+  - Módulos estendem suas funcionalidades.
+
 - **IIS (Microsoft Internet Information Services)**
+
+  - Desenvolvido pela Microsoft para plataformas Windows.
+  - Integrado ao sistema operacional Windows Server.
+  - Suporte nativo para tecnologias da Microsoft, como ASP.NET e .NET Core.
 
 ## Servidores de Aplicação
 
 - **Java Platform, Enterprise Edition (JEE)**
+
+  - Criar e implantar aplicativos corporativos Java.
+  - Conjunto de APIs e serviços para desenvolver aplicativos empresariais.
+    - Acesso a banco de dados, serviços web, segurança, transações distribuídas, etc.
+  - Utilizado em grandes organizações para desenvolver aplicativos corporativos de missão crítica.
+
 - **Wildfly**
-  - Usa JBoss Modules para fornecer isolamento de aplicação.
-  - Console de Administração (Recursos).
-    - Criar a conta de administrador (somente no primeiro acesso).
-    - Interface baseada na web (acesso via navegador/browser).
-    - Iniciar e parar o servidor.
-    - Implantar e desimplantar aplicativos.
-    - Configurar o servidor.
-    - Monitorar o desempenho do servidor.
-- **Tomcat**
+
+  - Anteriormente conhecido como JBoss Application Server.
+  - Servidor de aplicativos Java de código aberto desenvolvido pela Red Hat.
+  - Implementa as especificações do JEE
+  - Recursos:
+    - Clustering, balanceamento de carga, escalabilidade horizontal e suporte a microservices.
+    - Usa JBoss Modules para fornecer isolamento de aplicação.
+    - Console de Administração (Recursos).
+      - Criar a conta de administrador (somente no primeiro acesso).
+      - Interface baseada na web (acesso via navegador/browser).
+      - Iniciar e parar o servidor.
+      - Implantar e desimplantar aplicativos.
+      - Configurar o servidor.
+      - Monitorar o desempenho do servidor.
+
+- **Apache Tomcat**
+
+  - Código aberto mantido pela Apache Software Foundation.
+  - Implementa as especificações do Java Servlet e JavaServer Pages (JSP)
+  - Utilizado para hospedar aplicativos web em pequena e média escala.
+
 - **Node.js**
-  - Express.
-  - Next.js.
+
+  - Desenvolvimento de aplicativos de código aberto baseado em JavaScript.
+  - Modelo de E/S não bloqueante e orientado a eventos.
+  - Aplicativos em tempo real, APIs web, aplicativos de streaming, etc.
+  - Famoso no desenvolvimento de aplicativos web.
+  - Frameworks:
+    - Express
+      - Framework web minimalista. Simplifica o processo de criação de aplicativos web e APIs.
+      - Recursos: rotas, solicitações HTTP, middleware, etc.
+      - Escolha de componentes e bibliotecas que melhor se adequem ao projeto.
+    - Next.js
+      - Framework React de renderização do lado do servidor (SSR) e Static Site Generator (SSG).
+      - Simplifica a construção de aplicativos web React.
+      - Recursos: roteamento, pré-renderização, geração estática, CSS-in-JS, etc.
+      - Escolhido para projetos que exigem SEO aprimorado, carregamento rápido de página.
 
 ## Conceito de Servidores de Armazenamento de Objetos
 
@@ -86,14 +131,12 @@
   - **Protocolos Suportados**
     - Protocolo OpenWire, MQTT, AMQP, STOMP e WebSocket.
     - Isso o torna versátil e adequado para uma variedade de casos de uso.
+    - Integração com o Ecossistema Apache. Como o Apache Camel.
   - **Modelo de Mensagens**
     - Segue o modelo de publish-subscribe e o modelo de fila de mensagens.
     - Permite a comunicação assíncrona entre diferentes aplicativos e componentes.
   - **Escalabilidade**
     - Pode ser configurado para atender às necessidades de escalabilidade horizontal e vertical.
-  - **Integração com o Ecossistema Apache**
-    - Como parte do ecossistema Apache, pode ser facilmente integrado com outras ferramentas e tecnologias Apache.
-      - como o Apache Camel, para criar soluções de integração mais abrangentes.
 
 - **WebSphereMQ (IBM MQ)**
 
@@ -111,8 +154,6 @@
       - Alternativa paralela à estrutura funcional de redes de dados, elétrica e computacional.
     - Criptografia de mensagens, suporte a transações distribuídas.
     - Integração com outros produtos da IBM, como o WebSphere Application Server.
-  - **Licenciamento**
-    - É uma solução comercial e requer licenciamento.
 
 ## Gerenciamento de Contêineres
 
@@ -125,7 +166,6 @@
   - Segregação de processos no mesmo kernel.
   - O processo é isolado o máximo possível de todo o resto do ambiente.
 - Garante que ele seja executado consistentemente em diferentes ambientes.
-- Fornece uma maneira fácil e eficiente de criar, implantar e gerenciar contêineres.
 - Permite a escalabilidade e a portabilidade de aplicativos.
 - Facilita a implantação de aplicativos e a construção de ambientes de desenvolvimento consistentes.
 - Segue o formato estabelecido pela [OCI](#oci-open-container-initiative).
@@ -133,8 +173,8 @@
 #### Recursos
 
 - **Imagens Docker:** Pacotes pré-configurados que contêm tudo o que é necessário para executar um aplicativo.
-- **Dockerfile:** Um arquivo de configuração usado para construir imagens Docker de forma reproduzível.
-- **Docker Hub:** Um repositório online para compartilhar e distribuir imagens Docker.
+- **Dockerfile:** Arquivo de configuração usado para construir imagens Docker de forma reproduzível.
+- **Docker Hub:** Repositório online para compartilhar e distribuir imagens Docker.
 
 ### Kubernetes
 
@@ -178,12 +218,9 @@
   - Construída em cima do Kubernetes.
     - Install, update, and manage the lifecycle of Kubernetes native applications (Operators).
     - Cluster service version (definir metadados).
-  - Usado por empresas para criar, implantar e gerenciar aplicativos em contêineres de maneira eficiente e produtiva.
+  - Usado por empresas para criar, implantar e gerenciar aplicativos em contêineres.
   - É uma plataforma de desenvolvimento e implantação de aplicativos baseada em contêineres.
-  - Fornece recursos adicionais de gerenciamento e automação.
-  - Facilita a implantação e o gerenciamento de aplicativos em contêineres.
   - Recursos de desenvolvimento, integração contínua, implantação contínua e escalabilidade automática.
-  - Fornece um catálogo de serviços prontos para uso.
   - Suporta o desenvolvimento de aplicativos em várias linguagens de programação.
   - Permite a integração com ferramentas populares de desenvolvimento e DevOps.
 
@@ -214,33 +251,6 @@
   - Modelo de fornecimento com base em nuvem.
   - Rede disponível.
 
-### Serviços
-
-- Azure
-  - **Data Explorer:** análise quase em tempo real para fluxo rápido, dados de streaming de alto volume de dispositivos e sensores de IoT (Internet das Coisas).
-  - TODO: DESCREVER OS SERVIÇOS
-- AWS (Amazon Web Service)
-  - TODO: DESCREVER OS SERVIÇOS
-- Google Cloud
-  - **Apigee:** plataforma de gerenciamento de API (Interface de Programação de Aplicações), e, geralmente, é considerado como uma solução PaaS (Plataforma como Serviço).
-  - TODO: DESCREVER OS SERVIÇOS
-
-### Escalabilidade
-
-- Capacidade de um sistema crescer para atender a uma demanda crescente, mantendo ou melhorando o desempenho.
-- Tipos:
-  - Horizontal: adição de mais instâncias ou servidores.
-  - Vertical: aumento da capacidade de um único recurso, como adicionar mais CPU, RAM, etc.
-
-### Elasticidade
-
-- Capacidade de um sistema de se adaptar dinamicamente às mudanças na carga de trabalho
-- Aumenta ou reduz os recursos automaticamente conforme necessário.
-
-### Flexibilidade
-
-- Capacidade de um sistema de ser adaptado ou modificado para atender a diferentes requisitos ou cenários sem grande esforço.
-
 ### Recursos e serviços oferecidos
 
 - Servidores para processamento.
@@ -248,13 +258,128 @@
 - Plataformas de desenvolvimento.
 - Software e outros serviços relacionados.
 
+### Benefícios
+
+#### Escalabilidade
+
+- Capacidade de um sistema crescer para atender a uma demanda crescente, mantendo ou melhorando o desempenho.
+- Tipos:
+  - Horizontal: adição de mais instâncias ou servidores.
+  - Vertical: aumento da capacidade de um único servidor, como adicionar mais CPU, RAM, etc.
+
+#### Elasticidade
+
+- Capacidade de um sistema de se adaptar dinamicamente às mudanças na carga de trabalho.
+- Aumenta ou reduz os recursos automaticamente conforme necessário.
+
+#### Flexibilidade
+
+- Capacidade de um sistema de ser adaptado ou modificado para atender a diferentes requisitos ou cenários sem grande esforço.
+
+### Serviços comerciais
+
+#### Azure
+
+- **Data Explorer**
+
+  - Análise quase em tempo real para fluxo rápido, dados de streaming de alto volume de dispositivos e sensores de IoT (Internet das Coisas).
+  - Permite consultar e visualizar grandes volumes de dados de forma rápida e eficiente, facilitando a descoberta de insights e padrões em tempo real.
+
+- **Virtual Machines (VMs)**
+
+  - Implantação e gerenciamento de máquinas virtuais baseadas em Windows ou Linux.
+  - Oferece uma variedade de tamanhos de máquina e sistemas operacionais.
+
+- **App Service**
+
+  - Criar, implantar e dimensionar aplicativos web e móveis.
+  - Suporta várias linguagens de programação, como .NET, Java, Node.js e Python.
+
+- **Functions**
+
+  - Computação sem servidor que permite executar código em resposta a eventos sem precisar gerenciar servidores.
+  - Os desenvolvedores podem escrever funções simples e focar apenas no código.
+
+- **Storage**
+
+  - Armazenamento de blobs (objetos), arquivos, tabelas e filas.
+
+- **SQL Database**
+
+  - Banco de dados relacional gerenciado.
+
+- **Cosmos DB**
+
+  - Banco de dados multimodelo.
+  - Suporta vários modelos de dados: documentos, gráficos, chaves-valores e colunas.
+
+- **Cognitive Services**
+
+  - APIs pré-treinadas para adicionar recursos de inteligência artificial aos aplicativos.
+  - Reconhecimento de fala, análise de sentimentos, detecção de rostos e tradução de idiomas.
+
+- **DevOps**
+
+  - Ferramentas para colaboração, desenvolvimento de software e entrega contínua.
+  - Gerenciamento de código-fonte, planejamento de projetos, automação de CI/CD e monitoramento de aplicativos.
+
+#### AWS (Amazon Web Service)
+
+- **S3 (Simple Storage Service)**
+
+  - Serviço de armazenamento de objetos que oferece escalabilidade, disponibilidade de dados e segurança.
+  - Armazenar e recuperar quantidades massivas de dados de forma econômica.
+
+- **EC2 (Elastic Compute Cloud)**
+
+  - Oferece capacidade de computação redimensionável na nuvem.
+  - Permite lançar e dimensionar servidores virtuais conforme necessário.
+  - Flexibilidade para lidar com cargas de trabalho variáveis.
+
+- **RDS (Relational Database Service)**
+
+  - Banco de dados relacional gerenciado que facilita a configuração, operação e escalabilidade.
+
+- **Redshift**
+
+  - Data warehousing totalmente gerenciado.
+  - Analisar grandes conjuntos de dados usando SQL padrão.
+
+- **Lambda**
+
+  - Computação sem servidor.
+  - Executar código em resposta a eventos sem precisar gerenciar servidores.
+
+#### Google Cloud
+
+- **Apigee**
+
+  - Gerenciamento de API (Interface de Programação de Aplicações), e, geralmente, é considerado como uma solução PaaS (Plataforma como Serviço).
+
+- **Compute Engine**
+
+  - Máquinas virtuais escaláveis.
+  - Oferece várias configurações para atender às necessidades de computação.
+
+- **Kubernetes Engine (GKE)**
+
+  - Orquestração de contêiner totalmente gerenciado com Kubernetes.
+
+- **BigQuery**
+
+  - Data warehousing totalmente gerenciado e escalável.
+  - Permite analisar grandes conjuntos de dados em tempo real usando SQL.
+
+- **Cloud Storage**
+
+  - Armazenamento de objetos.
+
 ### Factories (Fábricas)
 
 - Modelo de provisionamento automatizado de recursos de computação.
-- Permite que os usuários solicitem e configurem recursos de computação conforme suas necessidades.
   - Uma fábrica de máquinas virtuais em nuvem.
     - Permite que os usuários solicitem e provisionem instâncias virtuais de servidores de forma automatizada.
-    - Sem a necessidade de configurar fisicamente o hardware subjacente.
+    - Remove a necessidade de configurar fisicamente o hardware subjacente.
 - Simplificam o processo de criação e gerenciamento de recursos computacionais em nuvem.
 - Aumenta a escalabilidade e a flexibilidade.
 
@@ -282,7 +407,7 @@
     - Garante a disponibilidade e escalabilidade dos recursos.
   - É adequado para organizações que desejam ter controle granular sobre a infraestrutura de computação.
   - Permite maior flexibilidade e personalização.
-  - Pagamento por demanda / uso.
+  - Pagamento por demanda/uso.
 
 - **SaaS (Software como Serviço)**
 
@@ -320,38 +445,32 @@
 - Suficientemente afastadas para reduzir a probabilidade de que mais de uma seja afetada por interrupções locais ou pelo clima.
 - Datacenters conectados por uma rede de alto desempenho com baixa latência.
 
-## Padrões de design de microsserviços na nuvem
+### Padrões de design de microsserviços na nuvem
 
-### SAGA
+1. SAGA
 
-#### Características
+   - **Características**
+     - Sequência de transações que atualiza cada serviço.
+       - Publica uma mensagem ou evento para disparar a próxima etapa de transação.
+     - Transações.
+       - Uma transação pode ser composta por várias operações.
+     - Ações compensatórias: para contornar falhas.
+   - **Estratégias**
+     - Coreografia.
+       - Message Broker (mecanismo de mensageria).
+     - Orquestração.
+       - Orchestrator.
+       - Componente: Saga Execution Coordinator (SEC).
 
-- Sequência de transações que atualiza cada serviço.
-  e publica uma mensagem ou evento para disparar a próxima etapa de transação.
-- Transações.
-  - Uma transação pode ser composta por várias operações.
-- Ações compensatórias: para contornar falhas.
+2. CQRS (Command Query Responsibility Segregation)
 
-#### Estratégias
-
-- Coreografia.
-  - Message Broker (mecanismo de mensageria).
-- Orquestração.
-  - Orchestrator.
-  - Componente: Saga Execution Coordinator (SEC).
-
-### CQRS (Command Query Responsibility Segregation)
-
-#### Características
-
-- Padrão que separa as operações de leitura e atualização de um armazenamento de dados.
-- Segregação de Responsabilidade de Comando e Consulta.
-
-#### Benefícios
-
-- Maximizar o desempenho, a escalabilidade e a segurança.
-- Permite ao sistema evoluir melhor ao longo do tempo.
-- Impede que os comandos de atualização causem conflitos.
+   - **Características**
+     - Padrão que separa as operações de leitura e atualização de um armazenamento de dados.
+     - Segregação de Responsabilidade de Comando e Consulta.
+   - **Benefícios**
+     - Maximizar o desempenho, a escalabilidade e a segurança.
+     - Permite ao sistema evoluir melhor ao longo do tempo.
+     - Impede que os comandos de atualização causem conflitos.
 
 ## Automação (Infrastructure as Code)
 
@@ -359,10 +478,10 @@
 
 - Usada para criar, alterar e destruir infraestrutura de nuvem de forma automatizada.
 - Utiliza a HashiCorp Configuration Language (HCL).
+  - É uma linguagem de configuração declarativa que é fácil de ler e escrever.
   - Descreve a configuração de sistemas.
-  - É uma linguagem de configuração declarativa que é fácil de ler e de escrever.
-  - Permite que você especifique a infraestrutura que deseja criar.
-  - O Terraform usa essa especificação para criar a infraestrutura em vários provedores.
+  - Permite que o usuário especifique a infraestrutura que deseja criar.
+  - Usa essa especificação para criar a infraestrutura em vários provedores.
     - Como o AWS, Azure, Google Cloud e VMware vCenter.
 
 ### Administração e gerenciamento de ambientes de virtualização
@@ -431,9 +550,18 @@
 
 Utilizam plataformas visuais e intuitivas para facilitar o desenvolvimento de aplicativos.
 
-### Benefícios
+### Vantagens
 
 - Podem ser usadas por usuários que não são desenvolvedores.
 - Facilitam o desenvolvimento de aplicativos.
 - Oferecem uma variedade de recursos de segurança, mas não são isentos de falhas.
 - São geralmente mais rápidas e eficientes do que o desenvolvimento manual.
+
+### Desvantagens
+
+- Podem limitar a personalização.
+- Não atendem a complexidade crescente com requisitos avançados.
+- Dependência do fornecedor da plataforma.
+- Possíveis limitações de desempenho e escalabilidade.
+- Falta de controle fino.
+- Pode produzir código ineficiente ou não-otimizado.

@@ -126,12 +126,25 @@ git push --force  # force your local project to remote, disregard of project col
 git push --force-with-lease  # same as above, but generates an error message if your local repository is not up to date
 ```
 
+### Update local repository
+
+```bash
+# Check if ti is up to date
+git status
+
+# Pull changes from remote
+git pull
+
+# or
+git fetch
+git merge
+```
+
 ### Revert Changes (Non-Destructive)
 
 ```bash
 # Undoes the changes to the specified commit
 git revert 'commit message'
-
 
 # Revert the changes to the latest commit
 git revert HEAD
@@ -144,11 +157,11 @@ git push origin main
 
 ```bash
 git branch <branch_name>  # create
-git checkout <branch_name>  # change (mudar de repositório)
+git checkout <branch_name>  # change (mudar para o branch)
 git checkout -b <branch_name>  # create and change (cria e habilita o branch)
 git branch  # list all
-git merge <branch_name>  # merge
 git fetch upstream  # get updated version of the repository
+git merge <branch_name>  # merge
 git branch -d <branch_name>  # delete (already merged)
 git branch -D <branch_name>  # delete (not merged yet)
 git push --delete origin <branch_name>  # delete (remote)
@@ -223,4 +236,34 @@ ls ~/.ssh/id_ed25519.pub
 
 ```bash
 cat ~/.ssh/id_ed25519.pub
+```
+
+### Test SSH access
+
+```bash
+ssh -T git@github.com
+
+# Example success output
+Hi <username>! You've successfully authenticated, but GitHub does not provide shell access.
+```
+
+### Check if the local machine can access GitHub
+
+1. **Ping GitHub**
+
+```bash
+# Ctrl + C to stop
+ping github.com
+```
+
+2. **Test HTTPS access**
+
+```bash
+curl https://github.com
+```
+
+or
+
+```bash
+wget https://github.com
 ```
