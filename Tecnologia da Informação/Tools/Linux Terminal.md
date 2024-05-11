@@ -150,6 +150,18 @@ sudo systemctl mask bluetooth.service
 
 ### Tools
 
+- **Nemo file manager:**
+
+  ```bash
+  # Install
+  sudo apt install nemo
+
+  # Make it the default file manager
+  xdg-mime default nemo.desktop inode/directory application/x-gnome-saved-search
+  gsettings set org.gnome.desktop.background show-desktop-icons false
+  gsettings set org.nemo.desktop show-desktop-icons true
+  ```
+
 - **Text Editor:** `sudo apt install notepadqq`
 - **File Merge and Comparison:** `FreeFileSync_11.27_Install.run`
 - **Video Codecs**
@@ -171,13 +183,13 @@ sudo systemctl mask bluetooth.service
 - **qBittorent:** `sudo apt-get install qbittorrent`
 - **flatpak:** `sudo apt install flatpak`
 
-  Add Flathub repository:
+- **Add Flathub repository:**
 
   ```bash
     flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
   ```
 
-  Install or update Blender:
+- **Install or update Blender:**
 
   ```bash
       flatpak install flathub org.blender.Blender
