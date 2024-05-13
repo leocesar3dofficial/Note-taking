@@ -3,11 +3,11 @@
 ## Fenômeno físico
 
 - Luz
-  - Prisma, sete cores da luz do Sol
+  - Prisma, sete cores da luz do Sol.
 
 ## Sensação visual
 
-- O olho humano interpreta as cores de forma similar ao RGB
+- O olho humano interpreta as cores de forma similar ao RGB.
 
 ## Linguagem
 
@@ -15,60 +15,64 @@
 
 - Subjetividade (contexto cultural)
   - Significado / Semiótica
-    - Vermelho: paixão, alerta
-    - Laranja: coragem, atenção
-    - Amarelo: riqueza, alegria
-    - Rosa: delicadeza, feminilidade
-    - Azul: poder, tranquilidade
-    - Verde: sorte, natureza
-    - Marrom: sabedoria, luxo
-    - Roxo: magia, espiritualidade
-    - Preto: maldade, luto
-    - Branco: pureza, paz
-    - Cinza: depressão, neutralidade
+    - Vermelho: paixão, alerta.
+    - Laranja: coragem, atenção.
+    - Amarelo: riqueza, alegria.
+    - Rosa: delicadeza, feminilidade.
+    - Azul: poder, tranquilidade.
+    - Verde: sorte, natureza.
+    - Marrom: sabedoria, luxo.
+    - Roxo: magia, espiritualidade.
+    - Preto: maldade, luto.
+    - Branco: pureza, paz.
+    - Cinza: depressão, neutralidade.
   - Emoção / sensação
-    - Cromáticas
-    - Acromáticas
-    - Afetiva
-    - Material
-- Hierarquia das cores
+    - Cromáticas.
+    - Acromáticas.
+    - Afetiva.
+    - Material.
+- Hierarquia das cores.
 
 ## Círculo cromático
 
 ### História
 
-- Goethe: Teoria das Cores, 1810
-- Johassen Itten na Bauhaus
+- Goethe: Teoria das Cores, 1810.
+- Johassen Itten na Bauhaus.
 
-### Elementos (matiz = cor)
+### Elementos
+
+#### Matiz ou cor
 
 - Cores primárias
-  - Isaac Newton: RGB
-  - Goethe e Itten (atual): CMY
+  - Isaac Newton: RGB.
+  - Goethe e Itten (atual): CMY (Ciano, Magenta e Amarelo).
+  - CMYK: é uma variação no modelo CMY.
+    - Ele adiciona preto (Ciano, Magenta, Amarelo e Black).
 - Cores secundárias
-  - Mistura das cores primárias
+  - Mistura das cores primárias.
 - Cores terciárias
-  - Mistura das cores primárias com as secundárias
+  - Mistura das cores primárias com as secundárias.
 - Cores complementares
-  - Matizes inversamente opostas no círculo
+  - Matizes inversamente opostas no círculo.
 - Cores análogas
-  - Cores com tons similares (escuro, claro)
+  - Cores com tons similares (escuro, claro).
 
-## Saturação
+#### Saturação
 
-- Vivacidade e vibração da cor
-- Tipos: cores limpas e sujas (queimadas)
-- Combinação de cores gera uma vibração diferente
+- Vivacidade e vibração da cor.
+- Tipos: cores limpas e sujas (queimadas).
+- Combinação de cores gera uma vibração diferente.
 
-## Luminosidade
+#### Luminosidade ou Brilho
 
-- Quantidade de luz refletida (cor clara ou escura)
+- Quantidade de luz refletida (cor clara ou escura).
 
-## Valor
+#### Valor
 
-- Profundidade ou tom (do preto ao branco)
+- Profundidade ou tom (do preto ao branco).
 
 ## Paleta de cores
 
-- Monocromática / Policromática
-- Pastel
+- Monocromática / Policromática.
+- Pastel.
