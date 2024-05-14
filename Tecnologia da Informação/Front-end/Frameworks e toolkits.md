@@ -73,14 +73,37 @@
        - Desenvolvimento de sistemas baseados em microsserviços.
 
 - JBoss Seam (Java, servidor de aplicações)
+  - Simplifica o desenvolvimento de aplicações web enterprise.
+  - Integração de tecnologias como JSF, JPA, EJB e BPM.
+  - Gerenciamento de estado declarativo para simplificar o gerenciamento de estado de aplicação.
+  - Menos popular do que frameworks mais recentes.
+
 - Quarkus (Java)
+  - Plataforma stackless para a construção de aplicações web e microservices.
+  - Suporte nativo para Kubernetes e containers.
+  - Início rápido e baixo consumo de memória.
+  - Integração com tecnologias populares como JAX-RS, Hibernate e Spring.
+  - Menos maduro do que JBoss Seam.
+
 - Django (Python)
-- Flask (Python microframework)
+  - Framework Python de alto nível para desenvolvimento web.
+  - Sistema de templates.
+  - Gerenciamento de objetos relacionais integrado.
+  - Ampla biblioteca de componentes reutilizáveis.
+
+- Flask (Python)
+  - Microframework Python para desenvolvimento web.
+  - Baixa dependência de bibliotecas externas.
+  - Ideal para aplicações web simples e APIs.
+  - Menos recursos integrados do que frameworks completos.
+  - Requer mais código para implementar recursos comuns.
+  - Comunidade menor do que Django.
+
 - JPA (Java, interface comum para frameworks ORM)
   - Based on Hibernate on its inception.
   - Jakarta Persistence API (formerly Java Persistence API).
-- Hibernate (Java, Mapeamento Objeto-Relacional ou Object-Relational Mapping (ORM))
 
+- Hibernate (Java, Mapeamento Objeto-Relacional ou Object-Relational Mapping (ORM))
   - Hibernate 6.2 usa a estratégia otimista de bloqueio por padrão
     - Assume que várias transações podem ser concluídas sem afetar outras.
     - Mais eficiente, mas propenso a falhas.
@@ -99,16 +122,17 @@
 
 - JUnit (Java, teste unitário)
 - .NET Core
-- NodeJS (Javascript)
-- gRPC
-  - Conceito
+- [Node.js (Javascript)](/Tecnologia%20da%20Informação/Back-end/Tools/Node.js.md)
+
+- gRPC (Google Remote Procedure Call)
+  - Conceito:
     - Framework de código aberto desenvolvido pelo Google.
     - Facilita a comunicação entre sistemas distribuídos.
     - Usado em cenários de microsserviços.
     - Baseado no protocolo HTTP/2.
     - Utiliza o protocolo de serialização de dados protobuf (Protocol Buffers).
       - Define interfaces de serviço e mensagens.
-  - Características
+  - Características:
     - **RPC (Remote Procedure Call)**
       - Permite que os aplicativos chamem funções em servidores remotos de maneira semelhante a uma chamada local.
     - **Suporte a várias linguagens de programação**
