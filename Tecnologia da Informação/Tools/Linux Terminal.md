@@ -119,7 +119,7 @@ sudo apt install ./google-chrome-stable_current_amd64.deb
 # to kill laptop camera
 sudo rmmod -f uvcvideo
 
- # to restart the video module
+# to restart the video module
 sudo modprobe -r uvcvideo
 
 # to restart the laptop camera
@@ -150,7 +150,7 @@ sudo systemctl mask bluetooth.service
 
 ### Tools
 
-- **Nemo file manager:**
+- **Nemo file manager (Not recommended, Nautilus is better):**
 
   ```bash
   # Install
