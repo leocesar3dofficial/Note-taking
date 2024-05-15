@@ -1,7 +1,9 @@
 # Deep Learning with TensorFlow
 
 ## Concept
+
 - A machine learning technique that imitates the way humans gain certain types of knowledge
+
 - **Neural Networks**
   - **Definitions**
     - Algorithm based on a collection of connected nodes (neurons)

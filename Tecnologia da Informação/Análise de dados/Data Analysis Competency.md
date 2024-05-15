@@ -148,12 +148,12 @@
 - Scoping: do you even need an ML model?
 - Feature Engineering.
 - Supervised Learning.
-   - Linear regression.
-   - Logistic regression.
-   - CART / decision tree models (helpful for code tests).
+  - Linear regression.
+  - Logistic regression.
+  - CART / decision tree models (helpful for code tests).
 - Unsupervised Learning.
-   - Clustering, topic models.
-   - Deal with class imbalance for multi-label models.
+  - Clustering, topic models.
+  - Deal with class imbalance for multi-label models.
 
 ### Model Evaluation
 
@@ -172,5 +172,16 @@
 - Seaborn: Prettier Graph Library.
 - Plotly.py: Interactive Graph Library.
 - Streamlit: Web Dashboard.
+- SciPy
+  - Biblioteca open-source usada para computação científica e técnica.
+  - Fornece rotinas e algoritmos para tarefas:
+    - Álgebra linear, otimização, integração, interpolação, análise de Fourier, e estatísticas.
+  - Utilizada em ciência de dados, engenharia e outras áreas que requerem cálculos matemáticos complexos.
 - Scikit-Learn: Machine Learning.
   - Regressão Linear, treinar o modelo: `model = skl.LinearRegression().fit(x, y)`
+- PyTorch
+  - Biblioteca de aprendizado profundo (deep learning).
+  - Open-source desenvolvida pelo Facebook's AI Research lab.
+  - Usada para criar e treinar modelos de redes neurais.
+  - Definição dinâmica de grafos computacionais.
+  - Útil para pesquisa e desenvolvimento de novos modelos de IA.
