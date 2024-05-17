@@ -713,30 +713,30 @@
          - Autoridade de certificação que emitiu o certificado
          - Datas de validade e outras informações relacionadas à segurança
 5. Protocolos de Segurança
-   - SSL/TLS (Secure Sockets Layer/Transport Layer Security)
-   - S/MIME (Secure/Multipurpose Internet Mail Extensions) para e-mails
-   - mTLS (Mutual Transport Layer Security)
-     - É uma extensão do protocolo SSL/TLS e oferece um alto nível de segurança
-     - Características
-       - Autenticação Mútua
-         - Tanto o cliente quanto o servidor se autenticam um ao outro
-         - O cliente e o servidor apresentam certificados digitais durante o processo de negociação do TLS
-         - Esses certificados são emitidos por uma Autoridade Certificadora confiável (CA)
-         - e são usados para provar a identidade de cada parte
-         - Garante que o cliente esteja se comunicando com o servidor esperado e que o servidor possa verificar a identidade do cliente
-       - Criptografia e Confidencialidade
-         - Uso de chaves de sessão que são negociadas durante o handshake TLS
-       - Chave Pública e Privada
-         - A chave privada é mantida em sigilo e nunca é compartilhada, enquanto a chave pública é amplamente divulgada
-         - O cliente e o servidor usam suas chaves privadas para assinar digitalmente mensagens e seus certificados
-         - e usam as chaves públicas uns dos outros para verificar as assinaturas
-       - Autoridades Certificadoras (CAs)
-         - São entidades de confiança que emitem certificados digitais e garantem que as chaves públicas em um certificado pertençam à entidade correta
-         - Os certificados são verificados usando a hierarquia de confiança das CAs, garantindo que os certificados sejam válidos e confiáveis
-     - Casos de uso
-       - Autenticação de serviços da web,
-       - autenticação de clientes em aplicativos móveis,
-       - acesso seguro a APIs e comunicações seguras em redes corporativas
+   - SSL/TLS (Secure Sockets Layer/Transport Layer Security).
+   - S/MIME (Secure/Multipurpose Internet Mail Extensions) para e-mails.
+   - mTLS (Mutual Transport Layer Security).
+     - É uma extensão do protocolo SSL/TLS e oferece um alto nível de segurança.
+     - Características:
+       - Autenticação Mútua.
+         - Tanto o cliente quanto o servidor se autenticam um ao outro.
+         - O cliente e o servidor apresentam certificados digitais durante o processo de negociação do TLS.
+         - Esses certificados são emitidos por uma Autoridade Certificadora confiável (CA).
+         - e são usados para provar a identidade de cada parte.
+         - Garante que o cliente esteja se comunicando com o servidor esperado e que o servidor possa verificar a identidade do cliente.
+       - Criptografia e Confidencialidade.
+         - Uso de chaves de sessão que são negociadas durante o handshake TLS.
+       - Chave Pública e Privada.
+         - A chave privada é mantida em sigilo e nunca é compartilhada, enquanto a chave pública é divulgada.
+         - O cliente e o servidor usam suas chaves privadas para assinar digitalmente mensagens e seus certificados.
+         - e usam as chaves públicas uns dos outros para verificar as assinaturas.
+       - Autoridades Certificadoras (CAs).
+         - São entidades de confiança que emitem certificados digitais e garantem que as chaves públicas em um certificado pertençam à entidade correta.
+         - Os certificados são verificados usando a hierarquia de confiança das CAs, garantindo que os certificados sejam válidos e confiáveis.
+     - Casos de uso:
+       - Autenticação de serviços da web.
+       - Autenticação de clientes em aplicativos móveis.
+       - Acesso seguro a APIs e comunicações seguras em redes corporativas.
 
 ## Gestão de Segredos (Secret Management)
 

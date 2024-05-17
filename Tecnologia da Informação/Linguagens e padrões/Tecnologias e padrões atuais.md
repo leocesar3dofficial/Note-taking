@@ -25,27 +25,27 @@
 
 #### Características
 
-- Estilo arquitetural amplamente utilizado na construção de APIs web
-- Adequado para aplicações compatíveis com navegadores web
-- Criação de interfaces que permitem que os clientes acessem e manipulem recursos em um sistema
-  - Baseado em HTTP
-  - Recursos identificados por URLs e podem ser representados em diferentes formatos (JSON, XML, HTML, CSS, RSS (Really Simple Syndication))
+- Estilo arquitetural utilizado na construção de APIs web.
+- Adequado para aplicações compatíveis com navegadores web.
+- Criação de interfaces que permitem que os clientes acessem e manipulem recursos em um sistema.
+  - Baseado em HTTP.
+  - Recursos identificados por URLs e podem ser representados em diferentes formatos (JSON, XML, HTML, CSS, RSS (Really Simple Syndication)).
 
 #### Princípios
 
-- Uso de métodos HTTP (GET, POST, PUT, DELETE) para indicar a operação a ser realizada no recurso
-- Utilização de códigos de status HTTP para representar o resultado da operação
-- Separação clara entre o cliente e o servidor
-  - O servidor não mantém estado sobre as solicitações do cliente
+- Uso de métodos HTTP (GET, POST, PUT, DELETE) para indicar a operação a ser realizada no recurso.
+- Utilização de códigos de status HTTP para representar o resultado da operação.
+- Separação clara entre o cliente e o servidor.
+  - O servidor não mantém estado sobre as solicitações do cliente.
 
 #### Restrições/Constraints
 
-- Uniform interface/interface uniforme
-  - Desacopla a arquitetura (independência entre cliente e servidor)
+- Uniform interface/interface uniforme.
+  - Desacopla a arquitetura (independência entre cliente e servidor).
 
 #### API RESTful
 
-- Swagger (documentation tool)
+- Swagger (documentation tool).
 
 ### SOAP (Simple Object Access Protocol)
 

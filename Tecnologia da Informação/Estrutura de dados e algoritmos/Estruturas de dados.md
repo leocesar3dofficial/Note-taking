@@ -187,7 +187,7 @@
      - Binary Tree
 
        - Árvores binárias são aquelas em que cada nó tem, no máximo, dois filhos: um à esquerda e outro à direita.
-       - São amplamente utilizadas em algoritmos de busca e ordenação.
+       - São utilizadas em algoritmos de busca e ordenação.
 
      - Heaps
 

@@ -7,7 +7,7 @@
 - As entidades possuem propriedades e comportamentos específicos.
 - Estrutura para projetar sistemas complexos.
 - Promove reutilização de código, modularidade, legibilidade e manutenibilidade.
-- Amplamente usada em diversas linguagens de programação, como Java, C++, Python e C#.
+- Implementada em diversas linguagens de programação, como Java, C++, Python e C#.
 
 ## Conceitos
 

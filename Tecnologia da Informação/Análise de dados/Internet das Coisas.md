@@ -137,10 +137,10 @@
 
 - **Corrente elétrica**
   - Alternada (Nickolas Tesla)
-    - Longa distância com perdas pequenas e menos geradores
+    - Longa distância com perdas pequenas e menos geradores.
   - Contínua (Thomas Edison)
-    - Mais segura
-    - Amplamente utilizada
+    - Mais segura.
+    - Maior adoção.
 
 ### Componentes eletrônicos
 

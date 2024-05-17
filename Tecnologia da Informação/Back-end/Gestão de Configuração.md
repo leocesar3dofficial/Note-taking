@@ -12,12 +12,13 @@
 
 ### Git
 
-- Sistema de controle de versão distribuído. Diferente do Subversion (SVN), que é um sistema de controle de versão centralizado.
-- o Git é o sistema de controle de versão mais flexível, escalável e amplamente adotado.
+- Sistema de controle de versão distribuído.
+- Diferente do Subversion (SVN), que é um sistema de controle de versão centralizado.
+- o Git é o sistema de controle de versão mais flexível, escalável e popular.
 
 ### CVS (Concurrent Versions System)
 
-- Código Aberto
+- Código Aberto.
 
 #### Criar um repositório
 
@@ -33,33 +34,33 @@ cvs -d <caminho do diretório> init
 
 ### Gitlab (similar ao GitHub)
 
-- Gestão de pipelines no Gitlab CI
-  - Configuração com o arquivo: gitlab-ci.yml
-    - Funcionalidades
-      - Scripts to run automatically or manually
-      - Include other configuration files and templates
-      - Dependencies and caches
-      - Sequence and parallel commands
-      - Deploy location
-    - Seções
-      - Variáveis
-      - Cache
-      - Testes
-      - Workflow (run scripts)
+- Gestão de pipelines no Gitlab CI.
+  - Configuração com o arquivo: gitlab-ci.yml.
+    - Funcionalidades:
+      - Scripts to run automatically or manually.
+      - Include other configuration files and templates.
+      - Dependencies and caches.
+      - Sequence and parallel commands.
+      - Deploy location.
+    - Seções:
+      - Variáveis.
+      - Cache.
+      - Testes.
+      - Workflow (run scripts).
 
 ### Jenkins (servidor de integração contínua, CI/CD)
 
-- É uma plataforma de automação de código aberto
-- Processo automatizado de compilação, teste e implantação
-- Utilizada para a construção, teste e implantação contínuos de software
-- Permite a criação de pipelines de CI/CD
-  - Monitora o repositório de código-fonte
-  - Automatizam a compilação de código, execução de testes, empacotamento e implantação em diferentes ambientes
-- É extensível e escalável, suporta uma variedade de plugins que facilitam a integração com várias ferramentas e serviços
-- Pode ser integrado com outras ferramentas de gerenciamento de configuração, como Puppet e Ansible
-- Possui recursos de notificação e geração de relatórios
-- É linguagem-agnóstico
-- Interface de usuário baseada na web
+- É uma plataforma de automação de código aberto.
+- Processo automatizado de compilação, teste e implantação.
+- Utilizada para a construção, teste e implantação contínuos de software.
+- Permite a criação de pipelines de CI/CD.
+  - Monitora o repositório de código-fonte.
+  - Automatizam a compilação de código, execução de testes, empacotamento e implantação em diferentes ambientes.
+- É extensível e escalável, suporta uma variedade de plugins que facilitam a integração com várias ferramentas e serviços.
+- Pode ser integrado com outras ferramentas de gerenciamento de configuração, como Puppet e Ansible.
+- Possui recursos de notificação e geração de relatórios.
+- É linguagem-agnóstico.
+- Interface de usuário baseada na web.
 
 ### AWS CodePipeline
 

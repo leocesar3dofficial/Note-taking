@@ -455,7 +455,7 @@ Project Management Body of Knowledge.
 
 - O NIST é uma agência dos EUA que produz diretrizes e padrões de segurança cibernética.
 - É uma publicação que fornece um conjunto de controles de segurança e práticas recomendadas.
-- Destinados a agências governamentais dos EUA, mas também amplamente adotados no setor privado.
+- Destinados a agências governamentais dos EUA, mas também adotados no setor privado.
 - Os controles estão organizados em 18 famílias.
   - Autenticação.
   - Criptografia.

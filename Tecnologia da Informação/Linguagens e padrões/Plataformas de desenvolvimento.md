@@ -111,7 +111,7 @@
   - Fornece uma arquitetura escalável e tolerante a falhas.
   - Permite a captura, armazenamento e processamento de streams de eventos em tempo real.
   - Fornece recursos como particionamento, replicação, persistência e garantias de entrega.
-  - Amplamente utilizado em aplicativos de streaming, processamento de eventos, ingestão de dados em tempo real e pipelines de dados.
+  - Utilizado em aplicativos de streaming, processamento de eventos, ingestão de dados em tempo real e pipelines de dados.
 
 - **RabbitMQ**
 
@@ -121,7 +121,7 @@
   - Permite o envio e a recepção de mensagens assíncronas entre diferentes componentes de um sistema.
   - Garante a entrega confiável e ordenada das mensagens.
   - Suporta recursos avançados, como filas, trocas, roteamento flexível e filas de mensagens persistentes.
-  - Amplamente utilizado em aplicativos de integração, microservices, sistemas distribuídos e arquiteturas orientadas a eventos.
+  - Utilizado em aplicativos de integração, microservices, sistemas distribuídos e arquiteturas orientadas a eventos.
 
 - **ActiveMQ**
 

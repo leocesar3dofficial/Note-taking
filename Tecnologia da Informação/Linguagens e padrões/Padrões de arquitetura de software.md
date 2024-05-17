@@ -157,141 +157,111 @@
 
 #### Stack ELK (código aberto)
 
-##### Elasticsearch
+- **Elasticsearch**
+  - Características:
+    - É uma plataforma de busca e análise de dados distribuída em tempo real.
+    - Construído em cima do Apache Lucene.
+    - Usado para indexar, pesquisar e analisar grandes volumes de dados de forma eficiente.
+    - Suporta várias fontes de dados.
+    - Permite a execução de consultas complexas em tempo real.
+    - Recursos avançados, como agregação, filtragem, pesquisa de texto completo.
+    - Suporte a várias linguagens de consulta.
+    - Utilizado em aplicativos de busca, análise de logs, monitoramento e análise de dados em tempo real.
 
-##### Características
+- **Index Lifecycle Management (ILM)/Ciclo de Vida de Índices**
+  - Estágios:
+    1. Hot
+      - Ingestão de dados.
+      - Rollover de um índice baseado no nível de espaço em disco.
 
-- É uma plataforma de busca e análise de dados distribuída em tempo real
-- Construído em cima do Apache Lucene
-- Usado para indexar, pesquisar e analisar grandes volumes de dados de forma eficiente
-- Suporta várias fontes de dados
-- Permite a execução de consultas complexas em tempo real
-- Recursos avançados, como agregação, filtragem, pesquisa de texto completo
-- Suporte a várias linguagens de consulta
-- Amplamente utilizado em aplicativos de busca, análise de logs, monitoramento e análise de dados em tempo real
+    2. Warm
+      - Índices consultados, mas com menor frequência.
 
-##### Index Lifecycle Management (ILM)/Ciclo de Vida de Índices
+    3. Cold
+      - Não são utilizados para consultas.
+      - Mantidos por diversos motivos como: normas regulamentares, histórico, etc.
 
-##### Estágios
+    4. Delete
+      - Índices prontos para serem excluídos.
 
-1. Hot
+- Logstash
 
-- Ingestão de dados
-- Rollover de um índice baseado no nível de espaço em disco
+- Ingestão de dados de log e na preparação de dados para consulta e análise em tempo real
 
-2. Warm
+- **Recursos**
+  - Ingestão de Dados:
+    - Coleta dados de uma ampla variedade de fontes.
+      - logs de aplicativos, logs de sistemas, feeds de sensores, eventos de rede, entre outros.
+    - Suporta inúmeras entradas, como arquivos de log, syslog, Beats, JDBC, HTTP, e muitos outros.
 
-- Índices consultados, mas com menor frequência
+- **Processamento de Dados**
+  - Transforma e enriquece os dados de log durante o processo de ingestão.
+  - Usa filtros que podem realizar tarefas como:
+    - Análise de padrões, remoção ou anonimização de informações confidenciais.
+    - Conversão de formatos de data/hora e enriquecimento de dados com informações adicionais.
 
-3. Cold
+- **Saída de Dados**
+  - Após o processamento, envia os dados preparados para vários destinos.
+  - O Elasticsearch para armazenamento e o Kibana para visualização e análise.
+  - É possível configurar saídas para outros sistemas.
+    - Como bancos de dados, sistemas de mensagens, arquivos e muito mais.
 
-- Não são utilizados para consultas
-- Mantidos por diversos motivos como: normas regulamentares, histórico, etc.
+- **Plugins**
+  - Extensível por meio de plugins.
+  - Possui uma grande biblioteca de plugins de entrada, filtro e saída.
+  - Podem ser usados para adaptar a ferramenta às necessidades específicas do seu ambiente.
 
-4. Delete
+- **Configuração Flexível**
+  - Feita por meio de arquivos de configuração simples e flexíveis.
+  - Nos formatos JSON ou YAML.
+  - Permite que você defina como os dados devem ser coletados, processados e para onde devem ser enviados.
 
-- Índices prontos para serem excluídos
+- **Escalabilidade**
+  - Pode ser dimensionado horizontalmente para lidar com grandes volumes de dados.
+  - Pode configurar várias instâncias do Logstash para trabalhar em paralelo e balancear a carga.
 
-##### Logstash
+- **Monitoramento e Gerenciamento**
+  - A Elastic fornece ferramentas de monitoramento e gerenciamento, como o Elasticsearch e o Kibana.
+  - Podem ser usadas em conjunto com o Logstash para acompanhar o desempenho e a saúde do sistema de ingestão de logs.
 
-##### Ingestão de dados de log e na preparação de dados para consulta e análise em tempo real
+- **Kibana**
+  - Características:
+    - É uma plataforma de visualização e exploração de dados de código aberto desenvolvida pela Elastic.
+    - Projetado para trabalhar em conjunto com o Elasticsearch.
+    - Atua como uma interface de usuário amigável para análise e visualização de dados.
+      - Os dados são armazenados no Elasticsearch e em outros sistemas de armazenamento.
 
-##### Recursos
+  - Recursos:
+    - Visualização de Dados
+      - Permite criar painéis interativos e gráficos a partir dos dados armazenados no Elasticsearch.
+      - Gráficos de barras, pizza, tabelas, mapas geográficos e muito mais.
 
-##### Ingestão de Dados
+    - Painéis Personalizados
+      - Agregam várias visualizações em uma única página.
+      - Monitorar métricas e estatísticas específicas.
 
-- Coleta dados de uma ampla variedade de fontes
-  - logs de aplicativos, logs de sistemas, feeds de sensores, eventos de rede, entre outros
-- Suporta inúmeras entradas, como arquivos de log, syslog, Beats, JDBC, HTTP, e muitos outros
+    - Busca e Filtragem Avançada
+      - Fornece uma poderosa linguagem de consulta.
+        - Permite buscar, filtrar e analisar dados de maneira flexível.
+      - Realiza consultas em tempo real para encontrar informações específicas nos dados.
 
-##### Processamento de Dados
+    - Exploração de Logs e Métricas
+      - Usado para análise de logs e métricas.
+      - Identifica problemas em sistemas, aplicativos e infraestrutura.
+      - Fornece insights sobre eventos, erros e tendências.
 
-- Transforma e enriquece os dados de log durante o processo de ingestão
-- Usa filtros que podem realizar tarefas como
-  - análise de padrões, remoção ou anonimização de informações confidenciais,
-  - conversão de formatos de data/hora e enriquecimento de dados com informações adicionais
+    - Suporte a Dados Geoespaciais
+      - Recursos avançados de visualização geoespacial.
+      - Permite a criação de mapas interativos com base em dados geográficos.
 
-##### Saída de Dados
+    - Integração com Elasticsearch
+      - Usado para explorar e visualizar dados indexados no Elasticsearch.
+      - O Elasticsearch é um mecanismo de pesquisa e análise de dados distribuído.
+        - Usado para armazenar e consultar grandes volumes de dados.
 
-- Após o processamento, envia os dados preparados para vários destinos,
-- O Elasticsearch para armazenamento e o Kibana para visualização e análise
-- É possível configurar saídas para outros sistemas
-  - como bancos de dados, sistemas de mensagens, arquivos e muito mais
-
-##### Plugins
-
-- Extensível por meio de plugins
-- Possui uma grande biblioteca de plugins de entrada, filtro e saída
-- Podem ser usados para adaptar a ferramenta às necessidades específicas do seu ambiente
-
-##### Configuração Flexível
-
-- Feita por meio de arquivos de configuração simples e flexíveis
-- Nos formatos JSON ou YAML
-- Permite que você defina como os dados devem ser coletados, processados e para onde devem ser enviados
-
-##### Escalabilidade
-
-- Pode ser dimensionado horizontalmente para lidar com grandes volumes de dados
-- Pode configurar várias instâncias do Logstash para trabalhar em paralelo e balancear a carga
-
-##### Monitoramento e Gerenciamento
-
-- A Elastic fornece ferramentas de monitoramento e gerenciamento, como o Elasticsearch e o Kibana
-- Podem ser usadas em conjunto com o Logstash para acompanhar o desempenho e a saúde
-- do sistema de ingestão de logs
-
-##### Kibana
-
-##### Características
-
-- É uma plataforma de visualização e exploração de dados de código aberto desenvolvida pela Elastic
-- Projetado para trabalhar em conjunto com o Elasticsearch
-- Atua como uma interface de usuário amigável para análise e visualização de dados
-  - armazenados no Elasticsearch e outros sistemas de armazenamento de dados
-
-##### Recursos
-
-##### Visualização de Dados
-
-- Permite criar painéis interativos e gráficos a partir dos dados armazenados no Elasticsearch
-- Gráficos de barras, gráficos de pizza, tabelas, mapas geográficos e muito mais
-- para explorar e analisar informações
-
-##### Painéis Personalizados
-
-- Agregam várias visualizações em uma única página
-- Monitorar métricas e estatísticas específicas
-
-##### Busca e Filtragem Avançada
-
-- Fornece uma poderosa linguagem de consulta
-- que permite buscar, filtrar e analisar dados de maneira flexível
-- Realiza consultas em tempo real para encontrar informações específicas nos dados
-
-##### Exploração de Logs e Métricas
-
-- Usado para análise de logs e métricas
-- Identifica problemas em sistemas, aplicativos e infraestrutura
-- Fornece insights sobre eventos, erros e tendências
-
-##### Suporte a Dados Geoespaciais
-
-- Recursos avançados de visualização geoespacial
-- Permite a criação de mapas interativos com base em dados geográficos
-
-##### Integração com Elasticsearch
-
-- Usado para explorar e visualizar dados indexados no Elasticsearch
-- O Elasticsearch é um mecanismo de pesquisa e análise de dados distribuído
-  - Usado para armazenar e consultar grandes volumes de dados
-
-##### Segurança e Autenticação
-
-- Autenticação de usuário e controle de acesso
-- Permite que limite o acesso às visualizações e painéis com base em funções e permissões
-
-##### Extensibilidade via plugins
+    - Segurança e Autenticação
+      - Autenticação de usuário e controle de acesso.
+      - Permite que limite o acesso às visualizações e painéis com base em funções e permissões.
 
 ### Testes de segurança
 

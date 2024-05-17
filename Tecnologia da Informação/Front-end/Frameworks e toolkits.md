@@ -165,7 +165,7 @@
 ### R
 
 - Linguagem e ambiente de software livre para computação estatística e gráficos.
-- É amplamente usada em estatística, bioinformática, e ciência de dados para análise de dados e visualização.
+- Usada em estatística, bioinformática, e ciência de dados para análise de dados e visualização.
 - Possui uma vasta gama de pacotes para:
   - Análises estatísticas básicas.
   - Modelos complexos de aprendizado de máquina.

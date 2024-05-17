@@ -27,21 +27,21 @@
 
 ## SOAP (Simple Object Access Protocol)
 
-- Protocolo de comunicação para troca de informações/mensagens entre sistemas distribuídos
-  - Permite que aplicativos em diferentes plataformas e linguagens se comuniquem de maneira padronizada
+- Protocolo de comunicação para troca de informações/mensagens entre sistemas distribuídos.
+  - Permite que aplicativos em diferentes plataformas e linguagens se comuniquem de maneira padronizada.
 - Define uma estrutura de mensagem XML representando solicitações e respostas entre o cliente e o servidor.
-  - Exige o uso de XML para fornecer a resposta
-  - Baseado em padrões XML para estruturar os dados transmitidos
-  - Estrutura de mensagem com envelope SOAP contendo cabeçalho (opcional) e corpo (obrigatório)
-- Usa HTTP como protocolo de transporte padrão
-  - Protocolo extensível permitindo definição de protocolos específicos de aplicação (bindings)
+  - Exige o uso de XML para fornecer a resposta.
+  - Baseado em padrões XML para estruturar os dados transmitidos.
+  - Estrutura de mensagem com envelope SOAP contendo cabeçalho (opcional) e corpo (obrigatório).
+- Usa HTTP como protocolo de transporte padrão.
+  - Protocolo extensível permitindo definição de protocolos específicos de aplicação (bindings).
 - Facilita a interoperabilidade entre diferentes plataformas e tecnologias.
 - Mecanismos de proteção incluem autenticação via token.
-- Amplamente utilizado em aplicações e serviços web
+- Utilizado em aplicações e serviços web.
 
 ## JSON (JavaScript Object Notation)
 
 - Formato de dados leve e legível por humanos.
-- Usado para trocar informações estruturadas entre sistemas, sendo amplamente utilizado em aplicativos e serviços web.
+- Usado para trocar informações estruturadas entre sistemas, sendo utilizado em aplicativos e serviços web.
 - Alternativa ao XML, utilizando uma sintaxe simples baseada em pares de chave-valor para representar os dados.
 - Facilmente interpretado e manipulado por várias linguagens de programação.

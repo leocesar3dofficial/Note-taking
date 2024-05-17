@@ -17,6 +17,10 @@
 - Melhor gerenciamento de riscos e estimativa de custos
 - Entrega sistemática do software e maior satisfação do cliente
 
+## Estágios
+
+1. 
+
 ## Etapas
 
 1. **Planejamento**

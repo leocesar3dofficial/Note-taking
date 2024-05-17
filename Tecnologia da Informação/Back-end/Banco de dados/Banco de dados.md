@@ -27,7 +27,7 @@
   - O acesso aos dados é realizado por meio de consultas SQL (Structured Query Language).
   - Consultas são expressas em uma linguagem declarativa.
   - Sistema de gerenciamento de banco de dados é responsável por otimizar a execução das consultas.
-  - SQL é uma linguagem padronizada e amplamente adotada para consultas e manipulação de dados em sistemas relacionais.
+  - SQL é uma linguagem padronizada e adotada para consultas e manipulação de dados em sistemas relacionais.
 
 #### Modelagem
 
@@ -71,7 +71,7 @@ O modelo de dados é criado a partir da visão geral do negócio. Define os obje
 
 1. UML (Unified Modeling Language)
 
-- Notação gráfica amplamente utilizada para modelagem de sistemas de software.
+- Notação gráfica utilizada para modelagem de sistemas de software.
 
 - **Características**
 
@@ -277,8 +277,7 @@ O modelo de dados é criado a partir da visão geral do negócio. Define os obje
 - **História**
 
   - Desenvolvido na década de 1960.
-  - Foi amplamente utilizado nas décadas de 1960 e 1970.
-  - Amplamente utilizado nas décadas seguintes.
+  - Foi utilizado nas décadas de 1960 e 1970.
   - Com o surgimento do modelo relacional e a padronização do SQL, sua popularidade diminuiu significativamente.
 
 - **Características**
@@ -310,7 +309,7 @@ O modelo de dados é criado a partir da visão geral do negócio. Define os obje
 - **História**
 
   - Um dos primeiros modelos de banco de dados a ser desenvolvido.
-  - Amplamente utilizado nas décadas de 1960 e 1970.
+  - Utilizado nas décadas de 1960 e 1970.
   - Embora tenha sido substituído pelo modelo relacional e outros modelos mais modernos.
   - Ainda existem sistemas legados que utilizam essa abordagem.
 
@@ -656,7 +655,7 @@ O modelo de dados é criado a partir da visão geral do negócio. Define os obje
 
 #### Características
 
-- Código aberto, amplamente utilizado em aplicações web e móveis.
+- Código aberto, utilizado em aplicações web e móveis.
 - Possui uma arquitetura leve e de baixo consumo de recursos.
 - Suporta a linguagem SQL padrão e oferece.
   - Recursos avançados.

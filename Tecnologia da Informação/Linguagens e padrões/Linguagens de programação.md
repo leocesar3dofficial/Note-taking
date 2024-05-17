@@ -55,9 +55,9 @@
 
 #### Características
 
-- Orientada a objetos, robusta, coleta de lixo automática e altamente portável.
+- Orientada a objetos, robusta, coleta de lixo automática e portável.
 - Possui uma vasta biblioteca padrão e uma grande comunidade de desenvolvedores.
-- É amplamente usada no desenvolvimento de aplicativos empresariais e em sistemas embarcados.
+- Usada no desenvolvimento de aplicativos empresariais e em sistemas embarcados.
 - Suporta programação concorrente e é conhecida por sua segurança.
 
 #### Pontos fortes
@@ -127,7 +127,7 @@
 #### Características
 
 - Orientada a objetos, moderna e desenvolvida pela Microsoft.
-- Parte do framework .NET, amplamente usada para desenvolvimento de aplicativos Windows e web.
+- Parte do framework .NET, usada para desenvolvimento de aplicativos Windows e web.
 - Oferece suporte a programação assíncrona, tratamento de exceções e uso de componentes.
 - Possui uma sintaxe semelhante ao Java e ao C++.
 
