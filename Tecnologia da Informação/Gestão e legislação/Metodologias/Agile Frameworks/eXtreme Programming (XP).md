@@ -30,7 +30,9 @@
 
 1. **Planejamento**
    - Jogo de Planejamento (Iteration Planning Game)
-     - Priorização de funcionalidades baseada nas User Stories (história dos usuários)
+     - Priorização de funcionalidades baseada nas User Stories (História de Usuário)
+         - Formato: Como [tipo de usuário], eu quero [ação] para [benefício/resultados esperados].
+         - Exemplo: Como usuário registrado, eu quero poder resetar minha senha para recuperar o acesso à minha conta.
      - Estimação, feita por cada programador, do tempo que será necessário para realizar cada tarefa sob sua responsabilidade (tempo ideal)
          - **Tempo ideal:** estimar homens-hora por tarefa sem interrupções, atrasos ou obstáculos significativos
      - Semanal

@@ -84,17 +84,17 @@
 ### Product Backlog
 
 - Commitment: Product Goal
-  - Describes a future state of the product
-  - Long-term objective
-- Ordered list of items
-- Refinement: break down items into smaller items
-- Developers are responsible for the sizing
+  - Describes a future state of the product.
+  - Long-term objective.
+- Ordered list of items.
+- Refinement: break down items into smaller items.
+- Developers are responsible for the sizing of the items.
 
 ### Sprint Backlog
 
-- Commitment: Sprint Goal (why)
-- Has a set of Product Backlog items (what)
-- Actionable plan (how)
+- Commitment: Sprint Goal (why).
+- Has a set of Product Backlog items (what).
+- Actionable plan (how).
 
 ### Increment
 

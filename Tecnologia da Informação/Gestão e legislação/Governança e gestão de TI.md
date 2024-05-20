@@ -154,20 +154,20 @@ Project Management Body of Knowledge.
 
 ### Técnicas
 
-- Análise de Stakeholders.
+- Análise de Stakeholders
   - Identificação, análise e engajamento.
   - Necessidades, expectativas e impactos.
-- Gerenciamento de Valor.
+- Gerenciamento de Valor
   - Considera todos os aspectos para entrega de valor.
   - **Percepção de valor:** foco das entregas para os resultados pretendidos.
-- Design Thinking.
+- Design Thinking
   - Características.
     - Inovação e resolução de problemas.
     - Estimula a criatividade e o pensamento colaborativo.
-  - Processo.
+  - Processo:
     1. Imersão.
        - Preliminar (pesquisa exploratória).
-       - Em profundidade (Conclusiva).
+       - Em profundidade (conclusiva).
     2. Análise e síntese.
        - Cartões de insights.
        - Diagramas de afinidades.
@@ -475,19 +475,45 @@ Project Management Body of Knowledge.
   - Internos: pontos fortes e fracos.
   - Externos: oportunidades e ameaças.
 
-### Matriz GUT (Gravidade, Urgência e Tendência)
+### Técnicas de priorização de tarefas
+
+#### MoSCoW (Must Have, Should Have, Could Have, Won’t Have)
+
+- Forma simples de classificar requisitos ou tarefas com base na sua importância e urgência.
+- **Must Have**: Funcionalidades essenciais que são críticas para o projeto. Sem elas, o projeto não pode ser entregue.
+- **Should Have**: Funcionalidades importantes, mas não essenciais. Elas são de alta prioridade, mas o projeto pode funcionar sem elas.
+- **Could Have**: Funcionalidades desejáveis que podem melhorar a experiência do usuário ou adicionar valor, mas são de menor prioridade.
+- **Won’t Have**: Funcionalidades que não serão implementadas nesta versão do projeto, mas podem ser consideradas para futuras iterações.
+
+#### Scorecard
+
+- Criação de uma tabela onde diferentes critérios são avaliados e pontuados para cada tarefa ou requisito
+- **Valor de Negócio**: O benefício que a funcionalidade traz para o negócio.
+- **Esforço de Implementação**: O tempo e recursos necessários para implementar a funcionalidade.
+- **Urgência**: A necessidade imediata da funcionalidade.
+- **Risco**: O nível de incerteza ou potencial impacto negativo.
+- Cada critério é pontuado e as somas são usadas para determinar a prioridade das tarefas.
+
+#### BUC (Benefício, Urgência e Custo)
+
+- Classifica as tarefas com base em três fatores:
+  - **Benefício**: O valor que a tarefa ou requisito agrega ao produto ou ao negócio.
+  - **Urgência**: A necessidade de implementar a tarefa em um curto prazo.
+  - **Custo**: O esforço, tempo e recursos necessários para completar a tarefa.
+
+- As tarefas são avaliadas e priorizadas com base em uma combinação desses fatores, frequentemente usando uma matriz ou um gráfico para visualização.
+
+#### Matriz GUT (Gravidade, Urgência e Tendência)
 
 - **Características**
-
   - Ferramenta utilizada na priorização de tarefas e estratégias.
   - Entenda tendência como: se nada for feito, e aí, vai piorar?
 
 - **Método**
-
-  - Listar forças;
-  - Escala de 1 a 5 para a gravidade, urgência e tendência de cada força;
-  - Multiplicar os resultados (gravidade x urgência x tendência) de cada força;
-  - Fazer a média dos resultados das forças;
+  - Listar forças.
+  - Escala de 1 a 5 para a gravidade, urgência e tendência de cada força.
+  - Multiplicar os resultados (gravidade x urgência x tendência) de cada força.
+  - Fazer a média dos resultados das forças.
   - Repetir os passos acima com as fraquezas, oportunidades e ameaças.
 
 - **Exemplo**
@@ -497,21 +523,81 @@ Project Management Body of Knowledge.
 | Definir o problema 1 | 5         | 5        | 5         | 125        |
 | Definir o problema 2 | 4         | 3        | 1         | 12         |
 
-### Matriz RACI (Responsibility Assignment matrix)
+#### Testes de Suposição
+
+- Validação de suposições sobre os requisitos ou funcionalidades antes de priorizá-los.
+- Identificar quais requisitos têm maior incerteza e validar suas suposições antes de investir recursos significativos.
+- Priorizar aqueles com maior certeza de valor e necessidade.
+- **Prototipagem**: Criar protótipos para testar a funcionalidade com os usuários.
+- **Entrevistas com Usuários**: Coletar feedback diretamente dos usuários.
+- **Experimentos**: Realizar pequenos experimentos para validar suposições.
+
+#### Valor de Negócio x Risco
+
+- Criação de uma matriz com dois eixos: Valor de Negócio e Risco.
+  - **Valor de Negócio**: Avalia o impacto positivo da funcionalidade no negócio.
+  - **Risco**: Avalia a incerteza ou complexidade associada à implementação da funcionalidade.
+- As funcionalidades são mapeadas na matriz, e a priorização é feita com base em maximizar o valor do negócio enquanto minimiza os riscos.
+- Funcionalidades de alto valor e baixo risco são priorizadas primeiro, enquanto as de baixo valor e alto risco são colocadas no final da lista ou reconsideradas.
+
+#### Matriz RACI (Responsibility Assignment matrix)
 
 - **Características**
-
   - Identificar e definir os papéis e responsabilidades de cada indivíduo ou função.
   - Atribuições a cada pessoa ou grupo.
     - R (Responsável), A (Aprovador), C (Consultado) e I (Informado).
 
 - **Exemplo**
-
   - Tarefa: Desenvolvimento do módulo de login.
     - Desenvolver a interface de usuário: Responsável (R) - Equipe de Design e Desenvolvimento.
     - Revisar o código: Consultado (C) - Arquiteto de Software.
     - Aprovar a funcionalidade: Aprovador (A) - Gerente de Projetos.
     - Informar sobre o andamento: Informado (I) - Equipe de Gerenciamento de Projetos.
+
+### Técnicas para a estimativa de escopo
+
+Em métodos ágeis, estimar o escopo de trabalho é crucial para planejar sprints, alocar recursos e definir expectativas. Diversas técnicas são usadas para ajudar as equipes a estimar o tamanho e o esforço necessários para completar histórias de usuário ou tarefas. Aqui estão algumas das técnicas mais comuns:
+
+#### Planning Poker
+
+- Técnica de estimativa colaborativa e divertida que ajuda a alcançar um consenso sobre o esforço necessário para completar uma tarefa.
+
+**Como funciona:**
+1. **História de Usuário**: A equipe revisa uma história de usuário.
+2. **Discussão**: Cada membro da equipe pode fazer perguntas e discutir a tarefa para esclarecer quaisquer dúvidas.
+3. **Cartas**: Cada membro da equipe tem um conjunto de cartas com números da sequência de Fibonacci (por exemplo, 1, 2, 3, 5, 8, 13, 21, etc.) ou valores predefinidos.
+4. **Votação**: Todos os membros escolhem uma carta que representa sua estimativa do esforço necessário e revelam suas escolhas simultaneamente.
+5. **Discussão e Revisão**: Se houver grandes discrepâncias, a equipe discute as razões por trás das diferentes estimativas.
+6. Outra rodada de votação pode ocorrer até que um consenso seja alcançado.
+
+#### Story Points
+
+- Unidade de medida que expressa o esforço relativo necessário para implementar uma história de usuário. 
+- Considera fatores como complexidade, quantidade de trabalho e incerteza.
+
+**Como funciona:**
+1. **Referência**: A equipe escolhe uma história de usuário de referência que todos concordam ser de tamanho médio e atribui um valor de story points a ela.
+2. **Comparação**: Outras histórias de usuário são comparadas com a história de referência e são atribuídos story points com base na sua complexidade relativa.
+3. **Escala de Pontos**: Normalmente, uma sequência de Fibonacci é usada para ajudar a refletir a incerteza e complexidade crescente à medida que os números aumentam.
+
+#### Enquete
+
+- Técnica rápida para obter uma estimativa de esforço através de votação anônima.
+
+**Como funciona:**
+1. **História de Usuário**: A equipe revisa uma história de usuário.
+2. **Votação Anônima**: Cada membro da equipe envia sua estimativa anonimamente (usando um sistema de votação online, por exemplo).
+3. **Discussão**: Os resultados são apresentados e a equipe discute qualquer disparidade significativa nas estimativas.
+4. **Revisão e Consenso**: Após a discussão, a equipe pode votar novamente para chegar a um consenso.
+
+#### T-Shirt Sizing
+
+- Classifica as histórias de usuário em categorias de tamanho, semelhante às tamanhos de camisetas (XS, S, M, L, XL).
+
+**Como funciona:**
+1. **Categorias de Tamanho**: A equipe define o que cada tamanho representa em termos de esforço (por exemplo, XS = muito pequeno, XL = muito grande).
+2. **Classificação**: Cada história de usuário é discutida e classificada em uma dessas categorias de tamanho.
+3. **Revisão**: A equipe revisa as classificações para garantir que são consistentes e fazem sentido em relação umas às outras.
 
 ## Biblioteca ITIL® versão 4, 2019 (Information Technology Infrastructure Library)
 

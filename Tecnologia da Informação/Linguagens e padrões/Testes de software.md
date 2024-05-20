@@ -344,6 +344,9 @@ $$ \text{Pontos de Função (PF)} = \sum_{i=1}^{n} \text{Complexidade}\_i \times
 #### Automatização / Automação
 
 - Linters e analisadores de código, são frequentemente usadas para automatizar o processo de revisão do código.
+- Ferramentas:
+  - ESLint.
+  - Prettier.
 
 ### 10. Teste de Requisitos Não Funcionais (RNFs)
 
