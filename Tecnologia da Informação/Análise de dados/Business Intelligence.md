@@ -1,14 +1,16 @@
 # Business Intelligence
 
+## Definição
+
+- Processo onde dados são captados e convertidos em informações úteis ao negócio.
+- Metodologia de coleta, organização, avaliação, compartilhamento e controle de informações.
+- Resultado: insights para o processo decisório.
+
 ## Conceitos
 
 - **Dado:** Registro não processado.
 - **Informação:** Dados processados e analisados.
 - **Conhecimento:** Informação + experiência.
-
-## Definição
-
-Processo onde dados são captados e convertidos em informações úteis ao negócio. Metodologia de coleta, organização, avaliação, compartilhamento e controle de informações. Resultado: insights para o processo decisório.
 
 ### KPIs (Key Performance Indicators)
 
@@ -61,12 +63,12 @@ Processo onde dados são captados e convertidos em informações úteis ao negó
 
   1. Planejamento.
   2. Automação e integração.
-    - RPA (Automação de Processos Robotizados ou Robotic Process Automation).
-      - Utiliza software robôs ou "bots" para automatizar tarefas repetitivas e de rotina em processos de negócios.
-      - Usado para coletar dados, preencher formulários, processar transações, enviar e-mails e muito mais, seguindo regras predefinidas.
-      - Acionadas por eventos ou através de execução programada.
-      - Manipulação dos dados em segundo plano, em servidores back-end.
-      - Não assistido ou sem intervenção humana.
+      - RPA (Robotic Process Automation ou Automação de Processos Robotizados).
+        - Utiliza software robôs ou "bots" para automatizar tarefas repetitivas e de rotina em processos de negócios.
+        - Usado para coletar dados, preencher formulários, processar transações, enviar e-mails e muito mais, seguindo regras predefinidas.
+        - Acionadas por eventos ou através de execução programada.
+        - Manipulação dos dados em segundo plano, em servidores back-end.
+        - Não assistido ou sem intervenção humana.
   3. Tomada de decisões.
   4. Análise de desempenho.
   5. Controle de gastos.
@@ -100,7 +102,7 @@ Processo onde dados são captados e convertidos em informações úteis ao negó
 - Acesso e alçada.
 - Fontes de dados alternativas.
 - Arquivamento e descarte.
-- Backup e recovery / restore.
+- Backup e recovery/restore.
   - Técnicas de backup:
     1. Completo.
     2. Incremental.

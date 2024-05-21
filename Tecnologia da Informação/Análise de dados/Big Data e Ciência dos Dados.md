@@ -4,107 +4,106 @@
 
 ### Big Data
 
-- Não há um consenso sobre o conceito
-- Alto volume de dados
-- Dados complexos, variados, heterogêneos (não estruturados) e derivam de múltiplas fontes
-- Variedade, Velocidade, Veracidade e Valor (descritos a seguir)
-- Controles distribuídos e não centralizados
-  - Heterogeneidade
-    - Um dos requisitos de um sistema de arquivos distribuídos
-    - Interfaces de serviço
-      - Softwares clientes e servidores podem ser implementados para diferentes sistemas operacionais
+- Não há um consenso sobre o conceito.
+- Alto volume de dados.
+- Dados complexos, variados, heterogêneos (não estruturados) e de múltiplas fontes.
+- Controles distribuídos e não centralizados.
+  - Heterogeneidade.
+    - Um dos requisitos de um sistema de arquivos distribuídos.
+    - Interfaces de serviço.
+      - Softwares clientes e servidores podem ser implementados para diferentes sistemas operacionais.
 
 ### Ciência de dados
 
-- Método para extração de informações úteis de bases de dados complexas
-- Realiza previsões utilizando modelos matemáticos, estatísticos e informacionais
-- Arcabouço teórico advém da Ciência da Informação
-- Visão utilitária, de negócio, da informação e conhecimentos gerados
-- A utilização de Big Data não é obrigatória; pode-se valer de bases de dados de menor volume
+- Método para extração de informações úteis de bases de dados complexas.
+- Realiza previsões utilizando modelos matemáticos, estatísticos e informacionais.
+- Arcabouço teórico advém da Ciência da Informação.
+- Visão utilitária, de negócio, da informação e conhecimentos gerados.
+- A utilização de Big Data não é obrigatória, pode-se valer de bases de dados de menor volume.
 
 ## História
 
-- Não há um consenso sobre a época de seu surgimento
-- 1990, NASA
-- 2000, meio acadêmico
+- Não há um consenso sobre a época de seu surgimento.
+- 1990, NASA.
+- 2000, meio acadêmico.
 
 ## Objetivos
 
-- Gerar insights
-- Identificar padrões e sentidos
+- Gerar insights.
+- Identificar padrões e sentidos.
 
 ## Características
 
 - **Volume**
 - **Velocidade**
-  - Maior velocidade com o uso da automação
-  - Sistemas e ferramentas ETL (Extract, Transform, Load) para mineração de dados
+  - Dados são gerados com maior velocidade com o uso da automação.
+  - Sistemas e ferramentas ETL (Extract, Transform, Load) para mineração de dados.
 - **Variedade**
-  - Se vale de dados estruturados e não estruturados
+  - Se vale de dados estruturados e não estruturados.
 - **Veracidade**
   - As fontes dos dados são confiáveis?
 - **Valor**
-  - Diminui com o passar do tempo
+  - Diminui com o passar do tempo.
 
 ## Profissional da área: Cientista de dados
 
 ### Habilidades
 
-- Pensamento crítico/analítico
-- Conhecimento em engenharia de software
-- Conhecimento em matemática e estatística
-- Conhecimento de Inteligência Artificial e Aprendizado de Máquina
+- Pensamento crítico/analítico.
+- Conhecimento em engenharia de software.
+- Conhecimento em matemática e estatística.
+- Conhecimento de Inteligência Artificial e Aprendizado de Máquina.
 
 ### Funções
 
-- Equipe de extração
-- Coordenador de infraestrutura
-- Estatístico e/ou minerador de dados
-- Especialista em ferramentas específicas
-- Database Administrator (DBA)
-- Programador
-- Analista de negócio
-- Designer
+- Equipe de extração.
+- Coordenador de infraestrutura.
+- Estatístico e/ou minerador de dados.
+- Especialista em ferramentas específicas.
+- Database Administrator (DBA).
+- Programador.
+- Analista de negócio.
+- Designer.
 
-## Impactos na organização / negócio
+## Impactos na organização/negócio
 
 - **Governança**
-  - Como a organização/negócio conduz suas atividades em relação aos stakeholders
+  - Como a organização/negócio conduz suas atividades em relação aos stakeholders.
 - **Planejamento**
-  - O direcionamento das ações é afetado pelos resultados obtidos com a atividade de Big Data
+  - O direcionamento das ações é afetado pelos resultados obtidos com a atividade de Big Data.
 - **Utilização**
 - **Garantia da qualidade dos dados**
 - **Privacidade**
-  - Seguir a legislação vigente, ter responsabilidade social e ambiental
+  - Seguir a legislação vigente, ter responsabilidade social e ambiental.
 
 ## Benefícios
 
-- Reduzir custos
-- Antecipar ações
-- Elaborar estratégias
-- Criar novos produtos
-- Prever a demanda
-- Realizar melhores ofertas
-- Vantagem competitiva
+- Reduzir custos.
+- Antecipar ações.
+- Elaborar estratégias.
+- Criar novos produtos.
+- Prever a demanda.
+- Realizar melhores ofertas.
+- Vantagem competitiva.
 
 ## Áreas de aplicação
 
 - **Educação**
-  - Programm for International Student Assessment (PISA)
-    - Compara o desempenho dos estudantes de diversos países
-  - Plataformas de aprendizado personalizadas
-  - Avaliação inteligente
+  - Programm for International Student Assessment (PISA).
+    - Compara o desempenho dos estudantes de diversos países.
+  - Plataformas de aprendizado personalizadas.
+  - Avaliação inteligente.
 - **Negócios**
-  - Serviços financeiros
-  - Telecomunicações
-  - Meios de comunicação
-  - Transporte
-  - Serviços profissionais
-  - Varejo e atacado
+  - Serviços financeiros.
+  - Telecomunicações.
+  - Meios de comunicação.
+  - Transporte.
+  - Serviços profissionais.
+  - Varejo e atacado.
 - **Saúde**
-  - Melhoria no diagnóstico de doenças
+  - Melhoria no diagnóstico de doenças.
 - **Política**
-  - Análise de clima eleitoral, aceitação nas redes sociais
+  - Análise de clima eleitoral, aceitação nas redes sociais.
 - **Biologia/química**
 - **Projetos sociais**
 
@@ -113,32 +112,32 @@
 ### Analytics
 
 - **Hadoop**
-  - Sistema de armazenamento de arquivos distribuídos
-  - Hadoop Distributed File System (HDFS) é um software em Java
-  - Alta tolerância a falhas
-  - Usa hardware de baixo custo e escalável
+  - Sistema de armazenamento de arquivos distribuídos.
+  - Hadoop Distributed File System (HDFS) é um software em Java.
+  - Alta tolerância a falhas.
+  - Usa hardware de baixo custo e é escalável.
 - **Spark/Storm**
-  - Frameworks de processamento e análise de dados
+  - Frameworks de processamento e análise de dados.
 - **MapReduce**
-  - Modelo de programação que permite o processamento de dados massivos
-  - Algoritmo paralelo e distribuído
-    - Velocidade de processamento de uma aplicação
-      - Não é linearmente proporcional ao número de processadores usados
-      - Fatores que podem limitar o ganho de desempenho
-        - O grau de paralelismo da aplicação
-        - A eficiência do algoritmo
-        - A arquitetura do sistema
-  - Processamento em cluster de computadores
-    - Distribuir o processamento entre diferentes computadores
+  - Modelo de programação que permite o processamento de dados massivos.
+  - Algoritmo paralelo e distribuído.
+    - Velocidade de processamento de uma aplicação.
+      - Não é linearmente proporcional ao número de processadores usados.
+      - Fatores que podem limitar o ganho de desempenho:
+        - O grau de paralelismo da aplicação.
+        - A eficiência do algoritmo.
+        - A arquitetura do sistema.
+  - Processamento em cluster de computadores.
+    - Distribuir o processamento entre diferentes computadores.
 - **NoSQL**
   - **Conceito**
-    - Sistema de Banco de Dados de documentos no formato JSON
-    - Eficiente para organizar dados não estruturados
+    - Sistema de Banco de Dados de documentos no formato JSON.
+    - Eficiente para organizar dados não estruturados.
   - **Tipos**
-    - Chave-valor
-      - Garantir que não ocorra redundância via tabela hash
-    - Orientado a documentos
-    - Orientado a grafos
+    - Chave-valor.
+      - Garantir que não ocorra redundância via tabela hash.
+    - Orientado a documentos.
+    - Orientado a grafos.
 
 ### Visualização
 
@@ -172,43 +171,43 @@
   - **Knime**
     - Plataforma de análise de dados.
   - **Python**
-    - Jupyter, Pandas, Anaconda (distribuidora de pacotes / bibliotecas).
+    - Jupyter, Pandas, Anaconda (distribuidora de pacotes/bibliotecas).
 
 ## Projeto de Ciência de Dados
 
 ### Fases
 
-1. Identificar o problema
-2. Entender o problema
-3. Coleta de dados (datasets)
-   - Fontes
-   - Ontologia
-     - Dados semi estruturados
-     - Termos de uma área de conhecimento
-     - Busca semântica
-   - Data Warehouse
-4. Limpar e transformar os dados
-5. Entender o relacionamento entre os dados
-6. Produzir modelos que representem os relacionamentos
-7. Realizar predições
-8. Entregar valor e resultado
+1. Identificar o problema.
+2. Entender o problema.
+3. Coleta de dados (datasets).
+   - Fontes.
+   - Ontologia.
+     - Dados semi estruturados.
+     - Termos de uma área de conhecimento.
+     - Busca semântica.
+   - Data Warehouse.
+4. Limpar e transformar os dados.
+5. Entender o relacionamento entre os dados.
+6. Produzir modelos que representem os relacionamentos.
+7. Realizar predições.
+8. Entregar valor e resultado.
 
 ### Ciclo de Vida dos Dados
 
-1. Produção
-2. Armazenamento
-3. Transformação
-4. Análise
-5. Descarte
+1. Produção.
+2. Armazenamento.
+3. Transformação.
+4. Análise.
+5. Descarte.
 
 ## Nuvem ou Cloud Computing
 
 ### Benefícios
 
-- Redução de custos
-- Flexibilidade
-- Escalabilidade
-- Desempenho
+- Redução de custos.
+- Flexibilidade.
+- Escalabilidade.
+- Desempenho.
 
 ### Modelos
 
