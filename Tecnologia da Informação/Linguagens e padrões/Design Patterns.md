@@ -44,6 +44,7 @@
 - **Class Adapter**
 
   - Permite que classes com interfaces incompatíveis trabalhem juntas, envolvendo sua própria interface em torno de uma classe já existente.
+  - Encapsular as funcionalidades de uma classe em outra, que serve como intermediária para as operações do objeto.
 
 - **Bridge**
 

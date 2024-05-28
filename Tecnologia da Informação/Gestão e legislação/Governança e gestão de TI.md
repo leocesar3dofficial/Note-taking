@@ -671,6 +671,7 @@ Em métodos ágeis, estimar o escopo de trabalho é crucial para planejar sprint
   - Gerenciamento de configuração de serviço.
   - Gerenciamento de liberação.
   - Gerenciamento de incidentes e problemas (processo).
+    - Diagnóstico da causa raiz de incidentes e a determinação de soluções.
   - Gerenciamento de nível de serviço.
   - Gerenciamento de capacidade e desempenho.
   - Gerenciamento de continuidade de serviço.

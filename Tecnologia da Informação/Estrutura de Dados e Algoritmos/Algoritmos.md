@@ -104,7 +104,10 @@
           - O mais simples, e um dos mais ineficientes, dos algoritmos de ordenação.
           - Utilizado apenas para fins didáticos.
           - Não é adequado para grandes conjuntos de dados.
+          - É estável, ou seja, não altera a ordem relativa dos elementos que possuem o mesmo valor de chave de ordenação.
+          - Percorre repetidamente a lista a ser ordenada, comparando o elemento corrente com o seguinte e, se necessário, trocando os seus valores.
           - O maior elemento (ou o menor, dependendo da direção da ordenação) "sobe" gradualmente até a posição correta, como uma bolha na superfície da água.
+          - A cada iteração, o maior elemento "flutua" para a última posição não ordenada.
         - **Etapas:**
           1. Atravessa da esquerda e compara os elementos adjacentes e o mais alto é colocado no lado direito.
           2. O maior elemento é movido primeiro para a extremidade mais à direita.
@@ -114,6 +117,12 @@
      2. **Selection Sort**
         - **Características:**
           - Simples e eficiente.
+          - Encontra o menor elemento e o coloca na primeira posição, depois o segundo menor e o coloca na segunda posição, e assim por diante.
+          - Divide a lista a ser ordenada em duas partes:
+            - Sublista ordenada de elementos.
+              - Vazia no início.
+              - É construída da esquerda para a direita (ordem crescente).
+            - Sublista referente aos elementos não ordenados.
         - **Etapas:**
           1. Seleciona repetidamente o menor (ou maior) elemento da parte não classificada.
           2. Troca o elemento para a parte classificada da lista.
@@ -123,6 +132,8 @@
      3. **Insertion Sort**
         - **Características:**
           - Funciona como classificar cartas em um baralho.
+          - É estável.
+          - Percorre o vetor da esquerda para a direita, deixando os elementos à esquerda ordenados.
         - **Etapas:**
           1. A matriz é virtualmente dividida em uma parte classificada e outra não classificada.
           2. Os valores da parte não classificada são selecionados e colocados na posição correta na parte classificada.

@@ -357,13 +357,13 @@ DELIMITER;
 
 #### Características
 
-- Executam stored procedures na ocorrência de um evento
-- Acionado sempre que determinada condição for satisfeita
-- Sempre vinculado a uma tabela
-- Não pode ser ignorado
-- Não são executados diretamente
-- Pode ser revertido pelo comando ROLLBACK
-- Mesmas vantagens e desvantagens das stored procedures
+- Executam stored procedures na ocorrência de um evento.
+- Acionado sempre que determinada condição for satisfeita.
+- Sempre vinculado a uma tabela.
+- Não pode ser ignorado.
+- Não são executados diretamente.
+- Pode ser revertido pelo comando ROLLBACK.
+- Mesmas vantagens e desvantagens das stored procedures.
 
 #### Padrão
 

@@ -912,45 +912,57 @@
     - Análise de Impacto de Privacidade (PIA, Privacy Impact Assessment).
         - Potenciais impactos de um processo, sistema de informação, programa, módulo de software ou dispositivo.
         - Relatório com medidas tomadas para o tratamento de riscos.
-        - Consulta às partes interessadas
+        - Consulta às partes interessadas.
         - NBR ISO 29134:2020.
 
 #### Princípios
 
 - Finalidade
-  - Propósitos legítimos, específicos e informados aos titulares
+  - Propósitos legítimos, específicos e informados aos titulares.
 - Adequação
-  - O tratamento dos dados deve ser compatível com a finalidade
+  - O tratamento dos dados deve ser compatível com a finalidade.
 - Necessidade
-  - Coletar apenas os dados necessários para atingir a finalidade
+  - Coletar apenas os dados necessários para atingir a finalidade.
 - Transparência
-  - Informações claras e acessíveis sobre o tratamento dos dados
-  - Necessidade de consentimento expresso
-  - Exceções
-    - Cumprimento de obrigações legais
-    - Proteção da vida
-    - Execução de contratos
+  - Informações claras e acessíveis sobre o tratamento dos dados.
+  - Necessidade de consentimento expresso.
+  - Exceções:
+    - Cumprimento de obrigações legais.
+    - Proteção da vida.
+    - Execução de contratos.
 - Segurança
-  - Proteger os dados pessoais contra acesso não autorizado, perda ou vazamento
+  - Proteger os dados pessoais contra acesso não autorizado, perda ou vazamento.
 - Prestação de contas
-  - Conformidade com a LGPD
-  - Adoção de medidas de segurança adequadas
+  - Conformidade com a LGPD.
+  - Adoção de medidas de segurança adequadas.
 
 #### Direitos dos cidadãos
 
-- Acesso aos dados
-- Correção de informações incorretas
-- Exclusão dos dados
-- Portabilidade para outros serviços
-- Revogação do consentimento
-- Obtenção de informações claras sobre o tratamento dos dados
+- Acesso aos dados.
+- Correção de informações incorretas.
+- Exclusão dos dados.
+- Portabilidade para outros serviços.
+- Revogação do consentimento.
+- Obtenção de informações claras sobre o tratamento dos dados.
 
 #### Sanções
 
-- Advertências
-- Multas de até 2% do faturamento
-- Limitação do tratamento de dados
-- Proibição das atividades relacionadas ao tratamento de dados
+- Advertências.
+- Multas de até 2% do faturamento.
+- Limitação do tratamento de dados.
+- Proibição das atividades relacionadas ao tratamento de dados.
+
+#### ANPD (Autoridade Nacional de Proteção de Dados)
+
+- Regulamentar, fiscalizar e fazer cumprir a LGPD no Brasil.
+- Fomentar uma cultura de proteção de dados pessoais.
+
+#### Agentes
+
+- De tratamento:
+  - Controlador: decide sobre o tratamento de dados pessoais.
+  - Operador: realiza o tratamento de dados pessoais.
+- Encarregado: mediador indicado pelos agentes de tratamento entre os titulares e a ANPD.
 
 ### ISO 27000, gestão da segurança da informação
 

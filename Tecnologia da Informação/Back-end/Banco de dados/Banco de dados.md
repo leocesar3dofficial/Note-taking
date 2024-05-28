@@ -65,6 +65,7 @@ O modelo de dados é criado a partir da visão geral do negócio. Define os obje
 - Qual gerenciador de Banco de Dados será utilizado.
 - Parâmetros de configuração.
 - Layout de armazenamento e o algoritmo de indexação.
+  - A indexação adequada pode acelerar as consultas.
 - Leva em consideração os detalhes de implementação, como desempenho e integridade dos dados.
 
 #### Modelos Entidade Relacionamento
@@ -238,6 +239,10 @@ O modelo de dados é criado a partir da visão geral do negócio. Define os obje
 
   - Envolve identificar as dependências funcionais entre os atributos de uma tabela.
   - Divide a tabela em várias tabelas menores, se necessário, para eliminar dependências indesejadas.
+    - Pode gerar entidades fracas
+      - Uma tabela que depende de outra tabela para sua existência e identificação.
+      - Possui chaves primárias compostas, contendo a chave primária da entidade forte da qual depende.
+      - A chave primária de uma entidade fraca é composta pela chave primária da entidade forte da qual ela depende.
   - Facilita a manutenção dos dados.
   - Possibilita um melhor desempenho nas operações de consulta e atualização.
   - Baseada em uma série de regras e formas normais.

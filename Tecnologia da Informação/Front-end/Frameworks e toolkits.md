@@ -184,6 +184,11 @@
 - Usada em sistemas legados de bancos, governos e grandes empresas.
 - Embora antiga, continua a ser crucial em muitos sistemas críticos pelo mundo.
 
+#### Divisões (DIVISION)
+
+1. DATA DIVISION
+  - PICTURE (ou PIC)
+
 ## Desenvolvimento Móvel (Mobile)
 
 ### Android (Kotlin)
