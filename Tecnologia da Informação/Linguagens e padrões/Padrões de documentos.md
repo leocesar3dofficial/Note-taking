@@ -5,6 +5,10 @@
 - Linguagem de marcação utilizada para estruturar e armazenar dados de forma legível, tanto para humanos quanto para máquinas.
 - Permite definir etiquetas (tags) personalizadas para descrever o conteúdo dos dados.
 - Facilita a troca de informações entre diferentes sistemas.
+- Tendo um documento:
+  - Pode ler.
+  - Pode verificar se o documento é bem formatado.
+  - Pode validá-lo somente se tiver acesso ao esquema.
 
 ## XSLT (Extensible Stylesheet Language Transformations)
 

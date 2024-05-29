@@ -89,20 +89,20 @@
 
 - Determinar se o software está pronto para ser entregue ao cliente ou usuário final.
 - Validar se o software atende aos critérios de aceitação acordados com o cliente ou partes interessadas.
-- Realizado pelo usuário final.
 
 #### Tipos
 
-1. Do Cliente
+1. Alfa
+  - Realizado internamente pela equipe de desenvolvimento, antes do lançamento do produto.
+    - O software não é lançado publicamente, sendo testado apenas por uma equipe interna.
+  - Identificar e corrigir problemas e bugs antes de disponibilizar o software para os usuários finais.
+  - Envolvem tanto testes de caixa-branca quanto de caixa-preta para verificar a funcionalidade do software.
 
-   - Os clientes ou usuários finais estão envolvidos para verificar se o software atende às suas expectativas e necessidades.
-   - Podem incluir testes de funcionalidade, usabilidade, desempenho e conformidade com os requisitos acordados.
-
-2. Aceitação do Sistema
-
-   - Conduzidos pela equipe de desenvolvimento ou de testes.
-   - Verificar se o sistema atende aos critérios de aceitação definidos.
-   - Podem incluir testes de integração, desempenho, segurança e conformidade com os padrões de qualidade.
+2. Beta
+  - Realizado após o teste alfa, com um grupo restrito de usuários finais.
+  - Coletar feedback dos usuários sobre o software e identificar problemas adicionais.
+  - Realizado sem a presença da equipe de desenvolvimento, em um ambiente que eles não controlam.
+  - Os usuários reportam os problemas encontrados durante o uso, e a equipe faz as correções necessárias antes do lançamento.
 
 ## Técnicas para Aplicação de Testes de Software
 
@@ -298,7 +298,7 @@ $$ \text{Pontos de Função (PF)} = \sum_{i=1}^{n} \text{Complexidade}\_i \times
   - Paramétrica: usa modelos matemáticos.
   - De Três Pontos: considera estimativas otimistas, pessimistas e prováveis / realistas.
 
-### 5. Análise de Story points
+### 5. Análise de Story points (Histórias do Usuário)
 
 - Compara a complexidade e o esforço de uma tarefa com outras já realizadas.
 - Estimativa relativa.

@@ -173,10 +173,13 @@
 - Plotly.py: Interactive Graph Library.
 - Streamlit: Web Dashboard.
 - SciPy
-  - Biblioteca open-source usada para computação científica e técnica.
-  - Fornece rotinas e algoritmos para tarefas:
-    - Álgebra linear, otimização, integração, interpolação, análise de Fourier, e estatísticas.
-  - Utilizada em ciência de dados, engenharia e outras áreas que requerem cálculos matemáticos complexos.
+  - Características:
+    - Biblioteca open-source usada para computação científica e técnica.
+    - Fornece rotinas e algoritmos para tarefas:
+      - Álgebra linear, otimização, integração, interpolação, análise de Fourier, e estatísticas.
+    - Utilizada em ciência de dados, engenharia e outras áreas que requerem cálculos matemáticos complexos.
+  - Regressão Linear
+    - stats.linregress(<variável independente>, <variável dependente>)
 - Scikit-Learn: Machine Learning.
   - Regressão Linear, treinar o modelo: `model = skl.LinearRegression().fit(x, y)`
 - PyTorch

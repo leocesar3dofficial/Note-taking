@@ -2,11 +2,31 @@
 
 ## Protocolo HTTP
 
+### Características
+
 - Hypertext Transfer Protocol.
 - O HTTP é o protocolo utilizado para comunicação entre clientes (geralmente navegadores) e servidores web.
 - Define como as informações são solicitadas e transmitidas na web.
 - Permite a transferência de recursos como páginas HTML, imagens e outros elementos da web.
 - É stateless: ou seja não guarda estado das conexões.
+
+### Códigos de status de uma request (status codes), respostas padrão:
+
+1. **1xx Informativo**:
+  - Informam o usuário sobre um processo em andamento, solicitando que ele aguarde uma resposta.
+  - Exemplos: `100 Continue`, `101 Switching Protocols`, e `102 Processing`.
+2. **2xx Sucesso**:
+  - A ação solicitada foi recebida, compreendida, aceita e processada com êxito.
+  - Exemplos: `200 OK`, `201 Created`, e `202 Accepted`.
+3. **3xx Redirecionamento**:
+  - Algo mais precisa ser feito ou precisou ser feito para completar a solicitação.
+  - Exemplos: `300 Multiple Choices`, `301 Moved Permanently`, e `302 Found`.
+4. **4xx Erro no Cliente**:
+  - A solicitação não pode ser concluída ou contém a sintaxe incorreta.
+  - Exemplos: `400 Bad Request`, `401 Unauthorized`, e `404 Not Found`.
+5. **5xx Erro no Servidor**:
+  - O servidor falhou ao concluir a solicitação.
+  - Exemplos: `500 Internal Server Error`, `502 Bad Gateway`, e `503 Service Unavailable`.
 
 ## SSL (Secure Sockets Layer)
 

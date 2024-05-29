@@ -211,3 +211,61 @@ while True:
     - Heap overflow: too much memory allocated in the heap section.
   - Stack: used by functions and local variables.
     - Stack overflow: too much memory allocated in the stack section.
+
+## Representação binária
+
+Para representar números inteiros em binário, existem diferentes métodos, sendo os mais comuns o sinal-magnitude e o complemento de dois. Vou explicar como representar o número -127 em ambos os métodos.
+
+### 1. Sinal-Magnitude
+
+No método de sinal-magnitude, o bit mais significativo (MSB) é usado para indicar o sinal do número (0 para positivo e 1 para negativo), e os bits restantes representam a magnitude do número.
+
+Para um número de 8 bits (1 byte):
+
+- Primeiro, convertemos o valor absoluto do número para binário.
+- Depois, definimos o bit de sinal (0 para positivo, 1 para negativo).
+
+**Exemplo: -127**
+
+1. Valor absoluto de 127 em binário (7 bits):
+   $
+   127_{10} = 01111111_{2}
+   $
+
+2. Adicionamos o bit de sinal (1 para negativo):
+   $
+   -127_{10} = 11111111_{2} \quad (\text{em sinal-magnitude})
+   $
+
+### 2. Complemento de Dois
+
+No método de complemento de dois, o número é representado de forma que a operação de adição/subtração possa ser realizada de maneira mais eficiente. Para números negativos, primeiro se encontra o complemento de um do número (inverte todos os bits) e, em seguida, se adiciona 1.
+
+**Exemplo: -127**
+
+1. Valor absoluto de 127 em binário (8 bits):
+   $
+   127_{10} = 01111111_{2}
+   $
+
+2. Encontramos o complemento de um (invertendo todos os bits):
+   $
+   \text{Complemento de um} = 10000000_{2}
+   $
+
+3. Adicionamos 1 ao complemento de um:
+   $
+   10000000_{2} + 1_{2} = 10000001_{2}
+   $
+
+Portanto, a representação de -127 em complemento de dois é:
+   $
+   -127_{10} = 10000001_{2} \quad (\text{em complemento de dois})
+   $
+
+Resumindo:
+
+- **Sinal-Magnitude:** -127 é representado como \(11111111_{2}\)
+- **Complemento de Dois:** -127 é representado como \(10000001_{2}\)
+
+Esses métodos são amplamente utilizados em computação para manipulação e armazenamento de números inteiros com sinal.

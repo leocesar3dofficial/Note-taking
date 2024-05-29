@@ -34,9 +34,14 @@ import numpy as np
 ## Linear Algebra
 
 - `np.matmul`, `dot`, `transpose`, `eigvals`
-  - Calculate the dot product: `np.dot(first array, second array)`
-  - Matrix multiplication: `np.matmul(first array, second array)` or `first array @ second array`
+  - Calculate the dot product (Produto escalar): `np.dot(first array, second array)`
+  - Matrix multiplication:
+    - Product:  `np.matmul(first array, second array)` or `first array @ second array`
+    - Multiply arguments element-wise: `np.multiply(usuarioX, usuarioY)`
+    - Product of array elements over a given axis: `np.prod(array, axis=1)`
   - Identity matrix: `np.eye(3)`  # Number of rows in the output
+  - Produto vetorial (vetores de dimensão 2 ou 3): `np.cross(vector1, vector2)`
+  - Diferença de vetores: `np.linalg.norm(array1 - array2)`
 
 ## Statistics
 

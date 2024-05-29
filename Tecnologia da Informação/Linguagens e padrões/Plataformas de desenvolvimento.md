@@ -55,6 +55,16 @@
   - Código aberto mantido pela Apache Software Foundation.
   - Implementa as especificações do Java Servlet e JavaServer Pages (JSP)
   - Utilizado para hospedar aplicativos web em pequena e média escala.
+    - Exemplo de código servlet:
+
+      ```java
+      protected void doGet(HttpServletRequest request,
+      HttpServletResponse response)
+      throws ServletException, IOException {
+        // Lógica de tratamento da requisição
+        int idade = Integer.parseInt(request.getParameter("idade"));
+      }
+      ```
 
 - **Node.js**
 
