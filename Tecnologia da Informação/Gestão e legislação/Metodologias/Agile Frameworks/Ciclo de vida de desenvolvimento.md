@@ -113,8 +113,8 @@
 **Como funciona:**
 - **Participantes**: Inclui toda a equipe de desenvolvimento, Product Owner e Scrum Master.
 - **Objetivo**: 
-  - **Parte 1**: O Product Owner apresenta as prioridades do backlog e explica o que precisa ser feito.
-  - **Parte 2**: A equipe discute e define as tarefas que podem ser concluídas durante a sprint, criando o sprint backlog.
+  - O Product Owner apresenta as prioridades do backlog e explica o que precisa ser feito.
+  - A equipe discute e define as tarefas que podem ser concluídas durante a sprint, criando o sprint backlog.
 - **Resultado**: Um sprint backlog com histórias de usuário e tarefas detalhadas.
 
 ### Review (Sprint Review)

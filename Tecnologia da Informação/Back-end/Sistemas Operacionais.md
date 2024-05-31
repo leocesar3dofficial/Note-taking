@@ -324,7 +324,8 @@
     - **Sinais (Signals):** notificar um processo sobre eventos.
     - **Filas de Mensagens (Message Queues):** Os processos trocam mensagens de forma assíncrona.
     - **Barreiras (Barriers):** Pontos de sincronização de processos.
-- Algoritmos de escalonamento.
+- Algoritmos ou políticas de escalonamento.
+  - Critérios para determinar a ordem de execução dos processos, dentre os que concorrem pela utilização do processador
   - Critérios de comparação:
     - Turnaround: Afere o tempo total, desde a submissão do processo até a sua conclusão.
 

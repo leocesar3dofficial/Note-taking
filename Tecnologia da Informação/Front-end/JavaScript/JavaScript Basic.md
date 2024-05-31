@@ -135,7 +135,6 @@
 
 ## Functions
 
-- **Functional Programming**: All about creating and using non-mutating functions
 - **Basics**
   ```javascript
   function functionName(arg1, arg2, ...args) {
@@ -360,7 +359,15 @@
       - Integer between 2 and 36
       - `parseInt("11", 2);` (base 2 or binary system)
 
-- **Functional Programming**
+- **Functional Programming ou Programação Funcional**
+
+  - Use of pure functions: always produce the same output for the same input.
+  - Non-mutating functions:
+    - Don't change or mutate the state of variables or data structures in-place.
+    - Create new values or data structures when transformations are needed.
+    - Principle of immutability:
+      - Promotes safer and more predictable code.
+      - Avoids unintended side effects.
 
   - **Currying a Function**
 

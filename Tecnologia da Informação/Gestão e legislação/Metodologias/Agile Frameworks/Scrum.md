@@ -116,11 +116,11 @@
 
 1. **Sprint Planning**
 
-   - Características
-     - Developers select items in the Product Backlog
-     - Timebox: maximum of eight hours for a one-month Sprint
-   - Objetivos
-     - Define the Product Goal
+   - Características:
+     - Developers select items in the Product Backlog.
+     - Timebox: maximum of eight hours for a one-month Sprint.
+   - Objetivos:
+     - Define the Product Goal.
 
 2. **Daily scrums/meetings**
 

@@ -166,6 +166,9 @@
 
 - Linguagem e ambiente de software livre para computação estatística e gráficos.
 - Usada em estatística, bioinformática, e ciência de dados para análise de dados e visualização.
+- Características:
+  - Multiparadigma: orientada a objetos e programação funcional.
+  - Fracamente tipada.
 - Possui uma vasta gama de pacotes para:
   - Análises estatísticas básicas.
   - Modelos complexos de aprendizado de máquina.

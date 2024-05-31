@@ -160,6 +160,10 @@
   - Triângulo de Sábato: relação igualitária entre empresa, universidade e empresa
   - Sistema Nacional de Inovação: ênfase recai sobre a empresa
   - Tríplice hélice: a liderança é exercida pela universidade
+- Universidade corporativa
+  - Objetivo de aumentar o desempenho no trabalho, ao invés do aumento de qualificações profissionais
+  - Evolução do treinamento organizacional.
+  - "Universidade" como metáfora de aprendizado, ao invés de "Vá para o treinamento".
 
 ## Gestão da propriedade intelectual
 
