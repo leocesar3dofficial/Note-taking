@@ -103,11 +103,19 @@
 
 - **Memento**
 
-  - Fornece a capacidade de restaurar um objeto para seu estado anterior (desfazer).
+  - Fornece a capacidade de restaurar um objeto para seu estado anterior (desfazer/undo).
 
 - **Observer**
 
-  - É um padrão de publicação/assinatura, permitindo que vários objetos observadores vejam um evento.
+  - Características:
+    - É um padrão de publicação/assinatura, permite que vários objetos observadores vejam um evento e reajam de acordo.
+    - **Decoupling**: Observers are loosely coupled with the subject. They do not need to know about each other, only about the subject.
+    - **Dynamic Subscription**: Observers can be added or removed at runtime, providing flexibility.
+    - **Notification**: When the subject changes state (e.g., an event is dispatched or emitted), all registered observers are notified and can react accordingly.
+  - Elementos:
+    - **Subject**: The Object instance, which maintains a list of listeners (observers) and sends notifications.
+    - **Observers**: Functions that are registered to listen for specific events.
+    - **Notification Mechanism**: The emission method, which triggers an event and notifies all registered listeners.
 
 - **State**
 

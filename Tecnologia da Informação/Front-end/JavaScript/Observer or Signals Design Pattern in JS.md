@@ -2,7 +2,7 @@
 
 ## Front-End (Browser)
 
-1. **Register the Event**:
+1. **Register the Event**
 
    - This involves using `addEventListener` to set up an event listener on the document or a specific element.
    - The document or element is subscribing to that event.
