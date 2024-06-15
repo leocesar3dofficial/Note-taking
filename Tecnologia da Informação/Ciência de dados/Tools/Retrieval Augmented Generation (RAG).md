@@ -84,6 +84,26 @@ const results = await collection.query({
 console.log(results);
 ```
 
+## Ollama
+
+### Install server
+
+```bash
+curl -fsSL https://ollama.com/install.sh | sh
+```
+
+### Chat in terminal
+
+```bash
+ollama run <name of the model>
+```
+
+### Install Node library in project
+
+```bash
+npm install ollama
+```
+
 ## Utility functions
 
 ### Text chunking
@@ -134,24 +154,4 @@ export function chunkTextBySentences(sourceText, sentencesPerChunk, overlap) {
 
   return chunks;
 }
-```
-
-## Ollama
-
-### Install server
-
-```bash
-curl -fsSL https://ollama.com/install.sh | sh
-```
-
-### Chat in terminal
-
-```bash
-ollama run <name of the model>
-```
-
-### Install Node library
-
-```bash
-npm install ollama
 ```
