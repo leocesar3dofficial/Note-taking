@@ -16,9 +16,8 @@ npm install langchain
 # Python
 pip install chromadb
 
-# Javascript
+# Javascript library
 npm install --save chromadb chromadb-default-embed
-
 ```
 
 ### 2. Run server
@@ -60,29 +59,29 @@ curl -X DELETE "http://localhost:8000/api/v1/collections/my_collection"
 ### 6 Create a Chroma client in Javascript
 
 ```javascript
-import { ChromaClient } from 'chromadb'
+import { ChromaClient } from 'chromadb';
 const client = new ChromaClient();
 
 // switch `createCollection` to `getOrCreateCollection` to avoid creating a new collection every time
 const collection = await client.getOrCreateCollection({
-    name: "my_collection",
+  name: 'my_collection',
 });
 
 // switch `add` to `upsert` to avoid adding the same documents every time
 await collection.upsert({
-    documents: [
-        "This is a document about pineapple",
-        "This is a document about oranges"
-    ],
-    ids: ["id1", "id2"],
+  documents: [
+    'This is a document about pineapple',
+    'This is a document about oranges',
+  ],
+  ids: ['id1', 'id2'],
 });
 
 const results = await collection.query({
-    queryTexts: ["This is a query document about florida"], // Chroma will embed this for you
-    nResults: 2, // how many results to return
+  queryTexts: ['This is a query document about florida'], // Chroma will embed this for you
+  nResults: 2, // how many results to return
 });
 
-console.log(results)
+console.log(results);
 ```
 
 ## Utility functions
@@ -94,21 +93,23 @@ npm install @stdlib/nlp-sentencize
 ```
 
 ```javascript
-import sentencize from "@stdlib/nlp-sentencize";
+import sentencize from '@stdlib/nlp-sentencize';
 
 export function chunkTextBySentences(sourceText, sentencesPerChunk, overlap) {
   if (sentencesPerChunk < 2) {
-    throw new Error("The number of sentences per chunk must be 2 or more.");
+    throw new Error('The number of sentences per chunk must be 2 or more.');
   }
-  
+
   if (overlap < 0 || overlap >= sentencesPerChunk - 1) {
-    throw new Error("Overlap must be 0 or more and less than the number of sentences per chunk.");
+    throw new Error(
+      'Overlap must be 0 or more and less than the number of sentences per chunk.'
+    );
   }
 
   const sentences = sentencize(sourceText);
 
   if (!sentences) {
-    console.log("Nothing to chunk");
+    console.log('Nothing to chunk');
     return [];
   }
 
@@ -133,4 +134,24 @@ export function chunkTextBySentences(sourceText, sentencesPerChunk, overlap) {
 
   return chunks;
 }
+```
+
+## Ollama
+
+### Install server
+
+```bash
+curl -fsSL https://ollama.com/install.sh | sh
+```
+
+### Chat in terminal
+
+```bash
+ollama run <name of the model>
+```
+
+### Install Node library
+
+```bash
+npm install ollama
 ```
