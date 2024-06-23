@@ -110,6 +110,7 @@ sudo apt install ./google-chrome-stable_current_amd64.deb
 - **Word Count:** `wc [filename]` (outputs: lines words characters)
 - **Project total line count:** `find . -name "*.js" -type f -exec cat {} + | wc -l`
 - **Print Some Text:** `echo [text to print]`
+- **Create TAR file:** `tar -cvf myFile.tar folder1 file2`
 
 ## Hardware
 
