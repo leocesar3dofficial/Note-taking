@@ -104,7 +104,8 @@ ollama list
 # Start prompting the model
 ollama run <name of the model>
 
-# Stop ollama service
+# Start or stop ollama service
+systemctl start ollama
 systemctl stop ollama
 
 # List options
