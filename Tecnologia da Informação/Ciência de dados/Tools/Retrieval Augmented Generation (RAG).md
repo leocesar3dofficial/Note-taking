@@ -92,10 +92,23 @@ console.log(results);
 curl -fsSL https://ollama.com/install.sh | sh
 ```
 
-### Chat in terminal
+### Basic CLI usage
 
 ```bash
+# Download a model from Ollama project
+ollama pull <name of the model>
+
+# List the available models
+ollama list
+
+# Start prompting the model
 ollama run <name of the model>
+
+# Stop ollama service
+systemctl stop ollama
+
+# List options
+ollama help
 ```
 
 ### Install Node library in project
