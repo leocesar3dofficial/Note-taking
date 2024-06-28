@@ -68,12 +68,12 @@ cvs -d <caminho do diretório> init
 
 ### Puppet
 
-- Ferramenta de automação de código aberto
-- Permite a automação e o gerenciamento de configurações de sistemas e servidores
-- Utiliza uma linguagem declarativa para descrever como um sistema deve ser configurado
-- Garante que os estados dos sistemas correspondam à definição declarada
-- Usado para automatizar tarefas de configuração
-- Garante a consistência e facilita a administração de sistemas em larga escala
+- Ferramenta de automação de código aberto.
+- Permite a automação e o gerenciamento de configurações de sistemas e servidores.
+- Utiliza uma linguagem declarativa para descrever como um sistema deve ser configurado.
+- Garante que os estados dos sistemas correspondam à definição declarada.
+- Usado para automatizar tarefas de configuração.
+- Garante a consistência e facilita a administração de sistemas em larga escala.
 
 ### Ansible
 
@@ -90,83 +90,83 @@ cvs -d <caminho do diretório> init
 
 ### ShellScript
 
-- É uma linguagem de script que é executada no ambiente de linha de comando de um sistema operacional Unix-like, como Linux ou macOS
-- Usado para automatizar tarefas e interagir com o sistema operacional
-  - Automatizar backup de arquivos, limpeza de logs ou geração de relatórios
-  - Criar scripts de instalação e configuração de aplicativos
-  - Monitorar e relatar métricas de sistema
-  - Realizar operações de gerenciamento de arquivos e diretórios
-  - Administração do sistema, como adicionar/remover usuários ou atualizar permissões
-- Permite que você crie scripts para executar uma variedade de ações, desde tarefas simples até complexas
-- Ferramenta para administradores de sistemas e desenvolvedores que desejam automatizar tarefas repetitivas
+- É uma linguagem de script que é executada no ambiente de linha de comando de um sistema operacional Unix-like, como Linux ou macOS.
+- Usado para automatizar tarefas e interagir com o sistema operacional.
+  - Automatizar backup de arquivos, limpeza de logs ou geração de relatórios.
+  - Criar scripts de instalação e configuração de aplicativos.
+  - Monitorar e relatar métricas de sistema.
+  - Realizar operações de gerenciamento de arquivos e diretórios.
+  - Administração do sistema, como adicionar/remover usuários ou atualizar permissões.
+- Permite que você crie scripts para executar uma variedade de ações, desde tarefas simples até complexas.
+- Ferramenta para administradores de sistemas e desenvolvedores que desejam automatizar tarefas repetitivas.
 
 ## Jira (gestão de projetos)
 
-- Desenvolvido pela Atlassian
-- Objetivos: planejar, rastrear e gerenciar projetos
-    - Linha de base (baseline): comparar o andamento do projeto com a previsão original
-- Funcionalidades
-  - Acompanhamento de tarefas e problemas
-    - Criar tarefas, problemas ou histórias de usuário
-      - Cada item pode ser atribuído a um membro da equipe
-      - Com uma prioridade e um prazo
-  - Fluxos de trabalho personalizáveis
-    - Definir os estados de um problema ou tarefa
-      - Para Fazer
-      - Em Progresso
-      - Concluído
-  - Gerenciamento de backlog
-  - Quadros de tarefas
-    - [Kanban](</Tecnologia da Informação/Gestão e legislação/Metodologias/Agile Frameworks/Kanban.md>)
-      - Visões de cartões
-      - Mover as tarefas entre as colunas para indicar o progresso
-    - [Scrum](</Tecnologia da Informação/Gestão e legislação/Metodologias/Agile Frameworks/Scrum.md>)
-      - Planejar sprints, definir histórias e controlar o progresso do sprint
-  - Atribuição de recursos
-    - Atribuir membros da equipe a tarefas específicas
-  - Relatórios e métricas
-    - Acompanhar o progresso
-    - Identificar problemas recorrentes
-    - Analisar o tempo gasto em diferentes tarefas
-  - Integrações e extensões
-    - Confluence (para documentação colaborativa)
-    - Bitbucket (para controle de versão)
-    - Gliffy, Desk.com, Team Calendars, entre outros
-    - Ampla gama de extensões e plugins
+- Desenvolvido pela Atlassian.
+- Objetivos: planejar, rastrear e gerenciar projetos.
+    - Linha de base (baseline): comparar o andamento do projeto com a previsão original.
+- Funcionalidades:
+  - Acompanhamento de tarefas e problemas.
+    - Criar tarefas, problemas ou histórias de usuário.
+      - Cada item pode ser atribuído a um membro da equipe.
+      - Com uma prioridade e um prazo.
+  - Fluxos de trabalho personalizáveis.
+    - Definir os estados de um problema ou tarefa.
+      - Para Fazer.
+      - Em Progresso.
+      - Concluído.
+  - Gerenciamento de backlog.
+  - Quadros de tarefas:
+    - [Kanban](</Tecnologia da Informação/Gestão e legislação/Metodologias/Agile Frameworks/Kanban.md>).
+      - Visões de cartões.
+      - Mover as tarefas entre as colunas para indicar o progresso.
+    - [Scrum](</Tecnologia da Informação/Gestão e legislação/Metodologias/Agile Frameworks/Scrum.md>).
+      - Planejar sprints, definir histórias e controlar o progresso do sprint.
+  - Atribuição de recursos.
+    - Atribuir membros da equipe a tarefas específicas.
+  - Relatórios e métricas.
+    - Acompanhar o progresso.
+    - Identificar problemas recorrentes.
+    - Analisar o tempo gasto em diferentes tarefas.
+  - Integrações e extensões.
+    - Confluence (para documentação colaborativa).
+    - Bitbucket (para controle de versão).
+    - Gliffy, Desk.com, Team Calendars, entre outros.
+    - Ampla gama de extensões e plugins.
 
 ## Análise estática de código fonte
 
 ### Ferramenta SonarQube
 
-- Características
-  - Código aberto
-  - Desenvolvida pela SonarSource
-  - Análise estática de código
-    - Analisar o código-fonte de um projeto
-    - Fornecer métricas e insights sobre a qualidade do código
-    - Monitoramento e melhoria contínua da qualidade do código
-    - Identificar problemas
-      - De qualidade
-      - Vulnerabilidades de segurança
-      - Violações de melhores práticas de programação
-    - Verificações automáticas que detectam problemas comuns
-      - Bugs, vulnerabilidades, duplicações de código
-      - Complexidade excessiva, falta de cobertura de testes
-      - Violações de convenções de codificação
-- Funcionalidades
-  - Detecção de problemas de qualidade
-    - Informações específicas sobre cada problema
-      - Gravidade, localização no código e sugestões de correção
-  - Métricas e estatísticas
-    - Cobertura de código, complexidade, acoplamento entre componentes
-    - Conformidade com padrões de codificação
-    - Histórico de qualidade
-  - Integração contínua
-    - Integrado em pipelines de integração contínua, como o Jenkins
-    - A análise de código seja executada automaticamente após cada alteração
-  - Suporte as principais linguagens de programação
-    - Java, C/C++, C#, Python, JavaScript, TypeScript, PHP e outras
-  - Customização e extensibilidade
-    - Personalizar as regras de análise de código
-    - Plugins e integrações com outras ferramentas de desenvolvimento
-  - Interface de usuário intuitiva
+- Características:
+  - Código aberto.
+  - Desenvolvida pela SonarSource.
+  - Análise estática de código.
+    - Analisar o código-fonte de um projeto.
+    - Fornecer métricas e insights sobre a qualidade do código.
+    - Monitoramento e melhoria contínua da qualidade do código.
+    - Identificar problemas:
+      - De qualidade.
+      - Vulnerabilidades de segurança.
+      - Violações de melhores práticas de programação.
+    - Verificações automáticas que detectam problemas comuns:
+      - Bugs, vulnerabilidades, duplicações de código.
+      - Complexidade excessiva, falta de cobertura de testes.
+      - Violações de convenções de codificação.
+- Funcionalidades:
+  - Detecção de problemas de qualidade.
+    - Informações específicas sobre cada problema.
+      - Gravidade, localização no código e sugestões de correção.
+  - Métricas e estatísticas.
+    - Cobertura de código, complexidade, acoplamento entre componentes.
+    - Conformidade com padrões de codificação.
+    - Histórico de qualidade.
+  - Integração contínua.
+    - Integrado em pipelines de integração contínua, como o Jenkins.
+    - A análise de código é executada automaticamente após cada alteração.
+  - Suporte as principais linguagens de programação.
+    - Java, C/C++, C#, Python, JavaScript, TypeScript, PHP e outras.
+  - Customização e extensibilidade.
+    - Personalizar as regras de análise de código.
+    - Plugins e integrações com outras ferramentas de desenvolvimento.
+  - Interface de usuário intuitiva.
