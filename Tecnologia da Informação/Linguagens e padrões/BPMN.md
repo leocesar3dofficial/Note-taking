@@ -12,29 +12,28 @@
 - Usar os padrões BPMN (standards).
 - Simplificar diagramas.
 
-## Elementos
+## Elementos do Business Process Diagram (BPD)
 
-### Eventos
+### Objetos de fluxo
 
+#### Eventos
+
+- Representados por círculos.
 - Início (Start).
 - Intermediário (Intermediate).
 - Fim (End).
 
-### Atividades
+#### Atividades
 
+- Representados por retângulos com cantos arredondados.
 - Tarefa.
 - Sub processo (Quadrado simples com +).
 - Transação.
 - Chamar atividade.
 
-### Conexões
+#### Gateways
 
-- Fluxo de sequência (\_\_\_➤).
-- Fluxo de mensagem (◇.....➢).
-- Associação (.....).
-
-### Gateways
-
+- Representados por diamantes.
 - Exclusive (Exclusivo, X)
   - Representa uma decisão onde apenas uma das saídas é escolhida, com base em uma condição.
   - Apenas uma das sequências de saída será seguida, dependendo da avaliação da condição associada.
@@ -53,6 +52,23 @@
   - Círculo duplo com pentágono: apenas Event-Based.
   - Círculo simples com pentágono: Event-Based exclusivo.
   - Círculo simples com +: Event-Based paralelo.
+
+### Objetos de Conexão
+
+- Fluxo de sequência (\_\_\_➤).
+- Fluxo de mensagem (◇.....➢).
+- Associação (.....).
+
+### Swimlanes
+
+- Pools: Represent different organizations or business entities involved in a process.
+- Lanes: Subdivide pools to show different roles or departments within an organization.
+
+### Artifacts
+
+- Data Objects: Represent information required or produced by activities.
+- Groups: Visually group related activities without affecting the flow.
+- Annotations: Provide additional textual explanations.
 
 ## ARIS-EPC (Event-driven Process Chain)
 
