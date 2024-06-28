@@ -86,7 +86,7 @@ console.log(results);
 
 ## Ollama
 
-### Install server
+### Install or update server
 
 ```bash
 curl -fsSL https://ollama.com/install.sh | sh

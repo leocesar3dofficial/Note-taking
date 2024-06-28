@@ -75,27 +75,41 @@ git add .  # all files in the current directory
 git commit -m "[descriptive message]"
 ```
 
+- Divergent branches and need to reconcile them:
+
+```bash
+# merge
+git config pull.rebase false
+
+# rebase
+git config pull.rebase true
+
+# fast-forward only
+git config pull.ff only
+
+```
+
 - Change commit history (danger of data loss as it overwrites history):
 
-  ```bash
-  git commit --amend  # replaces the last commit with current changes
-  git rebase --continue
-  ```
+```bash
+git commit --amend  # replaces the last commit with current changes
+git rebase --continue
+```
 
 - Squash commits:
 
-  ```bash
-  git rebase -i HEAD~2  # allow to edit the last two commits
-  git rebase -i --root  # all the way back to the root commit
-  ```
+```bash
+git rebase -i HEAD~2  # allow to edit the last two commits
+git rebase -i --root  # all the way back to the root commit
+```
 
-  Git opens a text file (danger of data loss as it overwrites history), change "pick" to "squash."
+Git opens a text file (danger of data loss as it overwrites history), change "pick" to "squash."
 
 - Split commits:
 
-  ```bash
-  git reset HEAD^
-  ```
+```bash
+git reset HEAD^
+```
 
 ### Logging
 
@@ -194,10 +208,10 @@ git config --global user.email "yourname@example.com"
 - Create the file: `.gitignore`
 - Example ignored content:
 
-  ```
-  package.json
-  node_modules/
-  ```
+```
+package.json
+node_modules/
+```
 
 ### Colorful Output
 
@@ -260,10 +274,7 @@ ping github.com
 
 ```bash
 curl https://github.com
-```
 
-or
-
-```bash
+# or
 wget https://github.com
 ```
