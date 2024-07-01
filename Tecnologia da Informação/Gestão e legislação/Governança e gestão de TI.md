@@ -103,11 +103,12 @@ Project Management Body of Knowledge.
 ### Grupos de Processos
 
 - Iniciação.
+- Planejamento.
+  - Definição do escopo e objetivos.
+- Execução.
+  - Entregas em conformidade com os requisitos.
 - Monitoramento e Controle (Processo de fundo).
   - Executado durante praticamente todo o tempo do projeto.
-  - Sub processos.
-    - Planejamento.
-    - Execução.
 - Encerramento.
 
 ### Domínios de desempenho
@@ -118,9 +119,10 @@ Project Management Body of Knowledge.
   - Desenvolvimento e Ciclo de Vida.
   - Planejamento.
   - Trabalho do projeto.
-  - Entrega.
+  - Entrega (geração de valor).
   - Avaliação.
   - Incerteza.
+    - Identificação dos riscos e oportunidades.
     - Diminui o risco e aumenta o custo de mudanças ao longo do projeto.
 - São executados simultaneamente ao longo do projeto.
 
@@ -139,7 +141,6 @@ Project Management Body of Knowledge.
 - O desempenho do projeto é comparado ao seu plano de gerenciamento, para determinar se ele deve ser alterado, encerrado ou continuado, conforme planejado.
 
 - **Modelos:**
-
   - Preditivo (cascata ou waterfall).
   - Iterativo.
   - Incremental.
@@ -154,13 +155,13 @@ Project Management Body of Knowledge.
 
 ### Técnicas
 
-- Análise de Stakeholders
+- Análise de Stakeholders.
   - Identificação, análise e engajamento.
   - Necessidades, expectativas e impactos.
-- Gerenciamento de Valor
+- Gerenciamento de Valor.
   - Considera todos os aspectos para entrega de valor.
   - **Percepção de valor:** foco das entregas para os resultados pretendidos.
-- Design Thinking
+- Design Thinking.
   - Características.
     - Inovação e resolução de problemas.
     - Estimula a criatividade e o pensamento colaborativo.
@@ -443,7 +444,7 @@ Project Management Body of Knowledge.
 - É uma norma internacional que fornece diretrizes gerais e boas práticas.
   - para o estabelecimento, implementação, manutenção e melhoria de um sistema de gestão de segurança da informação.
 - Não define controles de segurança específicos.
-- Fornece uma estrutura / framework para organizações adaptarem as práticas de segurança à sua realidade.
+- Fornece uma estrutura/framework para organizações adaptarem as práticas de segurança à sua realidade.
 - A norma aborda:
   - Políticas de segurança.
   - Gestão de ativos.
@@ -604,6 +605,7 @@ Em métodos ágeis, estimar o escopo de trabalho é crucial para planejar sprint
 ### Características
 
 - Conjunto de boas práticas (framework) e orientações para a gestão de serviços de TI.
+- Tem por objetivo alinhar os serviços de TI com as necessidades e objetivos do negócio.
 - Planejamento de processos, papéis e atividades.
 - Conformidade com a norma ISO/IEC 20000 (gestão de TI).
 - Integração com abordagens ágeis, DevOps, [Lean](Metodologias/Agile%20Frameworks/Lean.md), [COBIT](</Tecnologia da Informação/Gestão e legislação/Metodologias/Framework COBIT 2019.md>).
@@ -617,13 +619,12 @@ Em métodos ágeis, estimar o escopo de trabalho é crucial para planejar sprint
 - Pensamento orientado a serviços.
 
 - **Princípios-chave**
-
   - Foco na entraga de valor do serviço.
   - Começar onde você está.
     - Aproveitar os ativos existentes e lidar com as circunstâncias atuais.
   - Progresso iterativo.
     - Feedback dos stakeholders e melhoria contínua.
-  - Colaboração e visibilidade / transparência.
+  - Colaboração e visibilidade/transparência.
   - Pensamento holístico.
   - Simplicidade e praticidade.
   - Melhoria contínua.
@@ -640,7 +641,7 @@ Em métodos ágeis, estimar o escopo de trabalho é crucial para planejar sprint
 - Sistema de Valor de Serviço (Service Value System).
   - Fluxo de valor flexível.
 
-#### Práticas (gerenciamento)
+#### Práticas de gerenciamento (34 no total)
 
 - **Gerais**
 
@@ -684,7 +685,7 @@ Em métodos ágeis, estimar o escopo de trabalho é crucial para planejar sprint
 
   - Gerenciamento de infraestrutura e plataforma.
   - Desenvolvimento e gerenciamento de software.
-  - Gerenciamento de implantação.
+  - Gerenciamento de implantação (deployment).
 
 ## Contratações de TI (legislação)
 

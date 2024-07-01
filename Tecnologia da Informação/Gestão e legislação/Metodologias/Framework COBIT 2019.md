@@ -13,158 +13,50 @@
 
 ## Domínios
 
-### 1. Alinhar, Planejar e Organizar
+### 1. Alinhar, Planejar e Organizar (APO)
 
-- APO1 Definir um Plano Estratégico de TI
-  - 1 Responder aos requerimentos de negócios de maneira alinhada com a estratégia de negócios.
-  - 2 Responder aos requerimentos de governança em linha com a Alta Direção.
-- APO2 Definir a Arquitetura de Informação
-  - 1 Responder aos requerimentos de negócios de maneira alinhada com a estratégia de negócios.
-  - 4 Otimizar o uso da informação.
-  - 5 Criar agilidade para TI.
-  - 11 Assegurar a integração dos aplicativos com os processos de negócios.
-- APO3 Determinar o Direcionamento Tecnológico
-  - 7 Adquirir e manter sistemas aplicativos integrados e padronizados.
-  - 15 Otimizar a infraestrutura, recursos e capacidades de TI.
-- APO4 Definir os Processos, Organização e Relacionamentos de TI
-  - 1 Responder aos requerimentos de negócios de maneira alinhada com a estratégia de negócios.
-  - 2 Responder aos requerimentos de governança em linha com a Alta Direção.
-  - 5 Criar agilidade para TI.
-- APO5 Gerenciar o Investimento em TI
-  - 12 Assegurar a transparência e o entendimento dos custos, benefícios, estratégia, políticas e níveis de serviços de TI.
-  - 24 Aprimorar a eficiência dos custos de TI e sua contribuição para a lucratividade dos negócios.
-  - 28 Assegurar que a TI ofereça serviços de qualidade com custo eficiente, com contínuo aprimoramento e preparação para mudanças futuras.
-- APO6 Comunicar as Diretrizes e Expectativas da Diretoria
-  - 12 Assegurar a transparência e o entendimento dos custos, benefícios, estratégia, políticas e níveis de serviços de TI.
-  - 13 Assegurar apropriado uso e a performance das soluções de aplicativos e de tecnologia.
-  - 19 Assegurar que informações confidenciais e críticas são protegidas daqueles que não deveriam ter acesso às mesmas.
-  - 20 Assegurar que transações automatizadas de negócios e trocas de informações podem ser confiáveis.
-  - 21 Assegurar que os serviços e infraestrutura de TI podem resistir e recuperar-se de falhas devido a erros, ataques deliberados ou desastres.
-  - 22 Assegurar o mínimo impacto para os negócios no caso de uma parada ou mudança nos serviços de TI.
-- APO7 Gerenciar os Recursos Humanos de TI
-  - 5 Criar agilidade para TI.
-  - 9 Adquirir e manter habilidades de TI que atendam as estratégias de TI.
-- APO8 Gerenciar a Qualidade
-  - 3 Assegurar a satisfação dos usuários.
-  - 16 Reduzir os defeitos e retrabalhos na entrega de serviços e soluções.
-  - 25 Entregar projetos no tempo certo dentro do orçamento e com os padrões de qualidade esperados.
-- APO9 Avaliar e Gerenciar os Riscos de TI
-  - 4 Responsabilizar e proteger todos os ativos de TI.
-  - 17 Proteger os resultados alcançados pelos objetivos de TI.
-  - 18 Estabelecer claramente os impactos para os negócios resultantes de riscos de objetivos e recursos de TI.
-- APO10 Gerenciar Projetos
-  - 1 Responder aos requerimentos de negócios de maneira alinhada com a estratégia de negócios.
-  - 2 Responder aos requerimentos de governança em linha com a Alta Direção.
-  - 25 Entregar projetos no tempo certo dentro do orçamento e com os padrões de qualidade esperados.
+- APO01 Gerenciar o Framework de TI.
+- APO02 Gerenciar a Estratégia.
+- APO03 Gerenciar a Arquitetura de Negócio.
+- APO04 Gerenciar a Inovação.
+- APO05 Gerenciar o Portifólio.
+- APO06 Gerenciar o Orçamento e Custos.
+- APO07 Gerenciar os Recursos Humanos.
+- APO08 Gerenciar os Relacionamentos.
+- APO09 Gerenciar os Contratos de Serviço.
+- APO10 Gerenciar os Fornecedores.
+- APO11 Gerenciar a Qualidade.
+- APO12 Gerenciar os Riscos.
+- APO13 Gerenciar a Segurança.
+- APO14 Gerenciar os Dados.
 
-### 2. Construir, Adquirir e Implementar
+### 2. Construir, Adquirir e Implementar (BAI)
 
-- CAI1 Identificar Soluções
-  - 1 Responder aos requerimentos de negócios de maneira alinhada com a estratégia de negócios.
-  - 6 Definir como funções de negócios e requerimentos de controles são convertidos em soluções automatizadas efetivas e eficientes.
-- CAI2 Adquirir e Manter Software Aplicativo
-  - 6 Definir como funções de negócios e requerimentos de controles são convertidos em soluções automatizadas efetivas e eficientes.
-  - 7 Adquirir e manter sistemas aplicativos integrados e padronizados.
-- CAI3 Adquirir e Manter Infraestrutura de Tecnologia
-  - 5 Criar agilidade para TI.
-  - 7 Adquirir e manter sistemas aplicativos integrados e padronizados.
-  - 15 Otimizar a infraestrutura, recursos e capacidades de TI.
-- CAI4 Habilitar Operação e Uso
-  - 3 Assegurar a satisfação dos usuários.
-  - 11 Assegurar a integração dos aplicativos com os processos de negócios.
-  - 13 Assegurar apropriado uso e a performance das soluções de aplicativos e de tecnologia.
-  - 16 Reduzir os defeitos e retrabalhos na entrega de serviços e soluções.
-- CAI5 Adquirir Recursos de TI
-  - 7 Adquirir e manter sistemas aplicativos integrados e padronizados.
-  - 8 Adquirir e manter uma infraestrutura de TI integrada e padronizada.
-  - 9 Adquirir e manter habilidades de TI que atendam as estratégias de TI.
-- CAI6 Gerenciar Mudanças
-  - 1 Responder aos requerimentos de negócios de maneira alinhada com a estratégia de negócios.
-  - 6 Definir como funções de negócios e requerimentos de controles são convertidos em soluções automatizadas efetivas e eficientes.
-  - 16 Reduzir os defeitos e retrabalhos na entrega de serviços e soluções.
-  - 22 Assegurar o mínimo impacto para os negócios no caso de uma parada ou mudança nos serviços de TI.
-  - 26 Manter a integridade da informação e da infraestrutura de processamento.
-- CAI7 Instalar e Homologar Soluções e Mudanças
-  - 1 Responder aos requerimentos de negócios de maneira alinhada com a estratégia de negócios.
-  - 11 Assegurar a integração dos aplicativos com os processos de negócios.
-  - 13 Assegurar apropriado uso e a performance das soluções de aplicativos e de tecnologia.
-  - 16 Reduzir os defeitos e retrabalhos na entrega de serviços e soluções.
-  - 20 Assegurar que transações automatizadas de negócios e trocas de informações podem ser confiáveis.
-  - 21 Assegurar que os serviços e infraestrutura de TI podem resistir e recuperar-se de falhas devido a erros, ataques deliberados ou desastres.
+- CAI01 Gerenciar os Programas.
+- CAI02 Gerenciar a Definição dos Requisitos.
+- CAI03 Gerenciar as Soluções.
+- CAI04 Gerenciar a Disponibilidade e Capacidade.
+- CAI05 Gerenciar a Mudança Organizacional.
+- CAI06 Gerenciar as Mudanças de TI.
+- CAI07 Gerenciar a Aceitação e Transição de Mudança de TI.
+- CAI08 Gerenciar o Conhecimento.
+- CAI09 Gerenciar os Recursos.
+- CAI10 Gerenciar a Configuração.
+- CAI11 Gerenciar os Projetos.
 
-### 3. Entregar, Servir e Suportar
+### 3. Entregar, Servir e Suportar (DSS)
 
-- ESS1 Definir e Gerenciar Níveis de Serviço
-  - 1 Responder aos requerimentos de negócios de maneira alinhada com a estratégia de negócios.
-  - 3 Assegurar a satisfação dos usuários.
-  - 12 Assegurar a transparência e o entendimento dos custos, benefícios, estratégia, políticas e níveis de serviços de TI.
-- ESS2 Gerenciar Serviços de Terceiros
-  - 3 Assegurar a satisfação dos usuários.
-  - 10 Assegurar a satisfação mútua no relacionamento com terceiros.
-  - 12 Assegurar a transparência e o entendimento dos custos, benefícios, estratégia, políticas e níveis de serviços de TI.
-- ESS3 Gerenciar Capacidade e Desempenho
-  - 1 Responder aos requerimentos de negócios de maneira alinhada com a estratégia de negócios.
-  - 15 Otimizar a infraestrutura, recursos e capacidades de TI.
-  - 23 Garantir que os serviços de TI fiquem disponíveis de acordo com o requerido.
-- ESS4 Assegurar Continuidade de Serviços
-  - 21 Assegurar que os serviços e infraestrutura de TI podem resistir e recuperar-se de falhas devido a erros, ataques deliberados ou desastres.
-  - 22 Assegurar o mínimo impacto para os negócios no caso de uma parada ou mudança nos serviços de TI.
-  - 23 Garantir que os serviços de TI fiquem disponíveis de acordo com o requerido.
-- ESS5 Assegurar a Segurança dos Serviços
-  - 14 Responsabilizar e proteger todos os ativos de TI.
-  - 19 Assegurar que informações confidenciais e críticas são protegidas daqueles que não deveriam ter acesso às mesmas.
-  - 20 Assegurar que transações automatizadas de negócios e trocas de informações podem ser confiáveis.
-  - 21 Assegurar que os serviços e infraestrutura de TI podem resistir e recuperar-se de falhas devido a erros, ataques deliberados ou desastres.
-  - 26 Manter a integridade da informação e da infraestrutura de processamento.
-- ESS6 Identificar e Alocar Custos
-  - 12 Assegurar a transparência e o entendimento dos custos, benefícios, estratégia, políticas e níveis de serviços de TI.
-  - 24 Aprimorar a eficiência dos custos de TI e sua contribuição para a lucratividade dos negócios.
-  - 28 Assegurar que a TI ofereça serviços de qualidade com custo eficiente, com contínuo aprimoramento e preparação para mudanças futuras.
-- ESS7 Educar e Treinar Usuários
-  - 3 Assegurar a satisfação dos usuários.
-  - 13 Assegurar apropriado uso e a performance das soluções de aplicativos e de tecnologia.
-  - 15 Otimizar a infraestrutura, recursos e capacidades de TI.
-- ESS8 Gerenciar a Central de Serviço e os Incidentes
-  - 3 Assegurar a satisfação dos usuários.
-  - 13 Assegurar apropriado uso e a performance das soluções de aplicativos e de tecnologia.
-  - 23 Garantir que os serviços de TI fiquem disponíveis de acordo com o requerido.
-- ESS9 Gerenciar a Configuração
-  - 14 Responsabilizar e proteger todos os ativos de TI.
-  - 15 Otimizar a infraestrutura, recursos e capacidades de TI.
-- ESS10 Gerenciar os Problemas
-  - 3 Assegurar a satisfação dos usuários.
-  - 16 Reduzir os defeitos e retrabalhos na entrega de serviços e soluções.
-  - 17 Garantir o atingimento dos objetivos de TI.
-- ESS11 Gerenciar os Dados
-  - 4 Otimizar o uso da informação.
-  - 19 Assegurar que informações confidenciais e críticas são protegidas daqueles que não deveriam ter acesso às mesmas.
-  - 27 Assegurar a conformidade de TI com leis, regulamentos e contratos.
-- ESS12 Gerenciar o Ambiente Físico
-  - 14 Responsabilizar e proteger todos os ativos de TI.
-  - 19 Assegurar que informações confidenciais e críticas são protegidas daqueles que não deveriam ter acesso às mesmas.
-  - 21 Assegurar que os serviços e infraestrutura de TI podem resistir e recuperar-se de falhas devido a erros, ataques deliberados ou desastres.
-  - 22 Assegurar o mínimo impacto para os negócios no caso de uma parada ou mudança nos serviços de TI.
-- ESS13 Gerenciar as Operações
-  - 3 Assegurar a satisfação dos usuários.
-  - 21 Assegurar que os serviços e infraestrutura de TI podem resistir e recuperar-se de falhas devido a erros, ataques deliberados ou desastres.
-  - 23 Garantir que os serviços de TI fiquem disponíveis de acordo com o requerido.
+- ESS01 Gerenciar as Operações.
+- ESS02 Gerenciar as Requisições de Serviço e Incidentes.
+- ESS03 Gerenciar os Problemas.
+- ESS04 Gerenciar a Continuidade do Serviço.
+- ESS05 Gerenciar os Serviços de Segurança.
+- ESS06 Gerenciar os Controles de Processos de Negócio.
 
-### 4. Monitorar, Analisar e Avaliar
+### 4. Avaliar, orientar e monitorar (EDM)
 
-- MAA1 Monitorar e Avaliar o Desempenho
-  - 1 Responder aos requerimentos de negócios de maneira alinhada com a estratégia de negócios.
-  - 2 Responder aos requerimentos de governança em linha com a Alta Direção.
-  - 12 Assegurar a transparência e o entendimento dos custos, benefícios, estratégia, políticas e níveis de serviços de TI.
-  - 28 Assegurar que a TI ofereça serviços de qualidade com custo eficiente, com contínuo aprimoramento e preparação para mudanças futuras.
-- MAA2 Monitorar e Avaliar os Controles Internos
-  - 14 Responsabilizar e proteger todos os ativos de TI.
-  - 17 Garantir o atingimento dos objetivos de TI.
-  - 21 Assegurar que os serviços e infraestrutura de TI podem resistir e recuperar-se de falhas devido a erros, ataques deliberados ou desastres.
-  - 27 Assegurar a conformidade de TI com leis, regulamentos e contratos.
-- MAA3 Assegurar a Conformidade com Requisitos Externos
-  - 27 Assegurar a conformidade de TI com leis, regulamentos e contratos.
-- MAA4 Prover a Governança de TI
-  - 2 Responder aos requerimentos de governança em linha com a Alta Direção.
-  - 12 Assegurar a transparência e o entendimento dos custos, benefícios, estratégia, políticas e níveis de serviços de TI.
-  - 27 Assegurar a conformidade de TI com leis, regulamentos e contratos.
-  - 28 Assegurar que a TI ofereça serviços de qualidade com custo eficiente, com contínuo aprimoramento e preparação para mudanças futuras.
+- AOM01 Assegurar e Manter a Governança do Framework.
+- AOM02 Assegurar a Entrega de Benefícios.
+- AOM03 Assegurar a Avaliação dos Riscos.
+- AOM04 Assegurar a Otimização dos Recursos.
+- AOM05 Assegurar o Envolvimento dos Interessados (Stakeholders).
