@@ -30,33 +30,40 @@
 - APO13 Gerenciar a Segurança.
 - APO14 Gerenciar os Dados.
 
-### 2. Construir, Adquirir e Implementar (BAI)
+### 2. Construir, Adquirir e Implementar
 
-- CAI01 Gerenciar os Programas.
-- CAI02 Gerenciar a Definição dos Requisitos.
-- CAI03 Gerenciar as Soluções.
-- CAI04 Gerenciar a Disponibilidade e Capacidade.
-- CAI05 Gerenciar a Mudança Organizacional.
-- CAI06 Gerenciar as Mudanças de TI.
-- CAI07 Gerenciar a Aceitação e Transição de Mudança de TI.
-- CAI08 Gerenciar o Conhecimento.
-- CAI09 Gerenciar os Recursos.
-- CAI10 Gerenciar a Configuração.
-- CAI11 Gerenciar os Projetos.
+- BAI01 Gerenciar os Programas.
+- BAI02 Gerenciar a Definição dos Requisitos.
+- BAI03 Gerenciar as Soluções.
+- BAI04 Gerenciar a Disponibilidade e Capacidade.
+- BAI05 Gerenciar a Mudança Organizacional.
+- BAI06 Gerenciar as Mudanças de TI.
+- BAI07 Gerenciar a Aceitação e Transição de Mudança de TI.
+- BAI08 Gerenciar o Conhecimento.
+- BAI09 Gerenciar os Recursos.
+- BAI10 Gerenciar a Configuração.
+- BAI11 Gerenciar os Projetos.
 
-### 3. Entregar, Servir e Suportar (DSS)
+### 3. Entregar, Servir e Suportar
 
-- ESS01 Gerenciar as Operações.
-- ESS02 Gerenciar as Requisições de Serviço e Incidentes.
-- ESS03 Gerenciar os Problemas.
-- ESS04 Gerenciar a Continuidade do Serviço.
-- ESS05 Gerenciar os Serviços de Segurança.
-- ESS06 Gerenciar os Controles de Processos de Negócio.
+- DSS01 Gerenciar as Operações.
+- DSS02 Gerenciar as Requisições de Serviço e Incidentes.
+- DSS03 Gerenciar os Problemas.
+- DSS04 Gerenciar a Continuidade do Serviço.
+- DSS05 Gerenciar os Serviços de Segurança.
+- DSS06 Gerenciar os Controles de Processos de Negócio.
 
-### 4. Avaliar, orientar e monitorar (EDM)
+### 4. Avaliar, Dirigir e Monitorar
 
-- AOM01 Assegurar e Manter a Governança do Framework.
-- AOM02 Assegurar a Entrega de Benefícios.
-- AOM03 Assegurar a Avaliação dos Riscos.
-- AOM04 Assegurar a Otimização dos Recursos.
-- AOM05 Assegurar o Envolvimento dos Interessados (Stakeholders).
+- EDM01 Assegurar e Manter a Governança do Framework.
+- EDM02 Assegurar a Entrega de Benefícios.
+- EDM03 Assegurar a Avaliação dos Riscos.
+- EDM04 Assegurar a Otimização dos Recursos.
+- EDM05 Assegurar o Envolvimento dos Interessados (Stakeholders).
+
+### 5. Monitorar, Avaliar e Analisar
+
+- MEA01 Gerenciar a Performance e a Conformidade da Monitoração.
+- MEA02 Gerenciar o Sistema de Controle Interno.
+- MEA03 Gerenciar a Conformidade com Regulações Externas.
+- MEA04 Gerenciar a Garantia.
