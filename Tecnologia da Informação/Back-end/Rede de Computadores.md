@@ -11,157 +11,175 @@
 
 ### Segmentação e Endereçamento
 
-- O endereçamento IP é usado para identificar dispositivos em uma rede
-- Os endereços IPv4 consistem em quatro grupos de números
+- O endereçamento IP é usado para identificar dispositivos em uma rede.
+- Os endereços IPv4 consistem em quatro grupos de números.
+   - Protocolo mais usado na Internet.
+   - Despite the advantages of IPv6, the majority of the internet still runs on IPv4 infrastructure.
   - Exemplos
     - 192.168.136 e 140 (Rede)
     - 192.168.137 (Host)
     - 192.168.139 (Broadcast)
-- O IPv6 usa endereços muito mais longos
-- Segmentação refere-se à divisão de dados em pacotes para transmissão pela rede
+- O IPv6 usa endereços muito mais longos.
+   - It uses 128-bit addresses, providing a much larger address space.
+- Segmentação refere-se à divisão de dados em pacotes para transmissão pela rede.
 
 ### Camadas
 
 1. **Fisica:**
 
-Modem, RDIS, RS-32, EIA- 422, RS-449, Bluetooth, USB
+- Modem: A device that modulates and demodulates digital signals for transmission over analog telephone lines, enabling communication between computers.
+
+- RDIS/ISDN: An early digital telephone network that provides end-to-end digital connectivity for delivering a wide range of services, including voice and non-voice services, and capable of supporting different types of terminal equipment.
+
+- RS-232: A standard for serial binary data signals connecting between a DTE (Data Terminal Equipment) and a DCE (Data Circuit-terminating Equipment) devices. It defines the electrical characteristics and timing of signals.
+
+- EIA-422: A standard for serial binary data signals that uses balanced voltage digital interface circuits for transmitting and receiving data. It supports higher data rates and longer cable lengths compared to RS-232.
+
+- RS-449: An older serial interface standard that was intended to replace RS-232, providing more signals and higher data rates. It was later superseded by EIA-530 and EIA-530A.
+
+- Bluetooth: A wireless technology standard used for exchanging data between fixed and mobile devices over short distances, creating personal area networks (PANs).
+
+- USB (Universal Serial Bus): A standard that defines cables, connectors and protocols used for connection, communication and power supply between computers and electronic devices.
 
 2. **Enlance:**
 
-Ethernet, 802.11 WIFI, IEEE 802.1Q, 802.11G, HDLC, Token ring, FDDI, PPP, Switch, Frame relay
+Ethernet, 802.11 WIFI, IEEE 802.1Q, 802.11G, HDLC, Token ring, FDDI, PPP, Switch, Frame relay.
 
 3. **Rede:**
 
-IP (IPV4, IPV6), ARP, RARP, ICMP, IPSec, etc
+IP (IPV4, IPV6), ARP, RARP, ICMP, IPSec, etc.
 
 4. **Transporte:**
 
 - **TCP (Transmission Control Protocol)**
 
-   - Orientado à conexão
-   - Garantir a entrega ordenada e sem erros de dados entre aplicativos em uma rede
-   - Controle de congestionamento, retransmissão de pacotes perdidos e confirmações
-      - Garantir a confiabilidade na entrega dos dados
+   - Orientado à conexão.
+   - Garantir a entrega ordenada e sem erros de dados entre aplicativos em uma rede.
+   - Controle de congestionamento, retransmissão de pacotes perdidos e confirmações.
+      - Garantir a confiabilidade na entrega dos dados.
    - É utilizado em navegadores da web, e-mail e transferência de arquivos.
 
 - **UDP (User Datagram Protocol)**
 
-   - Não confiável e sem conexão
-   - Transmite dados sem garantia de entrega ou ordenação
-   - UDP é mais rápido e mais eficiente em termos de sobrecarga de rede do que TCP
-   - Usado em aplicativos onde uma pequena perda de dados não é crítica
-      - Streaming de vídeo
-      - Jogos online
-      - Transmissão de áudio em tempo real
+   - Não confiável e sem conexão.
+   - Transmite dados sem garantia de entrega ou ordenação.
+   - UDP é mais rápido e mais eficiente em termos de sobrecarga de rede do que TCP.
+   - Usado em aplicativos onde uma pequena perda de dados não é crítica.
+      - Streaming de vídeo.
+      - Jogos online.
+      - Transmissão de áudio em tempo real (Spotify).
+         - Spotify has developed a sophisticated and multi-faceted approach to audio streaming, leveraging a combination of custom HTTP-based protocols, TCP/IP, and selective use of RTSP (Real Time Streaming Protocol) and UDP to optimize performance and reliability for its users.
 
 - **RTP (Real-Time Transport Protocol)**
 
-   - Projetado para transmissão em tempo real de dados
-      - Videoconferência
-      - Streaming de vídeo
-      - Telefonia VoIP (Voice over IP)
-   - Possui controle de atraso, compensação de jitter e sequenciamento de pacotes
-   - Usado em conjunto com o RTCP
+   - Projetado para transmissão em tempo real de dados.
+      - Videoconferência.
+      - Streaming de vídeo.
+      - Telefonia VoIP (Voice over IP).
+   - Possui controle de atraso, compensação de jitter e sequenciamento de pacotes.
+   - Usado em conjunto com o RTCP (Real Time Transport Control Protocol).
 
 - **SCTP (Stream Control Transmission Protocol)**
 
-   - Orientado a mensagens
-      - Telefonia IP
-      - Sinalização de redes de telecomunicações
-      - Transferência de arquivos
-   - Confiabilidade, entrega ordenada e controle de congestionamento
-   - Suporta múltiplos fluxos de dados (multiplexada) dentro de uma única conexão
-   - Robusto contra ataques
-      - Negação de serviço (DoS)
-      - Flooding
+   - Orientado a mensagens.
+      - Telefonia IP.
+      - Sinalização de redes de telecomunicações.
+      - Transferência de arquivos.
+   - Confiabilidade, entrega ordenada e controle de congestionamento.
+   - Suporta múltiplos fluxos de dados (multiplexada) dentro de uma única conexão.
+   - Robusto contra ataques:
+      - Negação de serviço (DoS).
+      - Flooding.
 
 - **DCCP (Datagram Congestion Control Protocol)**
 
-  - Combina algumas características do TCP e do UDP
-  - Controle de congestionamento, semelhante ao TCP, e suporta transmissões não confiáveis, semelhante ao UDP
-  - Usado em aplicações que exigem comunicação em tempo real com tolerância a perdas de dados, como jogos online e transmissões de vídeo
-  - Os aplicativos escolhem diferentes perfis de serviço, dependendo das necessidades de confiabilidade e latência
+  - Combina algumas características do TCP e do UDP.
+  - Controle de congestionamento, semelhante ao TCP, e suporta transmissões não confiáveis, semelhante ao UDP.
+  - Usado em aplicações que exigem comunicação em tempo real com tolerância a perdas de dados, como jogos online e transmissões de vídeo.
+  - Os aplicativos escolhem diferentes perfis de serviço, dependendo das necessidades de confiabilidade e latência.
 
 5. **Aplicação:**
 
-HTTP, SMTP (Envio de emails), FTP, SSH, TELNET, SIP, RDP, IRC, SNMP, NNTP (Network News Transfer Protocol, grupos de discussão, obsoleto),
+HTTP, SMTP (Envio de emails), FTP, SSH, TELNET, SIP, RDP, IRC, SNMP,
+NNTP (Network News Transfer Protocol, grupos de discussão, obsoleto),
 POP3 (Post Office Protocol, receber emails),
 IMAP (Internet Message Access Protocol),
-- realiza o sincronismo entre o cliente e o servidor de e-mail
-- acessa as caixas de mensagens que estão no servidor de correio
-- replica as ações de leitura ou troca de diretório no servidor
-- permite que as mensagens sejam guardadas tanto na máquina local quanto no servidor
-- envia, recebe, sincroniza, webmail
-- mais avançado que o POP3
-  BitTorrent, DNS, PING, etc.
+- Mais avançado que o POP3
+- Realiza o sincronismo entre o cliente e o servidor de e-mail.
+- Acessa as caixas de mensagens que estão no servidor de correio.
+- Replica as ações de leitura ou troca de diretório no servidor.
+- Permite que as mensagens sejam guardadas tanto na máquina local quanto no servidor.
+- Envia, recebe, sincroniza, webmail.
+BitTorrent, DNS, PING, etc.
 
 ## Protocolos de Roteamento
 
 ### Roteamento Estático
 
-- As rotas são configuradas manualmente pelo administrador de rede
-- OSPF (Open Shortest Path First)
-  - É um protocolo de roteamento dinâmico que utiliza o algoritmo SPF para calcular as rotas mais curtas
-- BGP (Border Gateway Protocol)
-  - É um protocolo utilizado em redes externas à internet e é usado para roteamento entre sistemas autônomos
+- As rotas são configuradas manualmente pelo administrador de rede.
+- OSPF (Open Shortest Path First).
+  - É um protocolo de roteamento dinâmico que utiliza o algoritmo SPF para calcular as rotas mais curtas.
+- BGP (Border Gateway Protocol).
+  - É um protocolo utilizado em redes externas à Internet e é usado para roteamento entre sistemas autônomos.
 
 ## Tipos de redes
 
 ### LAN (Local Area Network)
 
-- É uma rede de curto alcance, geralmente em um único local físico
-- **Dispositivos**
-   - Network-Attached Storage (NAS)
-      - Armazenar, Gerenciar e Compartilhar arquivos entre vários dispositivos conectados à rede local
-      - Hardware de armazenamento conectado à rede
+- É uma rede de curto alcance, geralmente em um único local físico.
+- **Dispositivos**:
+   - Network-Attached Storage (NAS).
+      - Enclosure and connects hard drives and SSDs via Ethernet.
+      - Armazenar, Gerenciar e Compartilhar arquivos entre vários dispositivos conectados à rede local.
+      - Hardware de armazenamento conectado à rede.
 
 ### PAN (Personal Area Network)
 
-- Conecta dispositivos eletrônicos dentro da área imediata de um usuário
-- O alcance varia de alguns centímetros a alguns metros
+- Conecta dispositivos eletrônicos dentro da área imediata de um usuário.
+- O alcance varia de alguns centímetros a alguns metros.
 
 #### NFC (Near Field Communication)
 
-- **Casos de uso da comunicação com campo de aproximação**
-  - Cartão de crédito por aproximação
-  - Chave/Cartão de hotel ou para acesso à área restrita
-  - Smartphone para fazer pagamento
+- **Casos de uso da comunicação com campo de aproximação**:
+  - Cartão de crédito por aproximação.
+  - Chave/Cartão de hotel ou para acesso à área restrita.
+  - Smartphone para fazer pagamento.
 
 ### VLAN (Virtual LAN)
 
-- Permite a segmentação lógica de redes em uma LAN física
+- Permite a segmentação lógica de redes em uma LAN física.
 
 ### MAN (Metropolitan Area Network)
 
-- Uma rede metropolitana abrange uma área geográfica maior, como uma cidade
+- Uma rede metropolitana abrange uma área geográfica maior, como uma cidade.
 
 ### WAN (Wide Area Network)
 
-- Redes de longa distância que conectam locais geograficamente distantes
+- Redes de longa distância que conectam locais geograficamente distantes.
 
 ### Rede sem fio (Wireless)
 
-- Permitem a conexão de dispositivos sem fio, usando padrões como 802.11 (Wi-Fi)
-  - Frequências Licenciadas
-    - São frequências de rádio que requerem uma licença para uso devido à regulamentação governamental
-  - Propagação de Sinais
-    - Forma como os sinais de rádio se propagam no ambiente, sofrendo atenuação e interferência
-  - IEEE 802.11: É uma família de padrões para redes sem fio (Wi-Fi)
-    - 802.11a e 802.11n: usados tanto para frequência 2.4 GHz quanto 5 GHz
+- Permitem a conexão de dispositivos sem fio, usando padrões como 802.11 (Wi-Fi).
+  - Frequências Licenciadas.
+    - São frequências de rádio que requerem uma licença para uso devido à regulamentação governamental.
+  - Propagação de Sinais.
+    - Forma como os sinais de rádio se propagam no ambiente, sofrendo atenuação e interferência.
+  - IEEE 802.11: É uma família de padrões para redes sem fio (Wi-Fi).
+    - 802.11a e 802.11n: usados tanto para frequência 2.4 GHz quanto 5 GHz.
 
 ### VSAT (Very Small Aperture Terminal)
 
-- É uma tecnologia de comunicação por satélite
-- Permite a conexão à internet e outros serviços de comunicação de longa distância
-- Composta por estações terrestres de pequeno porte ou terminais VSAT
-- Se comunicam com satélites em órbita
-- Usadas em comunicações empresariais, governamentais, militares e de transporte
-- Em locais remotos sem acesso à internet via cabo ou fibra ótica
-- Oferecem uma solução de comunicação de alta velocidade e confiável para esses locais
-- Não dependem de infraestruturas terrestres
-- São menos suscetíveis a interrupções ou falhas devido a condições climáticas ou desastres naturais
-- Projetadas para atender às necessidades de largura de banda em constante mudança e crescimento
-- Oferece uma ampla gama de opções de serviços de comunicação, incluindo voz, dados e vídeo
+- É uma tecnologia de comunicação por satélite.
+- Permite a conexão à Internet e outros serviços de comunicação de longa distância.
+- Composta por estações terrestres de pequeno porte ou terminais VSAT.
+- Se comunicam com satélites em órbita.
+- Usadas em comunicações empresariais, governamentais, militares e de transporte.
+- Em locais remotos sem acesso à Internet via cabo ou fibra ótica.
+- Oferecem uma solução de comunicação de alta velocidade e confiável para esses locais.
+- Não dependem de infraestruturas terrestres.
+- São menos suscetíveis a interrupções ou falhas devido a condições climáticas ou desastres naturais.
+- Projetadas para atender às necessidades de largura de banda em constante mudança e crescimento.
+- Oferece uma ampla gama de opções de serviços de comunicação, incluindo voz, dados e vídeo.
 
 ## Topologia de rede
 
@@ -224,31 +242,31 @@ IMAP (Internet Message Access Protocol),
 
 ## Qualidade de Serviço (QoS)
 
-- Capacidade de priorizar determinados tipos de tráfego na rede para garantir um nível adequado de serviço
-- Serviços Diferenciados e Serviços Integrados: abordagens para implementar QoS em redes
-- **Failover**: movimentação de direcionamento de sistemas primários para equipamentos de redundância, em caso de falhas
+- Capacidade de priorizar determinados tipos de tráfego na rede para garantir um nível adequado de serviço.
+- Serviços Diferenciados e Serviços Integrados: Abordagens para implementar QoS em redes.
+- **Failover**: Movimentação de direcionamento de sistemas primários para equipamentos de redundância, em caso de falhas.
 
 ## Aplicações de Voz e Vídeo sobre Redes
 
-- Voz sobre IP (VoIP): Permite a transmissão de chamadas telefônicas pela Internet
-- Vídeo sobre IP: Permite a transmissão de vídeo pela rede
+- Voz sobre IP (VoIP): Permite a transmissão de chamadas telefônicas pela Internet.
+- Vídeo sobre IP: Permite a transmissão de vídeo pela rede.
 
 ### Protocolos baseados na especificação H.323
 
-Criado pelo International Telecommunication Union Telecommunication Standardization Sector (ITU-T)
+Criado pelo International Telecommunication Union Telecommunication Standardization Sector (ITU-T).
 
 #### Protocolos
 
 - **H.225.0:** Registration, Admission and Status (RAS).
 - **H.225.0** Call Signaling based on Q.931.
-- **H.245** control protocol for multimedia communication,
+- **H.245** control protocol for multimedia communication:
   - Describes the messages and procedures used for capability exchange.
   - Opening and closing logical channels for audio, video and data, control and indications.
-- Real-time Transport Protocol (RTP), for sending or receiving multimedia information (voice, video, or text) between any two entities.
+- Real-time Transport Protocol (RTP), for sending or receiving multimedia information (voice, video, or text) between two entities.
 - **H.235** series describes security within H.323, including security for both signaling and media.
 - **H.239** describes dual stream use in videoconferencing, usually one for live video, the other for still images.
 - **H.450** series describes various supplementary services.
-- **H.460** series defines optional extensions that might be implemented by an endpoint or a Gatekeeper, including ITU-T Recommendations H.460.17, H.460.18, and H.460.19 for Network address translation (NAT) / Firewall (FW) traversal.
+- **H.460** series defines optional extensions that might be implemented by an endpoint or a Gatekeeper, including ITU-T Recommendations H.460.17, H.460.18, and H.460.19 for Network address translation (NAT)/Firewall (FW) traversal.
 
 #### Codecs
 
@@ -258,9 +276,9 @@ Criado pelo International Telecommunication Union Telecommunication Standardizat
 
 ## Multicast, IGMP, PIM-SM
 
-- Multicast: Transmissão de dados para múltiplos destinos simultaneamente
-- IGMP (Internet Group Management Protocol): Usado por hosts para reportar sua associação a grupos multicast
-- PIM-SM (Protocol Independent Multicast - Sparse Mode): Um protocolo de roteamento multicast
+- Multicast: Transmissão de dados para múltiplos destinos simultaneamente.
+- IGMP (Internet Group Management Protocol): Usado por hosts para reportar sua associação a grupos multicast.
+- PIM-SM (Protocol Independent Multicast - Sparse Mode): Um protocolo de roteamento multicast.
 
 ## Software Defined Networks (SDN)
 
@@ -275,7 +293,7 @@ Criado pelo International Telecommunication Union Telecommunication Standardizat
 ## Serviços de Rede Microsoft Windows Server
 
 - DNS: Sistema de Nomes de Domínio.
-  - Whois.
+  - Whois:
     - É um protocolo usado para consultar os bancos de dados.
     - Armazenam as informações sobre quem são os proprietários ou registrantes de um domínio.
     - Protocolo de consultas e respostas sobre DNS.
@@ -291,19 +309,19 @@ Criado pelo International Telecommunication Union Telecommunication Standardizat
 
 ## Modelo OSI (Open System Interconnection)
 
-- Modelo de rede de computador referência da ISO dividido em camadas de funções
-- Usado em uma rede local (Ethernet)
-- Camadas
-  1. Camada física
-  2. Camada de enlace ou link de dados
-  - Subcamadas
-    - MAC (Media Access Control)
-      - Próxima da camada física (inferior)
-    - LLC (Logical Link Control)
-      - Próxima da camada de rede (superior)
-  3. Camada de rede
-  4. Camada de transporte
-  5. Camada de sessão
-  6. Camada de apresentação
-     - Criptografia e compactação de dados dos serviços web
-  7. Camada de aplicação
+- Modelo de rede de computador referência da ISO dividido em camadas de funções.
+- Usado em uma rede local (Ethernet).
+- Camadas:
+  1. Camada física.
+  2. Camada de enlace ou link de dados.
+  - Subcamadas:
+    - MAC (Media Access Control).
+      - Próxima da camada física (inferior).
+    - LLC (Logical Link Control).
+      - Próxima da camada de rede (superior).
+  3. Camada de rede.
+  4. Camada de transporte.
+  5. Camada de sessão.
+  6. Camada de apresentação.
+     - Criptografia e compactação de dados dos serviços web.
+  7. Camada de aplicação.

@@ -2,60 +2,60 @@
 
 ## Histórico
 
-- 1958, DARPA, Defense Advanced Research Projects Agency
-  - Desenvolveu o programa de comunicação entre computadores
-  - Recebeu o nome de Interfaces Message Processors (IMP)
-  - Parceria com as universidades da Califórnia, Stanford e UTAH
-- 1978, BBS, Bulletin Board System, similar to email
-- 1992, Internet como a conhecemos
-  - Tim Bernes-Lee criou a World Wide Web, WWW
-  - Hipertexto
+- 1958, DARPA, Defense Advanced Research Projects Agency.
+  - Desenvolveu o programa de comunicação entre computadores.
+  - Recebeu o nome de Interfaces Message Processors (IMP).
+  - Parceria com as universidades da Califórnia, Stanford e UTAH.
+- 1978, BBS, Bulletin Board System, similar ao email.
+- 1992, Internet como a conhecemos.
+  - Tim Berners-Lee criou a World Wide Web, WWW.
+  - Hipertexto.
 
 ## Conectividade
 
 ### Redes
 
-- PAN, Personal Area Network
-  - Bluetooth: o mais comum para redes de curto alcance
-  - Zigbee: para lâmpadas, tomadas, sensores e smart objects
-  - IRDA, Infrared Data Association: via luz, ex. controle remoto da TV
-- WiFi, conexão sem fio
-- LAN, rede Local
-- MAN, Metropolitan Area Network
+- PAN, Personal Area Network:
+  - Bluetooth: o mais comum para redes de curto alcance.
+  - Zigbee: para lâmpadas, tomadas, sensores e smart objects.
+  - IRDA, Infrared Data Association: via luz, ex. controle remoto da TV.
+- WiFi, conexão sem fio.
+- LAN, rede Local.
+- MAN, Metropolitan Area Network.
   - Utilizada em serviços públicos de segurança, saúde, etc.
-- WAN, ou Internet
+- WAN, ou Internet.
 
 ### Meios de transmissão de dados
 
-- Luz (fibra ótica), ar (Wi-Fi) e metal (cabos de cobre, alumínio)
+- Luz (fibra ótica), ar (Wi-Fi) e metal (cabos de cobre, alumínio).
 
 ### DNS, Domain Name System
 
 - **Definição**
-  - Traduz nomes de domínio legíveis por humanos em endereços IP legíveis por máquina
-  - Exemplo: www.websitename.com para um intervalo alfanumérico
-    - IPV6: de 0000:0000:0000:0000:0000:0000:0000:0000 até ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff
-    - Capacidade: 340 undecilhões (10 elevado a 36) de endereços
+  - Traduz nomes de domínio legíveis por humanos em endereços IP legíveis para a máquina.
+  - Exemplo: www.websitename.com para um intervalo alfanumérico.
+    - IPV6: de 0000:0000:0000:0000:0000:0000:0000:0000 até ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff.
+    - Capacidade: 340 undecilhões (10 elevado a 36) de endereços.
 - **Infraestrutura**
-  - Servidor local e nacional
-  - Sistema de tradução de domínios
+  - Servidor local e nacional.
+  - Sistema de tradução de domínios.
 
 ### Domínio
 
-- É o endereço de um site na internet na forma de um nome
+- É o endereço de um site na internet na forma de um nome.
 - **Tipos**
-  - Genéricos: art, com, eco, emp, net, ong
-  - Universidades: edu
-  - Entidades: gov, mil, org
+  - Genéricos: art, com, eco, emp, net, ong.
+  - Universidades: edu.
+  - Entidades: gov, mil, org.
 - **Registro**
-  - Tabela DNS
-    - Endereço MAC de Origem (ID de fábrica da placa de rede)
-      - Pode ser usado para detectar aparelhos conectados sem autorização
-    - IP de Origem
-    - Nome da máquina de origem (configurado no Sistema Operacional)
-    - Requisição
-    - IP de destino
-    - Nome da máquina/domínio de destino
+  - Tabela DNS.
+    - Endereço MAC de Origem (ID de fábrica da placa de rede).
+      - Pode ser usado para detectar aparelhos conectados sem autorização.
+    - IP de Origem.
+    - Nome da máquina de origem (configurado no Sistema Operacional).
+    - Requisição.
+    - IP de destino.
+    - Nome da máquina/domínio de destino.
 
 ### TCP, Transmission Control Protocol
 
@@ -65,37 +65,37 @@
 
 ### Velocidade de navegação
 
-- Medida em Mbps (Megabits por segundo)
-- Tempo de download = tamanho do arquivo (MB) / velocidade (MBps)
-- MBps = Mbps / 8
+- Medida em Mbps (Megabits por segundo).
+$$MBps = \frac{Mbps}{8}$$
+$$Tempo de download = \frac{tamanho do arquivo (MB)}{velocidade (MBps)}$$
 
 ### Nuvem ou cloud
 
-- Serviços oferecidos via Internet
-- Infraestrutura, software e dados remotos
+- Serviços oferecidos via Internet.
+- Infraestrutura, software e dados remotos.
 - **Exemplos**
-  - Amazon AWS, Microsoft Azure, NETFLIX
+  - Amazon AWS, Microsoft Azure, NETFLIX.
 - **Tipos**
-  - Pública (Serviços Google, Microsoft, Amazon)
-  - Privada (servidores da própria organização)
-  - Híbrida (utilizada por médias e grandes empresas)
+  - Pública (Serviços Google, Microsoft, Amazon).
+  - Privada (servidores da própria organização).
+  - Híbrida (utilizada por médias e grandes empresas).
 - **Benefícios**
-  - Economia e Retorno de Investimento
-  - Disponibilidade e menor downtime
-  - Escalabilidade e balanceamento de capacidade
-  - Resiliência e redirecionamento de processamento
-  - Mobilidade
-  - Sustentabilidade e Eco-responsabilidade
-  - Otimizar equipes de TI
+  - Economia e Retorno de Investimento.
+  - Disponibilidade e menor downtime.
+  - Escalabilidade e balanceamento de capacidade.
+  - Resiliência e redirecionamento de processamento.
+  - Mobilidade.
+  - Sustentabilidade e Eco-responsabilidade.
+  - Otimizar equipes de TI.
 - **Desafios**
-  - Acesso deficitário à Internet
-  - Medidas de segurança para os usuários
-    - Atualizar os equipamentos
-    - Alterar a senha padrão dos dispositivos
-    - Testes Periódicos
-    - Criação de uma rede específica
-    - Uso de Antivírus, Firewall e Proxy
-  - Confiabilidade perante os stakeholders
+  - Acesso deficitário à Internet.
+  - Medidas de segurança para os usuários:
+    - Atualizar os equipamentos.
+    - Alterar a senha padrão dos dispositivos.
+    - Testes Periódicos.
+    - Criação de uma rede específica.
+    - Uso de Antivírus, Firewall e Proxy.
+  - Confiabilidade perante os stakeholders.
 
 ## Hardware e infraestrutura
 
@@ -105,7 +105,7 @@
   - Conecta duas redes, normalmente residência/negócio ao provedor.
 - **Switch**
   - Conexões ou portas para os equipamentos se conectarem ao roteador (cabo ou WiFi).
-    - Padrões:
+    - Padrões do Institute of Electrical and Electronics Engineers:
       - IEEE 802.11 (Wi-Fi).
       - IEEE 802.1x: Protocolo de autenticação utilizado em redes com e sem fio.
           - Utiliza o protocolo Extensible Authentication Protocol (EAP).
@@ -124,56 +124,56 @@
       - IEEE 802.16 (redes metropolitanas sem fio, WiMAX).
       - IEEE 802.19 (coexistência de diferentes tecnologias sem fio na mesma faixa de frequência).
 - **Hub**
-  - Tipo de switch onde toda a comunicação e disponibilizada para todos os equipamentos.
+  - Tipo de switch onde toda a comunicação é disponibilizada para todos os equipamentos.
   - Não é comum utilizá-lo atualmente, foi substituído pelo Switch.
 - **Ponto de Acesso (Access Point)**
   - Repetidor de WiFi.
 - **Dongle WiFi**
   - Pendrive para conexão em rede para dispositivos móveis.
 - **Links de conexão**
-  - ADSL (linha telefônica), Cabo de TV, Rádio, Fibra ótica e móvel ( 4G, 4,5G e 5G).
+  - ADSL (linha telefônica), Cabo de TV, Rádio, Fibra ótica e móvel (4G, 4,5G e 5G).
 
 ### Eletricidade
 
 - **Corrente elétrica**
-  - Alternada (Nickolas Tesla)
+  - Alternada (Nickolas Tesla).
     - Longa distância com perdas pequenas e menos geradores.
-  - Contínua (Thomas Edison)
+  - Contínua (Thomas Edison).
     - Mais segura.
     - Maior adoção.
 
 ### Componentes eletrônicos
 
 - **Transformador**
-  - De corrente alternada da tomada para corrente contínua para os equipamentos eletrônicos
+  - De corrente alternada da tomada para corrente contínua para os equipamentos eletrônicos.
 - **Resistor ou Resistência**
-  - Diminuir a intensidade da corrente elétrica
+  - Diminuir a intensidade da corrente elétrica.
 - **Capacitores**
-  - Armazenar cargas elétricas em um campo elétrico
-  - Unidade de medida: microfarad (µF), nanofard(nF) ou picofarad(pF)
+  - Armazenar cargas elétricas em um campo elétrico.
+  - Unidade de medida: microfarad (µF), nanofard(nF) ou picofarad(pF).
 - **Indutores**
-  - Armazenar cargas elétricas em um campo magnético
-  - Unidade de medida: HENRYS (H)
+  - Armazenar cargas elétricas em um campo magnético.
+  - Unidade de medida: HENRYS (H).
 - **Diodos**
-  - Determinar o sentido da corrente elétrica
-  - Evitar que outras partes do equipamento sejam queimadas, só o diodo é perdido
+  - Determinar o sentido da corrente elétrica.
+  - Evitar que outras partes do equipamento sejam queimadas, só o diodo é perdido.
 - **LED (Ligth-Emitting Diode, Diodo Emissor de Luz)**
 
 ### Automação
 
 - **Raspberry PI (micro computador)**
-  - Fundação criada em 2006, Universidade de Cambridge
-  - Preço acessível
-  - Configurar um servidor DNS para receber comandos via Internet
+  - Fundação criada em 2006, Universidade de Cambridge.
+  - Preço acessível.
+  - Configurar um servidor DNS para receber comandos via Internet.
 - **Arduino (micro controlador)**
-  - Placa de hardware livre
-  - Massimo Benzi, David Cuartielles, Tom Igoe, Gianluca Martino e David Mellis, Itália
-  - **Entradas**
-    - Sensores como ultrassom, termômetros
-    - Motores
-    - Módulos de conexão: Ethernet, Bluetooth e WiFi
-    - Outras placas controladoras
-  - **Modelos** Uno, Mega ou Nano
+  - Placa de hardware livre (2005).
+  - Massimo Benzi, David Cuartielles, Tom Igoe, Gianluca Martino e David Mellis, Itália.
+  - **Entradas**:
+    - Sensores como ultrassom, termômetros.
+    - Motores.
+    - Módulos de conexão: Ethernet, Bluetooth e WiFi.
+    - Outras placas controladoras.
+  - **Modelos** Uno, Mega ou Nano.
 - **Emulador Fritzing**
 - **Control Room**
   - Software que gerencia, programa, executa e configura vários recursos de bots e Executores de bots.
@@ -181,17 +181,21 @@
 
 ## Legislação
 
-- Lei nº 12.965/2014, Marco Civil da Internet
-- Lei nº 13.709/2018, Lei Geral de Proteção de Dados
-- Decreto nº 9.854/2019, Plano Nacional de Internet das Coisas
+- Lei nº 12.965/2014, Marco Civil da Internet.
+- Lei nº 13.709/2018, Lei Geral de Proteção de Dados.
+- Decreto nº 9.854/2019, Plano Nacional de Internet das Coisas.
 
 ## Mercado de trabalho (Indústria 4.0)
 
-- Quarta revolução industrial
+- Quarta revolução industrial.
 - **Especialidades**
-  - Segurança para IoT
-  - Redes LP SP e LP WAN
-  - Processadores e Microcontroladores
-  - Sistemas Operacionais de tempo real e de Cloud
-  - Padronizações
-  - Ecossistemas
+  - Segurança para IoT.
+  - Redes wireless:
+    - Low Power Wide Area Networks (LPWAN).
+      - Transmit small amounts of data over long distances (15 to 20 km).
+    - Short-range.
+      - Bluetooth, Wi-Fi, Zigbee, Z-Wave, UWB, and NFC.
+  - Processadores e Microcontroladores.
+  - Sistemas Operacionais de tempo real e de Cloud.
+  - Padronizações.
+  - Ecossistemas.
