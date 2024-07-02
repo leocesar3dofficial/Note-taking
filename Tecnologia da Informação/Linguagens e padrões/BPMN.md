@@ -16,11 +16,11 @@
 
 ![Símbolos do BPMN](/Imagens/BPMN-Symbols.png)
 
-_**Imagem 1:** Símbolos mais comuns do BPMN._
+_**Imagem:** Símbolos mais comuns do BPMN._
 
 ![Diagrama de exemplo](/Imagens/BPMN-Example.png)
 
-_**Imagem 2:** Exemplo de diagrama BPMN com dois Pools (Loja e Consumidor)._
+_**Imagem:** Exemplo de diagrama BPMN._
 
 ### Objetos de fluxo
 
@@ -33,6 +33,18 @@ _**Imagem 2:** Exemplo de diagrama BPMN com dois Pools (Loja e Consumidor)._
 
 #### Atividades
 
+![Atividades](/Imagens/BPMN-Activity.png)
+
+_**Imagem:** Atividades._
+
+![Marcadores de Atividades](/Imagens/BPMN-Activity-Types.png)
+
+_**Imagem:** Marcadores de Atividades._
+
+![Marcadores de Tarefas](/Imagens/BPMN-Tasks.png)
+
+_**Imagem:** Tipos de Tarefas._
+
 - Representados por retângulos com cantos arredondados.
 - Tarefa.
 - Sub processo (Quadrado simples com +).
@@ -40,6 +52,10 @@ _**Imagem 2:** Exemplo de diagrama BPMN com dois Pools (Loja e Consumidor)._
 - Chamar atividade.
 
 #### Gateways
+
+![Gateways](/Imagens/BPMN-Gateways.png)
+
+_**Imagem:** Tipos de Gateways._
 
 - Representados por diamantes.
 - Exclusive (Exclusivo, X)
@@ -65,7 +81,7 @@ _**Imagem 2:** Exemplo de diagrama BPMN com dois Pools (Loja e Consumidor)._
 
 - Fluxo de sequência (\_\_\_➤).
 - Fluxo de mensagem (◇.....➢).
-- Associação (.....).
+- Associação (.....➢).
 
 ### Swimlanes
 
@@ -73,6 +89,10 @@ _**Imagem 2:** Exemplo de diagrama BPMN com dois Pools (Loja e Consumidor)._
 - Lanes: Subdivide pools to show different roles or departments within an organization.
 
 ### Artifacts
+
+![Diagrama de exemplo](/Imagens/BPMN-Data.png)
+
+_**Imagem:** Artefatos de Dados._
 
 - Data Objects: Represent information required or produced by activities.
 - Groups: Visually group related activities without affecting the flow.
