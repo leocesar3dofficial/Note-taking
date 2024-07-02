@@ -14,6 +14,14 @@
 
 ## Elementos do Business Process Diagram (BPD)
 
+![Símbolos do BPMN](/Imagens/BPMN-Symbols.png)
+
+_**Imagem 1:** Símbolos mais comuns do BPMN._
+
+![Diagrama de exemplo](/Imagens/BPMN-Example.png)
+
+_**Imagem 2:** Exemplo de diagrama BPMN com dois Pools (Loja e Consumidor)._
+
 ### Objetos de fluxo
 
 #### Eventos
