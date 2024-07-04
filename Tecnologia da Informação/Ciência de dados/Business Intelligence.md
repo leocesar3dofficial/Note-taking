@@ -2,7 +2,7 @@
 
 ## Definição
 
-- Processo onde dados são captados e convertidos em informações úteis ao negócio.
+- Processo onde os dados são captados e convertidos em informações úteis ao negócio.
 - Metodologia de coleta, organização, avaliação, compartilhamento e controle de informações.
 - Resultado: insights para o processo decisório.
 
@@ -51,12 +51,58 @@
 7. Identificar oportunidades de investimentos.
 8. Aprimorar seu desempenho no mercado.
 
+## Casos de uso
+
+### Vendas e receitas
+
+- Monitorar pipelines de vendas.
+- Rastrear as principais métricas de vendas e prever vendas futuras.
+  - Uso de dados históricos e padrões de comportamento.
+
+### Segmentação de clientes
+
+- Segmentar os clientes por dados demográficos e comportamento de compra.
+- Usar os modelos RFM (Recency, Frequency, and Monetary values) para identificar os clientes mais valiosos e concentrar os esforços de retenção.
+  - Exemplo:
+    - Cliente A:
+      - Atualidade (dias): 21.
+      - Frequência (quantidade de compras): 6.
+      - Valor (R$): 1.500,25.
+    - Cliente B:
+      - Atualidade (dias): 5.
+      - Frequência (quantidade de compras): 2.
+      - Valor (R$): 750,02.
+  - Gerar um escore ou ranking, com a média, nos três atributos, e ordenar os clientes mais valiosos.
+
+### Otimização da Cadeia de Suprimentos (Supply Chain)
+
+- Monitorar desde a aquisição até a entrega do produto.
+- Otimizar os níveis de estoque.
+- Reduzir custos e melhorar o atendimento ao cliente.
+
+### Análise de Desempenho Financeiro
+
+- Rastrear KPIs e prever o desempenho financeiro.
+- Monitorizar orçamentos, identificar oportunidades de redução de custos e prever a saúde financeira futura.
+
+### Eficiência Operacional e Melhoria de Processos
+
+- Produtividade dos funcionários, utilização de recursos e gargalos nos processos.
+
+### Nível estratégico
+
+- Acompanhamento de KPIs e métricas de negócios.
+- Melhorar a tomada de decisões com insights baseados em dados.
+- Democratizar o acesso aos dados em toda a organização.
+- Permitir autoatendimento de análises para os usuários internos.
+- Gerar insights de forma colaborativa.
+
 ## Gerenciamento
 
 - **ETL (Extract, Transform, Load):**
 
-  1. Identificar fontes de dados.
-  2. Traduzi-los em um formato padrão.
+  1. Identificar as fontes de dados.
+  2. Traduzir os dados em um formato padrão.
   3. Carregá-los em um banco de dados.
 
 - **Processo de gestão:**
@@ -126,14 +172,14 @@
   - Integrado.
   - Variável no tempo (histórico dos registros).
   - Não volátil.
-  - Deve evoluir com o tempo com o uso de estratégias evolucionárias.
+  - Deve evoluir ao longo do tempo com o uso de estratégias evolucionárias.
 
 - **Fontes de dados**
 
-  - Características.
+  - Características:
     - Incluem dados transacionais, externos, históricos e agregados.
     - Podem incluir DBMS, ERP e CRM, entre outros.
-  - Formas de comunicação.
+  - Formas de comunicação:
     - OLTP (On-line Transaction Processing).
       - Transações em tempo real.
       - Suportam e otimizam operações diárias de uma organização, como inserção, atualização e exclusão de registros em bancos de dados.
@@ -148,10 +194,10 @@
         - Combina elementos do MOLAP e ROLAP.
         - Pode usar armazenamento multidimensional para resumos rápidos, mas também se integra com dados detalhados armazenados em bancos de dados relacionais.
   - Bancos de dados (backend).
-    - Metadados.
+    - Metadados:
       - Dados sobre os dados.
       - Atributos: descrição, ambiente, forma de manipulação, para onde é distribuído.
-      - Tipos.
+      - Tipos:
         - Técnicos (sintáticos, estruturais).
         - De negócio (semânticos).
     - Data Staging.
@@ -166,16 +212,16 @@
 
 - **Tipos**
 
-  - Quanto a dimensão.
+  - Quanto a dimensão:
     - Enterprise Data Warehouse (EDW).
     - Data Marts (DM).
     - Operational Data Store (ODS).
-  - Quanto a estrutura.
+  - Quanto a estrutura:
     - Simples.
     - Simples com área de preparo (staging de novos dados).
     - Hub and spoke.
     - Áreas restritas.
-  - Níveis de redundância.
+  - Níveis de redundância:
     - Virtual.
     - Central.
     - Distribuído (serviço na nuvem - Cloud Computing).
@@ -200,12 +246,12 @@
 
 - Knowledge Discovery in Databases (KDD).
 - Identificação de padrões em um conjunto de dados.
-- Características dos dados explorados.
+- Características dos dados explorados:
   - Validade.
   - Novidade.
   - Utilidade.
   - Assimilável.
-- Etapas.
+- Etapas:
   1. Definição do problema.
   2. Seleção dos dados.
   3. Eliminação de incongruências/erros dos dados (limpeza dos dados).
