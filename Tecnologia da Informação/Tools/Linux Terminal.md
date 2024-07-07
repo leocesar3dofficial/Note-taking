@@ -182,19 +182,28 @@ sudo systemctl mask bluetooth.service
   ```
 
 - **qBittorent:** `sudo apt-get install qbittorrent`
-- **flatpak:** `sudo apt install flatpak`
+- **Flatpak:** `sudo apt install flatpak`
 
 - **Add Flathub repository:**
 
   ```bash
-    flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+  flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
   ```
 
 - **Install or update Blender:**
 
   ```bash
-      flatpak install flathub org.blender.Blender
-      flatpak update org.blender.Blender
+  flatpak install flathub org.blender.Blender
+  flatpak update org.blender.Blender
+  ```
+
+- **Install Inkscape:**
+
+  ```bash
+  sudo apt update
+  sudo add-apt-repository ppa:inkscape.dev/stable
+  sudo apt install inkscape
+  inkscape --version
   ```
 
 ## Uninstall Software (and all its dependencies)
