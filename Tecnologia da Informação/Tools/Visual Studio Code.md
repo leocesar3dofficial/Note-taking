@@ -40,6 +40,8 @@
 
 - **Live Server**
 
+  - When set, serve this file (server root relative) for every 404 (useful for single-page applications, SPA): `"liveServer.settings.file": "index.html"`
+
 ### Duplicate line
 
 1. Go To Preferences -> Keyboard Shortcuts.
@@ -57,5 +59,4 @@
 
 - Open settings: `Ctrl + ,`
 - Markdown editing
-  - Automatic link updates on file move or rename (always)
-    `markdown.updateLinksOnFileMove.enabled`
+  - Automatic link updates on file move or rename (always) `markdown.updateLinksOnFileMove.enabled`
