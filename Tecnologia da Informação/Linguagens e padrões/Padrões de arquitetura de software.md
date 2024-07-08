@@ -272,139 +272,139 @@
 
 ## Cliente-servidor
 
-- Divisão de responsabilidades entre o cliente (interface de usuário) e o servidor (processamento e armazenamento)
-- Comunicação em duas direções
-  - O cliente solicita informações ou serviços ao servidor
-  - O servidor responde com os dados necessários
-- Escalabilidade
-  - O servidor pode ser dimensionado para atender a um grande número de clientes simultaneamente
+- Divisão de responsabilidades entre o cliente (interface de usuário) e o servidor (processamento e armazenamento).
+- Comunicação em duas direções:
+  - O cliente solicita informações ou serviços ao servidor.
+  - O servidor responde com os dados necessários.
+- Escalabilidade.
+  - O servidor pode ser dimensionado para atender a um grande número de clientes simultaneamente.
 
 ## Pipes-and-filters
 
-- Transformação de dados em etapas sequenciais
-- Fluxo de dados através de uma série de componentes de processamento
-  - Filtros conectados por meio de canais (pipes)
-- Processamento modular
-  - Cada filtro realiza uma tarefa específica e os dados fluem sequencialmente pelos filtros
-- Flexibilidade
-  - É possível combinar e reorganizar os filtros para atender a diferentes requisitos de processamento
+- Transformação de dados em etapas sequenciais.
+- Fluxo de dados através de uma série de componentes de processamento.
+  - Filtros conectados por meio de canais (pipes).
+- Processamento modular.
+  - Cada filtro realiza uma tarefa específica e os dados fluem sequencialmente pelos filtros.
+- Flexibilidade.
+  - É possível combinar e reorganizar os filtros para atender a diferentes requisitos de processamento.
 
 ## P2P (Peer-to-Peer)
 
-- Arquitetura descentralizada
-  - Todos os nós da rede têm capacidade de serem tanto clientes quanto servidores
-  - Compartilhamento de recursos
-    - Os nós podem compartilhar recursos
-    - Dados e poder de processamento de forma direta
-- Escalabilidade
-  - O sistema pode ser escalado adicionando-se novos nós à rede
-  - Não há necessidade de uma infraestrutura centralizada
+- Arquitetura descentralizada.
+  - Todos os nós da rede têm capacidade de serem tanto clientes quanto servidores.
+  - Compartilhamento de recursos.
+    - Os nós podem compartilhar recursos.
+    - Dados e poder de processamento de forma direta.
+- Escalabilidade.
+  - O sistema pode ser escalado adicionando-se novos nós à rede.
+  - Não há necessidade de uma infraestrutura centralizada.
 
 ## Serverless
 
-- Conceito
-  - Modelo de computação em nuvem
-  - Permite aos desenvolvedores executar código sem se preocupar com a infraestrutura subjacente
-  - Funções ou pequenas unidades de código que são executadas em resposta a eventos
-    - Solicitações HTTP, uploads de arquivos ou alterações em bancos de dados
-- Características
-  - Escalabilidade automática
-    - Provedores de serviços em nuvem, como AWS Lambda, Azure Functions e Google Cloud Functions
-    - Gerenciam automaticamente o dimensionamento das funções conforme a demanda
-    - Permite que os aplicativos sejam altamente escaláveis
-  - Pagamento por uso
-    - Você paga apenas pelo tempo de execução real das funções
-    - Econômica para cargas de trabalho intermitentes ou de baixo tráfego
-  - Ausência de gerenciamento de infraestrutura
-    - Não há necessidade de configuração ou manutenção
-      - De servidores, bancos de dados ou outros recursos de infraestrutura
-    - Simplifica o desenvolvimento e a implantação de aplicativos
-  - Event-driven
-    - As funções são acionadas por eventos
-    - Promove a criação de aplicativos reativos e orientados a eventos
+- Conceito:
+  - Modelo de computação em nuvem.
+  - Permite aos desenvolvedores executar código sem se preocupar com a infraestrutura subjacente.
+  - Funções ou pequenas unidades de código que são executadas em resposta a eventos.
+    - Solicitações HTTP, uploads de arquivos ou alterações em bancos de dados.
+- Características:
+  - Escalabilidade automática.
+    - Provedores de serviços em nuvem, como AWS Lambda, Azure Functions e Google Cloud Functions.
+    - Gerenciam automaticamente o dimensionamento das funções conforme a demanda.
+    - Permite que os aplicativos sejam altamente escaláveis.
+  - Pagamento por uso.
+    - Você paga apenas pelo tempo de execução real das funções.
+    - Econômica para cargas de trabalho intermitentes ou de baixo tráfego.
+  - Ausência de gerenciamento de infraestrutura.
+    - Não há necessidade de configuração ou manutenção.
+      - De servidores, bancos de dados ou outros recursos de infraestrutura.
+    - Simplifica o desenvolvimento e a implantação de aplicativos.
+  - Event-driven.
+    - As funções são acionadas por eventos.
+    - Promove a criação de aplicativos reativos e orientados a eventos.
 
 ## Hexagonal ou Ports and Adapters (Arquitetura de Portas e Adaptadores)
 
-- Conceito
-  - Visa separar as preocupações de negócios da infraestrutura e das tecnologias externas
-  - Separação entre a lógica de negócios e a interação com o mundo externo
-  - Chamada de "hexagonal" devido à sua representação gráfica que se assemelha a um hexágono
-- Características
-  - Separação de camadas
-    - Aplicação, Negócios, Adaptadores e Portas
-  - Portas e adaptadores
-    - As portas são interfaces onde a lógica de negócios se comunica com o mundo externo
-    - Os adaptadores são responsáveis por implementar as portas e lidar com detalhes de implementação
+- Conceito:
+  - Visa separar as preocupações de negócios da infraestrutura e das tecnologias externas.
+  - Separação entre a lógica de negócios e a interação com o mundo externo.
+  - Chamada de "hexagonal" devido à sua representação gráfica que se assemelha a um hexágono.
+- Características:
+  - Separação de camadas.
+    - Aplicação, Negócios, Adaptadores e Portas.
+  - Portas e adaptadores.
+    - As portas são interfaces onde a lógica de negócios se comunica com o mundo externo.
+    - Os adaptadores são responsáveis por implementar as portas e lidar com detalhes de implementação.
       - Acesso a banco de dados, chamadas de API, etc.
-  - Testabilidade
-    - Facilita a testabilidade
-    - Pode substituir os adaptadores por simuladores ou mocks durante os testes
-    - Mantém a lógica de negócios inalterada
-  - Flexibilidade
-    - A separação de camadas e a modularização tornam a arquitetura flexível
-    - e facilmente adaptável a mudanças nos requisitos ou na tecnologia
-  - Manutenção e evolução
-    - As mudanças na infraestrutura externa têm impacto mínimo na lógica de negócios
+  - Testabilidade.
+    - Facilita a testabilidade.
+    - Pode substituir os adaptadores por simuladores ou mocks durante os testes.
+    - Mantém a lógica de negócios inalterada.
+  - Flexibilidade.
+    - A separação de camadas e a modularização tornam a arquitetura flexível.
+    - Adaptável a mudanças nos requisitos ou na tecnologia.
+  - Manutenção e evolução.
+    - As mudanças na infraestrutura externa têm impacto mínimo na lógica de negócios.
 
 ## Anti-padrões arquiteturais
 
-- Monolito Gigante (Big Ball of Mud)
-  - Todo o código do sistema é colocado em um único monólito, tornando-o grande e difícil de gerenciar
-  - Não há separação adequada de preocupações
-  - A complexidade aumenta à medida que o sistema cresce, tornando a manutenção e a escalabilidade problemáticas
-- Mágica de Alto Acoplamento (Spaghetti Code)
-  - O código é altamente acoplado, com muitas dependências entre diferentes partes do sistema
-  - Torna o código difícil de entender e de testar
-  - Qualquer alteração em uma parte do código pode ter efeitos colaterais imprevisíveis em outras partes
-- Interface Monolítica (Monolithic Interface)
-  - Uma única interface é projetada para várias funcionalidades ou casos de uso diferentes
-  - Resulta em uma interface grande e confusa
-  - Torna a interface difícil de usar, entender e manter
-- Dependência Circular (Circular Dependency)
-  - Ocorre quando dois ou mais módulos ou componentes dependem uns dos outros, criando um loop de dependência
-  - Dificulta a compreensão do fluxo de controle e tornam as mudanças no sistema arriscadas
-- Procrastinação (Architectural Drift)
-  - Decisões arquiteturais importantes são adiadas indefinidamente
-  - Resulta em um sistema que cresce organicamente, sem um plano ou estrutura clara
-  - Leva a sistemas desorganizados e difíceis de manter e expandir
-- Erros de Sincronização (Race Conditions)
-  - Ocorrem quando múltiplos threads ou processos competem por recursos compartilhados
-  - Leva a resultados imprevisíveis ou inesperados
-  - Resulta em problemas de segurança e desempenho
-- Projeto por Exceção (Design by Exception)
-  - O código é projetado principalmente para tratar exceções ou casos de erro
-  - Em vez de se concentrar no fluxo principal da lógica de negócios
-  - Leva a um código inchado, difícil de ler e manter
-- Código Copiado e Colado (Copy-Paste Programming)
-  - Envolvem a prática de copiar e colar código em vez de reutilizá-lo de maneira adequada
-  - Resulta em duplicação de código
-  - Tornam as atualizações e correções difíceis de manter em sincronia
+- Monolito Gigante (Big Ball of Mud).
+  - Todo o código do sistema é colocado em um único monólito, tornando-o grande e difícil de gerenciar.
+  - Não há separação adequada de preocupações (Separation of Concerns, SoC).
+  - A complexidade aumenta à medida que o sistema cresce, tornando a manutenção e a escalabilidade problemáticas.
+- Alto Acoplamento (Spaghetti Code).
+  - O código é altamente acoplado, com muitas dependências entre diferentes partes do sistema.
+  - Torna o código difícil de entender e de testar.
+  - Qualquer alteração em uma parte do código pode ter efeitos colaterais imprevisíveis em outras partes.
+- Interface Monolítica (Monolithic Interface).
+  - Uma única interface é projetada para várias funcionalidades ou casos de uso diferentes.
+  - Resulta em uma interface grande e confusa.
+  - Torna a interface difícil de usar, entender e manter.
+- Dependência Circular (Circular Dependency).
+  - Ocorre quando dois ou mais módulos ou componentes dependem uns dos outros, criando um loop de dependência.
+  - Dificulta a compreensão do fluxo de controle e tornam as mudanças no sistema arriscadas.
+- Procrastinação (Architectural Drift).
+  - Decisões arquiteturais importantes são adiadas indefinidamente.
+  - Resulta em um sistema que cresce organicamente, sem um plano ou estrutura clara.
+  - Leva a sistemas desorganizados e difíceis de manter e expandir.
+- Erros de Sincronização (Race Conditions).
+  - Ocorrem quando múltiplos threads ou processos competem por recursos compartilhados.
+  - Leva a resultados imprevisíveis ou inesperados.
+  - Resulta em problemas de segurança e desempenho.
+- Projeto por Exceção (Design by Exception).
+  - O código é projetado principalmente para tratar exceções ou casos de erro.
+  - Em vez de se concentrar no fluxo principal da lógica de negócios.
+  - Leva a um código inchado, difícil de ler e manter.
+- Código Copiado e Colado (Copy-Paste Programming).
+  - Envolvem a prática de copiar e colar código em vez de reutilizá-lo de maneira adequada.
+  - Resulta em duplicação de código.
+  - Tornam as atualizações e correções difíceis de manter em sincronia.
 
 ## Programação Assíncrona
 
-- É uma técnica que permite que um programa execute tarefas em segundo plano
-- Sem bloquear a execução principal do programa
-- Em vez de esperar que uma tarefa seja concluída antes de continuar
-- Permite que o programa continue executando outras tarefas enquanto aguarda a conclusão de operações demoradas
-- Usada para melhorar a responsividade e o desempenho de sistemas que precisam lidar com E/S intensiva
-  - Aplicativos web que precisam processar várias solicitações simultaneamente
+- É uma técnica que permite que um programa execute tarefas em segundo plano.
+- Sem bloquear a execução principal do programa.
+- Em vez de esperar que uma tarefa seja concluída antes de continuar.
+- Permite que o programa continue executando outras tarefas enquanto aguarda a conclusão de operações demoradas.
+- Usada para melhorar a responsividade e o desempenho de sistemas que precisam lidar com E/S intensiva.
+  - Aplicativos web que precisam processar várias solicitações simultaneamente.
 
 ## Ferramentas de Integração Assíncrona
 
-- Tecnologias e bibliotecas que permitem a comunicação entre componentes ou sistemas de forma assíncrona
-- Sistemas de mensageria, como RabbitMQ ou Apache Kafka
+- Tecnologias e bibliotecas que permitem a comunicação entre componentes ou sistemas de forma assíncrona.
+- Sistemas de mensageria, como RabbitMQ ou Apache Kafka.
 - Permitem a troca de mensagens entre sistemas de forma assíncrona, facilitando a comunicação entre componentes distribuídos
 
 ## Programação Multithread
 
-- Criação e gerenciamento de várias threads de execução em um programa
-- Threads são unidades de processamento leves que podem ser usadas para executar tarefas simultaneamente
-- Usada para melhorar o desempenho e a capacidade de resposta de sistemas
-- Permite que tarefas concorrentes sejam executadas em paralelo
-- Importante em sistemas multiusuários e que precisam lidar com carga de trabalho intensiva
-- Reentrância ou Código reentrante
-  - É um trecho de código escrito de forma que possa ser compartilhado por diversos programas ao mesmo tempo
-  - Exige que apenas uma cópia do programa esteja na memória
-  - O código não pode ser modificado por nenhum usuário no momento em que está sendo executado
+- Criação e gerenciamento de várias threads de execução em um programa.
+- Threads são unidades de processamento leves que podem ser usadas para executar tarefas simultaneamente.
+- Usada para melhorar o desempenho e a capacidade de resposta de sistemas.
+- Permite que tarefas concorrentes sejam executadas em paralelo.
+- Importante em sistemas multiusuários e que precisam lidar com carga de trabalho intensiva.
+- Reentrância ou Código reentrante:
+  - É um trecho de código escrito de forma que possa ser compartilhado por diversos programas ao mesmo tempo.
+  - Exige que apenas uma cópia do programa esteja na memória.
+  - O código não pode ser modificado por nenhum usuário no momento em que está sendo executado.
 
 ## Sub-rotinas (ou funções)

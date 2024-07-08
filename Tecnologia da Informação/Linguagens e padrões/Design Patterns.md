@@ -137,42 +137,43 @@
 
 ### Características
 
-- São soluções comuns para problemas recorrentes que geralmente são ineficazes
-- Podem ser altamente contraproducentes
-- São o oposto dos padrões de design, que são soluções comprovadamente eficazes para problemas de design de software
-- O termo "anti-padrão" foi cunhado em 1995 pelo programador de computador Andrew Koenig
-- É um processo, estrutura ou padrão de ação comumente usado que, apesar de inicialmente parecer uma resposta apropriada e eficaz a um problema, tem mais consequências ruins do que boas
-- Outra solução existe para o problema que o anti-padrão está tentando resolver
-- Essa solução é documentada, repetível e comprovadamente eficaz, enquanto o anti-padrão não é
-- Documentar anti-padrões pode ser uma maneira eficaz de analisar um espaço de problemas e capturar conhecimento especializado
+- São soluções comuns para problemas recorrentes que geralmente são ineficazes.
+- Podem ser altamente contraproducentes.
+- São o oposto dos padrões de design, que são soluções comprovadamente eficazes para problemas de design de software.
+- O termo "anti-padrão" foi cunhado em 1995 pelo programador de computador Andrew Koenig.
+- É um processo, estrutura ou padrão de ação comumente usado que, apesar de inicialmente parecer uma resposta apropriada e eficaz a um problema, tem mais consequências ruins do que boas.
+- Outra solução existe para o problema que o anti-padrão está tentando resolver.
+- Essa solução é documentada, repetível e comprovadamente eficaz, enquanto o anti-padrão não é.
+- Documentar anti-padrões pode ser uma maneira eficaz de analisar um espaço de problemas e capturar conhecimento especializado.
 
 ### Code Smell
 
 #### Características
 
-- É qualquer característica no código-fonte de um programa que possivelmente indica um problema mais profundo
-- Determinar o que é e o que não é um Code Smell é subjetivo e varia de acordo com a linguagem, desenvolvedor e metodologia de desenvolvimento
-- O termo foi popularizado por Kent Beck em WardsWiki no final dos anos 1990
-- Apresentado no livro "Refactoring: Improving the Design of Existing Code" de Martin Fowler em 1999
-- É também um termo usado por programadores ágeis
-- Uma violação de princípios fundamentais de design e qualidade de código
-- Geralmente não são bugs
-- Não são tecnicamente incorretos e não impedem o programa de funcionar
-- Indicam fraquezas no design que podem retardar o desenvolvimento ou aumentar o risco de bugs ou falhas no futuro
+- É qualquer característica no código-fonte de um programa que possivelmente indica um problema mais profundo.
+- Determinar o que é e o que não é um Code Smell é subjetivo e varia de acordo com a linguagem, desenvolvedor e metodologia de desenvolvimento.
+- O termo foi popularizado por Kent Beck em WardsWiki no final dos anos 1990.
+- Apresentado no livro "Refactoring: Improving the Design of Existing Code" de Martin Fowler em 1999.
+- É também um termo usado por programadores ágeis.
+- Uma violação de princípios fundamentais de design e qualidade de código.
+- Geralmente não são bugs.
+- Não são tecnicamente incorretos e não impedem o programa de funcionar.
+- Indicam fraquezas no design que podem retardar o desenvolvimento ou aumentar o risco de bugs ou falhas no futuro.
 
 #### Tipos
 
 - **Big Ball of Mud**
 
-  - Falta de design ou arquitetura em um sistema de software, resultando em um código confuso e difícil de manter
+  - Falta de design ou arquitetura em um sistema de software, resultando em um código confuso e difícil de manter.
 
 - **God Class**
 
-  - Uma única classe lida com todo o controle em um programa em vez de o controle ser distribuído por várias classes
+  - Uma única classe lida com todo o controle em um programa em vez de o controle ser distribuído por várias classes.
 
 - **Magic Numbers**
 
-  - Um valor único com um significado inexplicável ou várias ocorrências que poderiam ser substituídas por uma constante nomeada
+  - Um valor único com um significado inexplicável ou várias ocorrências que poderiam ser substituídas por uma constante nomeada.
 
 - **Poltergeists**
-  - Classes controladoras efêmeras que só existem para invocar outros métodos em classes
+
+  - Classes controladoras efêmeras que só existem para invocar outros métodos em classes.
