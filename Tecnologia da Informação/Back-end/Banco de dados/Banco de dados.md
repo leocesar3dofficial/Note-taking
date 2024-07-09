@@ -776,10 +776,10 @@ O modelo de dados é criado a partir da visão geral do negócio. Define os obje
 
 - **Controle de Versão:** Permite controlar as alterações de esquema do banco de dados através de scripts SQL versionados.
 - **Migrações Automáticas:** Executa automaticamente as migrações de banco de dados durante o processo de inicialização do aplicativo.
-- **Suporte a Várias Fontes de Scripts:** Suporta arquivos SQL, arquivos de texto puro, scripts Java, Jython e Groovy.
+- **Suporte a Várias Fontes de Scripts:** Suporta arquivos SQL, arquivos de texto puro, scripts Java, Jython (gera bytecode para máquinas Java) e Groovy (linguagem de programação).
 - **Controle de Transações:** Executa cada migração dentro de uma transação, garantindo reversão (rollback) em caso de erro.
-- **Integração com Ferramentas de Build:** Pode ser integrado a ferramentas como Maven, Gradle e Ant.
-- **Suporte a Vários Bancos de Dados:** Compatível com MySQL, PostgreSQL, Oracle, SQL Server e outros.
+- **Integração com Ferramentas de Compilação/Build:** Pode ser integrado a ferramentas como Maven (Java), Gradle (Java) e Apache Ant (Java).
+- **Suporte a Vários Bancos de Dados:** Compatível com MySQL, PostgreSQL, Oracle, SQL Server e os principais serviços na nuvem.
 - **Extensibilidade:** Permite o uso de plugins e extensões personalizadas.
 
 ## Conceitos de Business Intelligence

@@ -410,6 +410,9 @@
 - **IaaS (Infraestrutura como Serviço)**
 
   - Fornece recursos de infraestrutura computacional virtualizada aos usuários.
+    - Virtual Private Cloud (VPC)
+      - Is a virtual network that closely resembles a traditional network that you'd operate in your own data center.
+      - After you create a VPC, you can add subnets (range of IP addresses).
   - Inclui servidores virtuais, redes, armazenamento e outros recursos relacionados.
   - Os usuários têm controle total sobre o ambiente de computação.
   - Os usuários são responsáveis pela configuração e gerenciamento dos sistemas operacionais, aplicativos e dados.

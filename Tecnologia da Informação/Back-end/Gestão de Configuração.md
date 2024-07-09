@@ -1,14 +1,18 @@
 # Gestão de Configuração, Integração e entrega contínua (CI/CD)
 
+Continuous Integration and Continuous Delivery/Deployment
+
 ## Características
 
-- Automatizar e agilizar o processo de construção, teste e entrega de software.
+- Automatizar e agilizar o processo de construção (build), teste e entrega (delivery) de software.
 - Integração frequente do código em um repositório.
 - Configuração de infraestrutura como código (IaC).
 - Pipelines de implantação.
   - Compilação, testes, empacotamento e implantação no ambiente de produção.
 
 ## Controle de versão
+
+Version Control System, VCS.
 
 ### Git
 
@@ -51,11 +55,11 @@ cvs -d <caminho do diretório> init
 ### Jenkins (servidor de integração contínua, CI/CD)
 
 - É uma plataforma de automação de código aberto.
-- Processo automatizado de compilação, teste e implantação.
+- Processo automatizado de compilação (build), teste e implantação.
 - Utilizada para a construção, teste e implantação contínuos de software.
 - Permite a criação de pipelines de CI/CD.
   - Monitora o repositório de código-fonte.
-  - Automatizam a compilação de código, execução de testes, empacotamento e implantação em diferentes ambientes.
+  - Automatiza a compilação de código, execução de testes, empacotamento e implantação em diferentes ambientes.
 - É extensível e escalável, suporta uma variedade de plugins que facilitam a integração com várias ferramentas e serviços.
 - Pode ser integrado com outras ferramentas de gerenciamento de configuração, como Puppet e Ansible.
 - Possui recursos de notificação e geração de relatórios.
@@ -77,14 +81,14 @@ cvs -d <caminho do diretório> init
 
 ### Ansible
 
-- Ferramenta de automação de código aberto.
+- Ferramenta de automação de código aberto, escrito em Python.
 - Permite a automação de tarefas de configuração e gerenciamento de servidores.
   - Via Playbooks.
     - Composto por Plays.
       - Sequências de Tasks que, por sua vez, chamam Modules.
-- Utiliza uma abordagem baseada em YAML e SSH para descrever as tarefas que devem ser executadas em servidores remotos.
+- Utiliza uma abordagem baseada em YAML e OpenSSH para descrever as tarefas que devem ser executadas em servidores remotos.
 - Conhecido por sua simplicidade e facilidade de uso.
-- Não requer agentes em máquinas remotas.
+- Não requer agentes em máquinas remotas (agentless).
 - Suporta a automação de tarefas em sistemas Windows e Unix.
 - Também pode ser usado para orquestração de aplicativos e provisionamento de infraestrutura.
 
