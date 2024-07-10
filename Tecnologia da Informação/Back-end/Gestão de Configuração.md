@@ -3,6 +3,7 @@
 Continuous Integration and Continuous Delivery/Deployment.
 
 ![Ferramentas de CI/CD](/Imagens/CICD-Tools.png)
+_**Imagem:** Ferramentas de CI/CD utilizadas em cada etapa._
 
 ## Características
 
