@@ -105,30 +105,24 @@ Principais vulnerabilidades e remediações.
 
 ### Cross-Site Scripting (XSS)
 
-- Proteja seu aplicativo contra ataques XSS.
-  - Utilizar tokens anti-CSRF.
-    - Inclua tokens de segurança exclusivos em formulários e solicitações que exigem ações sensíveis.
-    - Esses tokens devem ser verificados no lado do servidor para garantir a legitimidade da solicitação.
-  - Implementar políticas de mesma origem (Same-Origin Policy).
-    - Configure seu aplicativo para que ele só aceite solicitações de origens confiáveis.
-    - Ajuda a prevenir solicitações de sites não autorizados.
-  - Utilizar cabeçalhos HTTP apropriados.
-    - Cabeçalhos.
-      - Host: contém o DNS do servidor.
-    - Configure cabeçalhos HTTP, como o cabeçalho "Referer" e o cabeçalho "Origin".
-    - Para verificar a origem de solicitações e rejeitar solicitações de fontes não autorizadas.
-  - Exigir autenticação sensível.
-    - Solicitações que envolvem ações sensíveis devem exigir autenticação adicional.
-    - Como a solicitação de senha ou autenticação de dois fatores.
-  - Fornecer confirmação para ações críticas.
-    - Como a exclusão de uma conta ou transferência de fundos.
-    - Solicite que o usuário confirme a ação, mesmo que já esteja autenticado.
-  - Validar e escapar adequadamente todas as saídas de dados.
+- Descrição:
+  - O sistema não neutraliza ou neutraliza incorretamente a entrada controlada pelo usuário antes de ser colocada na saída como uma página da Web que é servida a outros usuários.
+  - Dados não confiáveis ​​entram em um aplicativo web, normalmente a partir de uma solicitação web.
+  - O aplicativo web gera dinamicamente uma página que contém esses dados não confiáveis.
+  - O atacante normalmente envia links maliciosos com o código para outras pessoas ou impersona a página para obter acesso aos dados sensíveis do usuário como credenciais e senhas de login.
+- Prevenções:
+  - Validar todos os inputs dos usuários.
+  - Usar Content Security Policy (CSP)
+    - Restringir as fontes das quais recursos como scripts, imagens e fontes podem ser carregados.
+  - Usar um Web Application Firewall (WAF).
 
 ### Cross-Site Request Forgery (CSRF)
 
-- Implemente tokens anti-CSRF para evitar que um atacante force usuários a realizar ações indesejadas.
-- Evite que os atacantes enganem os usuários para realizar ações não autorizadas por meio de solicitações maliciosas.
+- Descrição:
+  - O aplicativo web não verifica ou não pode verificar se uma solicitação bem formada, válida e consistente foi fornecida pelo usuário que a enviou.
+- Prevenções:
+  - Implemente tokens anti-CSRF para evitar que um atacante force usuários a realizar ações indesejadas.
+  - Evite que os atacantes enganem os usuários para realizar ações não autorizadas por meio de solicitações maliciosas.
 
 ### Redirecionamentos e Encaminhamentos Inseguros
 

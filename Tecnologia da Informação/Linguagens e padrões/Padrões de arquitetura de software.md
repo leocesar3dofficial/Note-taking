@@ -10,9 +10,7 @@
   - O controlador (controller) manipula as interações do usuário e coordena o modelo e a visão.
 
 - **Modularidade:**
-
   - Permite que diferentes componentes possam ser desenvolvidos, testados e mantidos independentemente.
-
   - **Reutilização de Código:**
     - Os componentes podem ser reutilizados em diferentes partes da aplicação.
 
@@ -26,23 +24,9 @@
   - Os componentes podem enviar e receber eventos sem bloquear a execução.
 
 - **Desacoplamento:**
+
   - Os componentes não precisam ter conhecimento direto uns dos outros.
   - Facilita a manutenção e a evolução do sistema.
-
-## Microsserviços
-
-- **Arquitetura Distribuída:**
-
-  - O sistema é dividido em serviços independentes que se comunicam por meio de APIs.
-
-- **Escalabilidade e Flexibilidade:**
-
-  - Cada serviço pode ser dimensionado e atualizado individualmente.
-  - Permite que partes específicas do sistema sejam otimizadas.
-
-- **Desacoplamento:**
-  - Cada serviço é responsável por uma funcionalidade específica.
-  - Pode ser desenvolvido, implantado e mantido independentemente.
 
 ## SOA (Service Oriented Architecture)
 
@@ -56,35 +40,52 @@
   - Os serviços podem ser compartilhados e reutilizados em diferentes aplicações ou processos de negócio.
 
 - **Interoperabilidade:**
+
   - Os serviços podem ser implementados em diferentes tecnologias e plataformas.
   - Permite a integração de sistemas heterogêneos.
 
+## Microsserviços
+
+- **Arquitetura Distribuída:**
+
+  - O sistema é dividido em serviços independentes que se comunicam por meio de APIs.
+  - É uma evolução do SOA.
+
+- **Escalabilidade e Flexibilidade:**
+
+  - Cada serviço pode ser dimensionado e atualizado individualmente.
+  - Permite que partes específicas do sistema sejam otimizadas.
+
+- **Desacoplamento:**
+
+  - Cada serviço é responsável por uma funcionalidade específica.
+  - Pode ser desenvolvido, implantado e mantido de forma independente.
+
 ## Web Services
 
-- Padrão de comunicação baseado em protocolos web como HTTP, XML e JSON
+- Padrão de comunicação baseado em protocolos web como HTTP, XML e JSON.
 
 ### Interoperabilidade
 
-- Os serviços podem ser consumidos por diferentes tecnologias e plataformas
-- Descoberta e registro de serviços
-  - Os serviços podem ser descobertos e registrados em um diretório para facilitar a sua utilização
+- Os serviços podem ser consumidos por diferentes tecnologias e plataformas.
+- Descoberta e registro de serviços.
+  - Os serviços podem ser descobertos e registrados em um diretório para facilitar a sua utilização.
 
 ### Controles e testes de segurança
 
 #### Autenticação
 
-- Garante que apenas usuários autorizados possam acessar e consumir os Web Services
+- Garante que apenas usuários autorizados possam acessar e consumir os Web Services.
 
-##### Métodos comuns
-
-- Tokens de acesso
-- Autenticação baseada em certificados digitais
-- Autenticação de usuário e senha
+- Métodos comuns:
+  - Tokens de acesso.
+  - Autenticação baseada em certificados digitais.
+  - Autenticação de usuário e senha.
 
 #### Autorização
 
-- Uma vez autenticado, é necessário controlar quais operações e recursos um usuário pode acessar
-- Define permissões e restrições de acesso aos Web Services com base em papéis ou grupos de usuários
+- Uma vez autenticado, é necessário controlar quais operações e recursos um usuário pode acessar.
+- Define permissões e restrições de acesso aos Web Services com base em papéis ou grupos de usuários.
 
 #### Criptografia
 
@@ -95,69 +96,70 @@
 
 #### Validação e sanitização de entrada
 
-- Evita ataques de injeção, como SQL Injection ou Cross-Site Scripting (XSS)
-- Técnicas como validação de formato, restrição de caracteres especiais e escape de caracteres perigosos
+- Evita ataques de injeção, como SQL Injection ou Cross-Site Scripting (XSS).
+- Técnicas como validação de formato, restrição de caracteres especiais e escape de caracteres perigosos.
 
 #### Controle de sessão
 
-- Se os Web Services possuem estado, é necessário implementar um controle de sessão adequado
-- Protege contra ataques de falsificação de solicitação entre sites (CSRF)
+- Se os Web Services possuem estado, é necessário implementar um controle de sessão adequado.
+- Protege contra ataques de falsificação de solicitação entre sites (CSRF).
 
 #### Auditoria, monitoração e logs
 
-- Registrar informações detalhadas sobre as transações e atividades dos Web Services
-- Detecção e investigação de possíveis incidentes de segurança
-- Os logs devem incluir informações como origem das solicitações, horários, ações realizadas e resultados obtidos
+- Registrar informações detalhadas sobre as transações e atividades dos Web Services.
+- Detecção e investigação de possíveis incidentes de segurança.
+- Os logs devem incluir informações como origem das solicitações, horários, ações realizadas e resultados obtidos.
 
 ##### Simple Network Management Protocol (SNMP)
 
-- É um protocolo utilizado para o gerenciamento e monitoramento de dispositivos de rede e sistemas de TI
-- Coleta informações sobre o status e o desempenho de dispositivos de rede
-  - Como roteadores, switches, servidores, impressoras, entre outros
-- Opera em um modelo cliente-servidor
-  - Os dispositivos gerenciados (agentes) relatam informações para um sistema de gerenciamento de rede (gerente)
-- As informações são organizadas em uma estrutura de dados hierárquica chamada de MIB (Management Information Base)
+- É um protocolo utilizado para o gerenciamento e monitoramento de dispositivos de rede e sistemas de TI.
+- Coleta informações sobre o status e o desempenho de dispositivos de rede.
+  - Como roteadores, switches, servidores, impressoras, entre outros.
+- Opera em um modelo cliente-servidor.
+  - Os dispositivos gerenciados (agentes) relatam informações para um sistema de gerenciamento de rede (gerente).
+- As informações são organizadas em uma estrutura de dados hierárquica chamada de MIB (Management Information Base).
 
 ### Ferramentas
 
 #### Zabbix
 
-- Monitora a infraestrutura de TI, como redes, servidores, máquinas virtuais e serviços em nuvem
-- Coleta e exibe métricas básicas
-- Ferramenta de software de código aberto
+- Monitora a infraestrutura de TI, como redes, servidores, máquinas virtuais e serviços em nuvem.
+- Coleta e exibe métricas básicas.
+- Ferramenta de software de código aberto.
 
 #### Nagios
 
-- É uma ferramenta de código aberto utilizada para monitorar a infraestrutura de TI
-- Permite monitorar servidores, serviços, hosts e dispositivos de rede
-- Pode alertar os administradores quando ocorrem problemas
-  - Notificações por e-mail, SMS ou outros meios
-- Oferece recursos de geração de relatórios e históricos de desempenho
+- É uma ferramenta de código aberto utilizada para monitorar a infraestrutura de TI.
+- Permite monitorar servidores, serviços, hosts e dispositivos de rede.
+- Pode alertar os administradores quando ocorrem problemas.
+  - Notificações por e-mail, SMS ou outros meios.
+- Oferece recursos de geração de relatórios e históricos de desempenho.
 
 #### Prometheus
 
-- É uma plataforma de monitoramento de código aberto
-- Coleta e armazena métricas de sistemas e serviços em tempo real
-- É escalável e oferece recursos de consultas flexíveis, alertas configuráveis
-- Integrações com outras ferramentas, como Grafana
+- É uma plataforma de monitoramento de código aberto.
+- Coleta e armazena métricas de sistemas e serviços em tempo real.
+- É escalável e oferece recursos de consultas flexíveis, alertas configuráveis.
+- Integrações com outras ferramentas, como Grafana.
 
 #### Grafana
 
-- É uma plataforma de visualização de métricas de código aberto
-- Funciona em conjunto com outras ferramentas de monitoramento, como Prometheus e InfluxDB
-- Permite criar painéis interativos e gráficos para visualizar dados de desempenho em tempo real
-- Utilizado para criar painéis de monitoramento personalizados e relatórios
+- É uma plataforma de visualização de métricas de código aberto.
+- Funciona em conjunto com outras ferramentas de monitoramento, como Prometheus e InfluxDB.
+- Permite criar painéis interativos e gráficos para visualizar dados de desempenho em tempo real.
+- Utilizado para criar painéis de monitoramento personalizados e relatórios.
 
 #### Application Performance Monitoring (APM)
 
-- É uma categoria de ferramentas que se concentra na monitorização do desempenho de aplicativos
-- Usadas para rastrear e analisar o comportamento de aplicativos em tempo real
-- Identifica gargalos de desempenho, erros e áreas de melhoria
-- Exemplos de ferramentas de APM incluem New Relic, AppDynamics e Dynatrace
+- É uma categoria de ferramentas que se concentra na monitorização do desempenho de aplicativos.
+- Usadas para rastrear e analisar o comportamento de aplicativos em tempo real.
+- Identifica gargalos de desempenho, erros e áreas de melhoria.
+- Exemplos de ferramentas de APM incluem New Relic, AppDynamics e Dynatrace.
 
 #### Stack ELK (código aberto)
 
 - **Elasticsearch**
+
   - Características:
     - É uma plataforma de busca e análise de dados distribuída em tempo real.
     - Construído em cima do Apache Lucene.
@@ -169,62 +171,64 @@
     - Utilizado em aplicativos de busca, análise de logs, monitoramento e análise de dados em tempo real.
 
 - **Index Lifecycle Management (ILM)/Ciclo de Vida de Índices**
+
   - Estágios:
-    1. Hot
+    1. Hot.
       - Ingestão de dados.
       - Rollover de um índice baseado no nível de espaço em disco.
 
-    2. Warm
+    2. Warm.
       - Índices consultados, mas com menor frequência.
 
-    3. Cold
+    3. Cold.
       - Não são utilizados para consultas.
       - Mantidos por diversos motivos como: normas regulamentares, histórico, etc.
 
-    4. Delete
+    4. Delete.
       - Índices prontos para serem excluídos.
 
-- Logstash
+- **Logstash**.
 
-- Ingestão de dados de log e na preparação de dados para consulta e análise em tempo real
+  - Ingestão de dados de log e na preparação de dados para consulta e análise em tempo real.
 
-- **Recursos**
-  - Ingestão de Dados:
-    - Coleta dados de uma ampla variedade de fontes.
-      - logs de aplicativos, logs de sistemas, feeds de sensores, eventos de rede, entre outros.
-    - Suporta inúmeras entradas, como arquivos de log, syslog, Beats, JDBC, HTTP, e muitos outros.
+  - **Recursos**
+    - Ingestão de Dados:
+      - Coleta dados de uma ampla variedade de fontes.
+        - logs de aplicativos, logs de sistemas, feeds de sensores, eventos de rede, entre outros.
+      - Suporta inúmeras entradas, como arquivos de log, syslog, Beats, JDBC, HTTP, e muitos outros.
 
-- **Processamento de Dados**
-  - Transforma e enriquece os dados de log durante o processo de ingestão.
-  - Usa filtros que podem realizar tarefas como:
-    - Análise de padrões, remoção ou anonimização de informações confidenciais.
-    - Conversão de formatos de data/hora e enriquecimento de dados com informações adicionais.
+  - **Processamento de Dados**
+    - Transforma e enriquece os dados de log durante o processo de ingestão.
+    - Usa filtros que podem realizar tarefas como:
+      - Análise de padrões, remoção ou anonimização de informações confidenciais.
+      - Conversão de formatos de data/hora e enriquecimento de dados com informações adicionais.
 
-- **Saída de Dados**
-  - Após o processamento, envia os dados preparados para vários destinos.
-  - O Elasticsearch para armazenamento e o Kibana para visualização e análise.
-  - É possível configurar saídas para outros sistemas.
-    - Como bancos de dados, sistemas de mensagens, arquivos e muito mais.
+  - **Saída de Dados**
+    - Após o processamento, envia os dados preparados para vários destinos.
+    - O Elasticsearch para armazenamento e o Kibana para visualização e análise.
+    - É possível configurar saídas para outros sistemas.
+      - Como bancos de dados, sistemas de mensagens, arquivos e muito mais.
 
-- **Plugins**
-  - Extensível por meio de plugins.
-  - Possui uma grande biblioteca de plugins de entrada, filtro e saída.
-  - Podem ser usados para adaptar a ferramenta às necessidades específicas do seu ambiente.
+  - **Plugins**
+    - Extensível por meio de plugins.
+    - Possui uma grande biblioteca de plugins de entrada, filtro e saída.
+    - Podem ser usados para adaptar a ferramenta às necessidades específicas do seu ambiente.
 
-- **Configuração Flexível**
-  - Feita por meio de arquivos de configuração simples e flexíveis.
-  - Nos formatos JSON ou YAML.
-  - Permite que você defina como os dados devem ser coletados, processados e para onde devem ser enviados.
+  - **Configuração Flexível**
+    - Feita por meio de arquivos de configuração simples e flexíveis.
+    - Nos formatos JSON ou YAML.
+    - Permite que você defina como os dados devem ser coletados, processados e para onde devem ser enviados.
 
-- **Escalabilidade**
-  - Pode ser dimensionado horizontalmente para lidar com grandes volumes de dados.
-  - Pode configurar várias instâncias do Logstash para trabalhar em paralelo e balancear a carga.
+  - **Escalabilidade**
+    - Pode ser dimensionado horizontalmente para lidar com grandes volumes de dados.
+    - Pode configurar várias instâncias do Logstash para trabalhar em paralelo e balancear a carga.
 
-- **Monitoramento e Gerenciamento**
-  - A Elastic fornece ferramentas de monitoramento e gerenciamento, como o Elasticsearch e o Kibana.
-  - Podem ser usadas em conjunto com o Logstash para acompanhar o desempenho e a saúde do sistema de ingestão de logs.
+  - **Monitoramento e Gerenciamento**
+    - A Elastic fornece ferramentas de monitoramento e gerenciamento, como o Elasticsearch e o Kibana.
+    - Podem ser usadas em conjunto com o Logstash para acompanhar o desempenho e a saúde do sistema de ingestão de logs.
 
 - **Kibana**
+
   - Características:
     - É uma plataforma de visualização e exploração de dados de código aberto desenvolvida pela Elastic.
     - Projetado para trabalhar em conjunto com o Elasticsearch.
@@ -232,34 +236,34 @@
       - Os dados são armazenados no Elasticsearch e em outros sistemas de armazenamento.
 
   - Recursos:
-    - Visualização de Dados
+    - Visualização de Dados.
       - Permite criar painéis interativos e gráficos a partir dos dados armazenados no Elasticsearch.
       - Gráficos de barras, pizza, tabelas, mapas geográficos e muito mais.
 
-    - Painéis Personalizados
+    - Painéis Personalizados.
       - Agregam várias visualizações em uma única página.
       - Monitorar métricas e estatísticas específicas.
 
-    - Busca e Filtragem Avançada
+    - Busca e Filtragem Avançada.
       - Fornece uma poderosa linguagem de consulta.
         - Permite buscar, filtrar e analisar dados de maneira flexível.
       - Realiza consultas em tempo real para encontrar informações específicas nos dados.
 
-    - Exploração de Logs e Métricas
+    - Exploração de Logs e Métricas.
       - Usado para análise de logs e métricas.
       - Identifica problemas em sistemas, aplicativos e infraestrutura.
       - Fornece insights sobre eventos, erros e tendências.
 
-    - Suporte a Dados Geoespaciais
+    - Suporte a Dados Geoespaciais.
       - Recursos avançados de visualização geoespacial.
       - Permite a criação de mapas interativos com base em dados geográficos.
 
-    - Integração com Elasticsearch
+    - Integração com Elasticsearch.
       - Usado para explorar e visualizar dados indexados no Elasticsearch.
       - O Elasticsearch é um mecanismo de pesquisa e análise de dados distribuído.
         - Usado para armazenar e consultar grandes volumes de dados.
 
-    - Segurança e Autenticação
+    - Segurança e Autenticação.
       - Autenticação de usuário e controle de acesso.
       - Permite que limite o acesso às visualizações e painéis com base em funções e permissões.
 
@@ -326,10 +330,13 @@
 ## Hexagonal ou Ports and Adapters (Arquitetura de Portas e Adaptadores)
 
 - Conceito:
+
   - Visa separar as preocupações de negócios da infraestrutura e das tecnologias externas.
   - Separação entre a lógica de negócios e a interação com o mundo externo.
   - Chamada de "hexagonal" devido à sua representação gráfica que se assemelha a um hexágono.
+
 - Características:
+
   - Separação de camadas.
     - Aplicação, Negócios, Adaptadores e Portas.
   - Portas e adaptadores.

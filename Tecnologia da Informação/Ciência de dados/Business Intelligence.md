@@ -23,7 +23,6 @@
 - **Competitividade:** Organização x concorrência (market share).
 - **Efetividade:** Eficácia x eficiência.
 - **Valor:** Valor percebido x valor real.
-
 - Saídas: relatórios ou dashboards em tempo real. Nível de precisão dos dados coletados: entre 50% e 90%.
 - Em estratégias de redes sociais mede-se: Volume, Engajamento e Conversão.
 

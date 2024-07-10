@@ -492,10 +492,10 @@
 - Usada para criar, alterar e destruir infraestrutura de nuvem de forma automatizada.
 - Utiliza a HashiCorp Configuration Language (HCL).
   - É uma linguagem de configuração declarativa que é fácil de ler e escrever.
-  - Descreve a configuração de sistemas.
   - Permite que o usuário especifique a infraestrutura que deseja criar.
   - Usa essa especificação para criar a infraestrutura em vários provedores.
     - Como o AWS, Azure, Google Cloud e VMware vCenter.
+  - Também pode descrever a configuração de sistemas e ser usado em conjunto com o Ansible.
 
 ### Administração e gerenciamento de ambientes de virtualização
 

@@ -1,6 +1,6 @@
 # Gestão de Configuração, Integração e entrega contínua (CI/CD)
 
-Continuous Integration and Continuous Delivery/Deployment
+Continuous Integration and Continuous Delivery/Deployment.
 
 ![Ferramentas de CI/CD](/Imagens/CICD-Tools.png)
 
@@ -33,8 +33,8 @@ cvs -d <caminho do diretório> init
 ```
 
 - **Onde:**  
-   -d: diretório  
-   init: inicializar o repositório
+   -d: diretório.  
+   init: inicializar o repositório.
 
 ## Ferramentas de orquestração
 
@@ -92,7 +92,7 @@ cvs -d <caminho do diretório> init
 - Conhecido por sua simplicidade e facilidade de uso.
 - Não requer agentes em máquinas remotas (agentless).
 - Suporta a automação de tarefas em sistemas Windows e Unix.
-- Também pode ser usado para orquestração de aplicativos e provisionamento de infraestrutura.
+- Também pode ser usado para orquestração de aplicativos e provisionamento de infraestrutura em conjunto com o Terraform.
 
 ### ShellScript
 
