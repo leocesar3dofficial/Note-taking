@@ -2,6 +2,8 @@
 
 Continuous Integration and Continuous Delivery/Deployment
 
+![Ferramentas de CI/CD](/Imagens/CICD-Tools.png)
+
 ## Características
 
 - Automatizar e agilizar o processo de construção (build), teste e entrega (delivery) de software.
@@ -108,7 +110,7 @@ cvs -d <caminho do diretório> init
 
 - Desenvolvido pela Atlassian.
 - Objetivos: planejar, rastrear e gerenciar projetos.
-    - Linha de base (baseline): comparar o andamento do projeto com a previsão original.
+  - Linha de base (baseline): comparar o andamento do projeto com a previsão original.
 - Funcionalidades:
   - Acompanhamento de tarefas e problemas.
     - Criar tarefas, problemas ou histórias de usuário.
