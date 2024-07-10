@@ -95,7 +95,7 @@
 - Máquinas Virtuais (hypervisor).
   - VM opera de maneira independente e isolada.
   - Não confundir com emulação.
-  - Criadas a partir de um software chamado hipervisor.
+  - Criadas a partir de um software chamado hypervisor.
     - Tipo 1: é executado diretamente no hardware do computador e é responsável por gerenciar as VMs.
     - Tipo 2: é executado em cima de um sistema operacional já existente e é responsável por gerenciar as VMs.
   - Exemplos:
