@@ -213,11 +213,16 @@
 
   - Quanto a dimensão:
     - Enterprise Data Warehouse (EDW).
+      - Engloba toda a empresa.
     - Data Marts (DM).
+      - Apenas um departamento ou assunto.
     - Operational Data Store (ODS).
+      - Onde os dados transformados são armazenados.
+      - Depois são enviados para o banco de dados do Data Warehouse.
   - Quanto a estrutura:
     - Simples.
-    - Simples com área de preparo (staging de novos dados).
+    - Simples com área de preparo.
+      - Staging de novos dados ou staging layer.
     - Hub and spoke.
     - Áreas restritas.
   - Níveis de redundância:
