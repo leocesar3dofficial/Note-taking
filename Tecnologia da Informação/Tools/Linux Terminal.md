@@ -149,6 +149,12 @@ sudo systemctl mask bluetooth.service
 - `sudo apt install -f` (fix broken software dependencies)
 - **Locate Installation Directory:** `which <app name>`
 
+### Appimage files
+
+- Format for distributing portable software on Linux.
+- From the terminal: `chmod +x /path/to/your/appimage`
+- From the file manager: right click > Properties > Permissions > Execute > Allow executing file as program.
+
 ### Tools
 
 - **Nemo file manager (Not recommended, Nautilus is better):**
