@@ -117,8 +117,12 @@ Hello,
 world!
 """
 
-# Make questions based on local text file (txt or md text files)
+# Make questions based on local text file (txt or md files)
 ollama run <model name> "Question: $(cat /home/user/Downloads/filename.txt)"
+
+# Make questions based on a image using llava:7b (a vision model)
+ollama run llava:7b
+>>> What's in this image? /home/user/Downloads/filename.jpg
 ```
 
 ### Install Node library in project
