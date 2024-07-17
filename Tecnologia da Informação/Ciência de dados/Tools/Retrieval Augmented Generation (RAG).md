@@ -110,6 +110,12 @@ systemctl stop ollama
 
 # List options
 ollama help
+
+# Multiline input
+"""
+Hello,
+world!
+"""
 ```
 
 ### Install Node library in project
