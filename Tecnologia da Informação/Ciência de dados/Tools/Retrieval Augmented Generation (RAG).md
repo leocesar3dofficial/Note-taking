@@ -116,6 +116,9 @@ ollama help
 Hello,
 world!
 """
+
+# Make questions based on local text file (txt or md text files)
+ollama run <model name> "Question: $(cat /home/user/Downloads/filename.txt)"
 ```
 
 ### Install Node library in project
