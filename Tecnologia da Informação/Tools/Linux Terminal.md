@@ -237,6 +237,14 @@ Or for removing unused packages for the whole OS:
    sudo apt-get install --reinstall ubuntu-desktop
    ```
 
+### Error mounting /dev/sdb1 at /media/ (Can't access HDD NTFS)
+
+1. Attempt to repair the NTFS file system on the /dev/sdb1 partition (first partition on the second hard drive).
+
+```bash
+   sudo ntfsfix /dev/sdb1
+```
+
 ### Error while trying to install: /var/lib/dpkg/lock or lock-frontend
 
 ```bash
