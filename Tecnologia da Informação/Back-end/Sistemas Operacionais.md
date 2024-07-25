@@ -331,34 +331,42 @@
 - Permitem flexibilidade na forma como os dados são acessados, fornecendo diferentes maneiras de referenciar os operandos.
 
 1. **Imediato**
+
    - O operando é especificado diretamente na instrução.
    - Exemplo: `MOV A, #5` (o valor 5 é movido para o registrador A).
 
 2. **Direto ou Absoluto**
+
    - A instrução contém o endereço do operando na memória.
    - Exemplo: `MOV A, 1000H` (o valor na posição de memória 1000H é movido para o registrador A).
 
 3. **Indireto**
+
    - A instrução especifica um registrador ou endereço de memória que contém o endereço completo do operando.
    - Exemplo: `MOV A, @R0` (o valor no endereço contido em R0 é movido para o registrador A).
 
 4. **Registrador**
+
    - O operando está em um registrador, e a instrução especifica qual registrador.
    - Exemplo: `MOV A, B` (o valor do registrador B é movido para o registrador A).
 
 5. **Indexado**
+
    - O endereço do operando é obtido somando um valor constante (deslocamento) a um registrador.
    - Exemplo: `MOV A, 1000H[R1]` (o valor no endereço 1000H mais o valor no registrador R1 é movido para o registrador A).
 
 6. **Base**
+
    - Similar ao endereçamento indexado, mas usa um registrador base em vez de um índice.
    - Exemplo: `MOV A, 1000H[BX]` (o valor no endereço 1000H mais o valor no registrador BX é movido para o registrador A).
 
 7. **Relativo**
+
    - O endereço do operando é determinado somando um deslocamento ao endereço da instrução atual.
    - Exemplo: usado frequentemente em instruções de salto, como `JMP +5` (salta para a instrução 5 posições à frente da instrução atual).
 
 8. **Implícito**
+
    - O operando é implícito na própria instrução e não precisa ser especificado.
    - Exemplo: `CLR` (limpa o registrador A, onde A é o operando implícito).
 
@@ -377,7 +385,7 @@
   - Cadeias binárias com uma chave de tamanho determinado, 64 bits.
 - Chave secreta ou criptografia simétrica.
 - Processo:
-  - Emissor > Texto comum > Criptografa > Texto cifrado > Meio de comunicação (como internet) > Mesma chave simétrica secreta > Texto comum > Receptor.
+  - Emissor > Texto comum > Criptografa > Texto cifrado > Meio de comunicação (como Internet) > Mesma chave simétrica secreta > Texto comum > Receptor.
 - Central de distribuição de chaves (Key Distribution Center – KDC).
 - Autoridade certificadora (AC): valida os certificados.
 - Tipos:

@@ -11,7 +11,7 @@
 
 ### Eixos Habilitadores
 
-1. **Infraestrutura e acesso às tecnologias:** visa ampliar o acesso à internet e tecnologias digitais com qualidade e economicidade.
+1. **Infraestrutura e acesso às tecnologias:** visa ampliar o acesso à Internet e tecnologias digitais com qualidade e economicidade.
 2. **Pesquisa, desenvolvimento e inovação:** estimula o desenvolvimento de novas tecnologias, produção científica e soluções para desafios nacionais.
 3. **Confiança no ambiente digital:** assegura um ambiente digital seguro e propício aos serviços e consumo, respeitando os direitos dos cidadãos.
 4. **Educação e capacitação profissional:** foca na formação da sociedade para o mundo digital, preparando-a para o trabalho do futuro.

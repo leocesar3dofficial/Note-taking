@@ -42,7 +42,7 @@
 
 ### Domínio
 
-- É o endereço de um site na internet na forma de um nome.
+- É o endereço de um site na Internet na forma de um nome.
 - **Tipos**
   - Genéricos: art, com, eco, emp, net, ong.
   - Universidades: edu.
@@ -66,8 +66,8 @@
 ### Velocidade de navegação
 
 - Medida em Mbps (Megabits por segundo).
-$$MBps = \frac{Mbps}{8}$$
-$$Tempo de download = \frac{tamanho do arquivo (MB)}{velocidade (MBps)}$$
+  $$MBps = \frac{Mbps}{8}$$
+  $$Tempo de download = \frac{tamanho do arquivo (MB)}{velocidade (MBps)}$$
 
 ### Nuvem ou cloud
 
@@ -108,9 +108,9 @@ $$Tempo de download = \frac{tamanho do arquivo (MB)}{velocidade (MBps)}$$
     - Padrões do Institute of Electrical and Electronics Engineers:
       - IEEE 802.11 (Wi-Fi).
       - IEEE 802.1x: Protocolo de autenticação utilizado em redes com e sem fio.
-          - Utiliza o protocolo Extensible Authentication Protocol (EAP).
-          - Protocolo de autenticação extensível (EAP).
-              - Suplicante (usuário) => Autenticador => Servidor de autenticação.
+        - Utiliza o protocolo Extensible Authentication Protocol (EAP).
+        - Protocolo de autenticação extensível (EAP).
+          - Suplicante (usuário) => Autenticador => Servidor de autenticação.
       - IEEE 802.3 (Fast Ethernet [cabo que usa MAC]).
         - 10BASE-T ➜ limite de 10 Mbps.
         - 100BASE-T ➜ UTP ➜ cat 3 ➜ 4 pares trançados ➜ Codificação Manchester.

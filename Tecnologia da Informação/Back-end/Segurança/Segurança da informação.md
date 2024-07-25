@@ -30,7 +30,9 @@
 
   - Conexão segura e criptografada entre dois pontos em uma rede.
   - Pode ser alcançada com o uso de uma VPN (Rede Privada Virtual).
+
     - Usa o protocolo ESP (Encapsulating Security Payload).
+
       - Adiciona autenticação e confidencialidade.
       - Garantir que somente os destinatários autorizados possam ter acesso ao conteúdo do pacote.
       - Protocolo da suíte do IPsec (IP Security).
@@ -95,7 +97,7 @@
   - Identifica potenciais ameaças e emite alertas quando atividades maliciosas são detectadas.
     - Tipos de ameaças
       - **Bot:** é um programa que se comunica com o invasor e permite que a máquina seja controlada remotamente.
-        - Infecção e propagação similar ao do worm
+        - Infecção e propagação similar ao do worm.
       - **Botnet:** rede formada por centenas ou milhares de computadores zumbis e que permite potencializar as ações danosas executadas pelos bots.
   - Não toma medidas diretas para interrompê-las.
 
@@ -108,7 +110,7 @@
 - **Security Information and Event Management (SIEM)**
 
   - Fornece uma visão holística da segurança da informação de uma organização.
-  - Agrega e analisa eventos e logs de várias fontes em toda a infraestrutura de TI. 
+  - Agrega e analisa eventos e logs de várias fontes em toda a infraestrutura de TI.
   - Combina a capacidade de coletar e analisar informações de segurança de vários dispositivos e sistemas em uma única plataforma.
   - Fornece insights em tempo real sobre a segurança da rede.
   - Ajuda na detecção de ameaças e auxilia na conformidade com regulamentações de segurança.
@@ -120,7 +122,7 @@
   - Usado para ocultar o endereço IP do dispositivo.
   - Filtra conteúdo da web e melhora a segurança.
   - Protege a rede interna contra ameaças externas.
-  - Proxy reverso
+  - Proxy reverso.
     - Um proxy regular com uma camada adicional.
     - É um servidor que é colocado por cima do "servidor web interno" para que possa ser o primeiro ponto de contato com clientes do lado da web.
 
@@ -223,126 +225,133 @@
 
 #### Características
 
-- Técnicas para tornar a informação ininteligível para pessoas não autorizadas
-- Texto legível para texto cifrado
-- Usa algoritmos e chaves criptográficas
+- Técnicas para tornar a informação ininteligível para pessoas não autorizadas.
+- Texto legível para texto cifrado.
+- Usa algoritmos e chaves criptográficas.
 
 #### Tipos
 
 - **Simétrica**
 
-  - Chave única para criptografar e descriptografar os dados
-  - Modos de operação
+  - Chave única para criptografar e descriptografar os dados.
+  - Modos de operação.
 
     - **Electronic Codebook (ECB)**
 
-      - Modo mais simples
-      - Cada bloco de dados é cifrado independentemente
-      - Revela padrões
+      - Modo mais simples.
+      - Cada bloco de dados é cifrado independentemente.
+      - Revela padrões.
 
     - **Cipher Block Chaining (CBC)**
 
-      - Cada bloco de dados é XORed (operação de OU exclusivo)
-      - Texto cifrado do bloco anterior como base para o próximo bloco de dados
-      - Dependência entre os blocos, gerando texto cifrado diferente
-      - Requer um vetor de inicialização (IV) para o primeiro bloco
+      - Cada bloco de dados é XORed (operação de OU exclusivo).
+      - Texto cifrado do bloco anterior como base para o próximo bloco de dados.
+      - Dependência entre os blocos, gerando texto cifrado diferente.
+      - Requer um vetor de inicialização (IV) para o primeiro bloco.
 
     - **Cipher Feedback (CFB)**
 
-      - Usa um gerador de sequência de números pseudoaleatórios
-      - Usado em criptografia síncrona
+      - Usa um gerador de sequência de números pseudoaleatórios.
+      - Usado em criptografia síncrona.
 
     - **Output Feedback (OFB)**
 
-      - Semelhante ao modo CFB
-      - Keystream: bloco de texto livre de um valor conhecido
+      - Semelhante ao modo CFB.
+      - Keystream: bloco de texto livre de um valor conhecido.
 
     - **Counter (CTR)**
 
-      - Um contador é cifrado e usado como chave
-      - Permite paralelismo na cifragem
-      - Implementações em hardware e criptografia em tempo real
+      - Um contador é cifrado e usado como chave.
+      - Permite paralelismo na cifragem.
+      - Implementações em hardware e criptografia em tempo real.
 
 - **Assimétrica (duas chaves)**
 
-  - Chave pública para criptografar
-  - Chave privada para descriptografar
+  - Chave pública para criptografar.
+  - Chave privada para descriptografar.
 
 ### Esteganografia
 
-- Técnica que oculta informações dentro de outros tipos de dados
-- Incorporando-as em arquivos de imagem, áudio, vídeo ou qualquer outro formato de dados
-- Preserva a aparência e funcionalidade do container
+- Técnica que oculta informações dentro de outros tipos de dados.
+- Incorporando-as em arquivos de imagem, áudio, vídeo ou qualquer outro formato.
+- Preserva a aparência e funcionalidade do container.
 
 ### Criptoanálise
 
 #### Características
 
-- Processo de analisar e quebrar sistemas criptográficos
-- Objetivo: revelar a informação original ou descobrir as chaves de criptografia
+- Processo de analisar e quebrar sistemas criptográficos.
+- Objetivo: revelar a informação original ou descobrir as chaves de criptografia.
 
 #### Técnicas
 
-- Força bruta
-- Análise de padrões
-- Exploração de fraquezas matemáticas ou estatísticas
+- Força bruta.
+- Análise de padrões.
+- Exploração de fraquezas matemáticas ou estatísticas.
 
 ## Funções ou Algoritmos Digestores (Hashes)
 
-- Input de dados de tamanho arbitrário e gera uma saída de tamanho fixo, chamada de digesto ou hash
+- Input de dados de tamanho arbitrário e gera uma saída de tamanho fixo, chamada de digesto ou hash.
 
 ### Propriedades
 
-- Integridade dos dados
-  - Alteração nos dados de entrada resulta em um hash diferente
-- Tamanho fixo
-- Irreversibilidade
-  - As funções digestoras são unidirecionais
-- Colisões
-  - Duas entradas diferentes podem gerar o mesmo hash, mas é raro
-- Eficiência
+- Integridade dos dados.
+  - Alteração nos dados de entrada resulta em um hash diferente.
+- Tamanho fixo.
+- Irreversibilidade.
+  - As funções digestoras são unidirecionais.
+- Colisões.
+  - Duas entradas diferentes podem gerar o mesmo hash, mas é raro.
+- Eficiência.
 
 ### Aplicações
 
-- Verificação de integridade de arquivos
-- Autenticação de mensagens
-- Armazenamento seguro de senhas em bancos de dados
-- Identificação de duplicatas
+- Verificação de integridade de arquivos.
+- Autenticação de mensagens.
+- Armazenamento seguro de senhas em bancos de dados.
+- Identificação de duplicatas.
 
-### Tipos
+### Tipos (dos mais vulneráveis aos mais seguros)
 
 - **MD5 (Message Digest Algorithm 5)**
-  - Algoritmo de hash de 128 bits
-  - Considerado inseguro
-    - Suscetível a ataques de colisão
+  - Algoritmo de hash de 128 bits.
+  - Considerado inseguro.
+    - Suscetível a ataques de colisão.
 - **SHA-1 (Secure Hash Algorithm 1)**
-  - Hash de 160 bits
-  - Considerado inseguro
+  - Hash de 160 bits.
+  - Considerado inseguro.
 - **SHA-256 (Secure Hash Algorithm 256-bit)**
-  - Hash de 256 bits
-  - Parte da família de algoritmos SHA-2
-  - Considerado seguro
-  - Usos
-    - Utilizado para garantir a integridade de dados e autenticação
-    - Criptomoedas, assinaturas digitais e autenticação de arquivos
+  - Hash de 256 bits.
+  - Parte da família de algoritmos SHA-2.
+  - Considerado seguro.
+  - Usos:
+    - Utilizado para garantir a integridade de dados e autenticação.
+    - Criptomoedas, assinaturas digitais e autenticação de arquivos.
 - **SHA-3 (Secure Hash Algorithm 3)**
-  - Algoritmo de hash mais recente
-  - Diferentes tamanhos de saída, como SHA-3-224, SHA-3-256, SHA-3-384 e SHA-3-512
+  - Algoritmo de hash mais recente.
+  - Diferentes tamanhos de saída, como SHA-3-224, SHA-3-256, SHA-3-384 e SHA-3-512.
 - **RSA (Rivest-Shamir-Adleman)**
-  - Algoritmo de criptografia de chave pública
-  - Usos
-    - Criptografia de dados
-    - Assinaturas digitais
-    - Estabelece chaves para outros algoritmos
+  - Algoritmo de criptografia de chave pública.
+  - Protege as comunicações e estabelece confiança nas transações digitais.
+  - Usado para estabelecer conexões seguras, como nos protocolos HTTPS.
+  - Sua segurança depende da dificuldade computacional de fatorar grandes números primos.
+  - Usos:
+    - Criptografia de dados.
+    - Assinaturas digitais.
+    - Gera chaves para outros algoritmos.
 - **AES (Advanced Encryption Standard)**
-  - Algoritmo de criptografia simétrica
-  - Alta segurança
-  - Tamanhos de chave: AES-128, AES-192 e AES-256
+  - Algoritmo de criptografia simétrica.
+  - Usado para criptografar dados em repouso e em trânsito.
+  - Algoritmo mais usado na atualidade e aprovado pelo governo dos EUA.
+  - Usado por plataformas de mensagens seguras como WhatsApp e Signal messenger (similar ao WhatsApp).
+  - Alta segurança, velociade e efetividade.
+  - Usado em conjunto com o algoritmo RSA. Os dois formam a espinha dorsal da Internet no quesito segurança.
+  - Tamanhos de chave: AES-128, AES-192 e AES-256.
     - Limita o tamanho do bloco a 128 bits.
-  - Usos
-    - Criptografar dados confidenciais
-    - Criptografia de arquivos e dispositivos
-    - Comunicação segura
+  - Usos:
+    - Criptografar dados confidenciais.
+    - Criptografia de arquivos e dispositivos.
+    - Comunicação segura.
 
 ## Protocolos de Autenticação e Autorização
 
@@ -425,7 +434,7 @@
 ### SSH (Secure Shell Protocol)
 
 - **Conceito:**
-  - É um protocolo de rede projetado para fornecer comunicações seguras e autenticadas em uma rede não confiável, como a internet.
+  - É um protocolo de rede projetado para fornecer comunicações seguras e autenticadas em uma rede não confiável, como a Internet.
   - Utilizado para permitir o acesso seguro a sistemas remotos.
   - Transferência segura de dados entre computadores.
 - **Características:**
@@ -502,7 +511,7 @@
 - **Ataques**
   - Evasão de defesa.
     - dDesinstalar / desativar software de segurança.
-    - Ofuscar / criptografar dados e scripts. 
+    - Ofuscar / criptografar dados e scripts.
 
 ### Cyber Security Body Of Knowledge (CyBOK)
 
@@ -542,10 +551,10 @@
 3. **Contenção, Erradicação e Recuperação**
    - Tomar medidas para conter o incidente, erradicar a ameaça e restaurar a normalidade.
    - Jump Kit:
-      - Estojo portátil de materiais.
-      - Contem um laptop carregado com software apropriado.
-          - Farejadores de pacotes e ferramentas de forense digital.
-      - Dispositivos de backup, mídia virgem e cabos de rede.
+     - Estojo portátil de materiais.
+     - Contem um laptop carregado com software apropriado.
+       - Farejadores de pacotes e ferramentas de forense digital.
+     - Dispositivos de backup, mídia virgem e cabos de rede.
 4. **Comunicação**
    - Notificar partes interessadas internas e externas, incluindo autoridades reguladoras, conforme necessário.
 5. **Documentação e Relatórios**
@@ -666,16 +675,16 @@
 
 ## Certificação Digital
 
-- Mecanismo que fornece confiança na identidade das partes envolvidas
-- Autoridades certificadoras (ACs) emitem os certificados digitais
-- Arquivo eletrônico que contém informações sobre a identidade
-  - Com o nome, chave pública, período de validade e a assinatura digital da AC
-- Usos
-  - Comércio eletrônico
-  - Serviços bancários
-  - Assinatura eletrônica de documentos públicos ou privados (cartório)
-    - Emitido para Pessoa Física
-      - Assinatura Digital apenas da Autoridade Certificadora (AC)
+- Mecanismo que fornece confiança na identidade das partes envolvidas.
+- Autoridades certificadoras (ACs) emitem os certificados digitais.
+- Arquivo eletrônico que contém informações sobre a identidade.
+  - Com o nome, chave pública, período de validade e a assinatura digital da AC.
+- Usos:
+  - Comércio eletrônico.
+  - Serviços bancários.
+  - Assinatura eletrônica de documentos públicos ou privados (cartório).
+    - Emitido para Pessoa Física.
+      - Assinatura Digital apenas da Autoridade Certificadora (AC).
 
 ## Infraestruturas de Chaves Públicas (PKI – Public Key Infrastructure)
 
@@ -687,32 +696,32 @@
 
 ### Componentes
 
-1. Autoridade Certificadora (CA - Certification Authority)
+1. Autoridade Certificadora (CA - Certification Authority).
    - Autoridade de chave pública.
    - Responsável por emitir e gerenciar certificados digitais.
    - Garante a autenticidade do certificado.
    - Garante a identidade do titular da chave pública.
-2. Repositório de Chaves
+2. Repositório de Chaves.
    - Local onde as chaves e os certificados digitais são armazenados e consultados.
    - Podem ser públicos ou privados.
-3. Política de Certificação
+3. Política de Certificação.
    - Regras, diretrizes e práticas.
    - Regem o processo de emissão, revogação e gerenciamento dos certificados.
-4. Infraestrutura de Gestão de Chaves (KMI - Key Management Infrastructure)
-   - Geração, armazenamento, distribuição, revogação e renovação das chaves
-   - Padrão UIT-T X.509
-     - Padrão internacional desenvolvido pela União Internacional de Telecomunicações (ITU-T)
-     - Descreve um formato de certificado digital e as regras para sua utilização em uma PKI (Infraestrutura de Chaves Públicas)
-     - Os certificados digitais X.509 são usados para vincular uma chave pública a uma entidade específica
-       - Pessoa, organização ou um servidor
-       - Fornece um meio de verificar a identidade dessa entidade em transações online
-       - Utilizados para autenticação, assinatura digital e criptografia
-       - Informações contidas no certificado
-         - Chave pública do titular
-         - Identificação (como nome e número de série)
-         - Autoridade de certificação que emitiu o certificado
-         - Datas de validade e outras informações relacionadas à segurança
-5. Protocolos de Segurança
+4. Infraestrutura de Gestão de Chaves (KMI - Key Management Infrastructure).
+   - Geração, armazenamento, distribuição, revogação e renovação das chaves.
+   - Padrão UIT-T X.509.
+     - Padrão internacional desenvolvido pela União Internacional de Telecomunicações (ITU-T).
+     - Descreve um formato de certificado digital e as regras para sua utilização em uma PKI (Infraestrutura de Chaves Públicas).
+     - Os certificados digitais X.509 são usados para vincular uma chave pública a uma entidade específica.
+       - Pessoa, organização ou um servidor.
+       - Fornece um meio de verificar a identidade dessa entidade em transações online.
+       - Utilizados para autenticação, assinatura digital e criptografia.
+       - Informações contidas no certificado.
+         - Chave pública do titular.
+         - Identificação (como nome e número de série).
+         - Autoridade de certificação que emitiu o certificado.
+         - Datas de validade e outras informações relacionadas à segurança.
+5. Protocolos de Segurança.
    - SSL/TLS (Secure Sockets Layer/Transport Layer Security).
    - S/MIME (Secure/Multipurpose Internet Mail Extensions) para e-mails.
    - mTLS (Mutual Transport Layer Security).
@@ -742,25 +751,25 @@
 
 ### Conceito
 
-- É a prática de gerenciar, armazenar, distribuir e proteger informações confidenciais
-  - como senhas, chaves de criptografia, tokens de autenticação e outros dados sensíveis
-- Os segredos são essenciais para a segurança de sistemas, aplicativos e serviços
-- Se caírem nas mãos erradas, podem ser explorados por atacantes para comprometer a segurança
+- É a prática de gerenciar, armazenar, distribuir e proteger informações confidenciais.
+  - Senhas, chaves de criptografia, tokens de autenticação e outros dados sensíveis.
+- Os segredos são essenciais para a segurança de sistemas, aplicativos e serviços.
+- Se caírem nas mãos erradas, podem ser explorados por atacantes para comprometer a segurança.
 
 ### Atividades
 
-- Armazenamento Seguro
-  - Cofres de segredos (vaults) criptografados
-- Acesso Controlado
-  - Apenas pessoas e sistemas autorizados têm acesso aos segredos
-  - Seguindo rigorosas políticas de controle de acesso
-- Rotação de Chaves
-  - Senhas e chaves são rotacionadas periodicamente para minimizar o risco de comprometimento
-- Monitoramento e Auditoria
-  - As atividades são monitoradas e registradas para detecção de atividades suspeitas
-- Integração com Aplicativos
-  - Os segredos são integrados a aplicativos e sistemas de forma segura
-  - Permite a autenticação e a criptografia adequadas
+- Armazenamento Seguro.
+  - Cofres de segredos (vaults) criptografados.
+- Acesso Controlado.
+  - Apenas pessoas e sistemas autorizados têm acesso aos segredos.
+  - Seguindo rigorosas políticas de controle de acesso.
+- Rotação de Chaves.
+  - Senhas e chaves são rotacionadas periodicamente para minimizar o risco de comprometimento.
+- Monitoramento e Auditoria.
+  - As atividades são monitoradas e registradas para detecção de atividades suspeitas.
+- Integração com Aplicativos.
+  - Os segredos são integrados a aplicativos e sistemas de forma segura.
+  - Permite a autenticação e a criptografia adequadas.
 
 ## Segurança de Confiança Zero (Zero-Trust Security)
 
@@ -855,41 +864,41 @@
 
 #### Objetivos
 
-- Estabelecer diretrizes, normas e procedimentos para a emissão e o uso de certificados digitais
-- Garantir a autenticidade, integridade e validade jurídica dos documentos eletrônicos
+- Estabelecer diretrizes, normas e procedimentos para a emissão e o uso de certificados digitais.
+- Garantir a autenticidade, integridade e validade jurídica dos documentos eletrônicos.
 
 #### Aspectos legais
 
-- Criada pela Medida Provisória nº 2.200-2/2001
-- Regulamentada pelo Decreto nº 3.996/2001
+- Criada pela Medida Provisória nº 2.200-2/2001.
+- Regulamentada pelo Decreto nº 3.996/2001.
 
 #### Estrutura
 
-- Autoridade Certificadora Raiz (AC Raiz)
-  - É a entidade de topo da hierarquia
-  - Emite os certificados digitais para as Autoridades Certificadoras (ACs) de primeiro nível
-- Autoridades Certificadoras (ACs)
-  - Emitir os certificados digitais para pessoas físicas, empresas e outras entidades
-  - Segue as normas estabelecidas pela ICP-Brasil
-  - Responsáveis por verificar a identidade dos solicitantes antes de emitir os certificados
-- Autoridades de Registro (ARs)
-  - Intermediárias entre os solicitantes de certificados e as ACs
-  - Receber os pedidos de emissão de certificados
-  - Verificar a identidade dos solicitantes
-  - Encaminhar as solicitações às ACs
-- Comitê Gestor
-  - Estabelecer as políticas, diretrizes e normas técnicas
-  - Composto por representantes do governo, setor empresarial e sociedade civil
+- Autoridade Certificadora Raiz (AC Raiz).
+  - É a entidade de topo da hierarquia.
+  - Emite os certificados digitais para as Autoridades Certificadoras (ACs) de primeiro nível.
+- Autoridades Certificadoras (ACs).
+  - Emitir os certificados digitais para pessoas físicas, empresas e outras entidades.
+  - Segue as normas estabelecidas pela ICP-Brasil.
+  - Responsáveis por verificar a identidade dos solicitantes antes de emitir os certificados.
+- Autoridades de Registro (ARs).
+  - Intermediárias entre os solicitantes de certificados e as ACs.
+  - Receber os pedidos de emissão de certificados.
+  - Verificar a identidade dos solicitantes.
+  - Encaminhar as solicitações às ACs.
+- Comitê Gestor.
+  - Estabelecer as políticas, diretrizes e normas técnicas.
+  - Composto por representantes do governo, setor empresarial e sociedade civil.
 
 ### Norma de segurança ISO/IEC 27.001
 
 #### Características
 
-- Padrão internacional para operar um Sistema de Gestão de Segurança da Informação (SGSI)
-- Define os requisitos para estabelecer, implementar, manter e melhorar continuamente
-- Fornece uma abordagem sistemática e abrangente para gerenciar os riscos de segurança
-- Baseada na abordagem de ciclo de vida Plan-Do-Check-Act (PDCA), melhoria contínua
-- Promove uma cultura de segurança da informação em toda a organização
+- Padrão internacional para operar um Sistema de Gestão de Segurança da Informação (SGSI).
+- Define os requisitos para estabelecer, implementar, manter e melhorar continuamente.
+- Abordagem para gerenciar os riscos de segurança.
+- Baseada na abordagem de ciclo de vida Plan-Do-Check-Act (PDCA), melhoria contínua.
+- Promove uma cultura de segurança da informação em toda a organização.
 
 #### Visão geral: NBR ISO/IEC 27.000 (Sistema de Gestão de Segurança da Informação - SGSI)
 
@@ -897,42 +906,42 @@
 
 #### Requisitos
 
-1. Estabelecer uma política de segurança da informação
-2. Identificação dos ativos de informação
-3. Avaliação de riscos
-4. Implementação de controles de segurança
-5. Monitoramento e análise de desempenho
-6. Melhoria contínua
+1. Estabelecer uma política de segurança da informação.
+2. Identificar ativos de informação.
+3. Avaliar riscos.
+4. Implementar controles de segurança.
+5. Monitorar e análisar o desempenho.
+6. Melhoria contínua.
 
 ### Lei nº 13.709/2018 (Lei Geral de Proteção de Dados Pessoais - LGPD)
 
 - Inspirada no Regulamento Geral de Proteção de Dados (GDPR) da União Europeia.
 - Vigência a partir de setembro de 2020.
 - Objetivo: garantir a privacidade e a segurança dos dados pessoais.
-    - Análise de Impacto de Privacidade (PIA, Privacy Impact Assessment).
-        - Potenciais impactos de um processo, sistema de informação, programa, módulo de software ou dispositivo.
-        - Relatório com medidas tomadas para o tratamento de riscos.
-        - Consulta às partes interessadas.
-        - NBR ISO 29134:2020.
+  - Análise de Impacto de Privacidade (PIA, Privacy Impact Assessment).
+    - Potenciais impactos de um processo, sistema de informação, programa, módulo de software ou dispositivo.
+    - Relatório com medidas tomadas para o tratamento de riscos.
+    - Consulta às partes interessadas.
+    - NBR ISO 29134:2020.
 
 #### Princípios
 
-- Finalidade
+- Finalidade.
   - Propósitos legítimos, específicos e informados aos titulares.
-- Adequação
+- Adequação.
   - O tratamento dos dados deve ser compatível com a finalidade.
-- Necessidade
+- Necessidade.
   - Coletar apenas os dados necessários para atingir a finalidade.
-- Transparência
+- Transparência.
   - Informações claras e acessíveis sobre o tratamento dos dados.
   - Necessidade de consentimento expresso.
   - Exceções:
     - Cumprimento de obrigações legais.
     - Proteção da vida.
     - Execução de contratos.
-- Segurança
+- Segurança.
   - Proteger os dados pessoais contra acesso não autorizado, perda ou vazamento.
-- Prestação de contas
+- Prestação de contas.
   - Conformidade com a LGPD.
   - Adoção de medidas de segurança adequadas.
 
@@ -968,21 +977,21 @@
 
 #### Características
 
-- Base para o desenvolvimento de um sistema de gestão de segurança da informação (ISMS - Information Security Management System)
-- Em acordo com a norma ISO 27001
+- Base para o desenvolvimento de um sistema de gestão de segurança da informação (ISMS - Information Security Management System).
+- Em acordo com a norma ISO 27001.
 
 #### Conceitos
 
-- Confidencialidade
-  - Proteção das informações contra o acesso não autorizado
-  - Apenas pessoas ou entidades autorizadas devem ter acesso a informações sensíveis ou restritas
-  - Para garantir a confidencialidade, são utilizados controles como criptografia, autenticação e autorização para restringir o acesso
-- Integridade
-  - Garantia de que as informações permaneçam completas e precisas ao longo do tempo e não sejam modificadas de forma não autorizada
-  - Controles que detectam e protegem contra a adulteração de dados, como assinaturas digitais, hashes e sistemas de controle de versões
-- Disponibilidade
-  - Garantir que as informações e sistemas estejam disponíveis quando necessário, sem interrupções não planejadas
-  - Inclui a prevenção e a mitigação de interrupções causadas por falhas técnicas, desastres naturais, ataques cibernéticos e outros eventos imprevistos
-  - São usados mecanismos como redundância, backup e planos de recuperação para manter a disponibilidade
+- Confidencialidade.
+  - Proteção das informações contra o acesso não autorizado.
+  - Apenas pessoas ou entidades autorizadas devem ter acesso a informações sensíveis ou restritas.
+  - Para garantir a confidencialidade, são utilizados controles como criptografia, autenticação e autorização para restringir o acesso.
+- Integridade.
+  - Garantia de que as informações permaneçam completas e precisas ao longo do tempo e não sejam modificadas de forma não autorizada.
+  - Controles que detectam e protegem contra a adulteração de dados, como assinaturas digitais, hashes e sistemas de controle de versões.
+- Disponibilidade.
+  - Garantir que as informações e sistemas estejam disponíveis quando necessário, sem interrupções não planejadas.
+  - Inclui a prevenção e a mitigação de interrupções causadas por falhas técnicas, desastres naturais, ataques cibernéticos e outros eventos imprevistos.
+  - São usados mecanismos como redundância, backup e planos de recuperação para manter a disponibilidade.
 
 ### Resolução CNJ nº 396/2021 (Estratégia Nacional de Segurança Cibernética do Poder Judiciário - ENSEC-PJ)

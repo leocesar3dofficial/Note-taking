@@ -62,9 +62,9 @@
 - Abertura e disponibilidade dos dados governamentais.
 - Os dados públicos, incluindo informações de transparência ativa, devem ser de livre acesso à sociedade, seguindo princípios da Lei Geral de Proteção de Dados Pessoais.
 - **Transparência ativa:** legibilidade por máquina, formatos abertos, descrição detalhada das bases de dados, permissão de uso irrestrito, completude, atualização periódica, e respeito à privacidade.
-- Requisitos para a divulgação na internet
-    - A abertura de bases de dados pode ser solicitada por qualquer interessado.
-    - Deve respeitar procedimentos e prazos similares à Lei de Acesso à Informação.
+- Requisitos para a divulgação na Internet
+  - A abertura de bases de dados pode ser solicitada por qualquer interessado.
+  - Deve respeitar procedimentos e prazos similares à Lei de Acesso à Informação.
 - Orçamento, despesas, licitações, dados de servidores, entre outros.
 - Fomento ao desenvolvimento de novas tecnologias para uma gestão pública participativa.
 
@@ -104,4 +104,5 @@
 - Estados, Distrito Federal e Municípios serão convidados a participar da discussão da proposta da Estratégia Nacional de Governo Digital, promovendo um caráter colaborativo e integrado.
 
 ### Prazo de Vigência da Estratégia
+
 - A vigência será de 4 anos, coincidindo com o Plano Plurianual e submetida à aprovação do Presidente da República.

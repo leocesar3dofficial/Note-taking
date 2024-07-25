@@ -13,14 +13,14 @@
 
 - O endereçamento IP é usado para identificar dispositivos em uma rede.
 - Os endereços IPv4 consistem em quatro grupos de números.
-   - Protocolo mais usado na Internet.
-   - Despite the advantages of IPv6, the majority of the internet still runs on IPv4 infrastructure.
+  - Protocolo mais usado na Internet.
+  - Despite the advantages of IPv6, the majority of the Internet still runs on IPv4 infrastructure.
   - Exemplos
     - 192.168.136 e 140 (Rede)
     - 192.168.137 (Host)
     - 192.168.139 (Broadcast)
 - O IPv6 usa endereços muito mais longos.
-   - It uses 128-bit addresses, providing a much larger address space.
+  - It uses 128-bit addresses, providing a much larger address space.
 - Segmentação refere-se à divisão de dados em pacotes para transmissão pela rede.
 
 ### Camadas
@@ -53,43 +53,43 @@ IP (IPV4, IPV6), ARP, RARP, ICMP, IPSec, etc.
 
 - **TCP (Transmission Control Protocol)**
 
-   - Orientado à conexão.
-   - Garantir a entrega ordenada e sem erros de dados entre aplicativos em uma rede.
-   - Controle de congestionamento, retransmissão de pacotes perdidos e confirmações.
-      - Garantir a confiabilidade na entrega dos dados.
-   - É utilizado em navegadores da web, e-mail e transferência de arquivos.
+  - Orientado à conexão.
+  - Garantir a entrega ordenada e sem erros de dados entre aplicativos em uma rede.
+  - Controle de congestionamento, retransmissão de pacotes perdidos e confirmações.
+    - Garantir a confiabilidade na entrega dos dados.
+  - É utilizado em navegadores da web, e-mail e transferência de arquivos.
 
 - **UDP (User Datagram Protocol)**
 
-   - Não confiável e sem conexão.
-   - Transmite dados sem garantia de entrega ou ordenação.
-   - UDP é mais rápido e mais eficiente em termos de sobrecarga de rede do que TCP.
-   - Usado em aplicativos onde uma pequena perda de dados não é crítica.
-      - Streaming de vídeo.
-      - Jogos online.
-      - Transmissão de áudio em tempo real (Spotify).
-         - Spotify has developed a sophisticated and multi-faceted approach to audio streaming, leveraging a combination of custom HTTP-based protocols, TCP/IP, and selective use of RTSP (Real Time Streaming Protocol) and UDP to optimize performance and reliability for its users.
+  - Não confiável e sem conexão.
+  - Transmite dados sem garantia de entrega ou ordenação.
+  - UDP é mais rápido e mais eficiente em termos de sobrecarga de rede do que TCP.
+  - Usado em aplicativos onde uma pequena perda de dados não é crítica.
+    - Streaming de vídeo.
+    - Jogos online.
+    - Transmissão de áudio em tempo real (Spotify).
+      - Spotify has developed a sophisticated and multi-faceted approach to audio streaming, leveraging a combination of custom HTTP-based protocols, TCP/IP, and selective use of RTSP (Real Time Streaming Protocol) and UDP to optimize performance and reliability for its users.
 
 - **RTP (Real-Time Transport Protocol)**
 
-   - Projetado para transmissão em tempo real de dados.
-      - Videoconferência.
-      - Streaming de vídeo.
-      - Telefonia VoIP (Voice over IP).
-   - Possui controle de atraso, compensação de jitter e sequenciamento de pacotes.
-   - Usado em conjunto com o RTCP (Real Time Transport Control Protocol).
+  - Projetado para transmissão em tempo real de dados.
+    - Videoconferência.
+    - Streaming de vídeo.
+    - Telefonia VoIP (Voice over IP).
+  - Possui controle de atraso, compensação de jitter e sequenciamento de pacotes.
+  - Usado em conjunto com o RTCP (Real Time Transport Control Protocol).
 
 - **SCTP (Stream Control Transmission Protocol)**
 
-   - Orientado a mensagens.
-      - Telefonia IP.
-      - Sinalização de redes de telecomunicações.
-      - Transferência de arquivos.
-   - Confiabilidade, entrega ordenada e controle de congestionamento.
-   - Suporta múltiplos fluxos de dados (multiplexada) dentro de uma única conexão.
-   - Robusto contra ataques:
-      - Negação de serviço (DoS).
-      - Flooding.
+  - Orientado a mensagens.
+    - Telefonia IP.
+    - Sinalização de redes de telecomunicações.
+    - Transferência de arquivos.
+  - Confiabilidade, entrega ordenada e controle de congestionamento.
+  - Suporta múltiplos fluxos de dados (multiplexada) dentro de uma única conexão.
+  - Robusto contra ataques:
+    - Negação de serviço (DoS).
+    - Flooding.
 
 - **DCCP (Datagram Congestion Control Protocol)**
 
@@ -104,13 +104,14 @@ HTTP, SMTP (Envio de emails), FTP, SSH, TELNET, SIP, RDP, IRC, SNMP,
 NNTP (Network News Transfer Protocol, grupos de discussão, obsoleto),
 POP3 (Post Office Protocol, receber emails),
 IMAP (Internet Message Access Protocol),
+
 - Mais avançado que o POP3
 - Realiza o sincronismo entre o cliente e o servidor de e-mail.
 - Acessa as caixas de mensagens que estão no servidor de correio.
 - Replica as ações de leitura ou troca de diretório no servidor.
 - Permite que as mensagens sejam guardadas tanto na máquina local quanto no servidor.
 - Envia, recebe, sincroniza, webmail.
-BitTorrent, DNS, PING, etc.
+  BitTorrent, DNS, PING, etc.
 
 ## Protocolos de Roteamento
 
@@ -128,10 +129,10 @@ BitTorrent, DNS, PING, etc.
 
 - É uma rede de curto alcance, geralmente em um único local físico.
 - **Dispositivos**:
-   - Network-Attached Storage (NAS).
-      - Enclosure and connects hard drives and SSDs via Ethernet.
-      - Armazenar, Gerenciar e Compartilhar arquivos entre vários dispositivos conectados à rede local.
-      - Hardware de armazenamento conectado à rede.
+  - Network-Attached Storage (NAS).
+    - Enclosure and connects hard drives and SSDs via Ethernet.
+    - Armazenar, Gerenciar e Compartilhar arquivos entre vários dispositivos conectados à rede local.
+    - Hardware de armazenamento conectado à rede.
 
 ### PAN (Personal Area Network)
 
@@ -305,7 +306,7 @@ Criado pelo International Telecommunication Union Telecommunication Standardizat
   - Serviço de diretório utilizado para gerenciar recursos em uma rede Windows.
   - Árvore, floresta, domínios Windows.
   - Comandos de terminal:
-    - Remover um grupo e outros objetos: `dsrm <objeto>`  
+    - Remover um grupo e outros objetos: `dsrm <objeto>`
 
 ## Modelo OSI (Open System Interconnection)
 
