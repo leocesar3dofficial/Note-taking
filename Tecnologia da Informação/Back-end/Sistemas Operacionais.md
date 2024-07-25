@@ -409,7 +409,7 @@
     - Worm: se propaga em uma rede infectando outros arquivos, independe de ação do usuário.
     - Cavalo de Troia (Trojan Horse).
     - Backdoor.
-    - Denial-of-Service – DoS.
+    - Denial of Service (DoS).
     - Ataque de sistema de nome de domínio (Domain Name System – DNS).
 - Remédios:
   - Sistemas de assinatura única.

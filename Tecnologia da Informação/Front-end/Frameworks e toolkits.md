@@ -141,9 +141,11 @@
   - Framework de código aberto desenvolvido pelo Google.
   - Facilita a comunicação entre sistemas distribuídos.
   - Usado em cenários de microsserviços.
-  - Baseado no protocolo HTTP/2.
+  - Baseado no protocolo HTTP/2 apenas.
+  - Multiplexing / Server Push
   - Utiliza o protocolo de serialização de dados protobuf (Protocol Buffers).
     - Define interfaces de serviço e mensagens.
+  - Mensagens menos legíveis para humanos.
 - Características:
   - **RPC (Remote Procedure Call)**
     - Permite que os aplicativos chamem funções em servidores remotos de maneira semelhante a uma chamada local.

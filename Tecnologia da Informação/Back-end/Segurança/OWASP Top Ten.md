@@ -13,6 +13,7 @@ Principais vulnerabilidades e remediações.
      - Negar acesso por padrão (deny by default).
      - Certificar que o usuário não possa acessar recursos ou ações para as quais não têm permissão.
      - Fazer uso de Cross-Origin Resource Sharing (CORS).
+      - Listar os domínios que podem acessar a API.
 
 2. **Cryptographic Failures**
 

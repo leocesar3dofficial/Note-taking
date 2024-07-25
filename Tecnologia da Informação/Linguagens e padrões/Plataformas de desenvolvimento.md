@@ -6,7 +6,7 @@
 
   - Utilizado como um servidor proxy reverso e também como um servidor web HTTP.
     - Liberar portas se usar o Uncomplicated Firewall (UFW) com os perfis.
-      - Full: Abre as portas 80 e 443 (para criptografia SSL/TLS).
+      - Full: Abre as portas 80 (HTTP) e 443 (HTTPS) para criptografia SSL/TLS.
       - HTTP: Abre apenas a porta 80 (para tráfego da Web não criptografado).
       - HTTPS: Abre apenas a porta 443 (para criptografia SSL/TLS).
   - Opera com grandes volumes de tráfego, devido ao gerenciamento de conexões simultâneas.
@@ -410,7 +410,7 @@
 - **IaaS (Infraestrutura como Serviço)**
 
   - Fornece recursos de infraestrutura computacional virtualizada aos usuários.
-    - Virtual Private Cloud (VPC)
+    - Virtual Private Cloud (VPC).
       - Is a virtual network that closely resembles a traditional network that you'd operate in your own data center.
       - After you create a VPC, you can add subnets (range of IP addresses).
   - Inclui servidores virtuais, redes, armazenamento e outros recursos relacionados.

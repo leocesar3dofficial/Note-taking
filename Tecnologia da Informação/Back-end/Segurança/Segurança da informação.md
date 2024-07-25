@@ -434,8 +434,8 @@
 ### SSH (Secure Shell Protocol)
 
 - **Conceito:**
-  - É um protocolo de rede projetado para fornecer comunicações seguras e autenticadas em uma rede não confiável, como a Internet.
   - Utilizado para permitir o acesso seguro a sistemas remotos.
+  - É um protocolo de rede projetado para fornecer comunicações seguras e autenticadas em uma rede não confiável, como a Internet.
   - Transferência segura de dados entre computadores.
 - **Características:**
   - **Autenticação Segura:**
@@ -457,7 +457,7 @@
     - Útil para proteger o tráfego de outros serviços que não são nativamente seguros.
     - Por exemplo, você pode criar um túnel SSH para redirecionar o tráfego da web, criando uma conexão segura para navegar em uma rede pública.
   - **Porta Padrão:**
-    - É a porta 22.
+    - Utiliza a porta 22.
     - Essa porta pode ser alterada para aumentar a segurança.
     - Torna mais difícil para os atacantes explorarem vulnerabilidades conhecidas do SSH.
   - **Chaves SSH:**

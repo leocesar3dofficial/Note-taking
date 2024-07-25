@@ -11,17 +11,19 @@
 
 ### Segmentação e Endereçamento
 
+- Segmentação refere-se à divisão de dados em pacotes para a transmissão pela rede.
 - O endereçamento IP é usado para identificar dispositivos em uma rede.
-- Os endereços IPv4 consistem em quatro grupos de números.
+- Os endereços IPv4 (32 bits) consistem em quatro grupos de números.
+  - 4,3 bilhões de endereços únicos (4,3B).
   - Protocolo mais usado na Internet.
-  - Despite the advantages of IPv6, the majority of the Internet still runs on IPv4 infrastructure.
-  - Exemplos
-    - 192.168.136 e 140 (Rede)
-    - 192.168.137 (Host)
-    - 192.168.139 (Broadcast)
+  - Apesar das vantagens do IPv6, a maior parte da Internet ainda funciona em infraestrutura IPv4.
+  - Exemplos:
+    - 192.168.136 e 140 (Rede).
+    - 192.168.137 (Host).
+    - 192.168.139 (Broadcast).
 - O IPv6 usa endereços muito mais longos.
-  - It uses 128-bit addresses, providing a much larger address space.
-- Segmentação refere-se à divisão de dados em pacotes para transmissão pela rede.
+  - Ele usa endereços de 128 bits, fornecendo um espaço de endereço muito maior.
+  - 340 undecilhões de endereços únicos (340T), ou 1.028 vezes mais endereços do que o IPv4.
 
 ### Camadas
 
@@ -63,12 +65,12 @@ IP (IPV4, IPV6), ARP, RARP, ICMP, IPSec, etc.
 
   - Não confiável e sem conexão.
   - Transmite dados sem garantia de entrega ou ordenação.
-  - UDP é mais rápido e mais eficiente em termos de sobrecarga de rede do que TCP.
+  - UDP é mais rápido e mais eficiente em termos de sobrecarga de rede do que o TCP.
   - Usado em aplicativos onde uma pequena perda de dados não é crítica.
-    - Streaming de vídeo.
-    - Jogos online.
+    - Streaming de vídeo (Zoom).
     - Transmissão de áudio em tempo real (Spotify).
       - Spotify has developed a sophisticated and multi-faceted approach to audio streaming, leveraging a combination of custom HTTP-based protocols, TCP/IP, and selective use of RTSP (Real Time Streaming Protocol) and UDP to optimize performance and reliability for its users.
+    - Jogos online.
 
 - **RTP (Real-Time Transport Protocol)**
 
@@ -102,10 +104,10 @@ IP (IPV4, IPV6), ARP, RARP, ICMP, IPSec, etc.
 
 HTTP, SMTP (Envio de emails), FTP, SSH, TELNET, SIP, RDP, IRC, SNMP,
 NNTP (Network News Transfer Protocol, grupos de discussão, obsoleto),
-POP3 (Post Office Protocol, receber emails),
+POP3 (Post Office Protocol, baixar/receber emails),
 IMAP (Internet Message Access Protocol),
 
-- Mais avançado que o POP3
+- Mais avançado que o POP3.
 - Realiza o sincronismo entre o cliente e o servidor de e-mail.
 - Acessa as caixas de mensagens que estão no servidor de correio.
 - Replica as ações de leitura ou troca de diretório no servidor.
