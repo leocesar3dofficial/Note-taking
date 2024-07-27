@@ -142,7 +142,7 @@
   - Facilita a comunicação entre sistemas distribuídos.
   - Usado em cenários de microsserviços.
   - Baseado no protocolo HTTP/2 apenas.
-  - Multiplexing / Server Push
+  - Multiplexing/Server Push
   - Utiliza o protocolo de serialização de dados protobuf (Protocol Buffers).
     - Define interfaces de serviço e mensagens.
   - Mensagens menos legíveis para humanos.
@@ -192,7 +192,8 @@
 #### Divisões (DIVISION)
 
 1. DATA DIVISION
-  - PICTURE (ou PIC)
+
+- PICTURE (ou PIC)
 
 ## Desenvolvimento Móvel (Mobile)
 

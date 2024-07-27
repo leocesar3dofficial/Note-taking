@@ -55,6 +55,7 @@
   - Código aberto mantido pela Apache Software Foundation.
   - Implementa as especificações do Java Servlet e JavaServer Pages (JSP)
   - Utilizado para hospedar aplicativos web em pequena e média escala.
+
     - Exemplo de código servlet:
 
       ```java
@@ -342,7 +343,7 @@
 
 - **EC2 (Elastic Compute Cloud)**
 
-  - Oferece capacidade de computação redimensionável na nuvem.
+  - Oferece capacidade de computação redimensionável na nuvem (Load Balancer).
   - Permite lançar e dimensionar servidores virtuais conforme necessário.
   - Flexibilidade para lidar com cargas de trabalho variáveis.
 
