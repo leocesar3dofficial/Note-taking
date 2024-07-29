@@ -2,7 +2,7 @@
 
 ## Conceitos
 
-- **Probabilidade:** é uma medida numérica da chance de que um evento ocorra. Ela varia de 0 (impossibilidade) a 1 (certeza).
+- **Probabilidade:** É uma medida numérica da chance de que um evento ocorra. Ela varia de 0 (impossibilidade) a 1 (certeza).
 
 - **Espaço Amostral (S):** Conjunto de todos os resultados possíveis de um experimento aleatório.
 - **Evento (E):** Subconjunto do espaço amostral. Pode consistir em um ou mais resultados.
