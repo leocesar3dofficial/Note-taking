@@ -193,9 +193,15 @@ $$ \text{Assimetria} = \frac{n}{(n-1)(n-2)} \sum_{i=1}^{n} \left(\frac{x_i - \ba
 
 ### Curtose (Kurtosis)
 
+- A curtose mede a quantidade de dados em uma distribuição de probabilidade que está centrada no meio (média) em comparação com as caudas.
 - A curtose mede o pico (altura) e a forma das caudas de uma distribuição.
-- **Alta:** têm caudas mais pesadas (mais valores extremos)
-- **Baixa** têm caudas mais leves.
+- Tipos:
+  - Mesocúrtica: Curtose = 0.
+    - Tem o mesmo achatamento que a distribuição normal.
+  - Leptocúrtica: Curtose > 3.
+    - Alta: (distribuição afunilada) têm caudas mais pesadas (mais valores extremos)
+  - Platicúrtica: Curtose < 3.
+    - Baixa: (distribuição achatada) têm caudas mais leves.
 
 $$ \text{Curtose} = \frac{\frac{1}{n} \sum_{i=1}^{n} (x_i - \bar{x})^4}{\left(\frac{1}{n} \sum_{i=1}^{n} (x_i - \bar{x})^2\right)^2} - 3 $$
 
