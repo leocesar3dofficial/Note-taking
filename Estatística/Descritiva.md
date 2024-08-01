@@ -6,6 +6,9 @@
 
 1. Aritmética
 
+   - É o ponto em que uma distribuição se equilibra.
+   - É o valor que minimiza a soma dos desvios quadrados.
+
    - **Simples**
 
      - É o quociente entre somatório das variáveis pelo
@@ -43,7 +46,8 @@
 
 ### Mediana
 
-- valor central em um conjunto de dados ordenado.
+- Valor central em um conjunto de dados ordenado.
+- É o valor que minimiza a soma dos desvios absolutos.
 
   $$
   \text{Mediana} =
