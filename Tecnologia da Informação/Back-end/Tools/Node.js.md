@@ -31,7 +31,6 @@ List installed modules/dependencies: `npm list`
 
 Details about a module: `npm list <package-name>`
 
-
 ### Simple install based on the project's package.js file
 
 ```bash
@@ -45,7 +44,7 @@ npm install --save
 ### Run app
 
 - **Normal**: `node <your app name>.js`
-- **Dev mode**: 
+- **Dev mode**:
   - **Info**: as described in the `package.json` file, like: `"dev": "env-cmd -f ./config/dev.env nodemon src/app.js"`
   - **Command**: `npm run dev`
 - **Exit running app**: `Ctrl + C`
@@ -53,6 +52,7 @@ npm install --save
 ### Js file
 
 - **Shebang**: First line in the file
+
   - Tells the OS which interpreter to use
   - Example
     - `#!/usr/bin/node` (absolute path of the interpreter)
@@ -61,6 +61,7 @@ npm install --save
 - **Give app executable permission**: `chmod u+x app.js` (must be in the same directory of the app file)
 
 - **Restart the application automatically**
+
   - Install the nodemon module
     - `npm i -g nodemon` or `npm i --save nodemon` (to include the dependency on the `package.json`)
     - `npm i --save-dev nodemon` (development-dependency)
@@ -104,9 +105,13 @@ npm install --save
   ```bash
   curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
   ```
+- List all installed versions of Node: `nvm list`
+- Remove one installed version of Node: `nvm uninstall <version>`
+- Set latest installed version of Node as default: `nvm alias default node`
 
 ### Install Node
 
+- `nvm install node`
 - `nvm install --lts`
 - `nvm use --lts` (tell nvm to use the most recent version of Node, expected result: `Now using node vxx.xx.x (npm vx.xx.x)`)
 - **npm**: stands for Node Package Manager
@@ -140,7 +145,7 @@ npm uninstall library-name
    const transporter = nodemailer.createTransport({
      host: 'localhost',
      port: 1025,
-     ignoreTLS: true // Disable TLS for MailDev
+     ignoreTLS: true, // Disable TLS for MailDev
    });
    ```
 
