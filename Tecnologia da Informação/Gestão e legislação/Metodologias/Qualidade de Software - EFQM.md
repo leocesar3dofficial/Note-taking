@@ -7,7 +7,7 @@
 ## Model / Framework
 
 - Framework de gestão da qualidade
-- Manage change
+- Manage change (gestão da mudança)
 - Improve performance
 
 ### Critérios

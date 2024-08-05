@@ -12,7 +12,7 @@
 
 - **Integridade**
 
-  - Garantir que os dados sejam precisos, completos e consistentes.
+  - Qualidade dos dados: corretos, precisos, consistentes, completos/integrados e aderentes às regras.
 
 - **Disponibilidade**
 
@@ -22,7 +22,7 @@
 - **Não Repúdio ou Irretratabilidade**
 
   - Visa garantir que o autor não negue ter criado e assinado o documento.
-    - Negação falsa de envolvimento em uma associação / transação
+    - Negação falsa de envolvimento em uma associação/transação.
   - Capacidade de provar a autoria de uma mensagem ou transação.
   - Meios: assinatura digital, carimbo (time stamp), auditoria.
 

@@ -78,10 +78,13 @@
 
 ### Operations
 
-- Manufacturing.
-- Shop Floor Management.
-- Plant Maintenance.
-- Quality Management.
+- Computer-integrated manufacturing (CIM)
+    - Usar computadores para controlar todo o processo de produção.
+        - Design, análise, planejamento, compras, contabilidade de custos, controle de estoque e distribuição.
+        - Conectados com funções de chão de fábrica, manuseio e gerenciamento de materiais.
+    - Shop Floor Management.
+    - Plant Maintenance.
+    - Quality Management.
 
 ### Financial
 
