@@ -127,12 +127,13 @@ partes iguais, abrangendo, cada um, 1% do número total da distribuição.
 - Avaliar o grau de variabilidade ou dispersão dos dados em um conjunto.
 - Elas oferecem insights sobre o quão "espalhados" os valores estão em relação à média.
 
-### Amplitude
+### Amplitude (Range)
 
 - A amplitude é a diferença entre o maior e o menor valor em um conjunto de dados.
 - **Fórmula:** $ \text{Amplitude} = \text{Máximo} - \text{Mínimo} $
+- Intervalo interquartil (Interquartile Range or H-spread): `IQR = 75% percentil - 25% percentil ou Q3 - Q1`
 
-### Variância
+### Variância (Variance)
 
 - A variância é uma medida que expressa o quão longe cada valor do conjunto está da média.
 - Fórmula para a variância populacional $ \sigma^2 $:
@@ -141,15 +142,15 @@ partes iguais, abrangendo, cada um, 1% do número total da distribuição.
 
 - Fórmula para a variância amostral ($ s^2 $):
 
-  $$ s^2 = \frac{\sum_{i=1}^{n}(X_i - \bar{X})^2}{n-1} $$
+  $$ s^2 = \frac{\sum_{i=1}^{n}(X_i - M)^2}{n-1} $$
   
 - **Onde:**
   - $ X_i $ são os valores individuais,
   - $ \mu $ é a média populacional,
-  - $ \bar{X} $ é a média amostral,
+  - $ M $ é a média amostral,
   - $ n $ é o número de observações.
 
-### Desvio Padrão
+### Desvio Padrão (Standard Deviation)
 
 - O desvio padrão é a raiz quadrada da variância. Ele fornece uma medida de dispersão mais fácil de interpretar.
 - Fórmula para o desvio padrão populacional ($ \sigma $):
@@ -181,11 +182,27 @@ $$ z = \frac{{X - \mu}}{{\sigma}} $$
 - Descrevem a forma da distribuição de dados.
 - Fornecem informações sobre a simetria e a inclinação da distribuição.
 
-### Assimetria (Skewness)
+### Assimetria (Skewness or Skew)
 
 - Mede a falta de simetria em uma distribuição.
 - **Positiva:** Curva de distribuição se estende mais para a direita (caudas mais longas à direita).
 - **Negativa:** Curva de distribuição se estende mais para a esquerda (caudas mais longas à esquerda).
+
+#### Pearson median skewness:
+
+$$ \text{Índice de Assimetria} = \frac{3(Média - Mediana)}{\sigma} $$
+
+- **Onde:**
+  - $ \sigma $ é o desvio padrão da distribuição.
+
+#### Third Moment of the Mean (Skewness)
+
+$$  \text{Skewness (γ)} = \frac{\sum(x_i – \mu)^3}{(n \cdot \sigma^3)} $$
+
+- **Onde**:
+  - $ \sum(x_i – \mu)^3 $ é a soma da diferença ao cubo entre cada elemento $ x_i $ e a média $ \mu $.
+  - $ n $ é o número de elementos.
+  - $ \sigma $ é o desvio padrão.
 
 $$ \text{Assimetria} = \frac{n}{(n-1)(n-2)} \sum_{i=1}^{n} \left(\frac{x_i - \bar{x}}{s}\right)^3 $$
 
@@ -207,7 +224,7 @@ $$ \text{Assimetria} = \frac{n}{(n-1)(n-2)} \sum_{i=1}^{n} \left(\frac{x_i - \ba
   - Platicúrtica: Curtose < 3.
     - Baixa: (distribuição achatada) têm caudas mais leves.
 
-$$ \text{Curtose} = \frac{\frac{1}{n} \sum_{i=1}^{n} (x_i - \bar{x})^4}{\left(\frac{1}{n} \sum_{i=1}^{n} (x_i - \bar{x})^2\right)^2} - 3 $$
+$$ \text{Curtose} = \frac{\frac{1}{n} \sum_{i=1}^{n} (x_i - \bar{x})^4}{\sigma^4} - 3 $$
 
 ## Medidas de associação
 
