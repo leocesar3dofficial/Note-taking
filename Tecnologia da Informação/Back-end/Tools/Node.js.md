@@ -22,21 +22,15 @@ npm init
 ### Install necessary modules
 
 ```bash
+# Simple install based on the project's package.js file
 npm install
+# Or specific modules
 npm i <module name>
-npm install express mongoose cors --save
+npm install express mongoose cors
 ```
 
-List installed modules/dependencies: `npm list`
-
-Details about a module: `npm list <package-name>`
-
-### Simple install based on the project's package.js file
-
-```bash
-npm install --save
-```
-
+- List installed modules/dependencies: `npm list`
+- Details about a module: `npm list <package-name>`
 - Update modules: `npm update`
 - Check for outdated packages: `npm outdated`
 - Update package.json to latest versions of each module (dangerous!): `ncu -u`
@@ -145,7 +139,7 @@ npm uninstall library-name
    const transporter = nodemailer.createTransport({
      host: 'localhost',
      port: 1025,
-     ignoreTLS: true, // Disable TLS for MailDev
+     ignoreTLS: true // Disable TLS for MailDev
    });
    ```
 
