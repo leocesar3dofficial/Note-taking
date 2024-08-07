@@ -398,7 +398,9 @@
 - Protocolo de acesso a diretórios.
   - Informações organizadas em forma de árvore.
   - Cada diretório possui um DN (Distinguished Name).
-- Versão mais leve do protocolo X.500.
+- Comumente usado para centralizar nomes e senhas de usuários.
+  - Permite que aplicações e serviços se conectem ao servidor LDAP para validar usuários.
+- Versão mais leve do protocolo X.500 (X.500-lite).
 - Abordagem cliente-servidor.
 - Operações: pesquisa, adição, exclusão e modificação.
 - Possui recursos de autenticação e autorização.
